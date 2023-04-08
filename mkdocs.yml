@@ -1,5 +1,4 @@
 site_name: Gran Turismo Modding Hub
-site_url: https://raw.githubusercontent.com/Nenkai/GTModdingHub/gh-pages/
 repo_url: https://github.com/Nenkai/GTModdingHub
 repo_name: nenkai/gt-modding-hub
 
@@ -26,7 +25,7 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: teal
+      primary: blue
       accent: purple 
     - scheme: slate 
       toggle:
