@@ -1,0 +1,76 @@
+site_name: Gran Turismo Modding Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: deep purple
+      accent: lime
+
+nav:
+  - Home: index.md
+  - PS3 (GT5/GT6):
+    - Getting Started: ps3/getting_started.md
+    - Basics: 
+      - Volume System: ps3/basics/volume_system.md
+      - Folder/File Structure: ps3/basics/file_structure.md
+    - Text Editing: ps3/text_editing.md
+    - Textures/Image Editing: ps3/textures.md
+    - Sound Editing: ps3/sound_editing.md
+    - SpecDB (Car Specs): ps3/specdb.md
+    - Events: ps3/events.md
+    - Adhoc: ps3/adhoc.md
+    - Movies: ps3/movies.md
+    - Fonts: ps3/fonts.md
+    - Other:
+        - Optimal Modding Setup: ps3/other/optimal_setup.md
+        - Command Line Arguments: ps3/other/command_line_args.md
+        - FSRoot: ps3/other/fsroot.md
+  - Formats:
+    - Database Formats:
+      - .dbt - Database Table: formats/database/dbt_database_table.md
+      - .idi - Label Information: formats/database/idi_label_information.md
+      - .sdb - String Storage/Database: formats/database/sdb_string_database.md
+    - Other Formats:
+      - .rt2 - RText (Localization): formats/rt2_localization.md
+
+    - Adhoc:
+      - .gpb - GpbData: formats/gpb_gpbdata.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
