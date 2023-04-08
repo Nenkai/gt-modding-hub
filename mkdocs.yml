@@ -1,16 +1,24 @@
-site_name: Gran Turismo Modding Documentation
+site_name: Gran Turismo Modding Hub
+repo_url: https://github.com/Nenkai/GTModdingHub
+repo_name: nenkai/gt-modding-hub
+
 theme:
   name: material
+
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.footer
+    - navigation.top
     - toc.integrate
     - toc.follow
-    - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.copy
+    - content.action.edit
   language: en
   palette:
     - scheme: default
@@ -74,3 +82,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - social
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord 
+      link: https://discord.io/gtonline
