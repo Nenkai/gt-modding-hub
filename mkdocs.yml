@@ -20,6 +20,7 @@ theme:
     - content.tabs.link
     - content.code.copy
     - content.action.edit
+    - header.autohide
   language: en
   palette:
     - scheme: default
@@ -54,6 +55,12 @@ nav:
         - Optimal Modding Setup: ps3/other/optimal_setup.md
         - Command Line Arguments: ps3/other/command_line_args.md
         - FSRoot: ps3/other/fsroot.md
+
+  - Concepts:
+      Volume: concepts/volume.md
+      SpecDB: concepts/specdb.md
+      Adhoc: concepts/adhoc.md
+
   - Formats:
     - Database Formats:
       - .dbt - Database Table: formats/database/dbt_database_table.md
@@ -70,7 +77,6 @@ nav:
     - Other Formats:
       - .rt2 - RText (Localization): formats/rt2_localization.md
 
-
     - Compression:
       - Headers: formats/compression/compression_formats.md
 
@@ -86,6 +92,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
+  - pymdownx.keys
   - pymdownx.tabbed:
       alternate_style: true 
   - attr_list
@@ -97,9 +104,17 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - social
+  - search:
+      lang: en
 
 extra:
   social:
     - icon: fontawesome/brands/discord 
       link: https://discord.io/gtonline
+
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/Nenkaai
+
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Nenkai
       
