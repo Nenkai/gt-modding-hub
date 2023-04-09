@@ -28,7 +28,7 @@ For the formats, there are four to keep in mind.
 
 Format | Editable | Description |
 ------------ | ------------- | ------------- | 
-`.adc` | See Specific Section | **Ad**hoc **C**ompiled - This is the game code itself. It is in a compiled form, so it cannot be edited out of the bat.
+[`.adc`](../formats/adhoc/adch_adhoc_compiled.md) | See Specific Section | **Ad**hoc **C**ompiled - This is the game code itself. It is in a compiled form, so it cannot be edited out of the bat.
 `.mproject/mwidget`  | Yes | UI Projects/Widgets -  These are essentially the UI layout definition, and sets properties for each widget. Adhoc Scripts are directly linked to them and manipulates them as a real UI framework.
 [`.gpb`](../formats/adhoc/gpb_gpbdata.md) | Yes | UI Assets - Containers for each project that contains images
 `.mpackage` | Yes | GT6 Only. These contain bundles of `.adc` and `.mwidget` files that are properly split. **This file is always loaded for any project first. If missing, the game will fallback to loading an individual script and project file.**
