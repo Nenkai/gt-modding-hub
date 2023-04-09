@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-* Understanding how Command Prompt/`cmd` works and openning it in a current openned folder.
+* Understanding how Command Prompt/`cmd` works and openning it in a current opened folder.
 * Windows
 * At least 30-40Gbs of space for each game that you want to mod.
 * Modded Console or [RPCS3](https://rpcs3.net/).
