@@ -1,13 +1,13 @@
 site_name: Gran Turismo Modding Hub
+site_description: The modding hub for all Gran Turismo needs
 site_url: https://nenkai.github.io/GTModdingHub/
 repo_url: https://github.com/Nenkai/GTModdingHub
 repo_name: nenkai/gt-modding-hub
 
 theme:
   name: material
+  favicon: images/logo.png
 
-  icon:
-    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.sections
@@ -59,11 +59,20 @@ nav:
       - .dbt - Database Table: formats/database/dbt_database_table.md
       - .idi - Label Information: formats/database/idi_label_information.md
       - .sdb - String Storage/Database: formats/database/sdb_string_database.md
-    - Other Formats:
-      - .rt2 - RText (Localization): formats/rt2_localization.md
+      
+    - Audio:
+      - .lib - BGM Library: formats/audio/bgml_bgm_library.md
+      - .esgx - Engine SGX: formats/audio/esgx_engine_sgx.md
 
     - Adhoc:
       - .gpb - GpbData: formats/gpb_gpbdata.md
+
+    - Other Formats:
+      - .rt2 - RText (Localization): formats/rt2_localization.md
+
+
+    - Compression:
+      - Headers: formats/compression/compression_formats.md
 
 markdown_extensions:
   - pymdownx.highlight:
