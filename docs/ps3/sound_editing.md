@@ -30,7 +30,7 @@ The `ESGX` file format is essentially a container of one or more sounds, known a
 
 The `SGXD` entries themselves contain some data describing an audio stream (for instance sample rate, size, etc.) followed by the audio stream itself, which is a looped recording of a car being held at various RPMs. Audio data within an `SGXD` must be in `VAG` format, which is also a Sony format designed for the PS2 and PS3. There are various tools that can convert standard sound formats to `VAG`, such as Awave Studio, which is recommended for its ability to fine-tune audio samples.
 
-There is no limit to how many SGXDs an ESGX can contain, but 200KB is a hard limit for the finished file, as Gran Turismo 5/6 will crash shortly after starting a race when the current car's audio file exceeds this amount. Generally cars use 4 to 8 SGXDs, but in theory it's possible to have up to 15 to 20 if the loops are short enough to keep the file under 200KB.
+There is no limit to how many SGXDs an ESGX can contain, but 400KB is a hard limit for the finished combination of engine and exhaust. This 400KB doesn't have to be split evenly, for example a 350KB exhaust and 49KB engine will work perfectly fine.
 
 To create and edit ESGX files, the [ESGX Editor](http://gtr.ajb-tech.co.uk/files/GTESGXEditor-20201202.zip) is required.
 

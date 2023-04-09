@@ -98,3 +98,53 @@ TODO
 `MeterScale`          | Byte   | Unknown. All values are set to `0` in GT4.
 `torquevol`           | Byte   | Unknown. Possibly a multiplier related to the engine's torque curve.
 `GasConsumptionRate`  | Byte   | Unknown. As the name suggests this is related to fuel consumption, but every engine in GT4 has a value of `0` for this column, and the units/effects are unknown. Possibly unused.
+
+### GEAR Table Structure
+|     Column                  |  Data Type    | Description
+| ----------------------------| ------------- | ----------- | 
+`Label`                       | String        | The human-readable reference name for the part. Matching this to the GENERIC_CAR label isn't mandatory, but keeps things simple.
+`Gear(1st through 11th)`      | Short         | The gear ratio for a given gear. Multiplied by 100, so a specdb value of `3595` is a ratio of `3.595`.
+`GearReverse`                 | Short         | The reverse gear ratio. Multiplied by 100.
+`finalgearMIN`                | Short         | The minimum value allowed for the final drive ratio when tuning gear ratios.
+`finalgearMAX`                | Short         | The maximum value allowed for the final drive ratio when tuning gear ratios.
+`finalgearDF`                 | Short         | The default value for the final drive ratio when tuning gear ratios.
+`ExtraFinalGearRatio`         | Short         | Specifies an alternative final drive ratio where applicable (for cars with two output shafts such as the 2005 Volkswagen Golf GTI).
+`Price`                       | Short         | How much the part costs to buy if not stock.
+`category`                    | Byte          | The upgrade level of a transmission part.
+`geartype`                    | Byte          | Which type of gearbox behaviour to use. `0` and `1` are both used on manual transmissions but the difference between the two is unknown. `2` is used to apply realistic smooth shifting to cars with torque converter automatics. `3` and `4` are unknown but may be related to hybrid cars as they are used on the Toyota Priuses and Triathlon car respectively.
+`Nshift`                      | Byte          | Number of forward gears.
+`gearflag`                    | Byte          | Determines whether or not to calculate the gear ratios automatically. `0` is used for road cars with specified real-world ratios, `1` is used for most race cars and upgraded gearboxes. `2` is unknown and only used on the 1954 Chevrolet Corvette which has two gears and real-world defined ratios.
+`maxspeedMIN`                 | Byte          | The minimum value allowed for the `Auto` adjustment slider when tuning gear ratios.
+`maxspeedMAX`                 | Byte          | The maximum value allowed for the `Auto` adjustment slider when tuning gear ratios.
+`maxspeedDF`                  | Byte          | The default value for the `Auto` adjustment slider when tuning gear ratios.
+`ExtraFinalGearUsage`         | Byte          | Subtracted from `Nshift` to determine which gear the `ExtraFinalGearRatio` is used for. For example, `ExtraFinalGearUsage` set to `2` and `Nshift` set to `6` means that the ratio specified in `ExtraFinalGearRatio` will apply from 4th gear onwards.
+`LowGearPos`                  | Byte          | Unknown. Likely related to shift animations, as it appears to only be set to `1` for convertibles with a manual gearbox and `0` for everything else.
+`ReverseGearPos`              | Byte          | Unknown. Similar assignments to `LowGearPos`, but has a larger range of possible values (`0`, `6`, `8`, and `255`).
+`GearPattern`                 | Byte          | Unknown. Likely related to shifting animations but the actual nature of each value is unknown.
+
+### GENERIC_CAR Table Structure (GT4)
+|     Column                  |  Data Type    | Description
+| ----------------------------| ------------- | ----------- | 
+`Label`                       | String        | The internal name for a car. Used throughout the game engine and Adhoc scripts to refer to a specific car.
+`DefaultParts`                | Int           | The row index for a car's DEFAULT_PARTS entry. Essentially used to actually build a car by assigning it to a bundle of parts.
+`Price`                       | Int           | How much a car costs to buy. A value of 0 doesn't mark the car as free, but rather flags it as unbuyable. Also used for internal calculations of sell price and mileage-based price reduction for cars available in the UCD.
+`Year`                        | Short         | The year a car was built. Used for event regulations.
+`RegulationDisplacementFlags` | Short         | Used for event regulations, values/units unknown.
+`Maker`                       | Byte          | The manufacturer of a car. Used for manufacturer-specific event regulations.
+`Category`                    | Byte          | Assigns cars to a certain "type". Road cars are `0`, race cars are `1`, pre-tuned cars are `2`, and concept cars are `3`. Values of `100`, `101`, and `103` are seen for some special cars (e.g. Formula GT, Ford Model T, Nike One) but exact effects are unknown.
+`GeneralFlags`                | Byte          | Bit-level flags assigning certain characteristics to cars, used in bitwise operations. 
+`ConceptCarType`              | Byte          | Unknown. `Category` is used for concept car event restrictions, and `ConceptCarType` has some strange assignments, such as the Ford Model T being set to `4`.
+`OpenModel`                   | Byte          | The convertible type of a car. Cars set to `1` have a closed top variant that allows them to enter regular 6-car races. Cars set to `2` do not, and can only enter 2-car races or time trials.
+`NoChangeWheel`               | Bool          | Restricts the ability to buy wheels in GT Auto.
+`NoChangeWing`                | Bool          | Restricts the ability to change wings in GT Auto.
+`SuperchargerOriginally`      | Bool          | Whether or not this car has a supercharger as standard. Likely used in tandem with aspiration flags to restrict entry to NA races.
+
+### GENERIC_CAR GeneralFlags Bit Map
+| Bit | Behaviour
+| ----| ---------|
+`0`   | Makes a car unbuyable.
+`1`   | Hides the last `VARIATION` (colour) entry. Used for special colour cars and the black race cars.
+`2`   | Makes a car unable to enter races.
+`3`   | Hides a car's specs.
+`4`   | Marks a car as open top-only, meaning it has no closed roof variant and cannot enter typical races.
+`5`   | Marks a car as a test car, meaning it can only drive on the Nürburgring Nordschleife, Test Course, and Las Vegas drag strip.
