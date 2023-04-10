@@ -28,9 +28,9 @@ For the formats, there are four to keep in mind.
 
 Format | Editable | Description |
 ------------ | ------------- | ------------- | 
-[`.adc`](../formats/adhoc/adch_adhoc_compiled.md) | See Specific Section | **Ad**hoc **C**ompiled - This is the game code itself. It is in a compiled form, so it cannot be edited out of the bat.
+[`.adc`](../../formats/adhoc/adch_adhoc_compiled.md) | See Specific Section | **Ad**hoc **C**ompiled - This is the game code itself. It is in a compiled form, so it cannot be edited out of the bat.
 `.mproject/mwidget`  | Yes | UI Projects/Widgets -  These are essentially the UI layout definition, and sets properties for each widget. Adhoc Scripts are directly linked to them and manipulates them as a real UI framework.
-[`.gpb`](../formats/adhoc/gpb_gpbdata.md) | Yes | UI Assets - Containers for each project that contains images
+[`.gpb`](../../formats/adhoc/gpb_gpbdata.md) | Yes | UI Assets - Containers for each project that contains images
 `.mpackage` | Yes | GT6 Only. These contain bundles of `.adc` and `.mwidget` files that are properly split. **This file is always loaded for any project first. If missing, the game will fallback to loading an individual script and project file.**
 
 ## Adhoc Scripts
@@ -52,6 +52,57 @@ Or if you also have installed the VS Code extension provided:
 
 * Run Build Task (++ctrl+shift+b++) with the VS Code Adhoc Extension on any source file or project file.
 
+## Catching Exceptions
+
+Catching exceptions/debugging error may be troublesome, here are some tips that can help debugging:
+
+### GT4
+
+Unfortunately error handling is completely stripped in GT4. Throws do not do anything, any adhoc will immediately crash the game. The best way to debug this is to spam around a bunch of `openConfirmDialog` calls in various parts of code to keep track of the code that's being run.
+
+### GT5 and above
+
+Fortunately catching exceptions is a lot easier in GT5, there are multiple ways to debug a script.
+
+#### Method 1 - Try/Catch
+
+`try/catch` clauses are available and can be used to intercept any error that happens.
+
+=== "Adhoc"
+
+    ```js
+    try
+    {
+        var myObject = nil;
+        myObject[0] = "invalid";
+    }
+    catch (ex)
+    {
+        // ex is an exception object containing the error message
+    }
+    ```
+
+#### Method 2 - Using the toolchain
+
+The toolchain allows wrapping any function and subroutine into a try/catch that will print any exception to a file. The `--write-exceptions-to-file` argument is used:
+
+``` markdown title="Command"
+adhoc build -i <script or project> --write-exceptions-to-file
+```
+
+When an exception is caught, exceptions will be written to `/APP_DATA_RAW/exceptions.txt` - this translates to USRDIR/exceptions.txt (at least for PS3 GTs).
+
+#### Method 3 - Memory addresses
+
+Here are some memory addresses you can put a breakpoint to see exception messages (using ProDG, or RPCS3) 
+
+* `0xA1FEE8` (GT6 EU 1.22) - `r3` register
+* `0x9C2FF8` (GT5 EU 2.11) - `r3` register
+
+#### Method 4 - Grim
+
+If you have a Grim setup, adhoc errors are automatically reported to the console.
+
 ## Editing scripts from compiled binaries (advanced)
 To begin viewing them, drag any `.adc` file onto the toolchain executable. This should output a `.ad` and `.strings` file next to the source file.
 
@@ -67,12 +118,13 @@ All instructions will start with three different numbers seperated by `|`'s. Let
 * The rest of the line is the instruction itself.
 
 The process itself is easy but it is mainly the scope of what you can do that is a problem. Generally, this is how it goes:
+
 * Dissasemble the source adhoc script
 * Locate a code part and instruction that you want to edit
 * Copy the instruction offset.
 * Open the source `.adc` file in a hex editor.
 * Go to the copied offset. You will be pointed to the instruction's type, the 4 bytes before it being the instruction's line number, and the next bytes after it being the instruction data (if applicable).
-* Edit the instruction data if applicable. It varies between instruction types and are all documented [here](https://github.com/Nenkai/GTAdhocTools/tree/master/GTAdhocParser/Instructions).
+* Edit the instruction data (if applicable).
 
 ### Example
 With that in mind, here is a basic example for editing a constant value.

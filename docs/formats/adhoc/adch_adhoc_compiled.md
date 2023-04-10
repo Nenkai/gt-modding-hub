@@ -2,7 +2,7 @@
 
 :octicons-cpu-24: *Applies to GT4, GT5, GTPSP, GT6, GT Sport, GT7* · :octicons-arrow-right-16: Endian: Little
 
-This is the main header for [Adhoc Scripts](../../concepts/adhoc.md). Most games will have a certain level of backwards compatibility, but it's better to keep them at the latest that the engine supports. This format was changed quite a bit over the games.
+This is the main header for [Adhoc Scripts](../../concepts/adhoc/adhoc.md). Most games will have a certain level of backwards compatibility, but it's better to keep them at the latest that the engine supports. This format was changed quite a bit over the games.
 
 ## Header
 

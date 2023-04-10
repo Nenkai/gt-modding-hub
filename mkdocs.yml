@@ -4,6 +4,8 @@ site_url: https://nenkai.github.io/GTModdingHub/
 repo_url: https://github.com/Nenkai/GTModdingHub
 repo_name: nenkai/gt-modding-hub
 
+copyright: Copyright &copy; 2023 Nenkai - If this website was useful, please make a mention! This page is not affiliated with Polyphony Digital or Sony Interactive Entertainment.
+
 theme:
   name: material
   favicon: images/logo.png
@@ -59,7 +61,9 @@ nav:
   - Concepts:
       Volume: concepts/volume.md
       SpecDB: concepts/specdb.md
-      Adhoc: concepts/adhoc.md
+      Adhoc: 
+        - Adhoc Explained: concepts/adhoc/adhoc.md
+        - Tiny Web: concepts/adhoc/tinyweb.md
 
   - Formats:
     - Database Formats:
@@ -97,6 +101,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -107,6 +112,7 @@ plugins:
   - social
   - search:
       lang: en
+  - glightbox
 
 extra:
   social:
