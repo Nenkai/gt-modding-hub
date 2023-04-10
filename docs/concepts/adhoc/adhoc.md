@@ -52,6 +52,8 @@ Or if you also have installed the VS Code extension provided:
 
 * Run Build Task (++ctrl+shift+b++) with the VS Code Adhoc Extension on any source file or project file.
 
+---
+
 ## Catching Exceptions
 
 Catching exceptions/debugging error may be troublesome, here are some tips that can help debugging:
@@ -82,6 +84,8 @@ Fortunately catching exceptions is a lot easier in GT5, there are multiple ways 
     }
     ```
 
+---
+
 #### Method 2 - Using the toolchain
 
 The toolchain allows wrapping any function and subroutine into a try/catch that will print any exception to a file. The `--write-exceptions-to-file` argument is used:
@@ -92,6 +96,8 @@ adhoc build -i <script or project> --write-exceptions-to-file
 
 When an exception is caught, exceptions will be written to `/APP_DATA_RAW/exceptions.txt` - this translates to USRDIR/exceptions.txt (at least for PS3 GTs).
 
+---
+
 #### Method 3 - Memory addresses
 
 Here are some memory addresses you can put a breakpoint to see exception messages (using ProDG, or RPCS3) 
@@ -99,9 +105,13 @@ Here are some memory addresses you can put a breakpoint to see exception message
 * `0xA1FEE8` (GT6 EU 1.22) - `r3` register
 * `0x9C2FF8` (GT5 EU 2.11) - `r3` register
 
+---
+
 #### Method 4 - Grim
 
 If you have a Grim setup, adhoc errors are automatically reported to the console.
+
+---
 
 ## Editing scripts from compiled binaries (advanced)
 To begin viewing them, drag any `.adc` file onto the toolchain executable. This should output a `.ad` and `.strings` file next to the source file.

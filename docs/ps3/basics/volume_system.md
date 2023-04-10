@@ -14,6 +14,8 @@ The `PDIPFS` folder contains all the contents of the game updates, It is always 
 
 You might notice that the folder contains hundreds and thousands of randomly named two chars file names. They are obfuscated so that you cannot figure out what a file really is as-is.
 
+---
+
 ## Unpacking the game files
 
 You can unpack this file located in your game disc, and your whole `PDIPFS` to have a completely extracted game. It is recommended to have **both** extracted if applicable.
@@ -36,6 +38,8 @@ Where `output_folder` is the folder that the game files will be extracted to.
 
 * You will get a message that the key file to decrypt the files was not found and a default one was created. **Just run the command again**.
 * It will take some time to extract everything.
+
+---
 
 ## Packing
 
@@ -77,6 +81,7 @@ Once that is done, your mod ready to be transfered to your console will be at `M
 
 If you wish to revert your mod simply transfer your backed up `K/4D` file into your console's game folder PDIPFS.
 
+---
 
 ## Removing Files from the Game
 
@@ -89,6 +94,8 @@ If you wanted to remove `textdata/gt5/aspec_event/r100.xml` from the game, you w
 ``` markdown title="Sample file"
 textdata/gt5/aspec_event/r100.xml
 ```
+
+---
 
 ## Technical Details about PDIPFS (Advanced/Technical)
 *From [GTToolsSharp's Readme](https://github.com/Nenkai/GTToolsSharp#advanced-packing-notes-modders-read)*

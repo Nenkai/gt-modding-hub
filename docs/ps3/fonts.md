@@ -2,11 +2,15 @@
 
 Fonts use a custom vectored format that needs to be converted from to be usable.
 
-## Required Files
+---
+
+## Converting to `NVEC`
+
+### Required Files
 - [NVecBuilder](https://github.com/Nenkai/PDTools/releases/tag/nvecbuilder-1.0.0)
 - A `.ttf` font
 
-## Conversion & Usage
+### Conversion & Usage
 Simply run the tool as such:
 ``` { .yaml .annotate }
 nvec_builder.exe <your_ttf_font> <output_vec_font> # (1)!

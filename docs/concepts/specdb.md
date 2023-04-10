@@ -25,12 +25,12 @@ Most tables represent a distinct car part. Some other tables such as `COURSE` de
 `DEFAULT_PARTS`        | Defines all the pre-installed parts for a car. Each column will point to a part table's row ID.
 `DISPLACEMENT`         | TODO
 `DRIVETRAIN`           | Defines all drivetrain parameters.
-`ENGINE`               | Defines all engine display/simulation specfications and assigns sound IDs to engines for `carsound` entries.
+[`ENGINE`](#engine)    | Defines all engine display/simulation specfications and assigns sound IDs to engines for `carsound` entries.
 `EXHAUST_MANIFOLD`     | Defines all exhaust manifold parts.
 `FLYWHEEL`             | Defines all flywheel parts.
 `FRONTTIRE`            | Defines all front tire parts.
-`GEAR`                 | Defines all transmission parts such as number of gears, gear ratios, and whether or not a given transmission has customisable/auto ratios.
-`GENERIC_CAR`          | This is the most important table of the SpecDB. This is where cars are defined as a whole along with their metadata. The default parts column is used to link a car to its default parts installed using the Row ID. You may also find the horn sound ID, price of the car, country, maker (manufacturer) and some car specific flags.
+[`GEAR`](#gear)        | Defines all transmission parts such as number of gears, gear ratios, and whether or not a given transmission has customisable/auto ratios.
+[`GENERIC_CAR`](#generic_car)  | This is the most important table of the SpecDB. This is where cars are defined as a whole along with their metadata. The default parts column is used to link a car to its default parts installed using the Row ID. You may also find the horn sound ID, price of the car, country, maker (manufacturer) and some car specific flags.
 `GENERIC_ITEMS`        | Mainly used for GT5, this defines all the available items in the game, which then the gameitem xmls will use. **Note:** GT5 has a hardcoded limit of 280 horns.
 `INDEP_THROTTLE`       | TODO
 `INTAKE_MANIFOLD`      | Defines all intake manifold parts.

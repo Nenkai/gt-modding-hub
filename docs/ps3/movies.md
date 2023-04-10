@@ -1,6 +1,8 @@
 # Movies
 
-Movies in PS3's GTs uses PAMF, a Sony format.
+Movies in PS3's GTs uses `PAMF`, a Sony format.
+
+----
 
 ## Movie Playback
 
@@ -20,6 +22,8 @@ If decrypted successfully the file header should show `PAMF`.
 PAMF Tools from PS3 SDK is required, you will have to find that yourself.
 
 After that, you can use `PS3StreamViewer` to open and play a movie file.
+
+---
 
 ## Movie Creation
 

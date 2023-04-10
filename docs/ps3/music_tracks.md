@@ -2,8 +2,12 @@
 
 Gran Turismo 5 and 6 store track streams in Sony [SGXD](../formats/audio/sgd_sgh_sgx_data.md) containers.
 
+---
+
 ## Playback
 [Foobar2000](https://www.foobar2000.org/) with the [VGMStream](https://github.com/vgmstream/vgmstream-releases/releases) plugin can be used to stream and play contents of a SGD file.
+
+---
 
 ## Creating a music track
 

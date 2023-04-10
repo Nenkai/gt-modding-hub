@@ -1,13 +1,15 @@
 # Image Editing
 
-PS3-era and even GTPSP uses "TXS3" which stands for TextureSet3 as an image format, which is pretty much just DDS.
+PS3-era and even GTPSP uses [TXS3](../formats/texture/img_txs3_textureset3.md) for its image format, which is pretty much just DDS.
 
 [TXS3Converter](https://github.com/Nenkai/TXS3Converter/releases) can convert standard images (.png, .jpg, etc) into that format. Download it and extract it.
 
 !!! warning "TexConv"
     You'll also need to download and place [TeXConv](https://github.com/microsoft/DirectXTex/releases) in the same folder. It is used by TXS3Converter to convert images into DDS first.
 
-Most of the textures in the game are located in the `piece` global folder, and in `GPB` containers.
+Most of the textures in the game are located in the `piece` global folder, and in [`GPB`](../formats/adhoc/gpb_gpbdata.md) containers.
+
+---
 
 ## .img to .png
 
@@ -19,6 +21,8 @@ TXS3Converter convert-png <path_to_your_file>
 
 !!! tip
     If you're converting back later on you might want to take note of the image format that the tool prints into the console.
+
+---
 
 ## .png/jpg/bmp to .img
 

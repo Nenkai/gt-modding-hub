@@ -9,7 +9,9 @@ File Locations:
 
 The best way to start off is understanding an existing original event and using it as base. You may notice that all event files start with a letter followed by 3 digits. These XMLs contain the event list for a game event category (i.e Sunday Cup).
 
-### (GT5) Creating a new Event Folder
+---
+
+## (GT5) Creating a new Event Folder
 
 If you're creating a new event folder, you will need to refer to this.
 
@@ -24,7 +26,7 @@ For GT5, you can refer to the `gamelist.xml` in the `aspec_race` folder to figur
 `event_count` | Event count in that folder. |
 `is_championship` | Whether the folder is a championship where you cannot start an individual event. |
 
-### (GT5) Folder Title/Description
+## (GT5) Folder Title/Description
 
 !!! info
     The section about [Editing Text](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/3.%20String%20Editing/String_Editing.md#stringtext-editing) is required for this step.
@@ -50,7 +52,9 @@ Correct:
 
 ![Correct](https://cdn.discordapp.com/attachments/776106493110911016/783444140415385621/unknown.png)
 
-### (GT6) Creating a new Event Folder
+---
+
+## (GT6) Creating a new Event Folder
 In GT6 compared to GT5 the process has been changed (and made a lot more flexible). GT6 uses a sqlite database to store folder data. You will need something like [SQLiteStudio](https://sqlitestudio.pl/) to edit it.
 
 That sqlite database is located at `database/gt6/menudb.dat`.
@@ -100,6 +104,8 @@ Create rows for each folder that you want to create and apply them.
 * `LocalizeID`: Must match your folder's `TitleID` in `t_event_folder`
 * Everything else: Name of your folder in each language - just set it all as english
 
+---
+
 ## Creating Events
 
 If you've created your folder or editing an existing one, you can take on doing the event itself.
@@ -115,4 +121,6 @@ However if you're still editing directly through a text/code editor, you can ref
 If you're creating an event make sure it matches the IDs for your folders in either GT5 or GT6, including the xml file names.
 
 !!! tip "Note for GT6"
-    If you are editing original events, you might also notice these `.fgp` files - You will need to remove them from the `PDIPFS` in order for the game to bypass its event cache or no changes will occur. Read: [0.iii - Removing files from the game](https://github.com/Nenkai/Gran-Turismo-5-6-Modding-Guides/blob/main/0.%20Understanding%20PDIPFS/Understanding_PDIPFS.md#removing_files)
+    If you are editing original events, you might also notice these `.fgp` files - You will need to remove them from the `PDIPFS` in order for the game to bypass its event cache or no changes will occur. 
+    
+    Read: [Removing files from the game](../ps3/basics/volume_system.md#removing-files-from-the-game)

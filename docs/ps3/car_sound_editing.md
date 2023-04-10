@@ -25,6 +25,8 @@ In the `carsound` folder of Gran Turismo 5 and 6, there are multiple folders whi
 
 It's important that custom sounds are put in the correct place, since failing to do so will result in that sound not being replaced.
 
+---
+
 ## ESGX Explained
 The [`ESGX`](../formats/audio/esgx_engine_sgx.md) file format is essentially a container of one or more sounds, known as `SGXD`s (made by Sony). 
 
@@ -33,6 +35,8 @@ The [`SGXD`](../formats/audio/sgd_sgh_sgx_data.md) entries themselves contain so
 There is no limit to how many SGXDs an ESGX can contain, but 400KB is a hard limit for the finished combination of engine and exhaust. This 400KB doesn't have to be split evenly, for example a 350KB exhaust and 49KB engine will work perfectly fine.
 
 To create and edit ESGX files, the [ESGX Editor](http://gtr.ajb-tech.co.uk/files/GTESGXEditor-20201202.zip) is required.
+
+---
 
 ## Creating ESGX Sounds
 
@@ -56,6 +60,8 @@ Although there is usually a lot of fine-tuning required to get the loops to run 
 * Adjust and tweak as needed, using Awave if the loops need to be adjusted.
 * Save the file using the intended replacement `soundNum` as the name (e.g. `57936.esgx`)
 * Replace all applicable exhaust sounds (and engine if you created one)
+
+---
 
 ## AES Sounds
 
