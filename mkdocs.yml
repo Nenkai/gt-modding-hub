@@ -1,7 +1,7 @@
 site_name: Gran Turismo Modding Hub
 site_description: The modding hub for all Gran Turismo needs
-site_url: https://nenkai.github.io/GTModdingHub/
-repo_url: https://github.com/Nenkai/GTModdingHub
+site_url: https://nenkai.github.io/gt-modding-hub/
+repo_url: https://github.com/Nenkai/gt-modding-hub
 repo_name: nenkai/gt-modding-hub
 
 copyright: Copyright &copy; 2023 Nenkai - If this website was useful, please make a mention! This page is not affiliated with Polyphony Digital or Sony Interactive Entertainment.
@@ -75,7 +75,7 @@ nav:
       
     - Textures:
       - .img - TXS3/TextureSet3: formats/texture/img_txs3_textureset3.md
-      
+
     - Audio:
       - .lib - BGM Library: formats/audio/bgml_bgm_library.md
       - .esgx - Engine SGX: formats/audio/esgx_engine_sgx.md
