@@ -46,142 +46,145 @@ The GT6 folder structure is nearly identical to the GT5 one, with a few changes 
 │  ├─ engine/ # Engine sounds
 │  ├─ normal0/ # Cars with no turbo, for the stock level exhaust (non#turbo includes supercharged and electric vehicles)
 │  ├─ normal1/ # For the sport level exhaust
-│  ├─ normal2/ # For the semi#racing level exhaust
+│  ├─ normal2/ # For the semi racing level exhaust
 │  ├─ normal3/ # For the racing level exhaust
 │  ├─ turbo0/ # Turbocharged cars, for the stock level exhaust
 │  ├─ turbo1/ # For the sport level exhaust
-│  ├─ turbo2/ # For the semi#racing level exhaust
+│  ├─ turbo2/ # For the semi racing level exhaust
 │  └─ turbo3/ # For the racing level exhaust
 │ 
 ├─ character/ # Contains the driver models
 │  ├─ [undocumented models]
 │  └─ driver.bin # 'ParameterBin'
 │ 
-├─ config/ # Configs are boot scripts
-│  └─
-├─ crowd/ # Crowd packs for each course
-│  └─ xYYYZZ # x = Course type, Y = CourseID, Z = unknown
-│  
-├─ crs/ # Course files
-│  └─ XXXX # Course, from COURSE table
-│     ├─ .ad # Autodrive file for AI driving
-│     ├─ .cam # Camera positions & behavior
-│     ├─ .cinf # Course Info (Drift sections & gps stuff)
-│     ├─ .envptr # Environment Parameter (Mostly weather & time of day setup)
-│     ├─ .envsky # Undocumented
-│     ├─ .esp # Autodrive Special
-│     ├─ .layout # Gadgets
-│     ├─ .lv # Vision List
-│     ├─ .lv0 # Vision List (Unknown)
-│     ├─ .map # Minimap Model
-│     ├─ .occluder # Unknown
-│     ├─ .patch # Unknown
-│     ├─ .road # Unknown
-│     ├─ .rwy # Runway (Collision, road boundaries & surface)
-│     ├─ .shapestream # ZLib Compressed & streamed mesh data
-│     ├─ .sky # Unknown
-│     ├─ .texstream # ZLib Compressed & streamed textures
-│     ├─ .vvls # Unknown
-│     └─ x # Main model "pack", lods, contains most crucial course definition
-│  
-├─ database/ # Database files
-│  ├─ <branch_name>/
-│  │  └─ menudb.dat # SQLite file handling most menu related data, Salsa encrypted by default
-│  │
-│  └─ gt6movie/
-│     └─ caption.dat # SQLite file holding movie captions, Salsa encrypted by default
-│ 
-├─ description/ # Car descriptions
-│  └─ <branch_name>/
-│     └─ <2 char region code>.rt2 # Localization file
+├─ config/ # Configs are adhoc boot scripts
+│  └─ config-<branch>.adc # The one that is booted depends on the current branch
 │
-├─ effect/
-│  └─ [undocumented]
+├─ crs/ # Course files
+│  ├─ <course_label>/ # (3)!
+│  ├─ <course_label>.ad # Autodrive file, for AI
+│  └─ ..
+│  
+├─ description/ # Car descriptions
+│  └─ <region>/
+│     └─ <region>_<branch>_<language>_description.rt2 # Localization file
+│
+├─ dnas/ # GT4 Online
+│  └─ auth_<dnas_code>_<branch>.dat # PS2 DNAS authentication file (auth_data) (dnas_code depends on MSystem::GetDnasCode())
+│                                   # Passphrase is at network/DnasRoot.ad, GetPassPhrase(code, ver)
+│
+├─ eyetoy/
+│  └─ gtshirt.bin # GTSH header containing the nike shirt pattern for detection & car unlock
+│
+├─ fep/ # Front-End Processor, used only in japanese builds
+│  │    # May be related: 
+│  │      https://en.wikipedia.org/wiki/Wnn
+│  │      https://socialsolution.omron.com/software/en/products/product_text/iwnn/   
+│  └─  ...
 │
 ├─ font/ # Game fonts, loaded at boot before adhoc
-│  ├─ logo/ # Logos, which can be seen in the manual menu
-│  │  └─ menu_imagefont.bin # Image container for all logos
-│  │
-│  └─ vec/ # Fonts as vector format
-│     ├─ fontset_<REGION>.txt files # Defines all available fonts for use
-│     └─ *.vec # Vector font # read based on each fontset definition
+│  ├─ *.kf         # Kanji fonts
+│  ├─ *.fnt        # Regular fonts
+│  └─ jis2uni.dat  # Unknown
 │
-│	
-├─ game_parameter/ # Game events & Autodemos
-│  ├─ gp_cache/ # Serialized events from XML to binary # Names depends on whats inside each fgp
-│  │
-│  └─ <branch_name>/
-│     ├─ arcade/ # Arcade events
-│     ├─ autodemo/ # Autodemo files
-│     ├─ events/ # GT Mode events, missions & more
-│     └─ license/ # License events
-│     
+│
 ├─ icon/ # Save game icons
-│  └─ <branch name>/
-│     ├─ game_bg.png
-│     ├─ game_icon.png
-│     ├─ replay_sr_bg.png
-│     └─ replay_sr_icon.png
+│  └─ ..
 │ 
-├─ motion/
+├─ menu/ # Strobe files, Motion sets, some leftover GT3 menu files
 │  └─ [undocumented]
 │ 
-├─ movies/ # Movie files, in PAMF format (encrypted beforehand). Depends on t_movie table from menudb.
+├─ mpeg/         # Movies/Videos
+│  └─ main/
+│     ├─ .pss    # PS2 Interlaced videos
+│     └─ .ipic   # Sony format, represents videos (usually the first frame of the other videos is stored)
 │   
-├─ piece/ # Most game images
+├─ narration/
+│  └─ <region>
+│     └─ narration.inf  # Narration file
+│     
+├─ photo/ # Sample photos from photo mode
+|
+├─ piece/ # Most game images, some models.
 │
-├─ products # Adhoc scripts & widgets defining all usable widgets as prototypes
+├─ pit/   # "Concourse/ScenePack" files
 │
-├─ projects # All game menus.
+├─ printer/   # Watermark images for printing (.tga)
 │
-├─ rtext # All localized game text (not car descriptions)
+├─ projects/ # All game menus.
+│
+├─ race/  # Various race-related files & models (.bin files appear not to be used)
+│
+├─ race_display/  # Race display textures
+│  └─ <code>      # 'gt4' or 'tt'
+│     └─ <locale>
+│        └─ display.gpb  # Container for race display UI textures
+│
+├─ replay/ # Replay files for Demonstrations - in memory card format
+   ├─ license      # License demonstrations - note that 'tw' locale is remapped to 'jp'
+│  └─ <event_name> # Common game text
+│ 
+├─ rtext/ # All localized game text (not car descriptions)
 │  ├─ common # Common game text
 │  └─ manual # Text for the manual menu
 │ 
-├─ scene/ # Scene data
-│  ├─ misc/ # Miscellaneous data used by scenes
-│  └─ script/ # Files that set up a scene. May be in text format, or EVS (EventSchedule) format. Names are found from SCENE_ALIAS table.
-│ 
-├─ scripts # Adhoc scripts.
+├─ script # Adhoc scripts.
 │  └─ <branch_name>/
 │     ├─ main.adc # First script executed on boot.
 │     ├─ util/ # Utility scripts
 │     └─ global_status/ # Defines save game nodes
 │   
-├─ sky 
-│  └─ [undocumented]
-│ 
 ├─ sound_gt # All game sounds
-│  ├─ etc/ # Sound setup files
-│  │  ├─ se_master.pmf # Controls volumes
-│  │  └─ car_sound_gt5.pmf # Controls car sounds
+│  ├─ ads/   # BGM Music
+│  │  └─ <region>/
+│  │     ├─ ads.inf   # 'MusicInf' file, registers all bgm in the game
+│  │     ├─ *.ads     # Sony ADS sounds, made with ps2str. Can be played with vgmstream
+│  │     └─ *.adm     # ADS Markers
 │  │
-│  ├─ guide/ # Additional sounds for events
-│  │  ├─ moon # Moon sounds
-│  │  └─ vettel # Vettel sounds
+│  ├─ sound/ # Sound Effects
+│  │  ├─ *.ins       # Sequenced Instrument (INST)
+│  │  ├─ se.inf      # Sound Effect Library/Info (GTSE)
+│  │  ├─ sdvol.dat   # Sound Volumes (SDVL)
+│  │  ├─ vcse.dat    # Related to LG Sound/lgaud.irx, third party library, Star Wars Battlefront II also appears to use it
+│  │  └─ roadnoiz.es # Road Noises (ENGN header, read nearly the same as INST)
 │  │
-│  ├─ library/ # Defines soundtracks and playlists in the game
-│  │  └─ GT6.lib # Main library file
-│  │
-│  ├─ se/ # All sound effects
-│  └─ track/ # All musics. Vgmstream can play those.
+│  └─ spu/ # Sequenced Audio / MIDIs
+│     └─ <region>/
+│        ├─ *.ins/*.sqt  # Sequences & Instruments
+│        └─ mid.inf      #  Midi Library/Info
 │
 ├─ specdb/ # Car specification databases.
-│  ├─ <NAME>
-│     ├─ JP
-│     │  └─ CarName.dat # Car name file for japanese
-│     ├─ US
-│     │   └─ CarName.dat Car name file (any other region)
-│     └─ DBXXXX.dat # Main sqlite database file, normally salsa encrypted. XXXX is version (major, minor)
+│  └─ <SpecDB Name>
+│     ├─ CARS/       # File for each car, linking all the parts available for it
+│     │  └─ <TABLE_ID/ROW_ID> # One car, 00000000 = Table ID of GENERIC_CAR, 00000436 = Row ID 0x436
+│     │
+│     ├─ RACE/       # File for each race, linking all the opponents in it
+│     │  └─ <TABLE_ID/ROW_ID> # One car, 00000023 = Table ID of RACE, 00000A02 = Row ID 0xA02
+│     │
+│     ├─ *.dbt          # Database Table
+│     ├─ *.idi          # Label Information
+│     ├─ *.sdb          # String Table
+│     └─ DISABLED_INFO  # Disabled cars, normally empty
 │
-├─ ted/ # Track Editor samples
-│  └─ <branch_name>
-│     └─ .ted
+├─ text/ # Unknown (unused or leftover?)
+│  └─ realtime.dat
 │
-└─ tire # Tire models
-   ├─ hq/ # High quality tires, for menus
-   └─ race/ # Tire models for race
+├─ tire/ # Tire models
+│  ├─ lod/ # Tire models for race
+│  └─ menu/ # High quality models for menus
+│
+├─ usedcar/ # Used-Car dealership listings as adhoc scripts (auto-generated)
+│  └─ <region>_used<4 digit week>.adc
+│
+│  wheel/ # Wheel models
+│  ├─ lod/ # Wheel models for race
+│  └─ menu/ # High quality models for menus
+│ 
+└─ wing/ # Wing models
+   ├─ lod/ # Wing models for race
+   └─ menu/ # High quality models for menus
 ```
 
 1.  This depends on the [VARIATION](../concepts/specdb.md#variation) table.
-2.  All IDs depends on soundNum from ENGINE table.
+2.  All IDs depends on soundNum from [ENGINE](../concepts/specdb.md#engine) table.
+3.  From [COURSE](../concepts/specdb.md#course) table
