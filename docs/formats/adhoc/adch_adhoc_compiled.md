@@ -4,6 +4,10 @@
 
 This is the main header for [Adhoc Scripts](../../concepts/adhoc/adhoc.md). Most games will have a certain level of backwards compatibility, but it's better to keep them at the latest that the engine supports. This format was changed quite a bit over the games.
 
+## Dissasembling
+
+The [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain) can be used to dissasemble compiled `.adc` scripts into an assembly-like text file.
+
 ## Header
 
 Field              | Offset         | Type           | Description                               |
@@ -13,7 +17,7 @@ Version            |  `0x04`        | `char[3]`      | Version, i.e `012`.      
 Symbol Table       |  N/A           | `Symbol Table` | Symbol Table (V9 to V12)                  |
 Top Level Frame    |  N/A           | `Code Frame`   | The top-level code frame.                 |
 
-## Symbol Table
+### Symbol Table
 
 !!! note
     Version 9 to 12 only.
@@ -23,7 +27,7 @@ Field              | Type       | Description                                   
 Symbol Count       | `VarInt`   | Number of symbols in the script                                                         |
 Symbols            | `Symbol[]` | Array of symbols.                                                                       |
 
-## Code Frame
+### Code Frame
 
 ??? note "If version < 8"
 
@@ -48,7 +52,7 @@ Symbols            | `Symbol[]` | Array of symbols.                             
     Captured Callback Parameters | `Symbol[]`  | Parameters to be captured from the parent frame.                      |
     Unknown                      | `Int`       | ?                                                                     |
 
-### Stack Setup
+#### Stack Setup
 
 The stack holds the actual object stack, and a storage of the local variables for the current frame.
 
@@ -67,7 +71,7 @@ The stack holds the actual object stack, and a storage of the local variables fo
     Local Variable Storage Size | `Int`       | Storage size for local variables.                                              |
     Static Variable Storage Size| `Int`       | Storage size for static variables.                                             |
 
-### Instruction Table
+#### Instruction Table
 
 Field                       | Type        | Description                                                                                  |
 ----------------            | ----------  | --------------------------------------                                                       |
@@ -159,7 +163,7 @@ Instruction Data            | `...`                    | Instruction data. Refer
     70     | DELEGATE_DEFINE (>= GT Sport) | Pops an object, sets the adhoc thread's instruction pointer to the specified instruction index if the object is not nil.   `var myObject == doThing() ?? false` |
     71     | LOGICAL_OPTIONAL (>= GT Sport) | Pops an object, jumps to the specified instruction index if it evaluates to nil. Pushes the result (?). |
 
-## Symbols
+### Symbols
 
 !!! note "String Encoding"
     String encoding is set to EUC-JP for version under 10. You can set it up in C# this way:
@@ -177,7 +181,7 @@ In version 8 and earlier, there is no string table, symbols are just prefixed by
 
 In version 9 and later, symbols are indexed by an index into the symbol table. Indices are encoded with a variable integer.
 
-### Variable Ints
+#### Variable Ints
 Here's a sample on how to read/write them:
 
 === "Decoding"

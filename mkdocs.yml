@@ -48,7 +48,8 @@ nav:
       - Folder/File Structure: ps3/basics/file_structure.md
     - Text Editing: ps3/text_editing.md
     - Textures/Image Editing: ps3/textures.md
-    - Sound Editing: ps3/sound_editing.md
+    - Music Tracks / SFX: ps3/music_tracks.md
+    - Car Sound Editing: ps3/car_sound_editing.md
     - SpecDB (Car Specs): ps3/specdb.md
     - Events: ps3/events.md
     - Adhoc: ps3/adhoc.md
@@ -72,9 +73,13 @@ nav:
       - .idi - Label Information: formats/database/idi_label_information.md
       - .sdb - String Storage/Database: formats/database/sdb_string_database.md
       
+    - Textures:
+      - .img - TXS3/TextureSet3: formats/texture/img_txs3_textureset3.md
+      
     - Audio:
       - .lib - BGM Library: formats/audio/bgml_bgm_library.md
       - .esgx - Engine SGX: formats/audio/esgx_engine_sgx.md
+      - .sg(d/b/h) - SGX: formats/audio/sgd_sgh_sgx_data.md
 
     - Adhoc:
       - .adc - Adhoc Script: formats/adhoc/adch_adhoc_compiled.md
@@ -87,6 +92,8 @@ nav:
       - Headers: formats/compression/compression_formats.md
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite

@@ -9,6 +9,10 @@ Gpb files can contain compressed assets (inflate algorithm), and will be decompr
 !!! tip
     Adhoc projects can instead load from disk aka local path instead of a Gpb container if a widget's `from_disk`'s property is set to true.
 
+## Unpacking/Packing
+
+The [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain) can be used to unpack and pack these containers.
+
 ## Gpb1
 
 :octicons-cpu-24: *Applies to GT4 First Preview* · :octicons-arrow-right-16: Endian: Little
@@ -24,7 +28,7 @@ Relocation Pointer |  `0x04`        | `Int`      | Relocation Pointer           
 Empty              |  `0x08`        | `Int`      | Presumably Header Size, but it's not read and 0    |
 Pair Count         |  `0x0C`        | `Int`      | File count in the container                        |
 
-### Pair
+#### Pair
 
 Size: `0x08`
 
@@ -48,7 +52,7 @@ Relocation Pointer |  `0x04`        | `Int`      | Relocation Pointer           
 Empty              |  `0x08`        | `Int`      | Presumably Header Size, but it's not read and 0    |
 Pair Count         |  `0x0C`        | `Int`      | File count in the container                        |
 
-### Pair
+#### Pair
 
 Size: `0x10`
 
@@ -80,7 +84,7 @@ File Names Offset  |  `0x14`        | `char*`    | Offset to file names string t
 File Data Offset   |  `0x18`        | `void*`    | Offset to the start of file data                   |
 Padding            |  `0x1C`        | `Int`      | N/A                                                |
 
-### Pair
+#### Pair
 
 Size: `0x20`
 
@@ -111,7 +115,7 @@ Pair Entries Offset|  `0x14`        | `Int`      | Offset to the array of pairs 
 File Names Offset  |  `0x18`        | `Int`      | Offset to file names string table (Zero-terminated)|
 File Data Offset   |  `0x1C`        | `Int`      | Offset to the start of file data                   |
 
-### Pair
+#### Pair
 
 Size: `0x20`
 

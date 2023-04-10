@@ -1,6 +1,6 @@
-# Sound Editing
+# Car Sound Editing
 
-Gran Turismo 5 and 6 both use a sound format called `ESGX` for their vehicle sounds. This is an evolution of the ES (or ENGN) format used in the PS2-era Gran Turismo titles.
+Gran Turismo 5 and 6 both use a sound format called [`ESGX`](../formats/audio/esgx_engine_sgx.md) for their vehicle sounds. This is an evolution of the ES (or ENGN) format used in the PS2-era Gran Turismo titles.
 
 ## Car Engine Sound Structure
 
@@ -26,9 +26,9 @@ In the `carsound` folder of Gran Turismo 5 and 6, there are multiple folders whi
 It's important that custom sounds are put in the correct place, since failing to do so will result in that sound not being replaced.
 
 ## ESGX Explained
-The `ESGX` file format is essentially a container of one or more sounds, known as `SGXD`s (made by Sony). 
+The [`ESGX`](../formats/audio/esgx_engine_sgx.md) file format is essentially a container of one or more sounds, known as `SGXD`s (made by Sony). 
 
-The `SGXD` entries themselves contain some data describing an audio stream (for instance sample rate, size, etc.) followed by the audio stream itself, which is a looped recording of a car being held at various RPMs. Audio data within an `SGXD` must be in `VAG` format, which is also a Sony format designed for the PS2 and PS3. There are various tools that can convert standard sound formats to `VAG`, such as Awave Studio, which is recommended for its ability to fine-tune audio samples.
+The [`SGXD`](../formats/audio/sgd_sgh_sgx_data.md) entries themselves contain some data describing an audio stream (for instance sample rate, size, etc.) followed by the audio stream itself, which is a looped recording of a car being held at various RPMs. Audio data within an `SGXD` must be in `VAG` format, which is also a Sony format designed for the PS2 and PS3. There are various tools that can convert standard sound formats to `VAG`, such as Awave Studio, which is recommended for its ability to fine-tune audio samples.
 
 There is no limit to how many SGXDs an ESGX can contain, but 400KB is a hard limit for the finished combination of engine and exhaust. This 400KB doesn't have to be split evenly, for example a 350KB exhaust and 49KB engine will work perfectly fine.
 
@@ -38,7 +38,7 @@ To create and edit ESGX files, the [ESGX Editor](http://gtr.ajb-tech.co.uk/files
 
 Although there is usually a lot of fine-tuning required to get the loops to run seamlessly, the general overview of creating an ESGX file is as follows:
 
-* Identify the sound you want to replace (`soundNum` for your car in the `ENGINE` table of SpecDB) - this is the name used for the ESGX file, for instance the Peugeot 205 T16 uses `57936.esgx` in its turbo exhaust level folders.
+* Identify the sound you want to replace (`soundNum` for your car in the [`ENGINE`](../concepts/specdb.md#engine) table of SpecDB) - this is the name used for the ESGX file, for instance the Peugeot 205 T16 uses `57936.esgx` in its turbo exhaust level folders.
 * Source the loops you want to use for the car in a common format such as `WAV` - it is also beneficial to know which RPM each loop was recorded at as it reduces guesswork.
 * Use Awave Studio to enable looping on those files and re-save them as `Sony VAG`.
 * Re-open the saved VAG files - this is important as when exporting to VAG, the sample length of the sound is rounded down to the nearest multiple of 28. Not reopening the VAG means the sample counts won't match the final product.

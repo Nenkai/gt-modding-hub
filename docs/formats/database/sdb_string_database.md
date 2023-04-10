@@ -8,7 +8,7 @@ Strings are directly indexed from the Database Table by index.
 !!! note
     GT6 and above have moved away from this format, using SQLite instead.
 
-### Header
+## Header
 
 Size: `0x10`
 

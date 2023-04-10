@@ -1,13 +1,33 @@
-# Movie/Video Creation
+# Movies
 
 Movies in PS3's GTs uses PAMF, a Sony format.
 
-## Requirements
+## Movie Playback
+
+### Decryption
+Movies are normally encrypted using Salsa20. Assuming you've found the key in Base64 format (or hex), you can use GTToolsSharp to decrypt it.
+
+!!! note
+    In GT6, the keys for movies can be found in the `database/gt6/menudb.dat` SQLite database, in the `t_movie` table.
+
+```markdown title="Decrypt command"
+GTToolsSharp cryptmovie -i <movie_file_path> -k <key as base64 string, or hex string>
+```
+
+If decrypted successfully the file header should show `PAMF`.
+
+### PAMF playback
+PAMF Tools from PS3 SDK is required, you will have to find that yourself.
+
+After that, you can use `PS3StreamViewer` to open and play a movie file.
+
+## Movie Creation
+
+### Requirements
 - [FFmpeg](https://ffmpeg.org/download.html), used to convert a video to the appropriate pixel format
 - PAMF Tools from PS3 SDK (you will have to find that yourself)
 - A source video to convert to PAMF.
 
-## Preparing Files
 To convert to PAMF you will need to prepare your input video into specific formats. 
 
 ### Video
@@ -40,7 +60,7 @@ Where:
 !!! tip
     You can (and should) also tweak the ffmpeg arguments to your requirements/liking.
 
-## Creating the PAM
+### Creating the PAM
 Now that you (hopefully) have one AVI, and one WAV file, you can proceed to create the PAM file.
 
 * Open *PS3 Stream Composer*.
@@ -54,6 +74,6 @@ Now that you (hopefully) have one AVI, and one WAV file, you can proceed to crea
 * At the top bar, look for `Run`, then click on `Encode + Multiplex + PAMF Compose`. This will create your `PAMF` file. Depending on your PC specs, this may take a while.
 * Once done, PAMF file should be created. In File Explorer, head to Documents, then `PLAYSTATION(R)3 Stream Composer\MuxWork\<project_name>\<project_name>`.  If you see a PAM file, you're done.
 
-## Encrypting the file
+### Encrypting the file
 
 TODO

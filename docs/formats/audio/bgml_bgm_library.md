@@ -7,7 +7,11 @@ BGML files holds the tracks and playlist listings for each game. In GT Sport and
 !!! tip
     "Groups" are the sets of music that plays during a certain menu. The chance of a track to play is evenly distributed.
 
-### Header
+## Editing
+
+[GTMusicLibraryEditor](https://github.com/Nenkai/GTMusicLibraryEditor) by [Nenkai](https://github.com/Nenkai) can be used to edit BGML files.
+
+## Header
 
 Size: `0x20`
 

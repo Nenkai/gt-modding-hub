@@ -5,7 +5,13 @@ RT2 Stands for RText 2 (Region Text 2?).
 
 They are key-value dictionaries for localized text.
 
-## Gpb4 (RTextV5)
+## Editing
+
+[GT.RText](https://github.com/Razer2015/GT.RText) by [Razer2015](https://github.com/Razer2015) can be used to edit these files.
+
+A C# library is also available - [PDTools.RText](https://github.com/Nenkai/PDTools/tree/master/PDTools.RText) by [Nenkai](https://github.com/Nenkai)
+
+## RT05 (RTextV5)
 
 :octicons-cpu-24: *Applies to GT Sport, GT7* · :octicons-arrow-left-16: Endian: Big (GT5/GT6) · :octicons-arrow-right-16: Little (GT4, GT Sport, GT7)
 
@@ -21,7 +27,7 @@ Unknown            |  `0x08`        | `Byte`     | This field is not read       
 Relocation Pointer |  `0x10`        | `Int`      | Relocation Pointer                        |
 Padding            |  `Until 0x20`  | `Byte`     | N/A                                       |
 
-### Page
+#### Page
 
 Size: `0x10`
 
@@ -32,7 +38,7 @@ Pair Count             |  `0x04`        | `Int`      | Number of pairs in this c
 Empty                  |  `0x08`        | `Int`      | N/A                                    |
 Pairs Pointer          |  `0x0C`        | `Pair*`    | Offset to the pairs                    |
 
-### Pair
+#### Pair
 
 Size: `0x10`
 
@@ -102,7 +108,7 @@ Pair Count             |  `0x04`        | `Int`      | Number of pairs in this c
 Pairs Pointer          |  `0x08`        | `Pair*`    | Offset to the pairs                    |
 Padding                |  `0x0C`        | `Int`      | Padding `5E 5E 5E 5E`                  |
 
-### Pair
+#### Pair
 
 Size: `0x10`
 
@@ -140,7 +146,7 @@ Pair Count             |  `0x04`        | `Int`      | Number of pairs in this c
 Pairs Pointer          |  `0x08`        | `Pair*`    | Offset to the pairs                    |
 Padding                |  `0x0C`        | `Int`      | Padding `5E 5E 5E 5E`                  |
 
-### Pair
+#### Pair
 
 Size: `0x08`
 
