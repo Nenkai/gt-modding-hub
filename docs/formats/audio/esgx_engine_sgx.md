@@ -7,7 +7,9 @@ A ESGX is merely a wrapper around a Sony SGD file, with extra parameters setting
 !!! tip
     "Groups" are the sets of music that plays during a certain menu. The chance of a track to play is evenly distributed.
 
-### Header
+---
+
+## Header
 
 Size: `0x24`
 

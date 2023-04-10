@@ -21,11 +21,17 @@ Multiple audio formats are supported in a SGX container:
 * `.at3` - [ATRAC3plus](https://en.wikipedia.org/wiki/ATRAC#ATRAC3plus) [PSP]
 * `.wav` - [PCM 16 LE](https://en.wikipedia.org/wiki/WAV) [PS3]
 
+---
+
 ## Playback
 [Foobar2000](https://www.foobar2000.org/) with the [VGMStream](https://github.com/vgmstream/vgmstream-releases/releases) plugin can be used to stream and play contents of a SGD file.
 
+---
+
 ## Building SGX files
 [SGXDataBuilder](https://github.com/Nenkai/SGXDataBuilder) can be used to build these sort of files.
+
+---
 
 ## Header
 

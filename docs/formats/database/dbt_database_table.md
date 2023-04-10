@@ -10,6 +10,8 @@ DBT files is a non-standard database table format that supports compression. Thi
 
     GT6 and above have moved away from this format, using SQLite instead.
 
+---
+
 ## Header
 
 Size: `0x10`

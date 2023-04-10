@@ -11,6 +11,8 @@ They are key-value dictionaries for localized text.
 
 A C# library is also available - [PDTools.RText](https://github.com/Nenkai/PDTools/tree/master/PDTools.RText) by [Nenkai](https://github.com/Nenkai)
 
+---
+
 ## RT05 (RTextV5)
 
 :octicons-cpu-24: *Applies to GT Sport, GT7* · :octicons-arrow-left-16: Endian: Big (GT5/GT6) · :octicons-arrow-right-16: Little (GT4, GT Sport, GT7)
@@ -82,6 +84,8 @@ The content is encrypted with Salsa20, use the following sample code to decrypt 
     Decrypt(..., Key);
     ```
 
+---
+
 ## RT04 (RTextV4)
 
 :octicons-cpu-24: *Applies to GTPSP, GT5* · :octicons-arrow-left-16: Endian: Big (GT5) · :octicons-arrow-right-16: Little (GT4/GTPSP)
@@ -117,6 +121,8 @@ Field                  | Offset         | Type       | Description              
 ID                     |  `0x00`        | `UInt`     | ID                                                   |
 Label String Pointer   |  `0x04`        | `char*`    | Offset to the key's label (Zero-terminated)          |
 Value String Pointer   |  `0x08`        | `char*`    | Offset to the key's value (Zero-terminated)          |
+
+---
 
 ## RT03 (RTextV3)
 
@@ -154,6 +160,8 @@ Field                  | Offset         | Type       | Description              
 ----------------       | -------------- | ---------- | --------------------------------------               |
 Label String Pointer   |  `0x00`        | `char*`    | Offset to the key's label (Zero-terminated)          |
 Value String Pointer   |  `0x04`        | `char*`    | Offset to the key's value (Zero-terminated)          |
+
+---
 
 ## Notes
 

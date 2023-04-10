@@ -9,9 +9,13 @@ Gpb files can contain compressed assets (inflate algorithm), and will be decompr
 !!! tip
     Adhoc projects can instead load from disk aka local path instead of a Gpb container if a widget's `from_disk`'s property is set to true.
 
+---
+
 ## Unpacking/Packing
 
 The [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain) can be used to unpack and pack these containers.
+
+---
 
 ## Gpb1
 
@@ -36,6 +40,8 @@ Field                  | Offset         | Type       | Description              
 ----------------       | -------------- | ---------- | --------------------------------------------------- |
 File Name Offset       |  `0x00`        | `char*`    | String Offset to name of this file (Zero-terminated)|
 File Data Offset       |  `0x04`        | `void*`    | Offset of the data for this file (Zero-terminated)  |
+
+---
 
 ## Gpb2
 
@@ -62,6 +68,8 @@ File Name Offset       |  `0x00`        | `char*`    | String Offset to name of 
 File Data Offset       |  `0x04`        | `void*`    | Offset of the data for this file (Zero-terminated)  |
 File Size              |  `0x08`        | `Int`      | File size within the container                      |
 Padding                |  `0x0C`        | `Int`      | N/A                                                 |
+
+---
 
 ## Gpb3
 
@@ -94,6 +102,8 @@ File Name Offset       |  `0x00`        | `char*`    | String Offset to Name of 
 File Data Offset       |  `0x04`        | `void*`    | Offset of the data for this file (Zero-terminated)  |
 File Size              |  `0x08`        | `Int`      | File size within the container                      |
 Padding                |  `0x0C`        | `Int`      | N/A                                                 |
+
+---
 
 ## Gpb4
 

@@ -6,6 +6,8 @@ IDI files links database rows to an ID and Label. This format mostly used for qu
 !!! note
     GT6 and above have moved away from this format, using SQLite instead.
 
+---
+
 ## Header
 
 Size: `0x10`

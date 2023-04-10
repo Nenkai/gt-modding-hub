@@ -4,9 +4,13 @@
 
 This is the main header for [Adhoc Scripts](../../concepts/adhoc/adhoc.md). Most games will have a certain level of backwards compatibility, but it's better to keep them at the latest that the engine supports. This format was changed quite a bit over the games.
 
+---
+
 ## Dissasembling
 
 The [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain) can be used to dissasemble compiled `.adc` scripts into an assembly-like text file.
+
+---
 
 ## Header
 
