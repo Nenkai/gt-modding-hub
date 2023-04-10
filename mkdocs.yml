@@ -28,19 +28,25 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/brightness-7
         name: Switch to dark mode
       primary: blue
       accent: purple 
     - scheme: slate 
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-4
         name: Switch to light mode    
       primary: deep purple
       accent: blue
 
 nav:
   - Home: index.md
+
+  - PS2 (GT3/GT4/TT):
+    - Basics:
+      - Getting Started: ps2/getting_started.md
+      - Folder/File Structure: ps2/file_structure.md
+
   - PS3 (GT5/GT6):
     - Getting Started: ps3/getting_started.md
     - Basics: 
