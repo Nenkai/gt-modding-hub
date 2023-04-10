@@ -8,13 +8,12 @@ Fonts use a custom vectored format that needs to be converted from to be usable.
 
 ## Conversion & Usage
 Simply run the tool as such:
+``` { .yaml .annotate }
+nvec_builder.exe <your_ttf_font> <output_vec_font> # (1)!
 ```
-nvec_builder.exe <your_ttf_font> <output_vec_font>
-```
-Where:
 
-  - `<your_ttf_font>`  Is the path to your TTF font
-  - `<output_vec_font>` Is the output `.vec` font, created by the tool
+1.  * `<your_ttf_font>` should be replaced by the path to your TTF font 
+    * `<output_vec_font>` should be a path for the output `.vec` font, created by the tool.
 
 After that, drop the newly created font to `font/vec/` and edit each `fontset_*.txt` file to add the following entries before `----[END]`:
 

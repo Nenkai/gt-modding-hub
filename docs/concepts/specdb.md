@@ -79,20 +79,20 @@ Most tables represent a distinct car part. Some other tables such as `COURSE` de
 `ExtraFinalGearRatio`         | Short         | Specifies an alternative final drive ratio where applicable (for cars with two output shafts such as the 2005 Volkswagen Golf GTI).
 `Price`                       | Short         | How much the part costs to buy if not stock.
 `category`                    | Byte          | The upgrade level of a transmission part.
-`geartype`                    | Byte          | Which type of gearbox behaviour to use. `0` and `1` are both used on manual transmissions but the difference between the two is unknown. `2` is used to apply realistic smooth shifting to cars with torque converter automatics. `3` and `4` are unknown but may be related to hybrid cars as they are used on the Toyota Priuses and Triathlon car respectively.
-`Nshift`                      | Byte          | Number of forward gears.
-`gearflag`                    | Byte          | Determines whether or not to calculate the gear ratios automatically. `0` is used for road cars with specified real-world ratios, `1` is used for most race cars and upgraded gearboxes. `2` is unknown and only used on the 1954 Chevrolet Corvette which has two gears and real-world defined ratios.
+`geartype`                    | Byte          | Which type of gearbox behaviour to use. `0` and `1` are both used on manual transmissions but the difference between the two is unknown. `2` is used to apply realistic smooth shifting to cars with torque converter automatics. `3` and `4` are unknown but may be related to hybrid cars as they are used on the Toyota Priuses and Triathlon car respectively. `7` is scooters. `0` or `2` means `CanShowGearChart` is true. `2` and `3` may be CVT. `1`, `3`, `4` and `7` are considered automatic only.
+`Nshift`                      | Byte          | Number of gears (forward). This also reflects how the driver shifting animations operate.
+`gearflag`                    | Byte          | Determines whether or not to calculate the gear ratios automatically. `0` is used for road cars with specified real-world ratios, `1` is used for most race cars and upgraded gearboxes. `2` is unknown and only used on the 1954 Chevrolet Corvette which has two gears and real-world defined ratios. `AutoGearRatio_Generate` is called if the flag is not `0`.
 `maxspeedMIN`                 | Byte          | The minimum value allowed for the `Auto` adjustment slider when tuning gear ratios.
 `maxspeedMAX`                 | Byte          | The maximum value allowed for the `Auto` adjustment slider when tuning gear ratios.
 `maxspeedDF`                  | Byte          | The default value for the `Auto` adjustment slider when tuning gear ratios.
 `ExtraFinalGearUsage`         | Byte          | Subtracted from `Nshift` to determine which gear the `ExtraFinalGearRatio` is used for. For example, `ExtraFinalGearUsage` set to `2` and `Nshift` set to `6` means that the ratio specified in `ExtraFinalGearRatio` will apply from 4th gear onwards.
-`LowGearPos`                  | Byte          | Unknown. Likely related to shift animations, as it appears to only be set to `1` for convertibles with a manual gearbox and `0` for everything else.
-`ReverseGearPos`              | Byte          | Unknown. Similar assignments to `LowGearPos`, but has a larger range of possible values (`0`, `6`, `8`, and `255`).
-`GearPattern`                 | Byte          | Unknown. Likely related to shifting animations but the actual nature of each value is unknown.
+`LowGearPos`                  | Byte          | Used for rendering the driver animations. Likely related to shift animations, as it appears to only be set to `1` for convertibles with a manual gearbox and `0` for everything else.
+`ReverseGearPos`              | Byte          | Used for rendering the driver animations. Similar assignments to `LowGearPos`, but has a larger range of possible values (`0`, `6`, `8`, and `255`).
+`GearPattern`                 | Byte          | Used for rendering the driver animations. Likely related to shifting animations but the actual nature of each value is unknown.
 
 ### GENERIC_CAR
 
-??? info "GT4"
+??? info "GT4 Table (click to expand)"
     |     Column                  |  Data Type    | Description
     | ----------------------------| ------------- | ----------- | 
     `Label`                       | String        | The internal name for a car. Used throughout the game engine and Adhoc scripts to refer to a specific car.
@@ -101,20 +101,20 @@ Most tables represent a distinct car part. Some other tables such as `COURSE` de
     `Year`                        | Short         | The year a car was built. Used for event regulations.
     `RegulationDisplacementFlags` | Short         | Used for event regulations, values/units unknown.
     `Maker`                       | Byte          | The manufacturer of a car. Used for manufacturer-specific event regulations.
-    `Category`                    | Byte          | Assigns cars to a certain "type". Road cars are `0`, race cars are `1`, pre-tuned cars are `2`, and concept cars    are `3`. Values of `100`, `101`, and `103` are seen for some special cars (e.g. Formula GT, Ford Model T, Nike One) but exact effects are unknown.
+    `Category`                    | Byte          | Assigns cars to a certain "type". `0` = `NORMAL`, `1` = `RACING`, `2` = `TUNING`, `3` = `CONCEPT`. Equal or above to `100` is a car that is considered "strange" (e.g. Formula GT, Ford Model T, Nike One) - They have no body/engine/oil degradation and cannot be used in certain parts of the game (`You cannot advance past this point because <car> is a special car.`)
     `GeneralFlags`                | Byte          | Bit-level flags assigning certain characteristics to cars, used in bitwise operations. 
-    `ConceptCarType`              | Byte          | Unknown. `Category` is used for concept car event restrictions, and `ConceptCarType` has some strange assignments,  such as the Ford Model T being set to `4`.
-    `OpenModel`                   | Byte          | The convertible type of a car. Cars set to `1` have a closed top variant that allows them to enter regular 6-car    races. Cars set to `2` do not, and can only enter 2-car races or time trials.
+    `ConceptCarType`              | Byte          | Unknown. `Category` is used for concept car event restrictions, and `ConceptCarType` has some strange assignments, such as the Ford Model T being set to `4`. Appears to be completely unused/unread.
+    `OpenModel`                   | Byte          | The convertible type of a car. Cars set to `1` have a closed top variant that allows them to enter regular 6-car races. Cars set to `2` do not, and can only enter 2-car races or time trials.
     `NoChangeWheel`               | Bool          | Restricts the ability to buy wheels in GT Auto.
     `NoChangeWing`                | Bool          | Restricts the ability to change wings in GT Auto.
-    `SuperchargerOriginally`      | Bool          | Whether or not this car has a supercharger as standard. Likely used in tandem with aspiration flags to restrict     entry to NA races.
+    `SuperchargerOriginally`      | Bool          | Whether or not this car has a supercharger as standard. Likely used in tandem with aspiration flags to restrict entry to NA races.
 
-    #### GENERIC_CAR GeneralFlags
-    | Bit | Behaviour
-    | ----| ---------|
-    `0`   | Makes a car unbuyable.
-    `1`   | Hides the last `VARIATION` (colour) entry. Used for special colour cars and the black race cars.
-    `2`   | Makes a car unable to enter races.
-    `3`   | Hides a car's specs.
-    `4`   | Marks a car as open top-only, meaning it has no closed roof variant and cannot enter typical races.
-    `5`   | Marks a car as a test car, meaning it can only drive on the Nürburgring Nordschleife, Test Course, and Las Vegas drag strip.
+    ??? info "GenericFlags bits (click to expand)"
+        | Bit | Behavior if toggled
+        | ----| ---------|
+        `0`   | Makes a car unbuyable (`NotForSell`).
+        `1`   | Hides the last `VARIATION` (colour) entry. Used for special colour cars and the black race cars.
+        `2`   | Makes a car unable to enter races (`RaceForbidden`).
+        `3`   | Hides a car's specs (`HideRealSpec`).
+        `4`   | Marks a car as open top-only, meaning it has no closed roof variant and cannot enter typical races (`OpenCar`).
+        `5`   | Marks a car as a test car, meaning it can only drive on the Nürburgring Nordschleife, Test Course, and Las Vegas drag strip (`TestCar`).

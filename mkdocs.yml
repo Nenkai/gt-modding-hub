@@ -22,6 +22,7 @@ theme:
     - content.tabs.link
     - content.code.copy
     - content.action.edit
+    - content.code.annotate
     - header.autohide
   language: en
   palette:
@@ -36,7 +37,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode    
       primary: deep purple
-      accent: lime
+      accent: blue
 
 nav:
   - Home: index.md
@@ -63,7 +64,7 @@ nav:
       SpecDB: concepts/specdb.md
       Adhoc: 
         - Adhoc Explained: concepts/adhoc/adhoc.md
-        - Tiny Web: concepts/adhoc/tinyweb.md
+        - TinyWeb: concepts/adhoc/tinyweb.md
 
   - Formats:
     - Database Formats:

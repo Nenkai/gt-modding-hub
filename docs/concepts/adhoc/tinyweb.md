@@ -1,8 +1,8 @@
 # TinyWeb
 
-TinyWeb is an API for building web apps/services through adhoc, similar to ASP.NET or Django. It is available since Gran Turismo 6, and is primarily used by PDI for live events (especially since GT Sport).
+TinyWeb is an API for building web apps/services through adhoc, similar to [ASP.NET](https://asp.net) or [Django](https://www.djangoproject.com/). It is available since Gran Turismo 6, and is primarily used by PDI for live events (especially since GT Sport).
 
-Here is an example of how GT7 exposes camera controls over tiny web:
+Here is an example of how GT7 exposes camera controls over TinyWeb:
 
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">A small sample of how the live events are controlled from outside the game. This would be the camera/displaypart. <br>Quick camera jump to any car, and UI display control. <a href="https://t.co/fHkTmQBW1H">pic.twitter.com/fHkTmQBW1H</a></p>&mdash; Nenkai (@Nenkaai) <a href="https://twitter.com/Nenkaai/status/1574411826217062400?ref_src=twsrc%5Etfw">September 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -15,17 +15,17 @@ The game must be running in QA mode (in GT7, live event permissions on the accou
 ├─ car/
 ├─ carparts/
 ...
-└─ www/              # This is the main Tiny Web folder
+└─ www/              # This is the main TinyWeb folder
    └─ <branch_name>/ # i.e "gt6"
       ├─ adhoc/      # Contains adhoc web modules - In script form
-      ├─ config/     # Important folder - it sets up how tiny web should be running.
+      ├─ config/     # Important folder - it sets up how TinyWeb should be running.
       └─ html/       # Static html resources - .html/.css/.js etc.
 ...
 ```
 
 ## Configuration
 
-A `server.conf` file is required in the `config` folder to setup Tiny Web:
+A `server.conf` file is required in the `config` folder to setup TinyWeb:
 
 !!! warning
     On a debug branch, `server-debug.conf` may be used instead.
@@ -36,14 +36,14 @@ A `server.conf` file is required in the `config` folder to setup Tiny Web:
     ###########################################################
     # Listen
     #
-    # [PortNumber] - Port of which tiny web will listen to
+    # [PortNumber] - Port of which TinyWeb will listen to
     ###########################################################
     Listen 8080
 
     ###########################################################
     # Timeout
     #
-    # [TimeoutSec] - Timeout before tiny web cancels a request
+    # [TimeoutSec] - Timeout before TinyWeb cancels a request
     ###########################################################
     Timeout 180
 
@@ -57,7 +57,7 @@ A `server.conf` file is required in the `config` folder to setup Tiny Web:
     ###########################################################
     # JobThreadStackSize
     #
-    # [StackSizeKB] - Tiny Web job thread stack size
+    # [StackSizeKB] - TinyWeb job thread stack size
     ###########################################################
     JobThreadStackSize 64
 
@@ -94,7 +94,7 @@ A `server.conf` file is required in the `config` folder to setup Tiny Web:
     FileModule /dlcontents/ /dlcontents
 
     # GT Sport & above only - you can forbid or allow certain endpoints from being accessed
-    # Mostly used to forbid access to certain web module while running as regular tiny web as opposed to config.
+    # Mostly used to forbid access to certain web module while running as regular TinyWeb as opposed to debug.
     Location /adhoc {
         deny all
     }
@@ -106,7 +106,7 @@ A `server.conf` file is required in the `config` folder to setup Tiny Web:
 
 ## Accessing TinyWeb
 
-Once you meet the requirements, you can access Tiny Web from the IP:Port in any web browser of your liking. 
+Once you meet the requirements, you can access TinyWeb from the IP:Port in any web browser of your liking. 
 
 <figure markdown>
   ![Image title](tinyweb.png){ width="400" }
@@ -116,14 +116,14 @@ Once you meet the requirements, you can access Tiny Web from the IP:Port in any 
 !!! note
     If you are using RPCS3, make sure that Network :octicons-arrow-right-16: Network Status is set to `Connected`.
 
-    If you are booting to the runviewer branch with the argument `branch=runviewer` (or any other way), you need to also supply `network_available=1` to access Tiny Web.
+    If you are booting to the runviewer branch with the argument `branch=runviewer` (or any other way), you need to also supply `network_available=1` to access TinyWeb.
 
     Just incase it doesn't work, change the Listen port from `8080` to anything else i.e `12345`.
 
 
 ## Modules
 
-Modules are extra services that Tiny Web can expose. You've already seen one, `FileModule`, which allows mapping and reflecting a directory to your browser.
+Modules are extra services that TinyWeb can expose. You've already seen one, `FileModule`, which allows mapping and reflecting a directory to your browser.
 
 Some more exist that can be activated through adhoc - here is the default that is enabled in GT6, for example
 
