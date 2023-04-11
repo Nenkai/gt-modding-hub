@@ -1,12 +1,12 @@
 # FSRoot
 
 !!! warning 
-    This is for GT6 Only. Read the Command Line Argument section first!
+    This is for GT6 Only. Read the [Command Line Arguments](command_line_args.md) section first!
 
-FSRoot allows you to stream game contents over your PC, without a volume required.
+FSRoot allows you to stream game contents from your PC, without a volume file.
 
 ## Setting up GT6 for FSRoot
-The `USRDIR` folder should contain an extracted game contents folder containing the FULL game data, both GT.VOL and PDIPFS into one. 
+The `USRDIR` folder should contain ALL of the game's data - the contents of both GT.VOL and PDIPFS in one. 
 Extract `GT.VOL` in one folder, extract the `PDIPFS` into another, then all extracted PDIPFS contents should go into the extracted GT.VOL folder. Name this folder `EXTRACTED`.
 
 !!! tip
@@ -43,7 +43,7 @@ In the end, you should end up with something like:
 Game should now boot.
 
 !!! note "RPCS3"
-    In the RPCS3 directory, create `app_home/`, paste your EXTRACTED folder there, then Boot RPCS3 as such with `cmd`:
+    In the RPCS3 directory, create `app_home/`, paste your EXTRACTED folder there, then boot RPCS3 as such with `cmd`:
     ```
     rpcs3.exe <path to EBOOT> fsroot=EXTRACTED
     ```

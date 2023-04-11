@@ -1,6 +1,6 @@
 # SpecDB
 
-The SpecDB is the name of the database that Polyphony Digital uses to store all car specifications, and other critical things like courses in the game. Its structure is the same as an ordinary database.
+The SpecDB is the name of the database that Polyphony Digital uses to store all car specifications, and other critical entities such as courses. Its structure is the same as an ordinary database.
 
 Most tables represent a distinct car part. Some other tables such as `COURSE` defines the courses available in the games.
 

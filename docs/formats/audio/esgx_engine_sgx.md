@@ -2,10 +2,7 @@
 
 :octicons-cpu-24: *Applies to: GT5, GTPSP, GT6* · :material-file-question: Extension: `.esgx` / none · :octicons-arrow-right-16: Endian: Big (GT5/GT6), Little (GTPSP)
 
-A ESGX is merely a wrapper around a Sony SGD file, with extra parameters setting an engine sound's parameters.
-
-!!! tip
-    "Groups" are the sets of music that plays during a certain menu. The chance of a track to play is evenly distributed.
+An ESGX is merely a wrapper around a Sony SGD file, with extra parameters setting an engine sound's parameters.
 
 ---
 
