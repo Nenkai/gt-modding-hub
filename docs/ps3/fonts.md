@@ -4,7 +4,7 @@ Fonts use a custom vectored format that needs to be converted from to be usable.
 
 ---
 
-## Converting to `NVEC`
+## Converting to [`NVEC`](../formats/fonts/vec_nvec.md)
 
 ### Required Files
 - [NVecBuilder](https://github.com/Nenkai/PDTools/releases/tag/nvecbuilder-1.0.0)
