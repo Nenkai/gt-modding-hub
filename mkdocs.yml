@@ -44,13 +44,23 @@ nav:
   - Home: index.md
 
   - PS2 (GT3/GT4/TT):
-    - Basics:
-      - Getting Started: ps2/getting_started.md
-      - Folder/File Structure: ps2/file_structure.md
+    - Index: ps2/index.md
+    - GT3:
+        - Getting Started: ps2/getting_started.md
+        - Cheats: ps2/cheats/gt3.md
 
-    - SpecDB (Car Specs): ps2/specdb.md
-    - Miscellaneous: 
-      - Loading Clock Colors/Errors: ps2/misc/loading_clock_colors.md
+    - GT4:
+      - Basics:
+        - Getting Started: ps2/gt4/getting_started.md
+        - Folder/File Structure: ps2/gt4/file_structure.md
+
+      - SpecDB (Car Specs): ps2/gt4/specdb.md
+      - Miscellaneous: 
+        - Loading Clock Colors/Errors: ps2/gt4/misc/loading_clock_colors.md
+      - Cheats: ps2/gt4/cheats.md
+
+    - Other:
+      - Executables (CORE.GT3/CORE.GT4): ps2/executables.md
 
   - PS3 (GT5/GT6):
     - Getting Started: ps3/getting_started.md
@@ -71,7 +81,7 @@ nav:
         - Command Line Arguments: ps3/other/command_line_args.md
         - FSRoot: ps3/other/fsroot.md
 
-  - Concepts:
+  - General Concepts:
       Volume: concepts/volume.md
       SpecDB: concepts/specdb.md
       Adhoc: 
@@ -117,7 +127,11 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.mark
   - pymdownx.keys
   - pymdownx.tabbed:

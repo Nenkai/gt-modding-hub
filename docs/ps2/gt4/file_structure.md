@@ -166,6 +166,6 @@
    └─ menu/ # High quality models for menus
 ```
 
-1.  This depends on the [VARIATION](../concepts/specdb.md#variation) table.
-2.  All IDs depends on soundNum from [ENGINE](../concepts/specdb.md#engine) table.
-3.  From [COURSE](../concepts/specdb.md#course) table
+1.  This depends on the [VARIATION](../../concepts/specdb.md#variation) table.
+2.  All IDs depends on soundNum from [ENGINE](../../concepts/specdb.md#engine) table.
+3.  From [COURSE](../../concepts/specdb.md#course) table

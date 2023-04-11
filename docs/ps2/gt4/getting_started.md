@@ -14,7 +14,7 @@
 
 ## Extracting the game
 
-All PS2's GTs are no exception to the [volume system](../concepts/volume.md), you will need to extract it in order to gain access to game contents.
+All PS2's GTs are no exception to the [volume system](../../concepts/volume.md), you will need to extract it in order to gain access to game contents.
 
 If you haven't already, extract the `.iso` file using [7-Zip](https://www.7-zip.org/) or by any other means. You should be able to see a `GT4.VOL` file.
 
@@ -85,7 +85,7 @@ As stated earlier, it is best done on GT4 Online Test Version, as not only it is
 
 ### Requirements
 
-* [ISO Tools](../tools/ISO_Tools.zip), for building ISOs - Should include `cdvd2iml5.30`, `ISOLayerMerge`.
+* [ISO Tools](../../tools/ISO_Tools.zip), for building ISOs - Should include `cdvd2iml5.30`, `ISOLayerMerge`.
     * Install `cdvd2iml5.30`. This is the tool you will be using to build ISOs.
 * `cdvdgen_20` - You'll have to find that on your own. Hint: [archive.org](https://archive.org/) -> "PS2 SDKs", "Show All" look for `CD_DVD-rom Generator ver2.0`.
     * Once you have the zip, extract it, and also download [UniExtract](https://github.com/Bioruebe/UniExtract2). It is required to extract the cdvdgen setup, as the setup file breaks on modern windows.
