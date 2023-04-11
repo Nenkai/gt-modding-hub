@@ -8,7 +8,7 @@
 * [GT4FS](https://github.com/Razer2015/GT4FS)
 
 !!! warning
-    It is recommend to mod Gran Turismo 4 Online Test Version as opposed to retail, as retail uses dual-layer discs which cannot be built easily.
+    It is recommend to mod Gran Turismo 4 Online Public Beta as opposed to retail, as retail uses dual-layer discs which cannot be built easily.
 
 ---
 

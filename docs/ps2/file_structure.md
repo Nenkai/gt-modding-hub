@@ -1,8 +1,7 @@
 ## GT4 Folder Structure
 
 ### Volume Contents
-The GT6 folder structure is nearly identical to the GT5 one, with a few changes to the `car`, and `scene` folder.
-`textdata`'s events has been mostly moved to `game_parameter`
+
 ```{ .sh .no-copy }
 .
 ├─ advertise/ # Boot/Advertisement textures
