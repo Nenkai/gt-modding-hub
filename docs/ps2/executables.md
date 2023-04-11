@@ -10,7 +10,7 @@ Starting from GT3, the game is split between two executables:
 
 ## Bootstrap executable
 
-The bootstrap executable serves as a way to launch the `CORE` executable through different sources (in order):
+The bootstrap executable serves as a way to launch and verify the `CORE`/main executable through different sources (in order):
 
 1. `HostSource` - `HOST` - Using `host`, `host:/tmp/CORE.GT4`
 2. `CardSource` - `MCARD 0` - Using memory card 1
