@@ -6,7 +6,7 @@
 Gran Turismo 4 was the game that introduced the proprietary format for SpecDB, which can be edited with the [SpecDB Editor](https://github.com/Nenkai/GT-SpecDB-Editor). It is also possible to convert said databases to SQLite for easier browsing.
 
 !!! bug
-    All database tables are compressed and stored in memory at boot. When a row is extracted, a row is decompressed, but not in-place. Compression uses a custom algorithm that has not been figured out, so the tool saves **ALL** the tables uncompressed. **GT4 can run out of memory** and display a [blue block](misc/loading_clock_colors.md) error or quite simply, crash.
+    All database tables are compressed and stored in memory at boot. When a row is extracted, a row is decompressed, but not in-place. Compression uses a custom algorithm that has not been figured out, so the tool saves **ALL** the tables uncompressed. **GT4 can run out of memory** and display a [blue block](misc/loading_clock_colors.md) error.
 
 ### Important Information
 * The model code i.e `00080012` is made up of 2 parts, the first 4 digits being the maker, `0008` being Polyphony Digital, and the last 4 being the car's code.
