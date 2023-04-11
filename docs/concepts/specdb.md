@@ -4,6 +4,11 @@ The SpecDB is the name of the database that Polyphony Digital uses to store all 
 
 Most tables represent a distinct car part. Some other tables such as `COURSE` defines the courses available in the games.
 
+## Important Information
+* Car codes are the car's row ID in `GENERIC_CAR`.
+* `label` is what the game uses to identify a car.
+* `category` column is the part's upgrade level. 
+
 ## Database Tables
 
 |     Table Name       | Description

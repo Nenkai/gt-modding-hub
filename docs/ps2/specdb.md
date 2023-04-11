@@ -3,19 +3,10 @@
 !!! tip
     Refer to the [SpecDB](../concepts/specdb.md) concept documentation first.
 
-Gran Turismo 4/5/PSP uses their own formats, which can be edited with the [SpecDB Editor](https://github.com/Nenkai/GT-SpecDB-Editor). It is also possible to convert said databases to SQLite for easier browsing.
+Gran Turismo 4 was the game that introduced the proprietary format for SpecDB, which can be edited with the [SpecDB Editor](https://github.com/Nenkai/GT-SpecDB-Editor). It is also possible to convert said databases to SQLite for easier browsing.
 
-!!! note "GT6"
-    Gran Turismo 6 uses SQLite which can be edited with any SQLite editor such as [SQLiteStudio](https://sqlitestudio.pl/), it is required to decrypt it before viewing and editing it.
-
-    To decrypt it, use [GTToolsSharp](https://github.com/Nenkai/GTToolsSharp), decrypting **and** re-encrypting the SpecDB is done through one single command:
-    ```
-    GTToolsSharp cryptsalsa -i DB0106.dat --key 2D9EE83E63120EB25DF4981EE73C3BE194D0F059DE50C8D4FCB66C10D3EDC549
-    ```
-
-    This command will decrypt or encrypt the SpecDB file using the specified key. 
-    !!! tip 
-        This key is normally found in `scripts/gt6/SpecDatabaseUtil.ad`. 
+!!! bug
+    All database tables are compressed and stored in memory at boot. When a row is extracted, a row is decompressed, but not in-place. Compression is a custom algorithm that has not been figured out, so the tool saves **ALL** the tables uncompressed. **GT4 can run out of memory** and display a [blue block](misc/loading_clock_colors.md) error.
 
 ### Important Information
 * The model code i.e `00080012` is made up of 2 parts, the first 4 digits being the maker, `0008` being Polyphony Digital, and the last 4 being the car's code.

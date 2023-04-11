@@ -48,6 +48,10 @@ nav:
       - Getting Started: ps2/getting_started.md
       - Folder/File Structure: ps2/file_structure.md
 
+    - SpecDB (Car Specs): ps2/specdb.md
+    - Miscellaneous: 
+      - Loading Clock Colors/Errors: ps2/misc/loading_clock_colors.md
+
   - PS3 (GT5/GT6):
     - Getting Started: ps3/getting_started.md
     - Basics: 
@@ -127,7 +131,9 @@ markdown_extensions:
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
-  - social
+  - social:
+      cards_color:
+        fill: "#2F2F3E"
   - search:
       lang: en
   - glightbox
