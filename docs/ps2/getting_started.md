@@ -14,7 +14,7 @@
 
 ## Extracting the game
 
-All PS2's GTs are no exception to the [volume system](../concepts/volume.md), you will need to extract it in order to gain access to game contents.
+All PS2 GT titles use the [volume system](../concepts/volume.md), which will need to be extracted in order to gain access to game contents.
 
 If you haven't already, extract the `.iso` file using [7-Zip](https://www.7-zip.org/) or by any other means. You should be able to see a `GT4.VOL` file.
 
@@ -24,17 +24,17 @@ Using `GT4FS`, extract the volume file as such
 GT4FS extract -r GT4.VOL
 ```
 
-This may take some time, but once that is done, you should be able to see a new `extracted` folder that follows [this file structure](file_structure.md).
+This may take a while, but when complete, you should be able to see a new `extracted` folder that follows [this file structure](file_structure.md).
 
 ---
 
 ## Packing a volume
 
-Assuming you've made an edit, you can now proceed to repack a volume. There are two ways which will be described below, the first one being the more convenient one.
+After making edits to game files, you'll need to repack the volume. There are two ways described below, the first being the most convenient.
 
 ### Method 1 - Appending to the volume
 
-You can "pack" a new volume using your new content, by appending your existing volume. This avoid having to wait to pack the entire game's content just for a few files.
+You can "pack" a new volume containing your new content by appending the changes to your existing volume. This avoids having to wait for a full VOL build for what may only be a few changed files.
 
 You would need to create a new folder with the edited files, **while preserving the original paths**. An example:
 
@@ -79,22 +79,22 @@ GT4FS --read <path to extracted volume with edited contents> --output MyNewVolum
 !!! warning
     This part does not cover building GT4 retail yet, only GT4O.
 
-This is the annoying part as of writing this, for every change an ISO needs to be built. It is therefore recommended to do this on an SSD to speed up the process.
+For every change to the VOL, the ISO needs to be built. As this can be a lengthy process, buildins ISOs on a SSD is highly recommended.
 
-As stated earlier, it is best done on GT4 Online Test Version, as not only it is one-layered, it is also twice as small (2.59 GB vs 5.57 GB).
+As mentioned previously, GT4 Online Test Version is the best candidate for ISO rebuilding, as it is a single-layer disc and is significantly smaller than a retail copy (2.59 GB vs 5.57 GB).
 
 ### Requirements
 
 * [ISO Tools](../tools/ISO_Tools.zip), for building ISOs - Should include `cdvd2iml5.30`, `ISOLayerMerge`.
     * Install `cdvd2iml5.30`. This is the tool you will be using to build ISOs.
-* `cdvdgen_20` - You'll have to find that on your own. Hint: [archive.org](https://archive.org/) -> "PS2 SDKs", "Show All" look for `CD_DVD-rom Generator ver2.0`.
+* `cdvdgen_20` - Cannot be linked directly here. Hint: [archive.org](https://archive.org/) -> "PS2 SDKs", "Show All" look for `CD_DVD-rom Generator ver2.0`.
     * Once you have the zip, extract it, and also download [UniExtract](https://github.com/Bioruebe/UniExtract2). It is required to extract the cdvdgen setup, as the setup file breaks on modern windows.
     * Extract `data1.cab` with it. You can delete UniExtract afterwards.
 
 ---
 
 ### Building an IML
-First, open `cdvdgen.exe` (in the `data1/Program_Executable_Files` folder). Create a new project, Select `DVD-ROM Master Disc`, and drag files to it with the following layout:
+First, open `cdvdgen.exe` (in the `data1/Program_Executable_Files` folder). Create a new project, select `DVD-ROM Master Disc`, and drag the game's files onto it with the following layout:
 
 ```markdown title="File order"
 SYSTEM.CNF     # System Configuration file
@@ -107,15 +107,15 @@ EPSON          # Folder, optional unless you're.. printing
 GT4.VOL        # Always last!
 ```
 
-In the `Volume` tab on the top left, fill `Disc Name` with the proper game code, i.e `SCUS-97436` for GT4 Online. Fill the rest with whatever you want.
+In the `Volume` tab on the top left, set `Disc Name` to the proper game code, i.e `SCUS-97436` for GT4 Online. Fill the rest with whatever you want.
 
 In `File`, press `Export iml file`.
 
 !!! note 
-    You will have to remove and add GT4.VOL to the project everytime you've rebuilt it, and export an IML again aswell.
+    You will have to remove/re-add GT4.VOL to the project and export an IML each time to rebuild the disc.
 
 !!! tip 
-    You should also save the project, to get set up more quickly on the next times.
+    You should also save the project to speed up future rebuilds.
 
 ---
 
@@ -123,6 +123,6 @@ In `File`, press `Export iml file`.
 
 Open `cdvd iml2iso` and open the newly created IML file with it. 
 
-Press `iml2iso` and iso creation should start. It takes one minute or so with GT4 Online on an HDD.
+Press `iml2iso` and iso creation should start. It takes one minute or so with GT4 Online on a HDD.
 
 Congratulations! You now have an ISO ready to go.

@@ -167,5 +167,5 @@
 ```
 
 1.  This depends on the [VARIATION](../concepts/specdb.md#variation) table.
-2.  All IDs depends on soundNum from [ENGINE](../concepts/specdb.md#engine) table.
-3.  From [COURSE](../concepts/specdb.md#course) table
+2.  All IDs depend on soundNum values from the [ENGINE](../concepts/specdb.md#engine) table.
+3.  From the [COURSE](../concepts/specdb.md#course) table

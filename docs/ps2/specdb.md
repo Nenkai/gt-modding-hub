@@ -3,13 +3,13 @@
 !!! tip
     Refer to the [SpecDB](../concepts/specdb.md) concept documentation first.
 
-Gran Turismo 4 was the game that introduced the proprietary format for SpecDB, which can be edited with the [SpecDB Editor](https://github.com/Nenkai/GT-SpecDB-Editor). It is also possible to convert said databases to SQLite for easier browsing.
+Gran Turismo 4 was the first game to use Polyphony's proprietary format for SpecDB, which can be edited with the [SpecDB Editor](https://github.com/Nenkai/GT-SpecDB-Editor). It is also possible to convert said databases to SQLite for easier browsing.
 
 !!! bug
-    All database tables are compressed and stored in memory at boot. When a row is extracted, a row is decompressed, but not in-place. Compression is a custom algorithm that has not been figured out, so the tool saves **ALL** the tables uncompressed. **GT4 can run out of memory** and display a [blue block](misc/loading_clock_colors.md) error.
+    All database tables are compressed and stored in memory at boot. When a row is extracted, a row is decompressed, but not in-place. Compression uses a custom algorithm that has not been figured out, so the tool saves **ALL** the tables uncompressed. **GT4 can run out of memory** and display a [blue block](misc/loading_clock_colors.md) error.
 
 ### Important Information
-* The model code i.e `00080012` is made up of 2 parts, the first 4 digits being the maker, `0008` being Polyphony Digital, and the last 4 being the car's code.
+* The model code i.e `00080012` is made up of 2 parts, the first 4 digits being the maker. In this example, `0008` is Polyphony Digital, and `0012` is the car's code.
 * To link all part upgrades of a car in GT5, files named `PartsInfo.tbd` and `PartsInfo.tbi` are used. They are important as without them, going into car tuning settings will softlock due to missing parts. The SpecDB Editor will allow you to rebuild it.
 
 ### Adding a Car to the game (from an existing model)
