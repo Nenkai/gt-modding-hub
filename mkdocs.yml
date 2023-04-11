@@ -107,6 +107,8 @@ nav:
       - .adc - Adhoc Script: formats/adhoc/adch_adhoc_compiled.md
       - .gpb - GpbData: formats/adhoc/gpb_gpbdata.md
 
+    - Fonts:
+      - .vec - NVEC: formats/fonts/vec_nvec.md
     - Other Formats:
       - .rt2 - RText (Localization): formats/rt2_localization.md
 
