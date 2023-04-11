@@ -8,7 +8,8 @@ copyright: Copyright &copy; 2023 Nenkai - If this website was useful, please mak
 
 theme:
   name: material
-  favicon: images/logo.png
+  logo: images/logo.png
+  favicon: images/favicon.png
 
   features:
     - navigation.tabs
@@ -97,6 +98,9 @@ nav:
     - Compression:
       - Headers: formats/compression/compression_formats.md
 
+  - Game Builds:
+      - builds/game_builds.md
+      
 markdown_extensions:
   - toc:
       permalink: true
