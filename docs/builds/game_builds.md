@@ -28,7 +28,7 @@
 
 ### Gran Turismo 5 Kiosk Demo
 
-:material-shovel: *Dumped*: {++YES++} - Can be found on archive.
+:material-shovel: *Dumped*: {++Yes++} - Can be found on archive.
 
 Early build of the game compiled on July 16, 2010 dumped by Elston87. Can be found on archive.
 
@@ -47,9 +47,19 @@ Early build of the game compiled on July 16, 2010 dumped by Elston87. Can be fou
     * Grim URL: `https://gt5pdev01.ps3.online.us.gran-turismo.com`
 ---
 
+### Gran Turismo 5 Gamescom 2010 Demo
+
+:material-shovel: *Dumped*: :x: {==No==}.
+
+A demo build of GT5 showcased during Gamescom 2010, mid August. It contains the Piazza del Campo kart track, [pulled for legal reasons](https://www.gtplanet.net/tag/piazza-del-campo/).
+
+??? note "Videos"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/r4SBJlvmDRY" title="Gran Turismo 5 gamescom2010 kart Piazza del Campo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="961" height="721" src="https://www.youtube.com/embed/GKBXJ6Hs3lQ" title="GT5 GamesCom Demo Karting at Piazza del Campo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### Gran Turismo 5 QA Build
 
-:material-shovel: *Dumped*: {++YES++} - Can be found on archive.
+:material-shovel: *Dumped*: {++Yes++} - Can be found on archive.
 
 Buggy build of the game intended for QA compiled on September 16, 2010 dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky).
 
