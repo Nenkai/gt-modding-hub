@@ -166,12 +166,6 @@
    └─ menu/ # High quality models for menus
 ```
 
-<<<<<<< HEAD:docs/ps2/gt4/file_structure.md
 1.  This depends on the [VARIATION](../../concepts/specdb.md#variation) table.
-2.  All IDs depends on soundNum from [ENGINE](../../concepts/specdb.md#engine) table.
-3.  From [COURSE](../../concepts/specdb.md#course) table
-=======
-1.  This depends on the [VARIATION](../concepts/specdb.md#variation) table.
-2.  All IDs depend on soundNum values from the [ENGINE](../concepts/specdb.md#engine) table.
-3.  From the [COURSE](../concepts/specdb.md#course) table
->>>>>>> 56bc4e10377b1db4aa2f3c461e1272118299a700:docs/ps2/file_structure.md
+2.  All IDs depend on soundNum values from the [ENGINE](../../concepts/specdb.md#engine) table.
+3.  From the [COURSE](../../concepts/specdb.md#course) table
