@@ -1,8 +1,8 @@
 # Volume
 
-Volumes are an important part of how Gran Turismos are built - it usually is a single file hosting all of the games's contents. It is usually compressed, but also encrypted and has been present in various forms since GT1.
+The volume is an important part of how Gran Turismo games function - it usually consists of a single file hosting all of the games' contents. It is usually compressed, but also encrypted and has been present in various forms since GT1.
 
-Building game contents into volumes/file system allows control over files are read. It is more performance efficient to seek throughout the file to access contents than make a request to the console's [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) to open a file.
+Building game contents into volumes/file systems allows control over files are read. It is more performance efficient to seek throughout the file to access contents than make a request to the console's [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) to open a file.
 
 As of GT7, tools to extract volumes exist for all games:
 
