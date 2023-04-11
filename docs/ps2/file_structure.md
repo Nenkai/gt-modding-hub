@@ -1,22 +1,4 @@
-## GT6 Folder Structure
-
-### USRDIR Contents
-```{ .sh .no-copy }
-.
-├─ USRDIR
-│  ├─ db/
-│  │  └─ userdb<VERSION>.dat     # Contains a cached sqlite file holding replay metadata & more other user contents
-│  ├─ grim2/                     # Grim cached contents & responses
-│  ├─ PDIPFS                     # Packed game contents (Polyphony Digital Patch File System)
-│  ├─ TPPS-<VERSION>/            # Pending PDIPFS update to be applied to the game (Binary Patching), removed once applied
-│  ├─ UPDATENODEINFO/            # Metadata on how a PDIPFS update should be applied
-│  ├─ FIXEDELF114/               # Hack-fix from PDI to fix an incorrectly applied patch in 1.13
-│  ├─ EBOOT.BIN                  # Bootstrap executable, boots EBOOT.SELF
-│  ├─ EBOOT.SELF                 # Main executable (it is possible to replace EBOOT.BIN with this file)
-│  └─ update.txt                 # Alerts the game of the current update for potential patching
-│
-...
-```
+## GT4 Folder Structure
 
 ### Volume Contents
 The GT6 folder structure is nearly identical to the GT5 one, with a few changes to the `car`, and `scene` folder.
