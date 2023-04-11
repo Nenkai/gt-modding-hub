@@ -23,10 +23,10 @@ First, open `SGXDBuilder.GUI.exe`. From here, you can import an audio source fro
 !!! tip
 	An SGX container can contain multiple audio streams (of different formats too!) that the game can then address.
 
-Once you've added your audio sources, you can hit `Export to SGD` to output SGX aka `.sgd` files.
+Once you've added your audio sources, you can hit `Export to SGD` to output SGX (`.sgd`) files.
 
-#### SFX
-If you are creating SFX, it is recommended that you use `.vag` as the file format as it is the most suited both in compression and file size. You can use [VagConvSharp](https://github.com/Nenkai/SGXDataBuilder/releases) to create such files.
+#### Sound Effects (SFX)
+When creating individual SFX, it is recommended that you use `.vag` as the file format as it is the most suitable both in compression and file size. You can use [VagConvSharp](https://github.com/Nenkai/SGXDataBuilder/releases) to create these.
 
 You can convert as such:
 
@@ -36,9 +36,9 @@ VagConvSharp.exe <input_vag> <output_vag> [--name <optional, name>] [--loop <opt
 
 ### Registering tracks into the game
 
-Fire up the BGML editor (`GTBGMLibraryEditor.exe`) and open `sound_gt\library\<lib_file>.lib`. 
+Open the BGML editor (`GTBGMLibraryEditor.exe`) and open `sound_gt\library\<lib_file>.lib`. 
 
-From here, you can edit track listings, add or remove tracks and playing groups. From here you would add a new entry with the file name of your newly created SGX file.
+From here you can edit track listings, add or remove tracks and playing groups. From here you would add a new entry with the file name of your newly created SGX file.
 
 Once that's done, just save the library file.
 

@@ -1,6 +1,6 @@
 # TinyWeb
 
-TinyWeb is an API for building web apps/services through adhoc, similar to [ASP.NET](https://asp.net) or [Django](https://www.djangoproject.com/). It is available since Gran Turismo 6, and is primarily used by PDI for live events (especially since GT Sport).
+TinyWeb is an API for building web apps/services through adhoc, similar to [ASP.NET](https://asp.net) or [Django](https://www.djangoproject.com/). It is available from Gran Turismo 6 onwards, and is primarily used by PDI for live events (especially since GT Sport).
 
 Here is an example of how GT7 exposes camera controls over TinyWeb:
 
@@ -118,14 +118,14 @@ Once you meet the requirements, you can access TinyWeb from the IP:Port in any w
 
     If you are booting to the runviewer branch with the argument `branch=runviewer` (or any other way), you need to also supply `network_available=1` to access TinyWeb.
 
-    Just incase it doesn't work, change the Listen port from `8080` to anything else i.e `12345`.
+    If it doesn't work, try changing the Listen port from `8080` to anything else i.e `12345`.
 
 
 ## Modules
 
-Modules are extra services that TinyWeb can expose. You've already seen one, `FileModule`, which allows mapping and reflecting a directory to your browser.
+Modules are extra services that TinyWeb can expose. `FileModule`, shown above, allows mapping and reflecting a directory to your browser.
 
-Some more exist that can be activated through adhoc - here is the default that is enabled in GT6, for example
+Some more exist that can be activated through Adhoc - here is the default that is enabled in GT6, for example
 
 === "Adhoc"
 
