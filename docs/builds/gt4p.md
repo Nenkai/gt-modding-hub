@@ -89,7 +89,7 @@ Game Code: `SCES-52438`
     * VersionBranch: `prologue`
     * BuildNumber: `317`
     * Game Code: `SCES-52438`
-    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume, despite being named `GT4.VOL`)
     * Bootstrap + Core executables
     * ISO Size: `3.25 GB`
     * ISO CRC: `21114BC4`
