@@ -117,12 +117,12 @@ nav:
 
   - Game Builds:
       - builds/game_builds.md
-      - GT4P: builds/gt4p.md
-      - GT4: builds/gt4.md
-      - GT5: builds/gt5.md
-      - GT6: builds/gt6.md
-      - GT7: builds/gt7.md
-      
+      - Gran Turismo 4 Prologue: builds/gt4p.md
+      - Gran Turismo 4: builds/gt4.md
+      - Gran Turismo 5: builds/gt5.md
+      - Gran Turismo 6: builds/gt6.md
+      - Gran Turismo 7: builds/gt7.md
+
 markdown_extensions:
   - toc:
       permalink: true

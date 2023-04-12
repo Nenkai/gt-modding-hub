@@ -1,6 +1,4 @@
-## GT4 Prologue
-
-### Gran Turismo 4 Prologue Subaru Version (May 17th, 2003)
+### GT4 Prologue Subaru Version (May 17th, 2003)
 
 ![aa](../images/covers/gt4p_subaru.png){ width="250"}
 
@@ -15,7 +13,7 @@ Undumped build, even though it's on redump.
 
 ---
 
-### Gran Turismo 4 Prius Trial Version (Sep 25, 2003)
+### GT4 Prius Trial Version (Sep 25, 2003)
 
 ![aa](https://cdn.thegamesdb.net/images/original/boxart/front/96450-1.jpg)
 
@@ -46,7 +44,7 @@ Build from Sep 25, 2003.
 
 ---
 
-### Gran Turismo Special Edition 2004 Geneva Edition (Feb 17, 2004)
+### GT Special Edition 2004 Geneva Edition (Feb 17, 2004)
 
 ![aa](https://ia803005.us.archive.org/13/items/GranTurismoSpecialEdition2004GENEVAVersion/00-Gran_Turismo-Special_Edition-2004_GENEVA_Version-Disc-Front.jpg){ width="200" }
 
@@ -73,7 +71,7 @@ Build from Feb 17, 2004, based on the GT3 engine.
 
 ---
 
-### Gran Turismo Special Edition 2004 Toyota Demo (Mar 12, 2004)
+### GT Special Edition 2004 Toyota Demo (Mar 12, 2004)
 
 ![aa](../images/covers/gt4p_toyota_demo.jpg){ width="200" }
 

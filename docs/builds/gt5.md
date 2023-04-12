@@ -1,6 +1,4 @@
-## GT5
-
-### Gran Turismo 5 Kiosk Demo
+### GT5 Kiosk Demo
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt5demo2010npua70115repack.7z) · :material-disc: No Redump Info
 
@@ -21,7 +19,7 @@ Early build of the game compiled on July 16, 2010 dumped by Elston87. Can be fou
     * Grim URL: `https://gt5pdev01.ps3.online.us.gran-turismo.com`
 ---
 
-### Gran Turismo 5 Gamescom 2010 Demo
+### GT5 Gamescom 2010 Demo
 
 :material-shovel: *Dumped*: :x: {==No==}
 
@@ -33,7 +31,7 @@ A demo build of GT5 showcased during Gamescom 2010, mid August. It contains the 
 
 ---
 
-### Gran Turismo 5 QA Build
+### GT5 QA Build
 
 ![aa](../images/covers/gt5_qa_icon.PNG){ width="250" }
 
@@ -60,7 +58,7 @@ The game code is identical to european retail, `BCES-00569`.
 
 ---
 
-### Gran Turismo 5
+### GT5
 
 ![aa](https://www.gran-turismo.com/images/c/i1GTp4M5eGVNORB.jpg){ width="200"}
 

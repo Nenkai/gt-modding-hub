@@ -1,4 +1,12 @@
-## GT7
+GT7 is the first cross-platform GT, being available on PS4 and PS5. It is also the first Gran Turismo to partly move away from using [Adhoc](../concepts/adhoc/adhoc.md), having moved to Swift for its logic and UI code instead. Furthermore it no longer uses [Grim3](../concepts/grim/grim.md), instead uses a new server solution named Vegas.
+
+The entire engine interface for adhoc has been rebuilt with reflection in mind, now allowing to directly expose many C++ fields, allowing further control through scripting. 
+
+The [volume](../concepts/volume.md) has seen a complete revision aswell, being based on [MPH (Minimal Perfect Hash)](https://en.wikipedia.org/wiki/Perfect_hash_function) for file lookup and introducing support for multiple compression algorithms - ZSTD for PS4, Oodle for PS5.
+
+Most of the formats on the PS4 version are identical, if not directly compatible with GT Sport.
+
+---
 
 ### Chess
 
@@ -14,19 +22,11 @@ An internal demo/beta build of GT7 for PS5, with a chess icon. Initially spotted
 
 ---
 
-### Gran Turismo 7
+### GT7
 
 ![aa](https://www.gran-turismo.com/images/c/i1dZJVVWujMwTz.png){ width="200" }
 
-The main build of Gran Turismo 7. It is the first cross-platform GT, being available on PS4 and PS5.
-
-It is also the first Gran Turismo to partly move away from using [Adhoc](../concepts/adhoc/adhoc.md), having moved to Swift for its logic and UI code instead. Furthermore it no longer uses [Grim3](../concepts/grim/grim.md), instead uses a new server solution named Vegas.
-
-The entire engine interface for adhoc has been rebuilt with reflection in mind, now allowing to directly expose many C++ fields, allowing further control through scripting. 
-
-The [volume](../concepts/volume.md) has seen a complete revision aswell, being based on [MPH (Minimal Perfect Hash)](https://en.wikipedia.org/wiki/Perfect_hash_function) for file lookup and introducing support for multiple compression algorithms - ZSTD for PS4, Oodle for PS5.
-
-Most of the formats on the PS4 version are identical, if not directly compatible with GT Sport.
+The main build of Gran Turismo 7.
 
 * Europe (PS4) - [`CUSA-24767`](https://orbispatches.com/CUSA24767)
 * America (PS4) - [`CUSA-24769`](https://orbispatches.com/CUSA24769)
@@ -104,7 +104,7 @@ Most of the formats on the PS4 version are identical, if not directly compatible
         * Volume Date: `03/17/2023 17:39:04`
 ---
 
-### Gran Turismo 7 Kiosk Demo
+### GT7 Kiosk Demo
 
 :material-shovel: *Dumped*: :x: {==No==}
 
