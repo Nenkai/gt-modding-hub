@@ -4,7 +4,7 @@
 
 :material-shovel: *Dumped*: :x: {==No==} · :material-disc: [Redump Info](http://redump.org/disc/98890/)
 
-Game Code: `PCPX-96634`
+Game Code: `PCPX-96643`
 
 Undumped build, even though it's on redump.
 
