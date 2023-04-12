@@ -21,6 +21,8 @@ This page attempts to list every single Gran Turismo game build - whether it has
 
 ### Gran Turismo 4 Prius Trial Version (Sep 25, 2003)
 
+![aa](https://cdn.thegamesdb.net/images/original/boxart/front/96450-1.jpg)
+
 :material-shovel: *Dumped*: {++Yes++} - dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky), available on [hiddenpalace](https://hiddenpalace.org/Gran_Turismo_4:_Prologue_(Sep_25,_2003_prototype)) · :material-disc: [Redump Info](http://redump.org/disc/38970/)
 
 Game Code: `PAPX-90512`
@@ -42,6 +44,9 @@ Build from Sep 25, 2003, based on the GT3 engine.
 
 ### Gran Turismo Special Edition 2004 Geneva Edition (Feb 17, 2004)
 
+![aa](https://ia803005.us.archive.org/13/items/GranTurismoSpecialEdition2004GENEVAVersion/00-Gran_Turismo-Special_Edition-2004_GENEVA_Version-Disc-Front.jpg){ width="200" }
+
+
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/GranTurismoSpecialEdition2004GENEVAVersion) · :material-disc: [Redump Info](http://redump.org/disc/62063/)
 
 Game Code: `SCED-52455`
@@ -56,6 +61,26 @@ Build from Feb 17, 2004, based on the GT3 engine.
     * ISO Size: `1.14 GB`
     * ISO CRC: `2B1688E9`
 
+??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/Jy5793ugPzI?list=PLXiAEH9wPLwup_xJd3xgorb4ZPzHXcFXF" title="Gran Turismo Special Edition 2004 Geneva Version [PAL] | SCED-52455 | Feb 17, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+### Gran Turismo Special Edition 2004 Toyota Demo (Mar 12, 2004)
+
+![aa](../images/covers/SCUS-97384.jpg){ width="200" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%20Special%20Edition%202004%20Toyota%20Demo%20%28USA%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/20528/)
+
+Game Code: `SCUS-97384`
+
+Build from Mar 12, 2004, based on the GT3 engine.
+
+??? note "Build Info"
+    TODO
+
+??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1224" height="721" src="https://www.youtube.com/embed/c7r5PesSnNQ?list=PLXiAEH9wPLwup_xJd3xgorb4ZPzHXcFXF" title="Gran Turismo Special Edition 2004 Toyota Demo [NTSC] | SCUS-97384 | Mar 12, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
 ## GT4
@@ -99,13 +124,17 @@ A demo build of GT5 showcased during Gamescom 2010, mid August. It contains the 
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/r4SBJlvmDRY" title="Gran Turismo 5 gamescom2010 kart Piazza del Campo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="961" height="721" src="https://www.youtube.com/embed/GKBXJ6Hs3lQ" title="GT5 GamesCom Demo Karting at Piazza del Campo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+---
+
 ### Gran Turismo 5 QA Build
+
+![aa](../images/covers/gt5_qa_icon.PNG){ width="250" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt-5-uk-1609) ([decrypted](https://archive.org/details/gt5-ukbetabuild-1609)) · :material-disc: No Redump Info
 
 Buggy build of the game intended for QA compiled on September 16, 2010 dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky).
 
-* Europe - `BCES-00569`
+The game code is identical to european retail, `BCES-00569`.
 
 ??? note "Build Info"
     * Adhoc Version: `12`
@@ -126,7 +155,7 @@ Buggy build of the game intended for QA compiled on September 16, 2010 dumped by
 
 ### Gran Turismo 5
 
-![aa](https://www.gran-turismo.com/images/c/i1GTp4M5eGVNORB.jpg)
+![aa](https://www.gran-turismo.com/images/c/i1GTp4M5eGVNORB.jpg){ width="200"}
 
 :material-shovel: *Dumped*: {==Mostly==} - Asian version missing. Korea/JP available on archive, redump collection
 
@@ -152,9 +181,12 @@ The main build of Gran Turismo 5, released on November 24, 2010.
 ---
 
 ### GT Academy 2012
-A demo/build of GT5 released for free on PSN to celebrate GT Academy 2012 released on May 1, 2012.
+
+![aa](../images/covers/gt_academy_2012.png){ width="200"}
 
 :material-shovel: *Dumped*: {==Barely==} - Japanese & Asian version is missing. Only have the update.
+
+A demo/build of GT5 released for free on PSN to celebrate GT Academy 2012 released on May 1, 2012.
 
 * [Europe](http://ares.dl.playstation.net/cdn/EP9001/NPEA90111_00/oWYRppYevRtasDuWPCAXuknCIiBJMyjiPFiGUpOdRZcMSsdUyRPmlcJlRQvMUrkK.pkg) - `NPEA-90111` [(1.01)](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA90111/NPEA90111_T1/bd90c3e1ec014791/EP9001-NPEA90111_00-0000000000000000-A0101-V0100-PE.pkg)
 * [America](http://ares.dl.playstation.net/cdn/UP9000/NPUA70196_00/ttWOHHLLrBRuzPzqhyutZPZAPiwRblYKZqlmzZfDxTBkdenMprICkJbrYnMgQNlBaFoeQWkigmbDgpnlJUjQbcBlcsOVDjKNzFHcJ.pkg) - `NPUA-70196` [(1.01)](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA70196/NPUA70196_T1/1c25f393a8066664/UP9000-NPUA70196_00-0000000000000000-A0101-V0100-PE.pkg)
@@ -193,11 +225,13 @@ A demo/build of GT5 released for free on PSN to celebrate GT Academy 2012 releas
 
 ## GT6
 
-![aa](https://www.gran-turismo.com/images/c/i10vE2TOTcP937E.jpg)
+![aa](https://www.gran-turismo.com/images/c/i10vE2TOTcP937E.jpg){ width="200"}
 
 :material-shovel: *Dumped*: {==Mostly==} - Korean versions missing.
 
 The main build of Gran Turismo 6.
+
+Compared to GT5, GT6 is internally a game that has been tidied up. More standard formats are in use and most bits that were previously hardcoded are no longer a concern. It's the first game to internally introduce [TinyWeb](../concepts/adhoc/tinyweb.md), used for some live events.
 
 * Europe - `BCES-01893`
 * America - `BCUS-98296`
@@ -230,6 +264,8 @@ The main build of Gran Turismo 6.
 
 ### Chess
 
+![aa](../images/covers/GT7_chess.png){ width="300" }
+
 :material-shovel: *Dumped*: :x: {==No==}
 
 An internal demo/beta build of GT7 for PS5, with a chess icon. Initially spotted on October 29, 2021.
@@ -242,7 +278,7 @@ An internal demo/beta build of GT7 for PS5, with a chess icon. Initially spotted
 
 ### Gran Turismo 7
 
-![aa](https://www.gran-turismo.com/images/c/i1dZJVVWujMwTz.png){ width="300" }
+![aa](https://www.gran-turismo.com/images/c/i1dZJVVWujMwTz.png){ width="200" }
 
 The main build of Gran Turismo 7. It is the first cross-platform GT, being available on PS4 and PS5.
 
@@ -251,6 +287,8 @@ It is also the first Gran Turismo to partly move away from using [Adhoc](../conc
 The entire engine interface for adhoc has been rebuilt with reflection in mind, now allowing to directly expose many C++ fields, allowing further control through scripting. 
 
 The [volume](../concepts/volume.md) has seen a complete revision aswell, being based on [MPH (Minimal Perfect Hash)](https://en.wikipedia.org/wiki/Perfect_hash_function) for file lookup and introducing support for multiple compression algorithms - ZSTD for PS4, Oodle for PS5.
+
+Most of the formats on the PS4 version are identical, if not directly compatible with GT Sport.
 
 * Europe (PS4) - [`CUSA-24767`](https://orbispatches.com/CUSA24767)
 * America (PS4) - [`CUSA-24769`](https://orbispatches.com/CUSA24769)
