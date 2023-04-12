@@ -75,6 +75,27 @@ Game Code: `SCED-52455`
 
 ---
 
+## GT4 Prologue
+
+![aa](https://www.gran-turismo.com/images/c/i1oBIZ6Id7gHX8E.jpg){ width="200" }
+
+:material-shovel: *Dumped*: {++Yes++}
+
+Game Code: `SCES-52438`
+
+??? note "Build Info"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `prologue`
+    * BuildNumber: `317`
+    * Game Code: `SCES-52438`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `3.25 GB`
+    * ISO CRC: `21114BC4`
+
+---
+
 ## GT Special Edition 2004 Toyota Demo (Mar 12, 2004)
 
 ![aa](../images/covers/gt4p_toyota_demo.jpg){ width="200" }
