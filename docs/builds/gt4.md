@@ -23,7 +23,7 @@ Build from 18 Jun, 2004, this is the first real "demo" of GT4. First build based
     * ISO CRC: `41AD3798`
 
 ??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
-    <iframe width="1180" height="664" src="https://www.youtube.com/embed/dKi9vvwwXwM?list=PLXiAEH9wPLwup_xJd3xgorb4ZPzHXcFXF" title="Gran Turismo 4 BMW 1 Series Virtual Drive | SCED-52681 | 18 Jun, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/dKi9vvwwXwM" title="Gran Turismo 4 BMW 1 Series Virtual Drive | SCED-52681 | 18 Jun, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Gran Turismo 4 BMW 1 Series Virtual Drive Dealership (Jun 18, 2004)
 
@@ -76,7 +76,7 @@ Build from Mar 12, 2004.
     * ISO CRC: `828AFE7D`
 
 ??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
-    <iframe width="1121" height="664" src="https://www.youtube.com/embed/UpzUtp-RZRA?list=PLXiAEH9wPLwup_xJd3xgorb4ZPzHXcFXF" title="Gran Turismo 4 First Preview | PCPX-96649 | Sep 20, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/dKi9vvwwXwM" title="Gran Turismo 4 BMW 1 Series Virtual Drive | SCED-52681 | 18 Jun, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
