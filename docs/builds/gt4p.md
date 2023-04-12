@@ -1,4 +1,4 @@
-### GT4 Prologue Subaru Version (May 17th, 2003)
+## GT4 Prologue Subaru Version (May 17th, 2003)
 
 ![aa](../images/covers/gt4p_subaru.png){ width="250"}
 
@@ -13,15 +13,22 @@ Undumped build, even though it's on redump.
 
 ---
 
-### GT4 Prius Trial Version (Sep 25, 2003)
+## GT4 Prologue E3 Build (~Jun ??, 2003)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? note "Video"
+    <iframe width="961" height="721" src="https://www.youtube.com/embed/0PdFBUdVwOM" title="Gran Turismo 4 E3 Demo 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT4 Prius Trial Version (Sep 25, 2003)
 
 ![aa](https://cdn.thegamesdb.net/images/original/boxart/front/96450-1.jpg)
 
 :material-shovel: *Dumped*: {++Yes++} - dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky), available on [hiddenpalace](https://hiddenpalace.org/Gran_Turismo_4:_Prologue_(Sep_25,_2003_prototype)) · :material-disc: [Redump Info](http://redump.org/disc/38970/)
 
 Game Code: `PAPX-90512`
-
-Build from Sep 25, 2003.
 
 ??? note "Build Info"
     * Adhoc Version: `3`
@@ -44,16 +51,13 @@ Build from Sep 25, 2003.
 
 ---
 
-### GT Special Edition 2004 Geneva Edition (Feb 17, 2004)
+## GT Special Edition 2004 Geneva Edition (Feb 17, 2004)
 
 ![aa](https://ia803005.us.archive.org/13/items/GranTurismoSpecialEdition2004GENEVAVersion/00-Gran_Turismo-Special_Edition-2004_GENEVA_Version-Disc-Front.jpg){ width="200" }
-
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/GranTurismoSpecialEdition2004GENEVAVersion) · :material-disc: [Redump Info](http://redump.org/disc/62063/)
 
 Game Code: `SCED-52455`
-
-Build from Feb 17, 2004, based on the GT3 engine.
 
 ??? note "Build Info"
     * Adhoc Version: `5`
@@ -71,15 +75,13 @@ Build from Feb 17, 2004, based on the GT3 engine.
 
 ---
 
-### GT Special Edition 2004 Toyota Demo (Mar 12, 2004)
+## GT Special Edition 2004 Toyota Demo (Mar 12, 2004)
 
 ![aa](../images/covers/gt4p_toyota_demo.jpg){ width="200" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%20Special%20Edition%202004%20Toyota%20Demo%20%28USA%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/20528/)
 
 Game Code: `SCUS-97384`
-
-Build from Mar 12, 2004, based on the GT3 engine.
 
 ??? note "Build Info"
     * Adhoc Version: `5`

@@ -1,12 +1,10 @@
-### GT4 BMW 1 Series Virtual Drive (Jun 18, 2004)
+## GT4 BMW 1 Series Virtual Drive (Jun 18, 2004)
 
 ![aa](../images/covers/gt4p_bmw_dealership.jpg){ width="200" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%204%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28BMW%201%20Series%20Virtual%20Drive%20Dealership%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
 
 Game Code: `SCED-52681`
-
-Build from 18 Jun, 2004.
 
 ??? note "Build Info"
     * Adhoc Version: `5`
@@ -22,7 +20,9 @@ Build from 18 Jun, 2004.
 ??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1180" height="664" src="https://www.youtube.com/embed/dKi9vvwwXwM" title="Gran Turismo 4 BMW 1 Series Virtual Drive | SCED-52681 | 18 Jun, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### GT4 BMW 1 Series Virtual Drive Dealership (Jun 18, 2004)
+---
+
+## GT4 BMW 1 Series Virtual Drive Dealership (Jun 18, 2004)
 
 ![aa](../images/covers/gt4p_bmw_dealership.jpg){ width="200" }
 
@@ -48,15 +48,13 @@ Same build as above, with a time limit.
 
 ---
 
-### GT4 First Preview (Sep 20, 2004)
+## GT4 First Preview (Sep 20, 2004)
 
 ![aa](https://ia803108.us.archive.org/18/items/gt4firstpreview/gt4_first_preview.png){ width="200" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt4firstpreview) · :material-disc: [Redump Info](http://redump.org/disc/41243/)
 
 Game Code: `PCPX-96649`
-
-Build from Mar 12, 2004.
 
 ??? note "Build Info"
     * Adhoc Version: `5`
@@ -75,7 +73,7 @@ Build from Mar 12, 2004.
 
 ---
 
-### GT4
+## GT4
 
 ![aa](https://www.gran-turismo.com/images/c/i1UkJZak4T1rSEc.jpg){ width="200" }
 
@@ -91,7 +89,7 @@ The main build of Gran Turismo 4.
     * VersionBranch: `main`
     * VersionString: `r0001`
     * BuildNumber: `1010`
-    * Game Code: `SCES-51719`
+    * Game Code: `SCES-51719` - 1.00
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `5.27 GB` (Dual Layer/DVD9)
@@ -99,7 +97,7 @@ The main build of Gran Turismo 4.
 
 ---
 
-### GT4 - Mazda MX-5 Edition Demo (Feb 22, 2005)
+## GT4 - Mazda MX-5 Edition Demo (Feb 22, 2005)
 
 ![aa](../images/covers/gt4_mazda.png){ width="200" }
 
@@ -107,7 +105,7 @@ The main build of Gran Turismo 4.
 
 Game Code: `SCUS-97483`
 
-Build from Feb 22, 2005. Despite being rather large in size, it only allows access to three tracks: Tsukuba, Laguna Seca and Côte d'Azur. All of GT4's content is still present inside its volume.
+Despite being rather large in size, it only allows access to three tracks: Tsukuba, Laguna Seca and Côte d'Azur. All of GT4's content is still present inside its volume.
 
 ??? note "Build Info"
     * Adhoc Version: `5`
@@ -123,15 +121,32 @@ Build from Feb 22, 2005. Despite being rather large in size, it only allows acce
 
 ---
 
-### GT4 - Online Public Beta (June 6th, 2006)
+## GT4 - China Press Copy (May 20th, 2005)
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/granturismo4china) · :material-disc: [Redump Info](http://redump.org/disc/36703/)
+
+Game Code: `SCCS-60062`
+
+??? note "Build Info"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `main`
+    * VersionString: `r0001`
+    * BuildNumber: `50`
+    * Game Code: `SCCS-60002`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `5.33 GB` (Dual Layer/DVD9)
+    * ISO CRC: `0A806E05`
+---
+
+## GT4 - Online Public Beta (June 6th, 2006)
 
 ![aa](../images/covers/gt4o_us.jpg){ width="200" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-4-usa-beta) · :material-disc: No Redump Info
 
 Game Code: `SCUS-97436`
-
-Build from June 6th, 2006.
 
 ??? note "Build Info"
     * Adhoc Version: `7`

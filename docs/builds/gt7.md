@@ -8,7 +8,7 @@ Most of the formats on the PS4 version are identical, if not directly compatible
 
 ---
 
-### Chess
+## Chess
 
 ![aa](../images/covers/GT7_chess.png){ width="300" }
 
@@ -22,7 +22,7 @@ An internal demo/beta build of GT7 for PS5, with a chess icon. Initially spotted
 
 ---
 
-### GT7
+## GT7
 
 ![aa](https://www.gran-turismo.com/images/c/i1dZJVVWujMwTz.png){ width="200" }
 
@@ -104,7 +104,7 @@ The main build of Gran Turismo 7.
         * Volume Date: `03/17/2023 17:39:04`
 ---
 
-### GT7 Kiosk Demo
+## GT7 Kiosk Demo
 
 :material-shovel: *Dumped*: :x: {==No==}
 
