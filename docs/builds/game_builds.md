@@ -1,5 +1,10 @@
 # Game Builds
 
+This page attempts to list every single Gran Turismo game build - whether it has been dumped or not. This page is ordered by build date.
+
+!!! tip
+    If you own any build not currently on this list, please contact [Nenkai](https://twitter.com/Nenkaai) or [Paiky](https://www.gtplanet.net/forum/members/paiky.144636/)!
+
 ## GT1
 
 ---
@@ -13,6 +18,43 @@
 ---
 
 ## GT4 Prologue
+
+### Gran Turismo 4 Prius Trial Version (Sep 25, 2003)
+
+:material-shovel: *Dumped*: {++Yes++} - dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky), available on [hiddenpalace](https://hiddenpalace.org/Gran_Turismo_4:_Prologue_(Sep_25,_2003_prototype)) · :material-disc: [Redump Info](http://redump.org/disc/38970/)
+
+Game Code: `PAPX-90512`
+
+Build from Sep 25, 2003, based on the GT3 engine.
+
+??? note "Build Info"
+    * Game Code: `PAPX-90512`
+    * Based on the GT3 engine
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume, despite being named `GT4.VOL`)
+    * Unified executable
+    * ISO Size: `1.41 GB`
+    * ISO CRC: `E091C9AA`
+
+??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="843" height="664" src="https://www.youtube.com/embed/vyunOYFGa2g" title="Gran Turismo 4 Prius Trial Version | PAPX-90512 | Sep 25, 2003" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+### Gran Turismo Special Edition 2004 Geneva Edition (Feb 17, 2004)
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/GranTurismoSpecialEdition2004GENEVAVersion) · :material-disc: [Redump Info](http://redump.org/disc/62063/)
+
+Game Code: `SCED-52455`
+
+Build from Feb 17, 2004, based on the GT3 engine.
+
+??? note "Build Info"
+    * Game Code: `SCED-52455`
+    * Based on the GT3 engine
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume, despite being named `GT4.VOL`)
+    * Unified executable
+    * ISO Size: `1.14 GB`
+    * ISO CRC: `2B1688E9`
 
 ---
 
@@ -28,7 +70,7 @@
 
 ### Gran Turismo 5 Kiosk Demo
 
-:material-shovel: *Dumped*: {++Yes++} - Can be found on archive.
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt5demo2010npua70115repack.7z) · :material-disc: No Redump Info
 
 Early build of the game compiled on July 16, 2010 dumped by Elston87. Can be found on archive.
 
@@ -49,7 +91,7 @@ Early build of the game compiled on July 16, 2010 dumped by Elston87. Can be fou
 
 ### Gran Turismo 5 Gamescom 2010 Demo
 
-:material-shovel: *Dumped*: :x: {==No==}.
+:material-shovel: *Dumped*: :x: {==No==}
 
 A demo build of GT5 showcased during Gamescom 2010, mid August. It contains the Piazza del Campo kart track, [pulled for legal reasons](https://www.gtplanet.net/tag/piazza-del-campo/).
 
@@ -59,7 +101,7 @@ A demo build of GT5 showcased during Gamescom 2010, mid August. It contains the 
 
 ### Gran Turismo 5 QA Build
 
-:material-shovel: *Dumped*: {++Yes++} - Can be found on archive.
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt-5-uk-1609) ([decrypted](https://archive.org/details/gt5-ukbetabuild-1609)) · :material-disc: No Redump Info
 
 Buggy build of the game intended for QA compiled on September 16, 2010 dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky).
 
@@ -86,7 +128,7 @@ Buggy build of the game intended for QA compiled on September 16, 2010 dumped by
 
 ![aa](https://www.gran-turismo.com/images/c/i1GTp4M5eGVNORB.jpg)
 
-:material-shovel: *Dumped*: {==Mostly==} - Korean version is on redump, but nowhere else.
+:material-shovel: *Dumped*: {==Mostly==} - Asian version missing. Korea/JP available on archive, redump collection
 
 The main build of Gran Turismo 5, released on November 24, 2010.
 
@@ -185,3 +227,114 @@ The main build of Gran Turismo 6.
 ---
 
 ## GT7
+
+### Chess
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+An internal demo/beta build of GT7 for PS5, with a chess icon. Initially spotted on October 29, 2021.
+
+* Europe: [PPSA-05485](https://prosperopatches.com/PPSA05483)
+* America: [PPSA-05484](https://prosperopatches.com/PPSA05485)
+* Japan: [PPSA-05483](https://prosperopatches.com/PPSA05485)
+
+---
+
+### Gran Turismo 7
+
+![aa](https://www.gran-turismo.com/images/c/i1dZJVVWujMwTz.png){ width="300" }
+
+The main build of Gran Turismo 7. It is the first cross-platform GT, being available on PS4 and PS5.
+
+It is also the first Gran Turismo to partly move away from using [Adhoc](../concepts/adhoc/adhoc.md), having moved to Swift for its logic and UI code instead. Furthermore it no longer uses [Grim3](../concepts/grim/grim.md), instead uses a new server solution named Vegas.
+
+The entire engine interface for adhoc has been rebuilt with reflection in mind, now allowing to directly expose many C++ fields, allowing further control through scripting. 
+
+The [volume](../concepts/volume.md) has seen a complete revision aswell, being based on [MPH (Minimal Perfect Hash)](https://en.wikipedia.org/wiki/Perfect_hash_function) for file lookup and introducing support for multiple compression algorithms - ZSTD for PS4, Oodle for PS5.
+
+* Europe (PS4) - [`CUSA-24767`](https://orbispatches.com/CUSA24767)
+* America (PS4) - [`CUSA-24769`](https://orbispatches.com/CUSA24769)
+* Japan (PS4) - [`CUSA-24765`](https://orbispatches.com/CUSA24765)
+* Asia (PS4) -  [`CUSA-24771`](https://orbispatches.com/CUSA24771)
+* Europe (PS5) - [`PPSA-01316`](https://prosperopatches.com/PPSA01316)
+* America (PS5) - [`PPSA-01317`](https://prosperopatches.com/PPSA01317)
+* Japan (PS5) -  [`PPSA-01315`](https://prosperopatches.com/PPSA01315)
+* Asia (PS5) - [`PPSA-01318`](https://prosperopatches.com/PPSA01318)
+
+
+??? note "Build Info"
+    * Adhoc Version: `14` (`15` starting `1.29`)
+    * BuildID: `525_988daa0a2a13ccb8b7e93f332fd7f2253119fda9`
+    * VersionBranch: `gt7`
+    * VersionEnvironment: `product`
+    * VersionBuild: `release`
+    * VegasAppName: `gt`
+    * VegasAppVersion: `0.1.0`
+    * VersionApplication: `1.00`
+    * RuntimePlatform: `ps4`
+    * DMS: `ce6c67d68d47a18438d745cc7a63847f86e8a2e74b9777d40b70944535ddf6af`
+
+??? note "Updates"
+    
+    * 1.07
+        * Volume Date: `03/16/2022 00:15:38 +00:00`
+
+    * 1.08
+        * Volume Date: `03/18/2022 02:54:08 +00:00`
+    
+    * 1.09
+        * MISSING
+
+    * 1.11
+        * Volume Date: `04/05/2022 20:58:26 +00:00`
+
+    * 1.12
+        * Volume Date: `04/10/2022 00:50:52 +00:00`
+
+    * 1.13
+        * Volume Date: `04/19/2022 23:41:58 +00:00`
+
+    * 1.15
+        * Volume Date: `05/24/2022 01:20:28`
+
+    * 1.17
+        * Volume Date: `06/22/2022 00:09:52`
+
+    * 1.18
+        * Volume Date: `06/30/2022 00:14:32`
+
+    * 1.19
+        * Volume Date: `07/25/2022 21:57:17`
+
+    * 1.20
+        * Volume Date: `08/22/2022 21:31:20`
+
+    * 1.23
+        * Volume Date: `9/25/2022 9:52:09 PM`
+
+    * 1.25 - 'Jakarta'
+        * Volume Date: `10/17/2022 06:29:50`
+
+    * 1.26 - 'Kumamoto'
+        * Volume Date: `11/17/2022 22:13:14`
+
+    * 1.27 - 'Lisbon'
+        * Volume Date: `12/7/2022 10:04:15`
+
+    * 1.29 - 'New York'
+        * Volume Date: `2/14/2023 12:26:11 AM`
+
+    * 1.31 - 'Oregon'
+        * Volume Date: `03/17/2023 17:39:04`
+---
+
+### Gran Turismo 7 Kiosk Demo
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+Build date: 9/22/2022 8:07:21 AM
+
+<figure markdown>
+  ![Image title](https://cdn.discordapp.com/attachments/885625774193917952/1085136870901563412/20230314_164102.jpg){ width="600" }
+  <figcaption>Credits to FMecha</figcaption>
+</figure>
