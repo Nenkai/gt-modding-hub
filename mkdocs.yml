@@ -109,6 +109,10 @@ nav:
 
     - Fonts:
       - .vec - NVEC: formats/fonts/vec_nvec.md
+
+    - Volume: 
+      - PS3 Volume/PDIPFS: formats/volume/ps3_volume.md
+
     - Other Formats:
       - .rt2 - RText (Localization): formats/rt2_localization.md
 
@@ -117,6 +121,7 @@ nav:
 
   - Game Builds:
       - builds/game_builds.md
+      - Gran Turismo 3 Concept: builds/gt3concept.md
       - Gran Turismo 4 Prologue: builds/gt4p.md
       - Gran Turismo 4: builds/gt4.md
       - Tourist Trophy: builds/tt.md
