@@ -2,11 +2,11 @@
 
 ![aa](../images/covers/gt4p_subaru.png){ width="250"}
 
-:material-shovel: *Dumped*: :x: {==No==} · :material-disc: [Redump Info](http://redump.org/disc/98890/)
+:material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info
 
 Game Code: `PCPX-96643`
 
-Undumped build, even though it's on redump.
+Undumped build.
 
 ??? note "Video"
     <iframe width="961" height="721" src="https://www.youtube.com/embed/zGUSb0CmG_M" title="SUBARU Driving Simulator GT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
