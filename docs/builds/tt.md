@@ -1,3 +1,5 @@
+Tourist Trophy is quite simply GT4 in disguise, most of its internal code and files have not even been renamed bare a few folders. Later builds of GT4 even shipped with parts of bike physics handling code.
+
 ## Tourist Trophy Store Demo (Sep 4th, 2005)
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/tourist-trophy-demo-ntsc-j-pcpx-96660) · :material-disc: No Redump Info

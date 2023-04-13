@@ -1,4 +1,4 @@
-Compared to GT5, GT6 is internally a game that has been tidied up. More standard formats are in use and most bits that were previously hardcoded are no longer a concern. It's the first game to internally introduce [TinyWeb](../concepts/adhoc/tinyweb.md), used for some live events.
+Compared to GT5, GT6 is internally a game that has been heavily tidied up. More standard formats are in use and most bits that were previously hardcoded are no longer a concern. It's the first game to use SQLite as its [SpecDB](../concepts/specdb.md), internally introduce [TinyWeb](../concepts/adhoc/tinyweb.md) for some live events, and implement asynchronous programming into the Adhoc language.
 
 ---
 
@@ -28,7 +28,7 @@ A free demo of GT6, hosting the GT Academy 2013 competition.
     * Volume Key: `2563947969, 157872581, 3361170443, 2931109621`
     * Grim URL: `https://gtacademy2013.ps3.online.sce%c.gran-turismo.com`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1180" height="664" src="https://www.youtube.com/embed/qLw69MVwTtw" title="GT Academy 2013 | NPUA30127 | Jul 2nd, 2013" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
@@ -55,7 +55,7 @@ Game Code: `DEMO-32768`
     * Volume Seed: `PDIPFSDEFAULT`
     * Volume Key: `79764919, 79764919, 79764919, 79764919`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/E0MDfrXxYxk" title="Gran Turismo 6 Gamescom 2013 Build | DEMO32768 | Aug 20, 2013" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---

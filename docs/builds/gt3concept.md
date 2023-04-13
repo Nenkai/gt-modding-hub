@@ -45,7 +45,7 @@ Game Code: `SCPM-85301`
     * ISO Size: `3.78 GB`
     * ISO CRC: `DCC99A3F`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="626" height="369" src="https://www.youtube.com/embed/H7ki9j4UvaU" title="Gran Turismo Concept Copen Special Edition | SCPM-85301 | Mar 25, 2002" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
@@ -65,7 +65,7 @@ Game Code: `SCUS-97219`
     * ISO Size: `1.00 GB`
     * ISO CRC: `D9EE1ECD`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="812" height="480" src="https://www.youtube.com/embed/8L40Ax8RH1Q" title="Gran Turismo Concept - Nissan 350Z Edition | SCUS-97219 | May 1, 2002" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
@@ -85,7 +85,7 @@ Game Code: `PAPX-90504`
     * ISO Size: `3.95 GB`
     * ISO CRC: `4805C587`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1226" height="721" src="https://www.youtube.com/embed/m4bd-SBgHGs" title="Gran Turismo Concept Mitsubishi Airtrek Turbo Special Edition | PAPX-90504 | May 16, 2002" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
@@ -149,7 +149,7 @@ Game Code: `PAPX-90508`
 
 Game Code: `PAPX-90509`
 
-??? note "Video"
+??? youtube "Video"
     <iframe width="1180" height="664" src="https://www.youtube.com/embed/WEsWukxZDQg" title="Gran Turismo Concept Lupo Cup Ver2 Play(Replay)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---

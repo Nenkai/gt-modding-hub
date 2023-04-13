@@ -25,7 +25,7 @@ Early build of the game compiled on July 16, 2010 dumped by Elston87. Can be fou
 
 A demo build of GT5 showcased during Gamescom 2010, mid August. It contains the Piazza del Campo kart track, [pulled for legal reasons](https://www.gtplanet.net/tag/piazza-del-campo/).
 
-??? note "Videos"
+??? youtube "Videos"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/r4SBJlvmDRY" title="Gran Turismo 5 gamescom2010 kart Piazza del Campo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="961" height="721" src="https://www.youtube.com/embed/GKBXJ6Hs3lQ" title="GT5 GamesCom Demo Karting at Piazza del Campo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -53,7 +53,7 @@ The game code is identical to european retail, `BCES-00569`.
     * Volume Key: `79764919, 79764919, 79764919, 79764919`
     * Grim URL: `https://gt5.ps3.online.uk.gran-turismo.com`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/sYad1Wg4J-s" title="GT5 UK 1609 Build (Gran Turismo 5 Beta/QA Build 16th Sep)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---

@@ -1,3 +1,5 @@
+After many iterations and demos of Gran Turismo 4 Prologue, GT4 was finally released after its move to Adhoc was completed. It is one of the first few games to ship running on a scripting engine this extensively.
+
 ## GT4 BMW 1 Series Virtual Drive (Jun 18, 2004)
 
 ![aa](../images/covers/gt4_bmw_dealership.jpg){ width="200" }
@@ -17,7 +19,7 @@ Game Code: `SCED-52681`
     * ISO Size: `1.21 GB`
     * ISO CRC: `41AD3798`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1180" height="664" src="https://www.youtube.com/embed/dKi9vvwwXwM" title="Gran Turismo 4 BMW 1 Series Virtual Drive | SCED-52681 | 18 Jun, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
@@ -43,7 +45,7 @@ Same build as above, with a time limit.
     * ISO Size: `1.21 GB`
     * ISO CRC: `082729CF`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1180" height="664" src="https://www.youtube.com/embed/VxjN_30_95U?list=PLXiAEH9wPLwup_xJd3xgorb4ZPzHXcFXF" title="Gran Turismo 4 BMW 1 Series Virtual Drive Dealership | SCED-52578 | 18 Jun, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
@@ -68,7 +70,7 @@ Game Code: `PCPX-96649`
     * ISO Size: `1.22 GB`
     * ISO CRC: `828AFE7D`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1180" height="664" src="https://www.youtube.com/embed/dKi9vvwwXwM" title="Gran Turismo 4 BMW 1 Series Virtual Drive | SCED-52681 | 18 Jun, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---

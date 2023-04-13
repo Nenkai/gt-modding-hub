@@ -1,3 +1,5 @@
+Gran Turismo 4 Prologue builds are the first versions to begin using [Adhoc](../concepts/adhoc/adhoc.md) - leading towards an engine rewrite in general. Each GT4 build moved away from GT3 formats, until GT4 which is entirely different.
+
 ## GT4 Prologue Subaru Version (May 17th, 2003)
 
 ![aa](../images/covers/gt4p_subaru.png){ width="250"}
@@ -8,7 +10,7 @@ Game Code: `PCPX-96643`
 
 Undumped build.
 
-??? note "Video"
+??? youtube "Video"
     <iframe width="961" height="721" src="https://www.youtube.com/embed/zGUSb0CmG_M" title="SUBARU Driving Simulator GT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
@@ -17,7 +19,7 @@ Undumped build.
 
 :material-shovel: *Dumped*: :x: {==No==}
 
-??? note "Video"
+??? youtube "Video"
     <iframe width="961" height="721" src="https://www.youtube.com/embed/0PdFBUdVwOM" title="Gran Turismo 4 E3 Demo 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
@@ -46,7 +48,7 @@ Game Code: `PAPX-90512`
 
         Exception handling is soft-stripped, "exception handling disabled" present in the executable, but still present in general
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="843" height="664" src="https://www.youtube.com/embed/vyunOYFGa2g" title="Gran Turismo 4 Prius Trial Version | PAPX-90512 | Sep 25, 2003" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
@@ -70,7 +72,7 @@ Game Code: `SCED-52455`
     * ISO Size: `1.14 GB`
     * ISO CRC: `2B1688E9`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/Jy5793ugPzI?list=PLXiAEH9wPLwup_xJd3xgorb4ZPzHXcFXF" title="Gran Turismo Special Edition 2004 Geneva Version [PAL] | SCED-52455 | Feb 17, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
@@ -116,5 +118,5 @@ Game Code: `SCUS-97384`
     * ISO Size: `1.14 GB`
     * ISO CRC: `691F32D4`
 
-??? note "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1224" height="721" src="https://www.youtube.com/embed/c7r5PesSnNQ?list=PLXiAEH9wPLwup_xJd3xgorb4ZPzHXcFXF" title="Gran Turismo Special Edition 2004 Toyota Demo [NTSC] | SCUS-97384 | Mar 12, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
