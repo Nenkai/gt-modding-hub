@@ -31,6 +31,30 @@
 ---
 ## GT Sport - Open Beta
 
+![aa](../images/covers/gt7sp_b_icon.png){ width="200" }
+
+:material-shovel: *Dumped*: {==Yes==} - Only the US version 
+
+* America: `CUSA-10190`
+
+??? note "Build Info"
+    * Adhoc Version: `12`
+    * Last instruction supported: `71 - LOGICAL_OPTIONAL`
+    * VersionBranch: `beta`
+    * VersionEnvironment: `product`
+    * VersionBuild: `release`
+    * VersionUser: `build`
+    * BuildMode: `default`
+    * VersionApplication: `gt`
+    * ApplicationVersion: `1.00`
+    * RuntimePlatform: `ps4`
+    * GrimURL: `https://gt7spb2.ps4.online.gran-turismo.com`
+    * GrimSslCommonName: `gt7sp.ps4.online.gran-turismo.com`
+    * Volume Seed: `KYZYLKUM-873068469`
+    * Volume Key: `79764919, 79764919, 79764919, 79764919`
+    * CompileDateTime: `2017/10/02 03:43:18`
+    * CompileVMKVersion: `gt.beta.ps4.product.releaseL.build`
+
 ---
 
 ## GT Sport
