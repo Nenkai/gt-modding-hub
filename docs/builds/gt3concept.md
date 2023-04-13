@@ -2,7 +2,7 @@
 
 :material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info
 
-Mentioned in [Notable Gran Turismo Collaborations](gt3c_notable_collaborations.png)
+Mentioned in [Notable Gran Turismo Collaborations](../images/covers/gt3c_notable_collaborations.png)
 
 ---
 
@@ -10,7 +10,7 @@ Mentioned in [Notable Gran Turismo Collaborations](gt3c_notable_collaborations.p
 
 :material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info
 
-Mentioned in [Notable Gran Turismo Collaborations](gt3c_notable_collaborations.png)
+Mentioned in [Notable Gran Turismo Collaborations](../images/covers/gt3c_notable_collaborations.png)
 
 ---
 
@@ -18,7 +18,7 @@ Mentioned in [Notable Gran Turismo Collaborations](gt3c_notable_collaborations.p
 
 :material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info
 
-Mentioned in [Notable Gran Turismo Collaborations](gt3c_notable_collaborations.png)
+Mentioned in [Notable Gran Turismo Collaborations](../images/covers/gt3c_notable_collaborations.png)
 
 ---
 
@@ -26,7 +26,7 @@ Mentioned in [Notable Gran Turismo Collaborations](gt3c_notable_collaborations.p
 
 :material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info
 
-Mentioned in [Notable Gran Turismo Collaborations](gt3c_notable_collaborations.png)
+Mentioned in [Notable Gran Turismo Collaborations](../images/covers/gt3c_notable_collaborations.png)
 
 ---
 
@@ -110,7 +110,7 @@ Game Code: `SCED-51352`
 
 :material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info
 
-Mentioned in [Notable Gran Turismo Collaborations](gt3c_notable_collaborations.png)
+Mentioned in [Notable Gran Turismo Collaborations](../images/covers/gt3c_notable_collaborations.png)
 
 ---
 
