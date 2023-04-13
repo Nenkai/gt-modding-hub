@@ -1,3 +1,20 @@
+## Gran Turismo Concept Mitsubishi Airtrek Turbo Special Edition (May 16th, 2002)
+
+![aa](../images/covers/gtc_airtrek.jpg){ width="250" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gtcairtrektrial) · :material-disc: [Redump Info](http://redump.org/disc/75449/)
+
+Game Code: `PAPX-90504`
+
+??? note "Build Info"
+    * Game Code: `PAPX-90504`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
+    * Unified executable
+    * ISO Size: `3.95 GB`
+    * ISO CRC: `4805C587`
+
+---
+
 ## Gran Turismo Nissan Micra Edition (October 4, 2002)
 
 ![aa](../images/covers/gtc_nissan_micra.jpg){ width="250" }
