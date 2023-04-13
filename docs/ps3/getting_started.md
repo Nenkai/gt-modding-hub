@@ -1,6 +1,6 @@
 # Getting Started
 
-## Prerequisites
+## Requirements
 
 * Understanding how [Command Prompt / `cmd`](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) works and navigating folders with it.
 * Windows

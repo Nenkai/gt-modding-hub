@@ -1,6 +1,6 @@
 ## Understanding PDIPFS
 
-PDIPFS stands for Polyphony Digital Patch File System.
+[PDIPFS](../../formats/volume/ps3_volume.md) stands for Polyphony Digital Patch File System.
 
 The Gran Turismo 5 & 6 and above uses a file system that allows editing existing files while keeping the actual original files intact. This allows for extremely easy modding and easy revert method.
 It was created with ease of file updating in mind.

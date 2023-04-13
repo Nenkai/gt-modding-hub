@@ -300,8 +300,8 @@ This is bit-packed.
 Field                      | Bit Offset      | Description                                           |
 ----------------           | ------------    | --------------------------------------                |
 Has Nodes                  | `0 (1 bit)`     | Whether this page contains nodes                      |
-Page Node  Count           | `1-10 (11 bits)`| Number of nodes in this page                          |
-Page Count                 | `Each 11 bits`  | Offset to node data                                   |
+Page Node Count            | `1-10 (11 bits)`| Number of nodes in this page                          |
+Node Data Offsets          | `Each 11 bits`  | Offset to node data, relative to start of this page   |
 Node Data                  | `...`           | Node Data (until last one for this page that fits the page) |
 Offset to next page        | `12 bits`       | Relative to the start of the page                     |
 
