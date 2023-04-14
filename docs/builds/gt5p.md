@@ -1,4 +1,4 @@
-## Gran Turismo 5 Prologue Free Trial Version (October 20th, 2007)
+## GT5 Prologue Free Trial Version (October 20th, 2007)
 
 ![aa](../images/covers/gt5p_demo.png){ width=250 }
 
@@ -76,15 +76,15 @@ Game Code: `BCJS-30017`
 
 ## GT5 Prologue Spec II (Korea) (May 19th, 2008)
 
-![aa](../images/covers/gt5p_jp.jpg){ width="250" }
+![aa](../images/covers/gt5p_kr.jpg){ width="250" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on archive (playstation 3 - redump collection - ird must be generated from redump metadata) · :material-disc: [Redump Info](http://redump.org/disc/101556/)
 
 Game Code: `BCKS-10030` (based on NPHA-80045)
 
 ??? note "Build Info"
-    * Adhoc Version: `10`
-    * Supports up to instruction: `48 - SYMBOL_CONST`
+    * Adhoc Version: `11`
+    * Supports up to instruction: `57 - ASSIGN_POP`
     * VersionBranch: `gt5p`
     * VersionTarget: `ps3`
     * VersionEnvironment: `product-common-key`
