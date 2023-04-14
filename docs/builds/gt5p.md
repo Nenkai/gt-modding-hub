@@ -72,19 +72,47 @@ Game Code: `BCJS-30017`
     * Split executables (EBOOT + EMAIN)
     * `TV.DAT` (museum images + movies + XML + movie img files + strobes)
 
+---
+
+## GT5 Prologue Spec II (Korea) (May 19th, 2008)
+
+![aa](../images/covers/gt5p_jp.jpg){ width="250" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on archive (playstation 3 - redump collection - ird must be generated from redump metadata) · :material-disc: [Redump Info](http://redump.org/disc/101556/)
+
+Game Code: `BCKS-10030` (based on NPHA-80045)
+
+??? note "Build Info"
+    * Adhoc Version: `10`
+    * Supports up to instruction: `48 - SYMBOL_CONST`
+    * VersionBranch: `gt5p`
+    * VersionTarget: `ps3`
+    * VersionEnvironment: `product-common-key`
+    * VersionBuild: `release`
+    * VersionUser: `build`
+    * VersionApplication: `gt`
+    * PDIVersion: `1.00`
+    * SpecDB Version: `GT5_PROLOGUE2813`
+    * CompileDateTime: `2008/05/19 19:56:34`
+    * CompileVMKVersion: `gt.gt5p.jp.ps3.product-common-key.release.build`
+    * CompileSVNRevision: `28405`
+    * Volume Seed: `CHONSANDO-565545051`
+    * Volume Key: `3609930371, 3569941981, 60292733, 396373479`
+    * Volume Serial: `232919852`
+    * KeyLicensee: `0xdde755fedc0727e5cc055e3c502f5a38`
+    * Grim URL: `https://gt5prologue.ps3.online.kr.gran-turismo.com`
+    * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+    * Split executables (EBOOT + EMAIN)
+    * `TV.DAT` (movies + XML + strobes + Pace DLS)
+
 ??? note "Video Keys"
-    * tv_4_364222191.pam key: `c/20HUw5Hit6KWbweKnOirKI0GZx7MQCW6jRA+1b790=` (LANCER EVOLUTION X)
-    * tv_5_843298190.pam key: `sLWWAJgcxEgV+FIuWUUypSZ7D3xos+knlmTuaMSICCE=` (TOKYO MOTORSHOW 2007)
     * tv_8_280528187.pam key: `IgCub2PBagBN7bi5SxsXXbvWWBvOejk1/Ng+qVWTArY=` (デイトナ・インターナショナル・スピードウェイ)
     * tv_9_759604186.pam key: `VD7GwRdpX1HzTHIq1gx3OzFJNgQwbx+BlKIpWs1CQ7I=` (アイガー北壁コース)
     * tv_10_759604186.pam key: `nEhnJFlE/Mablm/yMvjqSabq3+BGyglN86LSCvyikt4=` (富士スピードウェイ)
     * tv_11_436743641.pam key: `OgfReEOdx3idSCHMYZ5w1tJuuLLWnwcq/DDMzp+CflE=` (ロンドン市街地コース)
     * tv_12_957666642.pam key: `56dtpix1GqgJKWBVHZHw+4pLTDGIWC0AtlZgcxAYUmA=` (鈴鹿サーキット)
-    * tv_13_478590643.pam key: `4PVDlQImtNlNAbGfaEWJYn5/YQBoVKYiSX8iLE1dKD8=` (OPENING)
-    * tv_14_999513644.pam key: `a6sDVkOLo+xPX71VSeku35F6m6MiqpMTodlqzvqNGkI=` (「GT5 プロローグ」エンディング / ENDING)
-    * tv_15_520437645.pam key: `3KegYN94Qfb0ialUYNf/Q1xTMAgMXaWfwADz4mEAVCo=` (The GT-R Legend Inside Story I)
-    * tv_113_485895642.pam key: `zVxc6HuHt/MHU4LeM3+pZckok1eF8c9s3TDtuZF32VM=` (Long 1)
-    * tv_176_016350468.pam key: `GUNgC5hkpwgPkyiLJRpp10bxieOkCKJMlYgThxosXio=` (「GT5 プロローグ」オープニング)
+    * tv_46_494248732.pam key: `CMQO4V1Gj+eUxqMJN0RNCe7DySAeiNA5I2CJ9ShOXPI=` (OPENING)
+    * tv_63_494248732.pam key: `at03Qoe8C3KYJfLetWnzy7bdqG10T8XwNzWyvsyUkjU=` (ENDING)
 
 ---
 
@@ -178,7 +206,7 @@ Game Code: `NPUA-00050`
     * tv_43_xxx.pam key: `iRIuNn1giN0DXa4kqTWMY8YkC/yJ6l+rPF07BTzoIFE=` (THE GT-R Legend INSIDE STORY I)
     * tv_44_xxx.pam key: `O9ChMgcHR93CUY8KvVNAR9G72ke0lUx6tbkafB0b5cM=` (THE GT-R Legend INSIDE STORY II)
     * tv_45_xxx.pam key: `DmzOkf87roubdE9Tk6TCvs2WOvuWZp/Abj/uHKPNujQ=` (THE GT-R Legend INSIDE STORY III)
-    * tv_46_xxx.pam key: `CMQO4V1Gj+eUxqMJN0RNCe7DySAeiNA5I2CJ9ShOXPI=` (OPENING)
+    * tv_46_494248732.pam key: `CMQO4V1Gj+eUxqMJN0RNCe7DySAeiNA5I2CJ9ShOXPI=` (OPENING)
     * tv_47_xxx.pam key: `qfN/Yvw7tOYkdbkW+nVoCEP49641YSET/zPMo5mX6TU=` (ENDING)
 
 ---
