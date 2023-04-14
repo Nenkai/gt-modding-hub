@@ -8,7 +8,7 @@ Japan only release. Game Code: `NPJA-90061`
 
 ??? note "Build Info"
     * Adhoc Version: `10`
-    * Supports up to instruction: `40 - SYMBOL_CONST`
+    * Supports up to instruction: `48 - SYMBOL_CONST`
     * VersionBranch: `trial2007`
     * PDIVersion: `1.01`
     * SpecDB Version: `GT5_TRIAL2007_2730`
