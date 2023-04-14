@@ -2,7 +2,7 @@
 
 ![aa](../images/covers/gt7sp_cb_icon.png){ width="200" }
 
-:material-shovel: *Dumped*: {==Barely==} - dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky) - Only Europe 1.04 & 1.08
+:material-shovel: *Dumped*: {==Barely==} - available on [archive](https://archive.org/details/CUSA07836-gt7sp-cb-1.08) - dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky) - Only Europe 1.04 & 1.08
 
 * Europe: [`CUSA-07836`](https://orbispatches.com/CUSA07836)
 * America: [`CUSA-03643`](https://orbispatches.com/CUSA03643)
