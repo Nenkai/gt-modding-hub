@@ -124,6 +124,65 @@ Game Code: `BCED-00393` / `PKJM00393`
 
 ---
 
+## GT5 Prologue EU Spec III (PSN) (October 26th, 2008)
+
+![aa](../images/covers/gt5p_s3.png){ width="300" }
+
+:material-shovel: *Dumped*: {++Yes and No++} - RAP is missing. Keys to volume are known.
+
+Game Code: `NPUA-00050`
+
+??? note "Build Info"
+    * Adhoc Version: `12`
+    * Supports up to instruction: `60 - DOUBLE_CONST`
+    * VersionBranch: `gt5p`
+    * VersionTarget: `ps3`
+    * VersionEnvironment: `product-common-key`
+    * VersionBuild: `release`
+    * VersionUser: `build`
+    * VersionApplication: `gt`
+    * ProductVersion: `3.00`
+    * PDIVersion: `3.00`
+    * SpecDB Version: `GT5_PROLOGUE2813`
+    * CompileDateTime: `9/26/2008 17:13:58`
+    * CompileVMKVersion: `gt.gt5p.jp.ps3.product-common-key`
+    * CompileSVNRevision: `29712`
+    * Volume Seed: `TOTTORI-56231425`
+    * Volume Key: `1596565275,2819179983, 3201083215, 130646031`
+    * KeyLicensee: `0xdfaae1a969af32b72a87e3e53e0f7737`
+    * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+    * Split executables (EBOOT + EMAIN)
+
+??? tip "Grim Files"
+    Build contains the following file types:
+
+    * Pace DLS
+    * Movie Strobe
+    * Movies XMLs
+
+    Decryption of Grim files using GTToolsSharp:
+    ```
+    crypt -g GT5P_DISC_EU -i grim\file\tv_de_15.xml --keyset-seed-override BCES-00104 --alternative
+    ```
+
+??? note "Video Keys"
+    * tv_8_280528187.pam key: `IgCub2PBagBN7bi5SxsXXbvWWBvOejk1/Ng+qVWTArY=` (デイトナ・インターナショナル・スピードウェイ)
+    * tv_9_759604186.pam key: `VD7GwRdpX1HzTHIq1gx3OzFJNgQwbx+BlKIpWs1CQ7I=` (アイガー北壁コース)
+    * tv_10_759604186.pam key: `nEhnJFlE/Mablm/yMvjqSabq3+BGyglN86LSCvyikt4=` (富士スピードウェイ)
+    * tv_11_436743641.pam key: `OgfReEOdx3idSCHMYZ5w1tJuuLLWnwcq/DDMzp+CflE=` (ロンドン市街地コース)
+    * tv_12_957666642.pam key: `56dtpix1GqgJKWBVHZHw+4pLTDGIWC0AtlZgcxAYUmA=` (鈴鹿サーキット)
+    * tv_13_xxx.pam key: `4PVDlQImtNlNAbGfaEWJYn5/YQBoVKYiSX8iLE1dKD8=` (OPENING)
+    * tv_14_xxx.pam key: `a6sDVkOLo+xPX71VSeku35F6m6MiqpMTodlqzvqNGkI=` (ENDING)
+    * tv_32_xxx.pam key: `EevbVEbmwYm64WxY8G6i1nPZzmzs5H1BZ5X9VHxudLk=` (ENDING)
+    * tv_42_xxx.pam key: `O+Cx9Fqbt1jIN7CVrxwxhV+CqsD2WS6/81pFV66vdh4=` (LANCER EVOLUTION X)
+    * tv_43_xxx.pam key: `iRIuNn1giN0DXa4kqTWMY8YkC/yJ6l+rPF07BTzoIFE=` (THE GT-R Legend INSIDE STORY I)
+    * tv_44_xxx.pam key: `O9ChMgcHR93CUY8KvVNAR9G72ke0lUx6tbkafB0b5cM=` (THE GT-R Legend INSIDE STORY II)
+    * tv_45_xxx.pam key: `DmzOkf87roubdE9Tk6TCvs2WOvuWZp/Abj/uHKPNujQ=` (THE GT-R Legend INSIDE STORY III)
+    * tv_46_xxx.pam key: `CMQO4V1Gj+eUxqMJN0RNCe7DySAeiNA5I2CJ9ShOXPI=` (OPENING)
+    * tv_47_xxx.pam key: `qfN/Yvw7tOYkdbkW+nVoCEP49641YSET/zPMo5mX6TU=` (ENDING)
+
+---
+
 ## GT5 Prologue JP Spec III (November 1st, 2008)
 
 ![aa](../images/covers/gt5p_jp_s3.jpg){ width="250" }

@@ -115,7 +115,8 @@ nav:
 
     - Other Formats:
       - .rt2 - RText (Localization): formats/rt2_localization.md
-
+      - CORE - PS2 Executables: formats/ps2_core.md
+      
     - Compression:
       - Headers: formats/compression/compression_formats.md
 

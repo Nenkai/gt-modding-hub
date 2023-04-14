@@ -83,6 +83,30 @@ The main build of Gran Turismo 5, released on November 24, 2010.
     * EU Volume Key: `770582183, 1093507573, 2285671657, 253390953`
     * EU Grim URL: `https://gt5.ps3.online.uk.gran-turismo.com`
 
+??? note "Video Keys"
+    * tv_263_951753387.pam key: `?`
+    * tv_264_472677388.pam key: `?`
+    * tv_286_816782447.pam key: `?`
+    * tv_287_337706448.pam key: `?`
+    * tv_288_858629449.pam key: `?`
+    * tv_320_465970157.pam key: `?`
+    * tv_321_986893158.pam key: `?`
+    * tv_322_507817159.pam key: `?`
+    * tv_327_112435164.pam key: `?`
+    * tv_362_111334274.pam key: `?`
+    * tv_366_195028278.pam key: `?`
+    * tv_382_413592331.pam key: `?`
+    * tv_383_934515332.pam key: `?`
+    * tv_432_339950075.pam key: `?`
+    * tv_433_860873076.pam key: `?`
+
+    * tv_450_599361131.pam key: `2WYaccQnA37wOCA5iKu94o7krOVwjpR5nx0pOud1lwk=` (OPENING_TITLE)
+    * tv_451_120285132.pam key: `PVho/0exYYGA+kI9ewMFNLXGaedmY/WHMgSth8INQ8k=` (OPENING_TITLE)
+    * tv_452_641208133.pam key: `dk3AZiST6iS+AHmAcL9KvChUu1bYV15Hp/wn24FKfIY=` (ENDING2_TITLE)
+    * tv_456_725902136.pam key: `Vkivi00Ub/a40W6SpZZ0yJkUL7pEIXmeDb6BogePOic=` (ENDING1_TITLE)
+    * tv_592_370738159.pam key: `5tvvZEGpjTf6yA1CiSyGhxKRYX8evrx+uxIs9k8+HYo=` (OPENING2_TITLE)
+    * tv_602_048897529.pam key: `bl9l3MmXZz1xXivc1LZ0cf5l4l+YtXGBa187xd28flM=` (?, Academy related)
+    * tv_603_527973528.pam key: `rU4EhFsoOUnJfF6zqkHE3M/GEguaEQlgH9Fqxs/9E9E=` (?, Academy related)
 ---
 
 ## GT Academy 2012
