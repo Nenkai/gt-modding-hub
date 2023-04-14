@@ -1,3 +1,10 @@
+## GT Sport - Essen Motorshow Demo (November ??, 2016)
+
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/Ve2-vWX7hCA" title="Essen Motorshow 2016 GT Sport GamePlay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
 ## GT Sport - Closed Beta Test Version
 
 ![aa](../images/covers/gt7sp_cb_icon.png){ width="200" }
