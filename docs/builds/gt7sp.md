@@ -33,7 +33,7 @@
 
 ![aa](../images/covers/gt7sp_b_icon.png){ width="200" }
 
-:material-shovel: *Dumped*: {==Yes==} - Only the US version 
+:material-shovel: *Dumped*: {==Yes==} - available on [archive](https://archive.org/details/gtsport-beta-cusa10190) - Only the US version 
 
 * America: `CUSA-10190`
 
