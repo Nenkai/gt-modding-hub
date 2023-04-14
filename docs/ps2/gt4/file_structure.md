@@ -59,8 +59,8 @@
 │
 ├─ fep/ # Front-End Processor, used only in japanese builds
 │  │    # May be related: 
-│  │      https://en.wikipedia.org/wiki/Wnn
-│  │      https://socialsolution.omron.com/software/en/products/product_text/iwnn/   
+│  │    # https://en.wikipedia.org/wiki/Wnn
+│  │    # https://socialsolution.omron.com/software/en/products/product_text/iwnn/   
 │  └─  ...
 │
 ├─ font/ # Game fonts, loaded at boot before adhoc
@@ -109,13 +109,13 @@
 │  ├─ common # Common game text
 │  └─ manual # Text for the manual menu
 │ 
-├─ script # Adhoc scripts.
-│  └─ <branch_name>/
-│     ├─ main.adc # First script executed on boot.
-│     ├─ util/ # Utility scripts
-│     └─ global_status/ # Defines save game nodes
+├─ script/ # Adhoc scripts.
+│  ├─ primitive/
+│  │  └─ ... # Script & widget file for each widget defining a primitive
+│  ├─ MenuClassDefine.adc
+│  └─ Prototypes.mwidget
 │   
-├─ sound_gt # All game sounds
+├─ sound_gt/ # All game sounds
 │  ├─ ads/   # BGM Music
 │  │  └─ <region>/
 │  │     ├─ ads.inf   # 'MusicInf' file, registers all bgm in the game
