@@ -45,11 +45,11 @@ nav:
 
   - PS2 (GT3/GT4/TT):
     - Index: ps2/index.md
-    - GT3:
+    - GT3 / GTC:
         - Getting Started: ps2/getting_started.md
-        - Cheats: ps2/cheats/gt3.md
+        - Patches / Cheats: ps2/gt3/patches.md
 
-    - GT4:
+    - GT4 / GT4P / TT:
       - Basics:
         - Getting Started: ps2/gt4/getting_started.md
         - Folder/File Structure: ps2/gt4/file_structure.md
@@ -57,7 +57,7 @@ nav:
       - SpecDB (Car Specs): ps2/gt4/specdb.md
       - Miscellaneous: 
         - Loading Clock Colors/Errors: ps2/gt4/misc/loading_clock_colors.md
-      - Cheats: ps2/gt4/cheats.md
+      - Patches / Cheats: ps2/gt4/patches.md
 
     - Other:
       - Executables (CORE.GT3/CORE.GT4): ps2/executables.md
