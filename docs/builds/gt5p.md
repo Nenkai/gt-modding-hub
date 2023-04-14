@@ -41,6 +41,53 @@ Japan only release. Game Code: `NPJA-90061`
 
 ---
 
+## GT5 Prologue JP (December 1st, 2007)
+
+![aa](../images/covers/gt5p_jp.jpg){ width="250" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on archive (playstation 3 - redump collection - needs ird decryption) · :material-disc: [Redump Info](http://redump.org/disc/34549/)
+
+Game Code: `BCJS-30017`
+
+??? note "Build Info"
+    * Adhoc Version: `10`
+    * Supports up to instruction: `48 - SYMBOL_CONST`
+    * VersionBranch: `gt5p`
+    * VersionTarget: `ps3`
+    * VersionEnvironment: `product-common-key`
+    * VersionBuild: `release`
+    * VersionUser: `build`
+    * VersionApplication: `gt`
+    * PDIVersion: `1.03`
+    * SpecDB Version: `GT5_PROLOGUE2813`
+    * CompileDateTime: `2007/12/01 01:17:48`
+    * CompileVMKVersion: `gt.gt5p.jp.ps3.product-common-key.release.build`
+    * CompileSVNRevision: `26426`
+    * Volume Seed: `PDIPFS-071201-11`
+    * Volume Key: `79764919, 79764919, 79764919, 79764919`
+    * Volume Serial: `218164878`
+    * KeyLicensee: `0xdfaae1a969af32b72a87e3e53e0f7737`
+    * Grim URL: `https://gt5prologue.ps3.online.jp.gran-turismo.com`
+    * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+    * Split executables (EBOOT + EMAIN)
+    * `TV.DAT` (museum images + movies + XML + movie img files + strobes)
+
+??? note "Video Keys"
+    * tv_4_364222191.pam key: `c/20HUw5Hit6KWbweKnOirKI0GZx7MQCW6jRA+1b790=` (LANCER EVOLUTION X)
+    * tv_5_843298190.pam key: `sLWWAJgcxEgV+FIuWUUypSZ7D3xos+knlmTuaMSICCE=` (TOKYO MOTORSHOW 2007)
+    * tv_8_280528187.pam key: `IgCub2PBagBN7bi5SxsXXbvWWBvOejk1/Ng+qVWTArY=` (デイトナ・インターナショナル・スピードウェイ)
+    * tv_9_759604186.pam key: `VD7GwRdpX1HzTHIq1gx3OzFJNgQwbx+BlKIpWs1CQ7I=` (アイガー北壁コース)
+    * tv_10_759604186.pam key: `nEhnJFlE/Mablm/yMvjqSabq3+BGyglN86LSCvyikt4=` (富士スピードウェイ)
+    * tv_11_436743641.pam key: `OgfReEOdx3idSCHMYZ5w1tJuuLLWnwcq/DDMzp+CflE=` (ロンドン市街地コース)
+    * tv_12_957666642.pam key: `56dtpix1GqgJKWBVHZHw+4pLTDGIWC0AtlZgcxAYUmA=` (鈴鹿サーキット)
+    * tv_13_478590643.pam key: `4PVDlQImtNlNAbGfaEWJYn5/YQBoVKYiSX8iLE1dKD8=` (OPENING)
+    * tv_14_999513644.pam key: `a6sDVkOLo+xPX71VSeku35F6m6MiqpMTodlqzvqNGkI=` (「GT5 プロローグ」エンディング / ENDING)
+    * tv_15_520437645.pam key: `3KegYN94Qfb0ialUYNf/Q1xTMAgMXaWfwADz4mEAVCo=` (The GT-R Legend Inside Story I)
+    * tv_113_485895642.pam key: `zVxc6HuHt/MHU4LeM3+pZckok1eF8c9s3TDtuZF32VM=` (Long 1)
+    * tv_176_016350468.pam key: `GUNgC5hkpwgPkyiLJRpp10bxieOkCKJMlYgThxosXio=` (「GT5 プロローグ」オープニング)
+
+---
+
 ## GT5 Prologue Special Event Version GT by Citroën (October 11th, 2008)
 
 ![aa](../images/covers/gt5p_citroen.jpg){ width="250" }
