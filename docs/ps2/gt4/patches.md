@@ -7,6 +7,7 @@ Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterla
 ## GT4
 * :flag_eu: CRC: `44A61C8F`
 * :flag_us: CRC: `77E61C8A`
+* :flag_jp: CRC: `AEAD1CA3`
 
 ---
 
