@@ -53,8 +53,9 @@ Most likely never released to the public.
 
 ![aa](../images/covers/gthd_psn.png){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%20Special%20Edition%202004%20Toyota%20Demo%20%28USA%29.zip)
+:material-shovel: *Dumped*: {++Yes++}
 
+* JP Game Code: `NPJA-00010` [2.0?](http://zeus.dl.playstation.net/cdn/JP9000/NPJA00010_00/Sq22iX7YGBLneIAxq175xDnyrx2efId9qbGtJHuP1yWSs9Q2lJHi8yGq9dPNvaykpXyaCqvF7vsMFjtFQ8t7S67nGToa2kwigQeKH.pkg)
 * EU Game Code: `NPEA-90002` [2.0?](http://zeus.dl.playstation.net/cdn/EP9000/NPEA90002_00/jwx3AOv0gH0Gj2QLdMBVDQTUovfEEXq0Dc7dOIOAtkre5WUES9twg0NIvUpmdprwjXee0KqkeTk6M8p4I1cVEWIXJDhkOlfIsI7RJ.pkg)
 * ASIA Game Code: `NPHA-00001` [1.0](http://zeus.dl.playstation.net/cdn/HP9000/NPHA00001_00/dunbdpoU2rdfnOb9UGDfGixxV7heXBFEfQwwMFwMHMwGFBMpXoW7lDUYwpr8eFDoRvq8BcaB7JVypkUCs4Yc4fHOWehTBN46VwX36.pkg)
 * US Game Code: `NPUA-80019` [1.1](http://zeus.dl.playstation.net/cdn/UP9000/NPUA80019_00/EljUuXoMkboma8lQgJydRRBlCKJv4kSE7bNH5wImyvTlIUXnfe8A41AXR08NsoyxDSWwRhWfjamnqBLKYWDOmrdFiK4mICtaPRUVv.pkg) - [1.2](http://ares.dl.playstation.net/cdn/UP9000/NPUA80019_00/6eswGLr8L7re4iye4yd8ycdqodyPtY7jj8dVjYaXvrb5Mqr1Srx87uLIYtqnuAWpx2mxOFWYrDjUj42FXw1SWnCjHqMKvAoevm0Ky.pkg)
@@ -70,3 +71,13 @@ Most likely never released to the public.
     * SpecDB Version: `GT5_TRIAL_(EU/US/..)2704`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Unified executable
+
+---
+
+## GT HD Concept (JP Disc)
+
+![aa](../images/covers/gthd_jp_disc.jpg){ width="200" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on archive (redump collection) · :material-disc: [Redump Info](http://redump.org/disc/56219/)
+
+This disc installs `NPJA00010`.
