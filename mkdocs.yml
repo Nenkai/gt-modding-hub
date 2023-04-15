@@ -122,16 +122,22 @@ nav:
 
   - Game Builds:
       - builds/game_builds.md
-      - Gran Turismo Concept: builds/gt3concept.md
-      - Gran Turismo 4 Prologue: builds/gt4p.md
-      - Gran Turismo 4: builds/gt4.md
-      - Tourist Trophy: builds/tt.md
-      - Gran Turismo HD: builds/gthd.md
-      - Gran Turismo 5 Prologue: builds/gt5p.md
-      - Gran Turismo 5: builds/gt5.md
-      - Gran Turismo 6: builds/gt6.md
-      - Gran Turismo SPORT: builds/gt7sp.md
-      - Gran Turismo 7: builds/gt7.md
+
+      - PS2:
+        - Gran Turismo Concept: builds/gt3concept.md
+        - Gran Turismo 4 Prologue: builds/gt4p.md
+        - Gran Turismo 4: builds/gt4.md
+        - Tourist Trophy: builds/tt.md
+
+      - PS3:
+        - Gran Turismo HD: builds/gthd.md
+        - Gran Turismo 5 Prologue: builds/gt5p.md
+        - Gran Turismo 5: builds/gt5.md
+        - Gran Turismo 6: builds/gt6.md
+
+      - PS4/PS5:
+        - Gran Turismo SPORT: builds/gt7sp.md
+        - Gran Turismo 7: builds/gt7.md
       
 
 markdown_extensions:
