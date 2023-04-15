@@ -78,6 +78,7 @@ nav:
     - Events: ps3/events.md
     - Adhoc: ps3/adhoc.md
     - Movies: ps3/movies.md
+    - Models: ps3/models.md
     - Fonts: ps3/fonts.md
     - Other:
         - Optimal Modding Setup: ps3/other/optimal_setup.md
@@ -110,6 +111,9 @@ nav:
       - .adc - Adhoc Script: formats/adhoc/adch_adhoc_compiled.md
       - .gpb - GpbData: formats/adhoc/gpb_gpbdata.md
 
+    - Models:
+      - .mdl / MDL3 / ModelSet3: formats/models/mdl3_modelset3.md
+      
     - Fonts:
       - .vec - NVEC: formats/fonts/vec_nvec.md
 

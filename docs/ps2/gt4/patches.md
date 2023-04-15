@@ -37,7 +37,7 @@ Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterla
     - :flag_us: :flag_jp: [Blurry replay effect](https://xn--pckq0c4g.com/codes/GT4)
 
 ## GT4 Online (Online Beta Version)
-CRC: `32A1C752`
+* CRC: `32A1C752`
 
 ---
 
@@ -50,7 +50,7 @@ CRC: `32A1C752`
 ---
 
 ## GT4 First Preview
-CRC: `E906EA37`
+* CRC: `E906EA37`
 
 ---
 
