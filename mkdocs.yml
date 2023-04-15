@@ -43,6 +43,9 @@ theme:
 nav:
   - Home: index.md
 
+  - PS1 (GT1/GT2):
+    - Index: ps1/index.md
+
   - PS2 (GT3/GT4/TT):
     - Index: ps2/index.md
     - GT3 / GTC:
@@ -141,7 +144,9 @@ nav:
 
       - Other:
         - Gran Turismo PSP: builds/gtpsp.md
-      
+
+  - Mod Showcase:
+      - Index: mod_showcase/index.md
 
 markdown_extensions:
   - toc:
