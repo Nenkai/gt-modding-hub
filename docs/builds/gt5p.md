@@ -1,4 +1,31 @@
-## GT5 Prologue Free Trial Version (October 20th, 2007)
+## GT5P Games Convention 2007 Build  (~Aug ??, 2007)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/HKnUsyExB4Q" title="GC Gran Turismo 5 Prologue presentation part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT5P Tokyo Games Show 2007 Build (~Sep ??, 2007)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/VBqMsB97-cQ" title="Gran Turismo 5 Prologue - Tokyo Game Show 2007 : DigInfo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT5P Tokyo Motor Show 2007 Build (~Oct ??, 2007)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="885" height="664" src="https://www.youtube.com/embed/x5L9G3g7IEo" title="Tokyo Motor Show 2007 15/16 - Gran Turismo 5 Prologue on GTC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT5P Free Trial Version (October 20th, 2007)
 
 ![aa](../images/covers/gt5p_demo.png){ width=250 }
 
@@ -41,7 +68,7 @@ Japan only release. Game Code: `NPJA-90061`
 
 ---
 
-## GT5 Prologue JP (December 1st, 2007)
+## GT5P JP (December 1st, 2007)
 
 ![aa](../images/covers/gt5p_jp.jpg){ width="250" }
 
@@ -74,7 +101,71 @@ Game Code: `BCJS-30017`
 
 ---
 
-## GT5 Prologue Spec II (Korea) (May 19th, 2008)
+## GT5P EU Spec II (March 3rd, 2008)
+
+![aa](../images/covers/gt5p_eu.jpg){ width="250" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on archive (playstation 3 - redump collection - ird must be generated from redump metadata) · :material-disc: [Redump Info](http://redump.org/disc/29340/)
+
+Game Code: `BCES-00104`
+
+??? note "Build Info"
+    * Adhoc Version: `?`
+    * Supports up to instruction: `48 - SYMBOL_CONST`
+    * VersionBranch: `gt5p`
+    * VersionTarget: `ps3`
+    * VersionEnvironment: `product-common-key`
+    * VersionBuild: `release`
+    * VersionUser: `build`
+    * VersionApplication: `gt`
+    * ProductVersion: `1.00`
+    * PDIVersion: `1.00`
+    * SpecDB Version: `GT5_PROLOGUE2813`
+    * CompileDateTime: `2008/03/03 23:16:01`
+    * CompileVMKVersion: `gt.gt5p.uk.ps3.product-common-key.release.build`
+    * CompileSVNRevision: `27796`
+    * Volume Seed: `TOTTORI-56231425`
+    * Volume Key: `1596565275,2819179983, 3201083215, 130646031`
+    * KeyLicensee: `0x369f23564f6c0cc892c030c061a131f1`
+    * GrimURL: `https://gt5prologue.ps3.online.us.gran-turismo.com`
+    * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+    * Split executables (EBOOT + EMAIN)
+
+---
+
+## GT5P US Spec II (PSN) (March 22th, 2008)
+
+![aa](../images/covers/gt5p_s3.png){ width="300" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [PSN](http://zeus.dl.playstation.net/cdn/UP9000/NPUA80075_00/JvlRY2aTWbYYacobdJMWmuu4lYAWnV9e8KiWV9gLIG8fBiSd8LWqNRL1mGRD83qnOPOmhiSg05IdWNhYJorG7dJLi5R1kyE7jwW2R.pkg)
+
+Game Code: `NPUA-80075`
+
+??? note "Build Info"
+    * Adhoc Version: `?`
+    * Supports up to instruction: `48 - SYMBOL_CONST`
+    * VersionBranch: `gt5p`
+    * VersionTarget: `ps3`
+    * VersionEnvironment: `product-common-key`
+    * VersionBuild: `release`
+    * VersionUser: `build`
+    * VersionApplication: `gt`
+    * ProductVersion: `1.00`
+    * PDIVersion: `1.00`
+    * SpecDB Version: `GT5_PROLOGUE2813`
+    * CompileDateTime: `9/26/2008 17:13:58`
+    * CompileVMKVersion: `gt.gt5p.jp.ps3.product-common-key`
+    * CompileSVNRevision: `28055`
+    * Volume Seed: `SONORA-550937027`
+    * Volume Key: `1258979325, 3441419117, 1347072437, 910825263`
+    * KeyLicensee: `0xc7400aa3ba633e223a5cb94f7af25ffb`
+    * GrimURL: `https://gt5prologue.ps3.online.us.gran-turismo.com`
+    * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+    * Split executables (EBOOT + EMAIN)
+
+---
+
+## GT5P Spec II (Korea) (May 19th, 2008)
 
 ![aa](../images/covers/gt5p_kr.jpg){ width="250" }
 
@@ -116,7 +207,28 @@ Game Code: `BCKS-10030` (based on NPHA-80045)
 
 ---
 
-## GT5 Prologue Special Event Version GT by Citroën (October 11th, 2008)
+---
+
+## GT5P Spec II Nürburgring Special Edition 2008  (~May ??, 2008)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="885" height="664" src="https://www.youtube.com/embed/4suUwTrVfcs" title="GT5P - Nordschleife" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+
+## GT5P Games Convention 2008 Build (~Aug ??, 2008)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="885" height="664" src="https://www.youtube.com/embed/62ZZu4UAKE4" title="Gran Turismo 5 - Leipzig Game Convention" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT5P Special Event Version GT by Citroën (October 11th, 2008)
 
 ![aa](../images/covers/gt5p_citroen.jpg){ width="250" }
 
@@ -152,7 +264,7 @@ Game Code: `BCED-00393` / `PKJM00393`
 
 ---
 
-## GT5 Prologue EU Spec III (PSN) (October 26th, 2008)
+## GT5P EU Spec III (PSN) (October 26th, 2008)
 
 ![aa](../images/covers/gt5p_s3.png){ width="300" }
 
@@ -211,7 +323,7 @@ Game Code: `NPUA-00050`
 
 ---
 
-## GT5 Prologue JP Spec III (November 1st, 2008)
+## GT5P JP Spec III (November 1st, 2008)
 
 ![aa](../images/covers/gt5p_jp_s3.jpg){ width="250" }
 
@@ -252,3 +364,23 @@ Game Code: `BCJS-30017`
     * tv_15_520437645.pam key: `3KegYN94Qfb0ialUYNf/Q1xTMAgMXaWfwADz4mEAVCo=` (The GT-R Legend Inside Story I)
     * tv_113_485895642.pam key: `zVxc6HuHt/MHU4LeM3+pZckok1eF8c9s3TDtuZF32VM=` (Long 1)
     * tv_176_016350468.pam key: `GUNgC5hkpwgPkyiLJRpp10bxieOkCKJMlYgThxosXio=` (「GT5 プロローグ」オープニング)
+
+---
+
+## GT5P DOME S102 '08 Build (?? ??, 2008)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="786" height="664" src="https://www.youtube.com/embed/5zcrgrLQ72I" title="Circuit de La Sarthe in GT5P" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT5P Le Mans Special Edition (~Jun ??, 2009)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="885" height="664" src="https://www.youtube.com/embed/mC5sFD8aT58" title="Gran Turismo 5 : Prologue - Special Events Version" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---

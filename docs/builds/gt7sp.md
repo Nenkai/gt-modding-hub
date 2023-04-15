@@ -1,3 +1,22 @@
+## GT Sport - E3 2016 Build  (~Jun ??, 2016)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Videos"
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/54rL6JbWSqY" title="Gran Turismo Sport : E3 2016 Gameplay Capture Video - 1080p/60fps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/7Fc5sGpivWM" title="Gran Turismo Sport PS4 E3 Gameplay Frame-Rate Test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+---
+
+## GT Sport - Gamescom 2016 Build (~Aug ??, 2016)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/INhSoXpoJ14" title="Gamescom 2016 Gameplay Gran Turismo Sport" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
 ## GT Sport - Essen Motorshow Demo (November ??, 2016)
 
 :material-shovel: *Dumped*: :x: {==No==}

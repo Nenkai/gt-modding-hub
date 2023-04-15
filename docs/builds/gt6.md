@@ -33,6 +33,15 @@ A free demo of GT6, hosting the GT Academy 2013 competition.
 
 ---
 
+## GT6 E3 Build 2013  (~Jun ??, 2013)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/h-hvQgPqF8o" title="E3 13: Gran Turismo 6 - Gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
 ## GT6 Gamescom Demo 2013 (August 20th, 2013)
 
 ![aa](../images/covers/gt6_generic.png){ width="250"}
@@ -57,6 +66,16 @@ Game Code: `DEMO-32768`
 
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/E0MDfrXxYxk" title="Gran Turismo 6 Gamescom 2013 Build | DEMO32768 | Aug 20, 2013" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT6 Tokyo Games Show 2013 Demo (~Sep ??, 2013)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Videos"
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/qi9lIfodd3g" title="PS3 Gran Turismo 6   TGS 2013 Showfloor Gameplay   HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/s0BCyBntw9s" title="Gran Turismo 6 - Tokyo Game Show 2013 Stage Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -88,3 +107,11 @@ The main build of Gran Turismo 6.
     * SpecDB Version: `DB0105` (1.00), `DB0106`
     * Volume Seed: `PISCINAS-323419048`
     * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+
+---
+
+## GT6 Toyota S-FR Build (~Sep ??, 2013)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+["Toyota S-FR Playable in Gran Turismo 6 at Tokyo Motor Show"](https://www.gtplanet.net/toyota-s-fr-playable-in-gran-turismo-6-at-tokyo-motor-show/)
