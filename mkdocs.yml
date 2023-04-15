@@ -138,6 +138,9 @@ nav:
       - PS4/PS5:
         - Gran Turismo SPORT: builds/gt7sp.md
         - Gran Turismo 7: builds/gt7.md
+
+      - Other:
+        - Gran Turismo PSP: builds/gtpsp.md
       
 
 markdown_extensions:
