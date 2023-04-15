@@ -74,10 +74,12 @@ CRC: `E906EA37`
 
 ---
 
+## Tourist Trophy
 * :flag_eu: CRC: `CA9AA903`
 * :flag_us: CRC: `FF9C0E93`
 
-## Tourist Trophy
+---
+
 * Codes by [@Silent](https://twitter.com/__silent_)
     * :flag_eu: [Deinterlace Patch](https://cookieplmonster.github.io/mods/tourist-trophy/)
     * :flag_eu: [Adjusted triggers sensitivity](https://cookieplmonster.github.io/mods/tourist-trophy/)
