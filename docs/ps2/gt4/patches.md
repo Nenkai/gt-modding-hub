@@ -1,8 +1,17 @@
 # Patches / Cheats
 
+These patches are intended for use with [PCSX2](https://pcsx2.net/).
+
+Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterlace.pnach`.
+
 ## GT4
+* :flag_eu: CRC: `44A61C8F`
+* :flag_us: CRC: `77E61C8A`
+
+---
+
 * Codes by [@Silent](https://twitter.com/__silent_)
-    - :flag_eu: :flag_jp: :flag_us: [Deinterlace Patch](https://cookieplmonster.github.io/mods/gran-turismo-4/)
+    - :flag_eu: [Deinterlace Patch](https://cookieplmonster.github.io/mods/gran-turismo-4/)
     - :flag_eu: :flag_us: [Adjusted triggers sensitivity](https://cookieplmonster.github.io/mods/gran-turismo-4/)
     - :flag_eu: :flag_us: [GT3-like chase camera](https://cookieplmonster.github.io/mods/gran-turismo-4/)
     - :flag_eu: :flag_us: [Far chase camera](https://cookieplmonster.github.io/mods/gran-turismo-4/)
@@ -27,22 +36,45 @@
     - :flag_us: :flag_jp: [Blurry replay effect](https://xn--pckq0c4g.com/codes/GT4)
 
 ## GT4 Online (Online Beta Version)
+CRC: `32A1C752`
+
+---
+
 * Codes by [@Silent](https://twitter.com/__silent_)
     * [Deinterlace Patch](https://cookieplmonster.github.io/mods/gran-turismo-4/)
     * [Adjusted triggers sensitivity](https://cookieplmonster.github.io/mods/gran-turismo-4/)
     * [GT3-like chase camera](https://cookieplmonster.github.io/mods/gran-turismo-4/)
     * [Far chase camera](https://cookieplmonster.github.io/mods/gran-turismo-4/)
 
+---
+
 ## GT4 First Preview
+CRC: `E906EA37`
+
+---
+
 * Codes by [@Silent](https://twitter.com/__silent_)
-    * [Adjustable units](https://cookieplmonster.github.io/mods/gran-turismo-4/)
+    - [Deinterlace Patch](https://cookieplmonster.github.io/mods/gran-turismo-4/)
+    - [Adjustable units](https://cookieplmonster.github.io/mods/gran-turismo-4/)
+
+---
 
 ## GT4 Prologue
+* :flag_eu: CRC: `3FB69323`
+* :flag_jp: CRC: `EF258742`
+
+---
+
 * Codes by [@Silent](https://twitter.com/__silent_)
     * :flag_eu: :flag_jp: [Deinterlace Patch](https://cookieplmonster.github.io/mods/gran-turismo-4-prologue/)
     * :flag_eu: :flag_jp: [Remappable controls](https://cookieplmonster.github.io/mods/gran-turismo-4-prologue/)
     * :flag_eu: :flag_jp: [Adjustable units](https://cookieplmonster.github.io/mods/gran-turismo-4-prologue/)
     * :flag_eu: :flag_jp: [Adjusted triggers sensitivity](https://cookieplmonster.github.io/mods/gran-turismo-4-prologue/)
+
+---
+
+* :flag_eu: CRC: `CA9AA903`
+* :flag_us: CRC: `FF9C0E93`
 
 ## Tourist Trophy
 * Codes by [@Silent](https://twitter.com/__silent_)
