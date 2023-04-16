@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Gpb Data
 
 :octicons-cpu-24: *Applies to: GT4, GT5, GTPSP, GT6, GT7* · :material-file-question: Extension: `.gpb`
