@@ -122,6 +122,7 @@ nav:
       - .vec - NVEC: formats/fonts/vec_nvec.md
 
     - Volume: 
+      - PS2 GT4 Volume/RoFS: formats/volume/ps2_gt4_volume.md
       - PS3 Volume/PDIPFS: formats/volume/ps3_volume.md
 
     - Other Formats:
