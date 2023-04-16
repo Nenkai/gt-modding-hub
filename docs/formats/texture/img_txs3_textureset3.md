@@ -2,7 +2,7 @@
 
 :octicons-cpu-24: *Applies to: GT5, GTPSP, GT6, GT Sport, GT7* · :material-file-question: Extension: `.img`, `.txs`, `.tex`, none :octicons-arrow-right-16: · Endian: Platform Dependent
 
-TXS3 is an evolution of the `Tex1` format that GT3 and GT4 uses. It now allows being linked to a "streaming" texture file, which holds compressed textures to be streamed - mostly used for courses.
+TXS3 is an evolution of the [`Tex1`](../texture/img_tex1_textureset.md) format that GT3 and GT4 uses. It now allows being linked to a "streaming" texture file, which holds compressed textures to be streamed - mostly used for courses.
 
 ---
 
@@ -37,123 +37,122 @@ Padding                 |  `0x20`        | `byte[0x20]`       | N/A             
 
 This **depends** on the platform. These are normally direct platform texture registers/parameters.
 
-#### PS3 (Cell)
+??? abstract "PS3 (Cell)"
 
-All of the following macros take up 1 `Int`.
+    All of the following macros take up 1 `Int`.
 
-##### CELL_GCM_METHOD_HEADER_TEXTURE_OFFSET
+    ##### CELL_GCM_METHOD_HEADER_TEXTURE_OFFSET
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-num           |  `0-13`         |  Number                                                                              |
-method        |  `14-31`        |  Method                                                                              |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    num           |  `0-13`         |  Number                                                                              |
+    method        |  `14-31`        |  Method                                                                              |
 
-##### CELL_GCM_METHOD_DATA_TEXTURE_OFFSET
+    ##### CELL_GCM_METHOD_DATA_TEXTURE_OFFSET
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-offset        |  `0-31`         |  Offset                                                                              |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    offset        |  `0-31`         |  Offset                                                                              |
 
-##### CELL_GCM_METHOD_DATA_TEXTURE_BORDER_FORMAT
+    ##### CELL_GCM_METHOD_DATA_TEXTURE_BORDER_FORMAT
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-pad           |  `0-7`          |  N/A                                                                                 |
-mipmap        |  `8-15`         |  N/A                                                                                 |
-format        |  `16-23`        |  N/A                                                                                 |
-dimension     |  `24-27`        |  CELL_GCM_TEXTURE_DIMENSION                                                          |
-border        |  `28`           |  CELL_GCM_TEXTURE_BORDER                                                             |
-cubemap       |  `29`           |  CELL_CGM_BOOL                                                                       |
-location      |  `30-31`        |  CELL_GCM_LOCATION                                                                   |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    pad           |  `0-7`          |  N/A                                                                                 |
+    mipmap        |  `8-15`         |  N/A                                                                                 |
+    format        |  `16-23`        |  N/A                                                                                 |
+    dimension     |  `24-27`        |  CELL_GCM_TEXTURE_DIMENSION                                                          |
+    border        |  `28`           |  CELL_GCM_TEXTURE_BORDER                                                             |
+    cubemap       |  `29`           |  CELL_CGM_BOOL                                                                       |
+    location      |  `30-31`        |  CELL_GCM_LOCATION                                                                   |
 
-##### CELL_GCM_METHOD_DATA_TEXTURE_ADDRESS
+    ##### CELL_GCM_METHOD_DATA_TEXTURE_ADDRESS
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-zfunc         |  `0-3`          |  CELL_GCM_TEXTURE_ZFUNC_NEVER                                                        |
-gamma         |  `4-11`         |  N/A                                                                                 |
-wrap_r        |  `12-15`        |  CELL_GCM_TEXTURE_WRAP                                                               |
-unsignedRemap |  `16-19`        |  CELL_GCM_TEXTURE_UNSIGNED_REMAP                                                     |
-wrap_t        |  `20-23`        |  CELL_GCM_TEXTURE_WRAP                                                               |
-anisoBias     |  `24-27`        |  N/A                                                                                 |
-wrap_s        |  `28-31`        |  CELL_GCM_TEXTURE_WRAP                                                               |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    zfunc         |  `0-3`          |  CELL_GCM_TEXTURE_ZFUNC_NEVER                                                        |
+    gamma         |  `4-11`         |  N/A                                                                                 |
+    wrap_r        |  `12-15`        |  CELL_GCM_TEXTURE_WRAP                                                               |
+    unsignedRemap |  `16-19`        |  CELL_GCM_TEXTURE_UNSIGNED_REMAP                                                     |
+    wrap_t        |  `20-23`        |  CELL_GCM_TEXTURE_WRAP                                                               |
+    anisoBias     |  `24-27`        |  N/A                                                                                 |
+    wrap_s        |  `28-31`        |  CELL_GCM_TEXTURE_WRAP                                                               |
 
-##### CELL_GCM_METHOD_DATA_TEXTURE_CONTROL0_ALPHA_KILL
+    ##### CELL_GCM_METHOD_DATA_TEXTURE_CONTROL0_ALPHA_KILL
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-enable        |  `0`            |  CELL_GCM_FALSE                                                                      |
-minlod        |  `1-12`         |  N/A                                                                                 |
-minlod        |  `13-24`        |  N/A                                                                                 |
-maxAniso      |  `25-27`        |  CELL_GCM_TEXTURE_MAX_ANIS                                                           |
-pad           |  `28`           |  N/A                                                                                 |
-alphakill     |  `29`           |  CELL_GCM_FALSE                                                                      |
-pad           |  `30-31`        |  N/A                                                                                 |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    enable        |  `0`            |  CELL_GCM_FALSE                                                                      |
+    minlod        |  `1-12`         |  N/A                                                                                 |
+    minlod        |  `13-24`        |  N/A                                                                                 |
+    maxAniso      |  `25-27`        |  CELL_GCM_TEXTURE_MAX_ANIS                                                           |
+    pad           |  `28`           |  N/A                                                                                 |
+    alphakill     |  `29`           |  CELL_GCM_FALSE                                                                      |
+    pad           |  `30-31`        |  N/A                                                                                 |
 
-##### CELL_GCM_METHOD_DATA_TEXTURE_CONTROL1
+    ##### CELL_GCM_METHOD_DATA_TEXTURE_CONTROL1
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-pad           |  `0-14`         |  N/A                                                                                 |
-remapOrder    |  `15`           |  CELL_GCM_TEXTURE_REMAP_ORDER                                                        |
-OutB          |  `16-17`        |  CELL_GCM_TEXTURE_REMAP                                                              |
-OutG          |  `18-19`        |  CELL_GCM_TEXTURE_REMAP                                                              |
-OutR          |  `20-21`        |  CELL_GCM_TEXTURE_REMAP                                                              |
-OutA          |  `22-23`        |  CELL_GCM_TEXTURE_REMAP                                                              |
-InB           |  `24-25`        |  CELL_GCM_TEXTURE_REMAP                                                              |
-InG           |  `26-27`        |  CELL_GCM_TEXTURE_REMAP                                                              |
-InR           |  `28-29`        |  CELL_GCM_TEXTURE_REMAP                                                              |
-InA           |  `30-31`        |  CELL_GCM_TEXTURE_REMAP                                                              |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    pad           |  `0-14`         |  N/A                                                                                 |
+    remapOrder    |  `15`           |  CELL_GCM_TEXTURE_REMAP_ORDER                                                        |
+    OutB          |  `16-17`        |  CELL_GCM_TEXTURE_REMAP                                                              |
+    OutG          |  `18-19`        |  CELL_GCM_TEXTURE_REMAP                                                              |
+    OutR          |  `20-21`        |  CELL_GCM_TEXTURE_REMAP                                                              |
+    OutA          |  `22-23`        |  CELL_GCM_TEXTURE_REMAP                                                              |
+    InB           |  `24-25`        |  CELL_GCM_TEXTURE_REMAP                                                              |
+    InG           |  `26-27`        |  CELL_GCM_TEXTURE_REMAP                                                              |
+    InR           |  `28-29`        |  CELL_GCM_TEXTURE_REMAP                                                              |
+    InA           |  `30-31`        |  CELL_GCM_TEXTURE_REMAP                                                              |
 
-##### CELL_GCM_METHOD_DATA_TEXTURE_CONTROL1
+    ##### CELL_GCM_METHOD_DATA_TEXTURE_CONTROL1
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-bs            |  `0`            |  CELL_GCM_FALSE                                                                      |
-gs            |  `1`            |  CELL_GCM_FALSE                                                                      |
-rs            |  `2`            |  CELL_GCM_FALSE                                                                      |
-qs            |  `3`            |  CELL_GCM_FALSE                                                                      |
-mag           |  `4-7`          |  CELL_GCM_TEXTURE_MAG                                                                |
-mag           |  `8-11`         |  CELL_GCM_TEXTURE_MIN                                                                |
-convultion    |  `12-14`        |  CELL_GCM_TEXTURE_CONVOLUTION                                                        |
-bias          |  `15-27`        |  N/A                                                                                 |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    bs            |  `0`            |  CELL_GCM_FALSE                                                                      |
+    gs            |  `1`            |  CELL_GCM_FALSE                                                                      |
+    rs            |  `2`            |  CELL_GCM_FALSE                                                                      |
+    qs            |  `3`            |  CELL_GCM_FALSE                                                                      |
+    mag           |  `4-7`          |  CELL_GCM_TEXTURE_MAG                                                                |
+    mag           |  `8-11`         |  CELL_GCM_TEXTURE_MIN                                                                |
+    convultion    |  `12-14`        |  CELL_GCM_TEXTURE_CONVOLUTION                                                        |
+    bias          |  `15-27`        |  N/A                                                                                 |
 
-##### CELL_GCM_METHOD_DATA_TEXTURE_IMAGE_RECT
+    ##### CELL_GCM_METHOD_DATA_TEXTURE_IMAGE_RECT
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-width         |  `0-15`         |  N/A                                                                                 |
-height        |  `16-31`        |  N/A                                                                                 |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    width         |  `0-15`         |  N/A                                                                                 |
+    height        |  `16-31`        |  N/A                                                                                 |
 
-##### CELL_GCM_METHOD_DATA_TEXTURE_BORDER_COLOR
+    ##### CELL_GCM_METHOD_DATA_TEXTURE_BORDER_COLOR
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-borderColor   |  `0-31`         |  N/A                                                                                 |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    borderColor   |  `0-31`         |  N/A                                                                                 |
 
-##### CELL_GCM_METHOD_HEADER_TEXTURE_CONTROL3
+    ##### CELL_GCM_METHOD_HEADER_TEXTURE_CONTROL3
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-num           |  `0-13`         |  Number                                                                              |
-method        |  `14-31`        |  Method                                                                              |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    num           |  `0-13`         |  Number                                                                              |
+    method        |  `14-31`        |  Method                                                                              |
 
-##### CELL_GCM_METHOD_DATA_TEXTURE_IMAGE_RECT
+    ##### CELL_GCM_METHOD_DATA_TEXTURE_IMAGE_RECT
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-depth         |  `0-11`         |  N/A                                                                                 |
-pitch         |  `12-31`        |  N/A                                                                                 |
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    depth         |  `0-11`         |  N/A                                                                                 |
+    pitch         |  `12-31`        |  N/A                                                                                 |
 
-##### CELL_GCM_METHOD_HEADER_TEXTURE_CONTROL2
+    ##### CELL_GCM_METHOD_HEADER_TEXTURE_CONTROL2
 
-Field         | Bits            |  Description                                                                         |
---------------| ------------    |  --------------------------------------                                              |
-0x2D          |  `0-23`         |  0x2D                                                                                |
-aniso         |  `24`           |  CELL_GCM_TEXTURE_ANISO                                                              |
-iso           |  `25`           |  CELL_GCM_TEXTURE_ANISO                                                              |
-slope         |  `26-31`        |  N/A                                                                                 |
-
+    Field         | Bits            |  Description                                                                         |
+    --------------| ------------    |  --------------------------------------                                              |
+    0x2D          |  `0-23`         |  0x2D                                                                                |
+    aniso         |  `24`           |  CELL_GCM_TEXTURE_ANISO                                                              |
+    iso           |  `25`           |  CELL_GCM_TEXTURE_ANISO                                                              |
+    slope         |  `26-31`        |  N/A                                                                                 |
 
 ##### Remaining Values
 

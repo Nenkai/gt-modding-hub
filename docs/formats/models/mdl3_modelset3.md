@@ -1,8 +1,11 @@
 # MDL3 / ModelSet3
+:octicons-cpu-24: *Applies to: GT5, GTPSP, GT6* · :material-file-question: Extension: `.mdl` / none · :octicons-arrow-left-16: Endian: Big (GT5/GT6) · :octicons-arrow-right-16: Little (GTPSP)
 
 ModelSet3 is a direct upgrade to [MDLS / ModelSet2](mdls_modelset2.md). It still contains models with bytecode to set up which meshes to load and a virtual machine for callbacks. The main upgrade is that meshes now use flexible vertex definitions, bundled shaders and in the case of GT6, tesslated meshes and `PMSH` - packed meshes to save on memory usage.
 
 It is a rather structured, yet complex format.
+
+---
 
 ## Header
 
@@ -111,6 +114,8 @@ Unknown                 |  `0x2E`        | `ushort`           | Unknown. Maybe f
 
     Refer to [PDTools.Files](https://github.com/Nenkai/PDTools/tree/master/PDTools.Files/Models/ModelSet3/Commands) for the commands.
 
+---
+
 ## Model Key
 
 This is purely for debugging, they are not necessary. Keys contain the source path for the model.
@@ -122,7 +127,77 @@ Field                   | Offset         | Type               | Description     
 Name Pointer            |  `0x00`        | `char*`            | Pointer to the name of the key (Zero-terminated)                                    |
 Model ID                |  `0x04`        | `Int`              | Model ID.                                                                           |
 
+---
 
+## Mesh
+
+Field                   | Offset         | Type               | Description                                                                         |
+----------------        | ------------   | ----------         | --------------------------------------                                              |
+Unknown                 |  `0x00`        | `ushort`           | Flags                                                                               |
+FVF Index               |  `0x02`        | `short`            | Flexible vertex definition to use for the mesh data. If empty, check PMSH.          |
+Material Index          |  `0x04`        | `short`            | Material index to use for this mesh.                                                |
+Unknown                 |  `0x06`        | `byte`             | Unknown/Empty.                                                                      |
+Unknown                 |  `0x07`        | `byte`             | Unknown/Empty.                                                                      |
+Vertex Count            |  `0x08`        | `uint`             | Number of verts in this mesh. If empty, check PMSH.                                 |
+Vertex Pointer          |  `0x0C`        | `byte*`            | Pointer to the vertices. Must be read according to flexible vertices (if present).  |
+Unknown                 |  `0x10`        | `uint`             | ?                                                                                   |
+Tri Length              |  `0x14`        | `uint`             | Size of the tris. If empty, check PMSH.                                             |
+Tri Pointer             |  `0x18`        | `short*`           | Pointer to the tris. If empty, check PMSH.                                          |
+Unknown                 |  `0x1C`        | `Int`              | Unknown/Empty.                                                                      |
+Unknown                 |  `0x20`        | `Int`              | Unknown/Empty.                                                                      |
+Unknown                 |  `0x24`        | `short`            | Unknown/Empty.                                                                      |
+Tri Count               |  `0x26`        | `short`            | Number of tris. If empty, check PMSH.                                               |
+Boundary Box Pointer    |  `0x28`        | `Vector3*`         | Pointer to the boundary box. If empty, check PMSH.                                  |
+PMSH Reference Pointer  |  `0x2C`        | `PMSHRef*`         | Pointer to some PMSH indicator.                                                     |
+
+### PMSH Ref
+
+Size: `0x34`
+
+Field                   | Offset         | Type               | Description                                                                         |
+----------------        | ------------   | ----------         | --------------------------------------                                              |
+Unknown/Empty           |  `0x00`        | `Int[12]`          | N/A                                                                                 |
+PMSH Index              |  `0x30`        | `Int`              | Packed Mesh entry to use.                                                           |
+
+---
+
+## Model Key
+
+This is purely for debugging, they are not necessary. Keys contain the source path for the mesh.
+
+Size: `0x08`
+
+Field                   | Offset         | Type               | Description                                                                         |
+----------------        | ------------   | ----------         | --------------------------------------                                              |
+Name Pointer            |  `0x00`        | `char*`            | Pointer to the name of the key (Zero-terminated)                                    |
+Mesh ID                 |  `0x04`        | `Int`              | Mesh ID.                                                                            |
+
+---
+
+## FVF / Flexible Vertex Definition
+
+Addressed by meshes.
+
+Size: `0x78`
+
+Field                   | Offset         | Type               | Description                                                                         |
+----------------        | ------------   | ----------         | --------------------------------------                                              |
+Name Pointer            |  `0x00`        | `char*`            | Name/Type of FVF. Important - usually "Flex".                                       |
+Shader Related Index    |  `0x04`        | `short`            | Partially known to be an index to shaders.                                          |
+Field Def Offset        |  `0x08`        | `FVFField*`        | Pointer to the FVF fields composing this FVF. i.e describes `map12` which is UVs.   |
+Unknown Index           |  `0x0C`        | `short`            | Some index assigned at runtime.                                                     |
+Empty                   |  `0x0E`        | `short`            | N/A                                                                                 |
+Unknown                 |  `0x10`        | `Int`              | Unknown/Empty.                                                                      |
+Unk 0x14                |  `0x14`        | `Unk0x14*`         | Pointer to unknown.                                                                 |
+Field Def Count         |  `0x18`        | `byte`             | Number of fields in this FVF structure.                                             |
+FVF Structure Size      |  `0x19`        | `byte`             | Size of the FVF structure with all the fields combined essentially the size of one vert.|
+Empty                   |  `0x1A`        | `short`            | N/A                                                                                 |
+Empty/Runtime Data      |  `0x1C`        | `byte[0x58]`       | N/A                                                                                 |
+Field Array Pointer     |  `0x74`        | `FVFArrayDef*`     | Array definition pointer                                                            |
+
+---
+
+## Materials
 
 
 

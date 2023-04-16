@@ -100,6 +100,7 @@ nav:
       - .sdb - String Storage/Database: formats/database/sdb_string_database.md
       
     - Textures:
+      - .img - Tex1/TexSet: formats/texture/img_tex1_textureset.md
       - .img - TXS3/TextureSet3: formats/texture/img_txs3_textureset3.md
 
     - Audio:
