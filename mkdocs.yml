@@ -105,7 +105,7 @@ nav:
     - Audio:
       - .lib - BGM Library: formats/audio/bgml_bgm_library.md
       - .esgx - Engine SGX: formats/audio/esgx_engine_sgx.md
-      - .sg(d/b/h) - SGX: formats/audio/sgd_sgh_sgx_data.md
+      - .sgd/sgb/sgh - SGX: formats/audio/sgd_sgh_sgx_data.md
 
     - Adhoc:
       - .adc - Adhoc Script: formats/adhoc/adch_adhoc_compiled.md
@@ -129,6 +129,10 @@ nav:
 
   - Game Builds:
       - builds/game_builds.md
+
+      - PS1:
+        - Gran Turismo: builds/gt1.md
+        - Gran Turismo 2: builds/gt2.md
 
       - PS2:
         - Gran Turismo 3: builds/gt3.md

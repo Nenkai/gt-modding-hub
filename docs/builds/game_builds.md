@@ -1,4 +1,9 @@
-# Game Builds
+---
+hide:
+  - footer
+---
+
+# Preface
 
 This page attempts to list every single Gran Turismo game build - whether it has been dumped or not. This page is ordered by build date.
 

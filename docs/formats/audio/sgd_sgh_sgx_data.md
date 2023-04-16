@@ -1,4 +1,4 @@
-# SG(D/H/B) - SGX Data
+# SGD / SGH / SGB - SGX Data
 
 :octicons-cpu-24: *Applies to: GT5, GTPSP, GT6* · :material-file-question: Extension: `.sgd`/`.sgh`/`.sgb` / none · :octicons-arrow-right-16: Endian: Little
 
