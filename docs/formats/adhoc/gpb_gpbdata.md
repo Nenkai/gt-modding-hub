@@ -4,7 +4,7 @@ comments: true
 
 # Gpb Data
 
-:octicons-cpu-24: *Applies to: GT4, GT5, GTPSP, GT6, GT7* · :material-file-question: Extension: `.gpb`
+:octicons-cpu-24: *Applies to: GT4, GT5, GTPSP, GT6, GT7* · :material-file-question: Extension: `.gpb` · Endian: Platform Dependent
 
 Gpb files are Asset containers mostly used alongside Adhoc projects. Roots are often linked to an individual GpbData file to pre-load assets (mostly images, but sometimes strobe/flash files too) before a root has finished loading.
 

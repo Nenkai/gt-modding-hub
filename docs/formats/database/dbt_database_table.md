@@ -3,7 +3,7 @@ comments: true
 ---
 
 # DBT - Database Table
-:octicons-cpu-24: *Applies to: GT4, GT5, GTPSP* · :material-file-question: Extension: `.dbt`
+:octicons-cpu-24: *Applies to: GT4, GT5, GTPSP* · :material-file-question: Extension: `.dbt` · Endian: Platform Dependent
 
 DBT Stands for Database Table.
 

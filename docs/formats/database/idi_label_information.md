@@ -3,7 +3,7 @@ comments: true
 ---
 
 # IDI - ID/Label Information
-:octicons-cpu-24: *Applies to: GT4, GT5, GTPSP* · :material-file-question: Extension: `.idi`
+:octicons-cpu-24: *Applies to: GT4, GT5, GTPSP* · :material-file-question: Extension: `.idi` · Endian: Platform Dependent
 
 IDI files links database rows to an ID and Label. This format mostly used for quickly searching a row by ID or Label, and is directly linked to DBT, Database Table.
 

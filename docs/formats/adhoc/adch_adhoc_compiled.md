@@ -4,7 +4,7 @@ comments: true
 
 # Adhoc Compiled/Header
 
-:octicons-cpu-24: *Applies to GT4, GT5, GTPSP, GT6, GT Sport, GT7* · :octicons-arrow-right-16: Endian: Little
+:octicons-cpu-24: *Applies to GT4, GT5, GTPSP, GT6, GT Sport, GT7* · :material-file-question: Extension: `.adc` · :octicons-arrow-right-16: Endian: Little
 
 This is the main header for [Adhoc Scripts](../../concepts/adhoc/adhoc.md). Most games will have a certain level of backwards compatibility, but it's better to keep them at the latest that the engine supports. This format has changed quite a bit over time.
 

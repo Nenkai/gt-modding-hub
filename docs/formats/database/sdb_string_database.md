@@ -3,7 +3,7 @@ comments: true
 ---
 
 # SDB - String Storage/Database
-:octicons-cpu-24: *Applies to: GT4, GT5, GTPSP* · :material-file-question: Extension: `.sdb`
+:octicons-cpu-24: *Applies to: GT4, GT5, GTPSP* · :material-file-question: Extension: `.sdb` · Endian: Platform Dependent
 
 SDB, String databases are used to link row data and columns to localized strings. Multiple string databases may exist within the games for multiple locales (which is determined at boot).
 
