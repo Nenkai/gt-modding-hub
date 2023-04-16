@@ -101,7 +101,6 @@ Game Code: `PAPX-90054`
 ??? youtube "Video"
     <iframe width="885" height="664" src="https://www.youtube.com/embed/ObZICLSAMsU" title="トゥナイト2　1999年12月　TVゲーム特集 PS DC 64DD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
 ---
 
 ## GT2 Arcade Mode Review Version (Dec 22, 1999)
@@ -122,4 +121,6 @@ A late European build compiled almost two weeks before the final European build.
 
 The main build of Gran Turismo 2.
 
-JP Game Code: `SCPS-10117`
+* JP Game Code: `SCPS-10117`
+* US Game Code: `SCUS-94488`
+* EU Game Code: `SCES-12380`
