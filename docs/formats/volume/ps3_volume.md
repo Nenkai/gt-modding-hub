@@ -3,6 +3,7 @@ comments: true
 ---
 
 # PS3 Volume/PDIPFS
+:octicons-cpu-24: *Applies to: GT5, GT6* · :material-file-question: Extension: `.VOL` · :octicons-arrow-left-16: Endian: Big
 
 The PS3 Volume is made with patching/updates in mind. It has also fast lookup times as it uses [b-trees](https://en.wikipedia.org/wiki/B-tree) where names and extensions are split. The TOC is tightly bit-packed and ordered for [binary searching](https://en.wikipedia.org/wiki/Binary_search_algorithm), while also reusing the index pages for quick searching that the GT4 volume introduced.
 

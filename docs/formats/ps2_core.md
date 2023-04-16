@@ -3,6 +3,7 @@ comments: true
 ---
 
 # PS2 Executables (CORE)
+:octicons-cpu-24: *Applies to: GT3, GT4, TT* · :material-file-question: Extension: `.GT4` / `.TT` · :octicons-arrow-right-16: Endian: Little
 
 Main builds of Gran Turismo and Tourist Trophy will have splitted executables - the main executable named by the game code and another file usually starting with `CORE`.
 

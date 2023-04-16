@@ -3,6 +3,7 @@ comments: true
 ---
 
 # PS2 GT4 RoFS
+:octicons-cpu-24: *Applies to: GT4, TT, GTHD* · :material-file-question: Extension: `.VOL` · :octicons-arrow-right-16: Endian: Little
 
 The PS2 Volume is the first volume to under-go major changes to focus on file lookup speeds. It now uses a b-tree, and the headers are now encrypted.
 
