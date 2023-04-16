@@ -111,6 +111,8 @@ Game Code: `PAPX-90054`
 
 A late European build compiled almost two weeks before the final European build.
 
+---
+
 ## GT2
 
 ![aa](../images/covers/gt2_jp.jpg){ width="250" }

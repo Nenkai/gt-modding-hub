@@ -154,8 +154,8 @@ A build of GT3 A-Spec dated a day before the final NTSC-J retail. While it has d
 
 :material-shovel: *Dumped*: {++Yes++}
 
+The main build of Gran Turismo 3.
+
 * JP Game Code: `SCPS-15009`
 * US Game Code: `SCUS-97102` / `PBPX-95503`
 * EU Game Code: `SCES-50294`
-
-The main build of Gran Turismo 3.
