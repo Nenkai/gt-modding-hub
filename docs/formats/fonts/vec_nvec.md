@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # NVEC
 :octicons-cpu-24: *Applies to: GT5, GT6* · :material-file-question: Extension: `.vec` · :octicons-arrow-left-16: Endian: Big
 

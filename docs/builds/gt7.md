@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 GT7 is the first cross-platform GT, being available on PS4 and PS5. It is also the first Gran Turismo to partly move away from using [Adhoc](../concepts/adhoc/adhoc.md), having moved to Swift for its logic and UI code instead. Furthermore it no longer uses [Grim3](../concepts/grim/grim.md), instead uses a new server solution named Vegas.
 
 The entire engine interface for adhoc has been rebuilt with reflection in mind, now allowing to directly expose many C++ fields, allowing further control through scripting. 

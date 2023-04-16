@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## GT 2000 Tokyo Games Show 1999 Version (~Sep ??, 1999)
 
 :material-shovel: *Dumped*: :x: {==No==}

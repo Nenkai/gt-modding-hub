@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Supposed to be Gran Turismo 4 for the Playstation Portable, Gran Turismo PSP was a stripped down version of the giant engine that was being worked on for Gran Turismo 5. It mostly uses the same formats except swapped to little-endian. 
 
 There is next to no leftover debug functionalities in this game.

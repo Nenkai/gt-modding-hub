@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## GRAN TURISMO NTSC DEMO (Jul 29, 1997)
 
 ![aa](../images/covers/gt1_ntsc_demo.jpg){ width="250"}

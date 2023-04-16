@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Adhoc Compiled/Header
 
 :octicons-cpu-24: *Applies to GT4, GT5, GTPSP, GT6, GT Sport, GT7* · :octicons-arrow-right-16: Endian: Little

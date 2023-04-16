@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Gran Turismo 4 Prologue builds are the first versions to begin using [Adhoc](../concepts/adhoc/adhoc.md) - leading towards an engine rewrite in general. Each GT4 build moved away from GT3 formats, until GT4 which is entirely different.
 
 ## GT4 Prologue Subaru Version (May 17th, 2003)

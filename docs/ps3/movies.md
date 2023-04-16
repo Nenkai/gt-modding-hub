@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Movies
 
 Movies in PS3's GTs uses `PAMF`, a Sony format.

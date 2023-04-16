@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Gran Turismo 5/6 - AppOpt System/Command
 Command line arguments are parameters that controls how a program should behave.
 

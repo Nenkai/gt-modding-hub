@@ -1,3 +1,8 @@
+---
+comments: true
+---
+
+
 # RT2 - RText Localization File
 :octicons-cpu-24: *Applies to: GT4, GT5, GTPSP, GT6, GT7* · :material-file-question: Extension: `.rt2`
 

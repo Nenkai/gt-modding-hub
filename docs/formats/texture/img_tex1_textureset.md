@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Tex1 - TexSet
 
 :octicons-cpu-24: *Applies to: GT3, GT4* · :material-file-question: Extension: `.img` / none :octicons-arrow-right-16: · Endian: Little

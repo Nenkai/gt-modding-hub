@@ -2,6 +2,10 @@
 
 Most file formats in Gran Turismo are proprietary and if not, will use platform provided formats. This is especially the case for games older than Gran Turismo 5. 
 
+The following pages are essentially a human readable mirror of [the 010 templates for 010 Editor](https://github.com/Nenkai/GT-File-Specifications-Documentation/tree/master/Formats) for each format described - which is still recommended to easily visualize game files.
+
+---
+
 ## Similarities between formats
 
 GT formats make heavy use of offsets - usually in an ordered way.

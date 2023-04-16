@@ -1,8 +1,14 @@
+---
+comments: true
+---
+
 # Patches / Cheats
 
 These patches are intended for use with [PCSX2](https://pcsx2.net/).
 
 Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterlace.pnach`.
+
+---
 
 ## GT4
 * :flag_eu: CRC: `44A61C8F`

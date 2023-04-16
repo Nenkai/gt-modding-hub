@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## GT Sport - E3 2016 Build  (~Jun ??, 2016)
 
 :material-shovel: *Dumped*: :x: {==No==}

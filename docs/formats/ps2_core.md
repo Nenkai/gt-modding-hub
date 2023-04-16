@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # PS2 Executables (CORE)
 
 Main builds of Gran Turismo and Tourist Trophy will have splitted executables - the main executable named by the game code and another file usually starting with `CORE`.

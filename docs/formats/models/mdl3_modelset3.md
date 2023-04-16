@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # MDL3 / ModelSet3
 :octicons-cpu-24: *Applies to: GT5, GTPSP, GT6* · :material-file-question: Extension: `.mdl` / none · :octicons-arrow-left-16: Endian: Big (GT5/GT6) · :octicons-arrow-right-16: Little (GTPSP)
 

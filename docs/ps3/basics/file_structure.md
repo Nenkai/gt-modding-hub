@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## GT6 Folder Structure
 
 ### USRDIR Contents

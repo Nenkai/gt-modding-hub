@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 After many iterations and demos of Gran Turismo 4 Prologue, GT4 was finally released after its move to Adhoc was completed. It is one of the first few games to ship running on a scripting engine this extensively.
 
 ## GT4 BMW 1 Series Virtual Drive (Jun 18, 2004)

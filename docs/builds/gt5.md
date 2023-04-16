@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## GT5 Gamescom 2009 Demo  (~Aug ??, 2009)
 
 :material-shovel: *Dumped*: :x: {==No==}

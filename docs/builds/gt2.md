@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Note that a lot of Playstation demos share the same GT2 contents.
 
 ## GT2 "The Making of Gran Turismo 2" Build  (??? ??, 199?)

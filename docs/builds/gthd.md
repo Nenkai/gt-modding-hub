@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Gran Turismo HD was supposed to be a remastered, high-definition of GT4 for the PS3. Unfortunately it never came to be, except for a demo.
 
 Most of it still uses GT4 formats.

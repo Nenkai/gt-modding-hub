@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## GT5P Games Convention 2007 Build  (~Aug ??, 2007)
 
 :material-shovel: *Dumped*: :x: {==No==}

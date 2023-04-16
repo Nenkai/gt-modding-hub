@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## GT4 Folder Structure
 
 ### Volume Contents

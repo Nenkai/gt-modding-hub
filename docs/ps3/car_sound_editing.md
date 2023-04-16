@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Car Sound Editing
 
 Gran Turismo 5 and 6 both use a sound format called [`ESGX`](../formats/audio/esgx_engine_sgx.md) for their vehicle sounds. This is an evolution of the ES (or ENGN) format used in the PS2-era Gran Turismo titles.

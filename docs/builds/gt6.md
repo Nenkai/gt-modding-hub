@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Compared to GT5, GT6 is internally a game that has been heavily tidied up. More standard formats are in use and most bits that were previously hardcoded are no longer a concern. It's the first game to use SQLite as its [SpecDB](../concepts/specdb.md), internally introduce [TinyWeb](../concepts/adhoc/tinyweb.md) for some live events, and implement asynchronous programming into the Adhoc language.
 
 ---

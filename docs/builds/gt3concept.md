@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## "Nissan GT-R Concept" Tokyo Motorshow Demo Version (Oct ??, 2001)
 
 :material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info

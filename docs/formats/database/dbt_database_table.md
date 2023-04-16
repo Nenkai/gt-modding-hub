@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # DBT - Database Table
 :octicons-cpu-24: *Applies to: GT4, GT5, GTPSP* · :material-file-question: Extension: `.dbt`
 

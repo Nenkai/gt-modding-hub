@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # BGML - Background Music Library
 
 :octicons-cpu-24: *Applies to: GT5, GTPSP, GT6, GT Sport, GT7* · :material-file-question: Extension: `.lib` · :octicons-arrow-right-16: Endian: Little
