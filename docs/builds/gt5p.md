@@ -53,7 +53,7 @@ Japan only release. Game Code: `NPJA-90061`
 ??? note "Veiled Cars"
     Some car files were encrypted - waiting to be unveiled in real-life before being playable ingame. These files also had a custom [volume](../concepts/volume.md) flag that is tied to the [`MBufferDecryptManager`](https://nenkai.github.io/GTAdhocAPI/html/classpdiext_1_1_m_buffer_decrypt_manager.html) adhoc object.
     
-    In order for the car files to be decrypted, the [Grim](../concepts/grim.md) server returned decryption keys on release day. These keys were stored in the save, and `MBufferDecryptManager.addKey()` would be called, making these files available.
+    In order for the car files to be decrypted, the [Grim](../concepts/online/grim.md) server returned decryption keys on release day. These keys were stored in the save, and `MBufferDecryptManager.addKey()` would be called, making these files available.
 
     If an unlocked game save wasn't backed up from back in the day, these files would've been permanently inaccessible.
 
