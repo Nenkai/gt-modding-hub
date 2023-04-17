@@ -34,6 +34,18 @@ Mentioned in [Notable Gran Turismo Collaborations](../images/covers/gt3c_notable
 
 ---
 
+## Gran Turismo Concept: 2001 Tokyo Store Demo (Dec 9th, 2001)
+
+![aa](../images/covers/gtc_tokyo2001.png){ width="250" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/pcpx-96624) · :material-disc: [Redump Info](http://redump.org/disc/23177/)
+
+Game Code: `PCPX-96624`
+
+Contents identical to retail.
+
+---
+
 ## Gran Turismo Concept Copen Special Edition (Mar 25, 2002)
 
 ![aa](../images/covers/gtc_copen.jpg){ width="250" }

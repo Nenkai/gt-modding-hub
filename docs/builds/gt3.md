@@ -75,7 +75,7 @@ Game Code: `PAPX-90209`
 
 ## GT3 Netz Toyota Dealership Demo (Oct 9, 2000)
 
-:material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info
+:material-shovel: *Dumped*: :x: {++Yes++} - available on [archive](https://archive.org/details/gt3-toyota-netz-pcpx-96309) · :material-disc: No Redump Info
 
 Game Code: `PCPX-96309`
 

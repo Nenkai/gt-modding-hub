@@ -40,3 +40,11 @@ Tourist Trophy is quite simply GT4 in disguise, most of its internal code and fi
     * Bootstrap + Core executables
     * ISO Size: `2.95 GB`
     * ISO CRC: `34A627A8`
+
+## Tourist Trophy US Master PREVIEW (Mar 2nd, 2006)
+
+![aa](../images/covers/tt_usmaster.jpg){ width="200"}
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/tourist-trophy-usm-mar22006) · :material-disc: No Redump Info
+
+Identical final executable, different `TT.VOL`.
