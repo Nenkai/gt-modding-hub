@@ -9,28 +9,98 @@ Most tables represent a distinct car part. Some other tables such as `COURSE` de
 * `label` is what the game uses to identify a car.
 * `category` column is the part's upgrade level. 
 
+
+### Torque Modifiers
+`torquemodifier`s determine how much a part increase the torque output of a car in %. 100/1000 is 100%, no changes.
+
+For each table that the game reads the multiplier is applied to the car's value as such `CurrentTorqueMultiplier = (CurrentTorqueMultiplier * TableTorqueMultiplier) / 100`
+
+??? tip "Table row load order for setting up a car (for GT4, crossed tables do not have a torque modifier)"
+    * ~~`BRAKE`~~
+    * ~~`BRAKECONTROLLER`~~
+    * ~~`STEER`~~
+    * ~~`CHASSIS`~~
+    * `ENGINE`
+    * ~~`DRIVETRAIN`~~
+    * ~~`GEAR`~~
+    * ~~`SUSPENSION`~~
+    * ~~`LSD`~~
+    * ~~`FRONTTIRE`~~ + (TIRECOMPOUND, TIRESIZE & TIREFORCEVOL)
+    * ~~`REARTIRE`~~ + (TIRECOMPOUND, TIRESIZE & TIREFORCEVOL)
+    * ~~`LIGHTWEIGHT`~~
+    * ~~`RACINGMODIFY`~~
+    * `PORTPOLISH`
+    * `ENGINEBALANCE`
+    * `DISPLACEMENT`
+    * `COMPUTER`
+    * `NATUNE`
+    * `TURBINEKIT`
+    * ~~`FLYWHEEL`~~
+    * ~~`CLUTCH`~~
+    * ~~`PROPERLLERSHAFT`~~
+    * `MUFFLER`
+    * `INTERCOOLER`
+    * `SUPERCHARGER`
+    * ~~`ASCC`~~
+    * ~~`TCSC`~~
+    * ~~`BALLAST`~~
+    * ~~`WING`~~
+    * ~~`NOS`~~
+    * ~~`VARIATION`~~
+
+---
+
 ## Database Tables
 
-|     Table Name       | Description
-| ---------------------| ------------- | 
+The most important tables are [`GENERIC_CAR`](#generic_car) and `DEFAULT_PARTS`.
+
+??? note "Mandatory table rows for a car (click to expand)"
+
+    * `GENERIC_CAR`
+    * `DEFAULT_PARTS`
+    * `BRAKE`
+    * `BRAKECONTROLLER`
+    * `STEER`
+    * `CHASSIS`
+    * `ENGINE`
+    * `DRIVETRAIN`
+    * `GEAR`
+    * `SUSPENSION`
+    * `LSD`
+    * `FRONT/REARTIRE` (+ `TIRESIZE`, `TIRECOMPOUND`, `TIREFORCEVOL`)
+    * `RACINGMODIFY` (GT4)
+    * `TURBINEKIT`
+    * `ASCC`
+    * `TCSC`
+    * `VARIATION`
+    * `MODEL_INFO` (GT6)
+    * `CAR_NAME` If you want a name
+    * `CAR_CUSTOM_INFO` (GT6).
+
+| <div style="width:150px">Table Name</div> | Description
+|:--------------------:| -------------| 
 `AIR_CLEANER`          | Defines all Air Filter tuning parts.
-`ARCADEINFO_NORMAL`    | Defines all possible AI arcade entries.
+`ARCADEINFO_NORMAL`    | Defines all possible AI arcade entries. 
 `ASCC`                 | Defines all ASM parts.
-`BOOST_CONTROLLER`     | Defines all boost controller parts.
+`BOOST_CONTROLLER`     | Defines all boost controller parts. (for >=GT5)
 `BRAKE`                | Defines all brake tuning parts.
+`BRAKECONTROLLER`      | Defines all brake controller parts.
 `CAR_CUSTOM_INFO`      | Unknown.
 `CAR_NAME_*`           | Defines all names for cars for each region. The row ID is and should be linked to the ID in `GENERIC_CAR`.
-`CAR_VARIATION_*`      | Mainly used for GT4, this defines all car label/model mappings for each region.
+[`CAR_VARIATION_*`](#car_variation)      | Mainly used for GT4, this defines all car label/model mappings for each region.
 `CATALYST`             | Defines all catalyst tuning parts.
 `CHASSIS`              | Defines chassis specifications such as dimensions, mass, and weight bias.
 `CLUTCH`               | Defines all clutch parts.
 `COMPUTER`             | Defines all ECU tuning parts.
 `COURSE`               | Defines all courses in the game. In GT5, `courselist.xml`, the arcade and freerun xmls refer to it using their labels. In GT6, menudb refers to it for available arcade courses.
+`COURSE_NAME_*`        | Defines the course names for `COURSE`. (for GT4)
 `DEFAULT_PARAM`        | Defines all the default part settings for each car.
-`DEFAULT_PARTS`        | Defines all the pre-installed parts for a car. Each column will point to a part table's row ID.
+`DEFAULT_PARTS`        | This is the second most important table. Defines all the pre-installed parts for a car. Each column will point to a part table's row ID.
 `DISPLACEMENT`         | TODO
 `DRIVETRAIN`           | Defines all drivetrain parameters.
+`ENEMY_CARS`           | Defines all enemy/AI cars, **this can be used in place of GENERIC_CAR for defining cars**. (a GENERIC_CAR row is still needed to use this. for GT4 only).
 [`ENGINE`](#engine)    | Defines all engine display/simulation specfications and assigns sound IDs to engines for `carsound` entries.
+`ENGINEBALANCE`        | Defines all engine balance parts. (for GT4)
 `EXHAUST_MANIFOLD`     | Defines all exhaust manifold parts.
 `FLYWHEEL`             | Defines all flywheel parts.
 `FRONTTIRE`            | Defines all front tire parts.
@@ -42,10 +112,40 @@ Most tables represent a distinct car part. Some other tables such as `COURSE` de
 `INTERCOOLER`          | Defines all intercooler parts.
 `LIGHTWEIGHT`          | Defines all lightweight parts.
 `LSD`                  | Defines all differential parts.
-`MODEL_INFO`           | Defines all the available models for each car. Row ID's are directly linked to the car's row in `GENERIC_CAR`.
+`MODEL_INFO`           | Defines all the available models for each car. Row ID's are directly linked to the car's row in `GENERIC_CAR`. (for >=GT5)
 `MUFFLER`              | Defines all exhaust upgrade parts. Categories are used to determine which subfolder is searched in `carsound`.
+`NATUNE`               | Defines all naturally aspirated tuning parts.
+`NOS`                  | Defines all nitrous parts.
+`PORTPOLISH`           | Defines all port polishing parts. (for GT4)
+`PROPELLERSHAFT`       | Defines all propeller shaft parts.
+`RACE`                 | Defines all races in GT4. Label must match a certain pattern.
+`RACINGMODIFY`         | Defines racing modifications (GT5), aero/chassis data (GT4).
+`REARTIRE`             | Defines all rear tires.
+`STEER`                | Defines steering assist parameters.
+`SUSPENSION`           | Defines all suspension parts.
+`TCSC`                 | Defines traction control parts.
+`TIRECOMPOUND`         | Defines tire compounds. Used by FRONTTIRE and REARTIRE.
+`TIREFORCEVOL`         | Defines tire force volumes.
+`TIRESIZE`             | Defines tire sizes. Used by FRONTTIRE and REARTIRE.
+[`TUNER_LIST`](#tuner_list)           | Defines which tuner/dealer you can go to to upgrade a car in GT4.
+`TURBINEKIT`           | Defines all the turbos.
+[`VARIATION`](#variation) | Defines all the car paint colors (and models, for GT4).
+`WHEEL`                | Defines all the wheels.
+`WING`                 | Defines all the wings. (for GT4, maybe GT5P)
+
+### CAR_VARIATION
+:material-check: *Applicable to: GT4 / TT*
+
+Links a car to a [VARIATION](#variation) row.
+
+|     Column          |  Data Type    | Description
+| --------------------| ------------- | ----------- | 
+`Label`               | String        | The human-readable reference name for the car. Must match with the car to search.
+`VariationID`         | Int           | ID matching [VARIATION](#variation).
 
 ### ENGINE
+:material-check: *Applicable to: GT4 and above*
+
 |     Column          |  Data Type    | Description
 | --------------------| ------------- | ----------- | 
 `Label`               | String | The human-readable reference name for the part. Matching this to the GENERIC_CAR label isn't mandatory, but keeps things simple.
@@ -73,6 +173,8 @@ Most tables represent a distinct car part. Some other tables such as `COURSE` de
 `GasConsumptionRate`  | Byte   | Unknown. As the name suggests this is related to fuel consumption, but every engine in GT4 has a value of `0` for this column, and the units/effects are unknown. Possibly unused.
 
 ### GEAR
+:material-check: *Applicable to: GT4 and above*
+
 |     Column                  |  Data Type    | Description
 | ----------------------------| ------------- | ----------- |
 `Label`                       | String        | The human-readable reference name for the part. Matching this to the GENERIC_CAR label isn't mandatory, but keeps things simple.
@@ -95,7 +197,11 @@ Most tables represent a distinct car part. Some other tables such as `COURSE` de
 `ReverseGearPos`              | Byte          | Used for rendering the driver animations. Similar assignments to `LowGearPos`, but has a larger range of possible values (`0`, `6`, `8`, and `255`).
 `GearPattern`                 | Byte          | Used for rendering the driver animations. Likely related to shifting animations but the actual nature of each value is unknown.
 
+---
+
 ### GENERIC_CAR
+
+:material-check: *Applicable to: GT4 and above*
 
 ??? info "GT4 Table (click to expand)"
     |     Column                  |  Data Type    | Description
@@ -123,3 +229,136 @@ Most tables represent a distinct car part. Some other tables such as `COURSE` de
         `3`   | Hides a car's specs (`HideRealSpec`).
         `4`   | Marks a car as open top-only, meaning it has no closed roof variant and cannot enter typical races (`OpenCar`).
         `5`   | Marks a car as a test car, meaning it can only drive on the Nürburgring Nordschleife, Test Course, and Las Vegas drag strip (`TestCar`).
+
+---
+
+### TUNER_LIST
+
+:material-check: *Applicable to: TT, GT4*
+
+This table links a car to a list of tuners - tuners can tune the car.
+
+|     Column                  |  Data Type    | Description
+| ----------------------------| ------------- | ----------- |
+`Label`                       | String        | The human-readable reference name for the car. Must match from [GENERIC_CAR](#generic_car).
+`Maker(1 through 10)`                | Short         | Maker IDs. The list of makers is hardcoded in GT4/TT. 
+
+??? abstract "Maker List (For GT4/TT)"
+    ```
+    Name        | ID
+    ------------|----
+    -           |  0
+    acura       |  2
+    alfaromeo   |  3
+    astonmartin |  4
+    audi        |  5
+    bmw         |  6
+    chevrolet   |  7
+    chrysler    |  8
+    citroen     |  9
+    daihatsu    |  10
+    dodge       |  11
+    fiat        |  12
+    ford        |  13
+    gillet      |  14
+    honda       |  15
+    hyundai     |  16
+    jaguar      |  17
+    lancia      |  18
+    lister      |  19
+    lotus       |  20
+    manufacturer|  21
+    mazda       |  22
+    mercedes    |  23
+    mg_mini     |  24
+    mitsubishi  |  25
+    nissan      |  26
+    opel        |  27
+    pagani      |  28
+    panoz       |  29
+    peugeot     |  30
+    polyphony   |  31
+    renault     |  32
+    ruf         |  33
+    shelby      |  34
+    subaru      |  35
+    suzuki      |  36
+    tickford    |  37
+    tommykaira  |  38
+    toyota      |  39
+    tvr         |  40
+    vauxhall    |  41
+    volkswagen  |  42
+    asl         |  43
+    dome        |  44
+    infiniti    |  45
+    lexus       |  46
+    mini        |  47
+    pontiac     |  48
+    spyker      |  49
+    cadillac    |  50
+    plymouth    |  51
+    isuzu       |  52
+    autobianchi |  53
+    ginetta     |  54
+    saleen      |  55
+    vemac       |  56
+    jayleno     |  57
+    buick       |  58
+    callaway    |  59
+    dmc         |  60
+    eagle       |  61
+    mercury     |  62
+    triumph     |  63
+    volvo       |  64
+    hommell     |  65
+    jensen      |  66
+    marcos      |  67
+    scion       |  68
+    cizeta      |  69
+    fpv         |  70
+    caterham    |  71
+    ac          |  72
+    bentley     |  73
+    seat        |  74
+    landrover   |  75
+    holden      |  76
+    nike        |  77
+    au_ford     |  78
+    chaparral   |  79
+    autounion   |  80
+    proto       |  81
+    yamaha      |  82
+    kawasaki    |  83
+    aprilia     |  84
+    mvagusta    |  85
+    yoshimura   |  86
+    moriwaki    |  87
+    buell       |  88
+    ducati      |  89
+    _7honda     |  90
+    ysp_presto  |  91
+    trickstar   |  92
+    ```
+---
+
+### VARIATION
+
+Variation defines all the colors available for the cars. In GT4, it is also responsible for linking to the model and the color patch. In later games, it has moved to [MODEL_INFO](#model_info).
+
+In GT4, in order to get variation rows you would first need to obtain it from [CAR_VARIATION](#car_variation).
+
+??? info "GT4 Table (click to expand)"
+    |     Column                  |  Data Type    | Description
+    | ----------------------------| ------------- | ----------- | 
+    `Label`                       | String        | The internal name for the color. 
+    `ModelCode`                   | String        | Code for the model to be used with the `car/` folder.
+    `VarOrder`                    | UInt          | The display order of this paint color.
+    `ColorPatchFileName`          | String        | Color patch file name to be used with the `car/`. Ends with a `.pat` extension.
+    `Name`                        | String        | Paint color name.
+    `ModelWidth`                  | Float         | Model Width.
+    `ModelHeight`                 | Float         | Model Height.
+    `ModelFront`                  | Float         | Model Front.
+    `ModelRear`                   | Float         | Model Rear.
+    `ModelProjection`             | Float         | Model Projection.
+    `ColorChip(0 through 4)`      | UInt          | Color of the chip for the car (the color display rectangle for menus).

@@ -182,6 +182,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.keys
   - pymdownx.critic
+  - pymdownx.tilde
   - pymdownx.tabbed:
       alternate_style: true 
   - attr_list
