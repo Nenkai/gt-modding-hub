@@ -91,9 +91,17 @@ nav:
   - General Concepts:
       Volume: concepts/volume.md
       SpecDB: concepts/specdb.md
+
       Adhoc: 
         - Adhoc Explained: concepts/adhoc/adhoc.md
         - TinyWeb: concepts/adhoc/tinyweb.md
+
+      Courses (Tracks):
+        - Basics / Glossary: concepts/courses/basics.md
+
+      Online:
+        - Grim: concepts/online/grim.md
+        - Vegas: concepts/online/vegas.md
 
   - Formats:
     - Basic Information: formats/abstract.md
