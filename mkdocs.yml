@@ -65,6 +65,8 @@ nav:
         - Loading Clock Colors/Errors: ps2/gt4/misc/loading_clock_colors.md
       - Patches / Cheats: ps2/gt4/patches.md
 
+    - Textures: ps2/textures.md
+    
     - Other:
       - Executables (CORE.GT3/CORE.GT4): ps2/executables.md
 
@@ -176,7 +178,7 @@ nav:
 
   - Credits:
       - credits.md
-      
+
 markdown_extensions:
   - toc:
       permalink: true

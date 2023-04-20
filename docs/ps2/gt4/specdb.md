@@ -7,3 +7,5 @@ Gran Turismo 4 was the first game to use Polyphony's proprietary format for Spec
 
 !!! bug
     All database tables are compressed and stored in memory at boot. When a row is extracted, a row is decompressed, but not in-place. Compression uses a custom algorithm that has not been figured out, so the tool saves **ALL** the tables uncompressed. **GT4 can run out of memory** and display a [blue block](misc/loading_clock_colors.md) error.
+
+    EDIT: A new unreleased version with the compression exists, has not yet been released (in testing phase).
