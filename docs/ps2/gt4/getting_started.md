@@ -79,7 +79,7 @@ GT4FS --read <path to extracted volume with edited contents> --output MyNewVolum
 !!! warning
     This part does not cover building GT4 retail yet, only GT4O.
 
-For every change to the VOL, the ISO needs to be built. As this can be a lengthy process, buildins ISOs on a SSD is highly recommended.
+For every change to the VOL, the ISO needs to be built. As this can be a lengthy process, building ISOs on a SSD is highly recommended.
 
 As mentioned previously, GT4 Online Test Version is the best candidate for ISO rebuilding, as it is a single-layer disc and is significantly smaller than a retail copy (2.59 GB vs 5.57 GB).
 
