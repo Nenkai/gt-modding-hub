@@ -44,7 +44,7 @@ theme:
       accent: blue
 
 nav:
-  - Home: index.md
+  - Main Page: index.md
 
   - PS1 (GT1/GT2):
     - Index: ps1/index.md
