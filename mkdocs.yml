@@ -88,7 +88,8 @@ nav:
         - Command Line Arguments: ps3/other/command_line_args.md
         - FSRoot: ps3/other/fsroot.md
 
-  - General Concepts:
+  - General Concepts: 
+      Index: concepts/index.md
       Volume: concepts/volume.md
       SpecDB: concepts/specdb.md
 
@@ -170,6 +171,12 @@ nav:
   - Mod Showcase:
       - Index: mod_showcase/index.md
 
+  - Discord:
+      - discord.md
+
+  - Credits:
+      - credits.md
+      
 markdown_extensions:
   - toc:
       permalink: true
@@ -212,7 +219,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/discord 
-      link: https://discord.io/gtonline
+      link: https://nenkai.github.io/gt-modding-hub/discord/
 
     - icon: fontawesome/brands/twitter 
       link: https://twitter.com/Nenkaai

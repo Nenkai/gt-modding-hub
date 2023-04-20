@@ -33,6 +33,28 @@ Format | Editable | Description |
 [`.gpb`](../../formats/adhoc/gpb_gpbdata.md) | Yes | UI Assets - Containers for each project that contains images
 `.mpackage` | Yes | GT6 Only. These contain bundles of `.adc` and `.mwidget` files that are properly split. **This file is always first for any given project. If missing, the game will fall back to loading an individual script and project file.**
 
+??? tip "Advanced Glossary (click to expand)"
+
+    |     Name    | Description |
+    |-------------| ------------|
+    `adc`        | Adhoc Compiled Script |
+    `Adhoc`      | Proprietary scripting language for Gran Turismo. Can also refer to bytecode when compiled from pure Adhoc or Swift (GT7). Not to be confused with PSP Ad hoc
+    `attribute`  | Represents an object or module property.
+    `branch`     | Build type of the game. For GT6 it normally is `gt6`, but it can also be runviewer. Determines how the game is booted or how it behaves.
+    `GPB`        | An image/resource container for all the assets a project or root uses.
+    `module`     | Similar to a namespace.
+    `MNode`      | Represents *any* node within an MWidget. **Any node is also a module on their own**.
+    `MProject`   | UI Layout definition for a project, generally many MWidgets combined into one MProject.
+    `MWidget`    | UI Layout definition for a root.
+    `MPackage`   | A compressed container for splitted adc and mproject/mwidget files.
+    `project`    | A group of menus.
+    `root`       | A game menu.
+    `runviewer`  | Name of the debug menu.
+    `Tiny Web`   | See [Tiny Web](tinyweb.md). Web Server that GT6 and beyond can host which can be used to host pages for external access, or for executing Web Modules.
+    `Web Module` | See [Tiny Web](tinyweb.md). An adhoc script which returns a web response.
+
+---
+
 ## Adhoc Scripts
 
 As explained in the introduction, Adhoc scripts are responsible for roughly 99% of the gameplay logic. An ongoing effort to translate compiled scripts into compilable versions is available at [OpenAdhoc](https://github.com/Nenkai/OpenAdhoc).
@@ -41,12 +63,21 @@ Scripts that have not been reverse-engineered can be edited, but it is a difficu
 
 Most of the operations are done through the [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain).
 
+That said, adhoc in general is quite similar to popular programming languages, a few differences and features be seen at the [language spec](https://github.com/Nenkai/GTAdhocToolchain/blob/master/LANGUAGE_SPECIFICATION.md).
+
+---
+
 ## Editing and recompiling scripts
 
 Using the toolchain directly, scripts can be compiled using the .yaml file.
-``` markdown title="Compiling a Script/Project"
-adhoc build -i <.ad source file or .yaml project file> (-v <version>)
+
+``` { .yaml .annotate }
+adhoc build -i <.ad source file or .yaml project file> (-v <version>) # (1)!
 ```
+
+1.  The version should match the version the game supports, you can check the [Build List](../../builds/game_builds.md) for each's game supported version. You can also check the by dissasembling the scripts.
+
+    Note that the toolchain supports compiling Version **7** through **12**.
 
 Or if you also have installed the VS Code extension provided:
 

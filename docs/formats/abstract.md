@@ -1,3 +1,5 @@
+*These pages cover various file formats used throughout the games. It is still under progress.*
+
 # Abstract
 
 Most file formats in Gran Turismo are proprietary and if not, will use platform provided formats. This is especially the case for games older than Gran Turismo 5. 

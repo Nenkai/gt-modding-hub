@@ -23,7 +23,7 @@ The [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain) can be used t
 
 ## Gpb1
 
-:octicons-cpu-24: *Applies to GT4 First Preview* · :octicons-arrow-right-16: Endian: Little
+:octicons-cpu-24: *Applies to GT4P, GT4 First Preview* · :octicons-arrow-right-16: Endian: Little
 
 ### Header
 

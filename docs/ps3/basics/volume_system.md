@@ -18,7 +18,7 @@ You might notice that the folder contains hundreds and thousands of randomly nam
 
 ## Unpacking the game files
 
-You can unpack this file located in your game disc, and your whole `PDIPFS` to have a completely extracted game. It is recommended to have **both** extracted if applicable.
+You can unpack `GT.VOL` located on your game disc, and your whole `PDIPFS` to have a completely extracted game. It is recommended to have **both** extracted if applicable.
 
 * Transfer `PDIPFS` and `GT.VOL` to your PC.
 
@@ -49,7 +49,7 @@ As said previously, `PDIPFS` allows editing existing files while keeping the act
 
 You will need:
 
-   * The tool above (see: Unpacking).
+   * GTToolsSharp (mentioned above).
    * Your **non-extracted** `PDIPFS` folder
    * Your game files that you've edited in their **original** paths. For example: `MyMod/textdata/gt5/aspec_event/r100.xml`
    * (Recommended) a backup of the file `K/4D` in your `PDIPFS` folder. It can be used to easily revert to vanilla.
@@ -94,6 +94,8 @@ If you wanted to remove `textdata/gt5/aspec_event/r100.xml` from the game, you w
 ``` markdown title="Sample file"
 textdata/gt5/aspec_event/r100.xml
 ```
+
+Then, add the additional `--remove-files` argument while packing.
 
 ---
 
