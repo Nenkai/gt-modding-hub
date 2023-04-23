@@ -13,6 +13,6 @@ These terms mostly apply starting from Gran Turismo 4.
 * `Rail`: Refers to the road aspect of a course in the context of course generation.
 * `Runway`: Runways are the collision component of the course. It contains the checkpoints, boundaries, collision tree, starting grid points and more.
 * `Scenery`: Refers to the background aspect of a course.
-* `VCoord`: Represents one meter progression on the track. i.e VCoord `2000` would be half way through High Speed Ring (which 4.000 meters).
+* `VCoord`: Represents one meter progression on the track. i.e VCoord `2000` would be half way through High Speed Ring (which is 4.000 meters).
 * `Vision List`: Vision lists (also known as VLS) determine what models should rendered on a precise point on the track.
 

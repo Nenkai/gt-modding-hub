@@ -68,6 +68,9 @@ Early build of the game compiled on July 16, 2010 dumped by Elston87. Can be fou
     * One executable (EBOOT)
     * BuildMode: `default-nodfe-nopace-nonp-nortime` (No DFE, No Pace, No Network Platform, No RTime)
 
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/PU6YJdYiXfo" title="GT5 DEMO 2010 | NPUA70115 | Jul 16, 2010" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 ## GT5 Gamescom 2010 Demo (~Aug ??, 2010)

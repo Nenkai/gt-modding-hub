@@ -147,7 +147,7 @@ If you have a Grim setup, adhoc errors are automatically reported to the console
 ## Editing scripts from compiled binaries (advanced)
 To begin viewing them, drag any `.adc` file onto the toolchain executable. This should output a `.ad` and `.strings` file next to the source file.
 
-The `.ad` file can be viewed in any text editor, preferably Notepad++. In it, you will find the source code in an [Assembly](https://en.wikipedia.org/wiki/Assembly_language) form. Adhoc Scripts are generally high level, but still contains stack handling, scopes, etc. Think of it as being similar to [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)).
+The `.ad` file can be viewed in any text editor, preferably Notepad++. In it, you will find the source code in an [Assembly](https://en.wikipedia.org/wiki/Assembly_language) form. Adhoc Scripts are generally high level, but still contains stack handling, scopes, etc.
 
 All instructions will start with three different numbers seperated by `|`s. Lets take the following instruction as an example and lets tear it down.
 
