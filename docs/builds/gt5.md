@@ -42,7 +42,7 @@ comments: true
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt5demo2010npua70115repack.7z) · :material-disc: No Redump Info
 
-Early build of the game compiled on July 16, 2010 dumped by Elston87. Can be found on archive.
+Early build of the game compiled on July 16, 2010. Decrypted by Razerman & Elston87. Can be found on archive.
 
 * America - `NPUA-70115`
 
