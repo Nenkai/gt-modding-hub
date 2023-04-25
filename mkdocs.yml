@@ -50,24 +50,29 @@ nav:
 
   - PS1 (GT1/GT2):
     - Index: ps1/index.md
+    - GT1:
+        - Tools / Resources: ps1/gt1/tools.md
+    - GT2:
+        - Tools / Resources: ps1/gt2/tools.md 
 
   - PS2 (GT3/GT4/TT):
     - Index: ps2/index.md
     - GT3 / GTC:
         - Getting Started: ps2/getting_started.md
         - Patches / Cheats: ps2/gt3/patches.md
+        - Tools / Resources: ps2/gt3/tools.md
 
     - GT4 / GT4P / TT:
       - Basics:
         - Getting Started: ps2/gt4/getting_started.md
         - Folder/File Structure: ps2/gt4/file_structure.md
-
       - SpecDB (Car Specs): ps2/gt4/specdb.md
-      - Miscellaneous: 
-        - Loading Clock Colors/Errors: ps2/gt4/misc/loading_clock_colors.md
+      - Textures: ps2/textures.md
+      - Tools / Resources: ps2/gt4/tools.md
       - Patches / Cheats: ps2/gt4/patches.md
 
-    - Textures: ps2/textures.md
+      - Miscellaneous: 
+        - Loading Clock Colors/Errors: ps2/gt4/misc/loading_clock_colors.md
     
     - Other:
       - Executables (CORE.GT3/CORE.GT4): ps2/executables.md
@@ -87,10 +92,17 @@ nav:
     - Movies: ps3/movies.md
     - Models: ps3/models.md
     - Fonts: ps3/fonts.md
+    - Resources / Tools: ps3/tools.md
     - Other:
         - Optimal Modding Setup: ps3/other/optimal_setup.md
         - Command Line Arguments: ps3/other/command_line_args.md
         - FSRoot: ps3/other/fsroot.md
+        - Custom Server: ps3/other/custom_server.md
+        - RPCS3 Settings: ps3/other/rpcs3_setup.md
+
+  - PS4 (GTS/GT7):
+    - Index: ps4/index.md
+    - Resources / Tools: ps4/tools.md
 
   - General Concepts: 
       Index: concepts/index.md
