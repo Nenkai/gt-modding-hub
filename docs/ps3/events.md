@@ -99,7 +99,7 @@ Create rows for each folder that you want to create and apply them.
 0xxx: Sierra Events
 ```
 
-`t_event_folder_localize` - Name of your folder in each language - **required for each folder**:
+* `t_event_folder_localize` - Name of your folder in each language - **required for each folder**:
 * `id`: Must be unique
 * `LocalizeID`: Must match your folder's `TitleID` in `t_event_folder`
 * Everything else: Name of your folder in each language - just set it all as english
