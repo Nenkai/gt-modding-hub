@@ -15,5 +15,5 @@ This website is still a work in progress, incase you have anything to suggest, j
 
 ## Contributing
 
-If you'd like to contribute, [this is the repository](https://github.com/Nenkai/gt-modding-hub) for this website.
+If you'd like to contribute, [this is the repository](https://github.com/Nenkai/gt-modding-hub) for this website. Otherwise you can join the discord and discuss anything in regards to the website in `#modding-hub-chat`.
 
