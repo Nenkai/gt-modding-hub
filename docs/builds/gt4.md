@@ -6,7 +6,7 @@ After many iterations and demos of Gran Turismo 4 Prologue, GT4 was finally rele
 
 ## GT4 BMW 1 Series Virtual Drive (Jun 18, 2004)
 
-![aa](../images/covers/gt4_bmw_dealership.jpg){ width="200" }
+![aa](../images/covers/gt4_bmw.jpg){ width="200" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%204%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28BMW%201%20Series%20Virtual%20Drive%20Dealership%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
 
@@ -30,7 +30,7 @@ Game Code: `SCED-52681`
 
 ## GT4 BMW 1 Series Virtual Drive Dealership (Jun 18, 2004)
 
-![aa](../images/covers/gt4_bmw.png){ width="200" }
+![aa](../images/covers/gt4_bmw_dealership.png){ width="200" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%204%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28BMW%201%20Series%20Virtual%20Drive%20Dealership%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
 
@@ -75,7 +75,7 @@ Game Code: `PCPX-96649`
     * ISO CRC: `828AFE7D`
 
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
-    <iframe width="1180" height="664" src="https://www.youtube.com/embed/dKi9vvwwXwM" title="Gran Turismo 4 BMW 1 Series Virtual Drive | SCED-52681 | 18 Jun, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="1218" height="721" src="https://www.youtube.com/embed/UpzUtp-RZRA" title="Gran Turismo 4 First Preview | PCPX-96649 | Sep 20, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 

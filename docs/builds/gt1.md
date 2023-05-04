@@ -37,7 +37,7 @@ Game Code: `PCPX-96085`
 
 ![aa](../images/covers/gt1_trialver.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_(Oct_27,_1997_prototype) (My Dump)) · :material-disc: [Redump Info](http://redump.org/disc/7772/)
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_(Oct_27,_1997_prototype)) · :material-disc: [Redump Info](http://redump.org/disc/7772/)
 
 Game Code: `PAPX-90026`
 

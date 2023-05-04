@@ -89,7 +89,16 @@ comments: true
 
 ---
 
-## GT Sport
+## GT Sport - MEGAWEB GR ZONE (~Sep ??, 2017)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/KRKblnEEeVQ" title="MEGAWEB GR ZONE GT SPORT + Thrustmaster T-GT  GT86 FreePlay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT Sport (October 17, 2017)
 
 ![aa](https://www.gran-turismo.com/images/c/i1LS3dZqUMuJTz.jpg){ width="200" }
 
@@ -116,3 +125,12 @@ comments: true
     * GrimSslCommonName: `gt7sp.ps4.online.gran-turismo.com`
     * Volume Seed: `KYZYLKUM-873068469`
     * Volume Key: `3386540197, 84781473, 2662465125, 3058823931`
+
+---
+
+## GT Sport - TGS2017 VR Support (~Nov ??, 2017)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/0xUQZqoUVXw" title="TGS2017  GT SPORT + Thrustmaster T-GT + PlayStation VR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

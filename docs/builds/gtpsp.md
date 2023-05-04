@@ -26,7 +26,7 @@ There is next to no leftover debug functionalities in this game.
 
 ---
 
-## GT PSP Gamescom 2009 Build (~Sep ??, 2009)
+## GT PSP Tokyo Games Show 2009 Build (~Sep ??, 2009)
 
 :material-shovel: *Dumped*: :x: {==No==}
 

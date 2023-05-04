@@ -29,6 +29,24 @@ comments: true
 
 ---
 
+## GT5 Nür 2010 Demo (~May ??, 2010)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/tkenSVbJ00s" title="GT5 Nür 2010 Demo - Nordschleife - SLS AMG cockpit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT5 24 Heures du Mans Demo (~Jun ??, 2010)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/tVlcSyLFFEU" title="GT5rs - Gran Turismo 5 Demo, 24 Heures du Mans 2010" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
 ## GT5 E3 2010 Demo  (~Jun ??, 2010)
 
 :material-shovel: *Dumped*: :x: {==No==}
