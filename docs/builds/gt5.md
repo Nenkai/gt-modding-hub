@@ -29,6 +29,49 @@ comments: true
 
 ---
 
+## GT5 Time Trial Challenge (December 11, 2009)
+
+![aa](../images/covers/gt5_ttc.png){ width="250" }
+
+:material-shovel: *Dumped*: {++Yes++}
+
+This was a PSN-only demo. Presumably no japanese release. [Official News](https://www.gran-turismo.com/us/news/02_0005142.html)
+
+* Europe - [`NPEA-90052`](http://zeus.dl.playstation.net/cdn/EP9001/NPEA90052_00/X5JwAF2fVR431tLGeeg5CUjiEk5FolIPpnJPp0JASokUYeFFEwLfAYC5iYcMWeQqrmrOrL4QMF41JhDFvPjShshse6H6HbvpQ5APU.pkg)
+* America - [`NPUA-70087`](http://zeus.dl.playstation.net/cdn/HP9000/NPHA80080_00/Cv3LhAc1NNkdhDuA7qORMUWs28jtcCgOIEBJW4D630U0MPwnfCMMeUUcJyHcuqJAqRWRxCwtYywghrnU89vStJLk8OmOF0rjS5ySN.pkg)
+* Asia - [`NPHA-80080`](http://zeus.dl.playstation.net/cdn/UP9000/NPUA70087_00/fsJwHuEhkYFk1imhLuskX7AFRvhSbOtIOvNBD7igfxKhbdpfvAeei4d6NR3cNoeXtGi6tNvkk2t1nATKURdCO1J1JlqFhc98YO7I4.pkg)
+
+??? note "Build Info"
+    * Adhoc Version: `12`
+    * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+    * VersionBranch: `academy`
+    * VersionTarget: `ps3`
+    * VersionEnvironment: `product-edi-strong`
+    * VersionBuild: `release`
+    * VersionUser: `build`
+    * ProductVersion: `1.01`
+    * PDIVersion: `1.00`
+    * CompileDateTime: `2009/12/11 17:38:25`
+    * CompileSVNRevision: `35915`
+    * SpecDB Version: `GT5_ACADEMY_09_2900`
+    * EU KeyLicensee: `0x57af8fbf2873a3d1c96ef3c62e2b21ca`
+    * US KeyLicensee: `0x259ee6de3b0233abd688b979f2f1b556`
+    * Asia KeyLicensee: `0xd90ec8b2b919ee28f91be46b10c89695`
+    * EU Volume Seed: `PISCINAS-77828733`
+    * EU Volume Key: `3692103957, 2893874109, 2794761997, 2447916273`
+    * US Volume Seed: `CARCROSS-85963023`
+    * US Volume Key: `2089861969, 1406207357, 898605625, 4111020735`
+    * Asia Volume Seed: `ORDOS-29082919`
+    * Asia Volume Key: `867440483, 3073837131, 3493456223, 2754278043`
+    * EU Volume Serial: `282245958`
+    * US Volume Serial: `282505718`
+    * Asia Volume Serial: `282246239`
+    * Grim URL: `https://gt5academy.ps3.online.uk.gran-turismo.com`
+    * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+    * One executable (EBOOT)
+    * BuildMode: `default-nodfe-nodls-aclgdev-pal-nortime` (No DFE, No DLS/Pace, No Network Platform, AC Logitech Dev, No RTime)
+---
+
 ## GT5 Nür 2010 Demo (~May ??, 2010)
 
 :material-shovel: *Dumped*: :x: {==No==}

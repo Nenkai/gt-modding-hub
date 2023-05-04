@@ -6,7 +6,7 @@ After many iterations and demos of Gran Turismo 4 Prologue, GT4 was finally rele
 
 ## GT4 BMW 1 Series Virtual Drive (Jun 18, 2004)
 
-![aa](../images/covers/gt4_bmw.jpg){ width="200" }
+![aa](../images/covers/gt4_bmw.png){ width="200" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%204%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28BMW%201%20Series%20Virtual%20Drive%20Dealership%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
 
@@ -30,7 +30,7 @@ Game Code: `SCED-52681`
 
 ## GT4 BMW 1 Series Virtual Drive Dealership (Jun 18, 2004)
 
-![aa](../images/covers/gt4_bmw_dealership.png){ width="200" }
+![aa](../images/covers/gt4_bmw_dealership.jpg){ width="200" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%204%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28BMW%201%20Series%20Virtual%20Drive%20Dealership%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
 
