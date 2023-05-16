@@ -10,7 +10,7 @@ DBT Stands for Database Table.
 DBT files is a non-standard database table format that supports compression. This format is directly linked to IDI, Label Information. No column information is present in this file, they had to be figured out from raw row data.
 
 !!! note
-    All the database tables are loaded at boot fully in memory without decompressing. GT4 may blow up if loading many tables uncompressed.
+    All the database tables are loaded at boot fully in memory. When a row is extracted, a row is decompressed, but not in-place. The DBT format supports compressed and uncompressed tables, although uncompressed is generally not compatible with GT4 and will easily run out of memory. [GTSpecDB](https://github.com/Nenkai/GTSpecDB) will save compressed by default.
 
     GT6 and above have moved away from this format, using SQLite instead.
 
