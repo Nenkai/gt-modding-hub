@@ -54,7 +54,7 @@ You would need to create a new folder with the edited files, **while preserving 
 Using `GT4FS`, you would then run the following command:
 
 ```markdown title="Appending to the Volume"
-GT4FS --read GT4.VOL --append MyMod
+GT4FS pack-append --read GT4.VOL --append MyMod
 ```
 
 !!! warning
@@ -83,7 +83,15 @@ For every change to the VOL, the ISO needs to be built. As this can be a lengthy
 
 As mentioned previously, GT4 Online Test Version is the best candidate for ISO rebuilding, as it is a single-layer disc and is significantly smaller than a retail copy (2.59 GB vs 5.57 GB).
 
-### Requirements
+Two methods are provided:
+
+* [`CDVDGen`](#cdvdgen-slow-method) (Slow Method)
+* [`UltraISO`](#ultraiso-fast-method) (Fast Method)
+
+---
+
+### CDVDGen (Slow Method)
+#### Requirements
 
 * [ISO Tools](../../tools/ISO_Tools.zip), for building ISOs - Should include `cdvd2iml5.30`, `ISOLayerMerge`.
     * Install `cdvd2iml5.30`. This is the tool you will be using to build ISOs.
@@ -91,9 +99,7 @@ As mentioned previously, GT4 Online Test Version is the best candidate for ISO r
     * Once you have the zip, extract it, and also download [UniExtract](https://github.com/Bioruebe/UniExtract2). It is required to extract the cdvdgen setup, as the setup file breaks on modern windows.
     * Extract `data1.cab` with it. You can delete UniExtract afterwards.
 
----
-
-### Building an IML
+#### Building an IML
 First, open `cdvdgen.exe` (in the `data1/Program_Executable_Files` folder). Create a new project, select `DVD-ROM Master Disc`, and drag the game's files onto it with the following layout:
 
 ```markdown title="File order"
@@ -117,12 +123,21 @@ In `File`, press `Export iml file`.
 !!! tip 
     You should also save the project to speed up future rebuilds.
 
----
-
-### Actually building the ISO
+#### Actually building the ISO
 
 Open `cdvd iml2iso` and open the newly created IML file with it. 
 
 Press `iml2iso` and iso creation should start. It takes one minute or so with GT4 Online on a HDD.
 
 Congratulations! You now have an ISO ready to go.
+
+---
+
+### UltraISO (Fast Method)
+
+You can use [UltraISO](https://www.ultraiso.com/) which natively and properly supports building PS2 ISOs. It is however a paid product, so acquire it however you want.
+
+Open your original ISO (preferably a copy of it, always have a backup of the original) into UltraISO, remove `GT4.VOL`.
+
+At the top left, in `Actions`, go to `Add Files` and select the newly built `GT4.VOL` file. Then simply just save. It'll take a few dozen seconds, but after that, your ISO is ready to go.
+
