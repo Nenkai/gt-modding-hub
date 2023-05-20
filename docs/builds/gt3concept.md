@@ -70,7 +70,7 @@ Game Code: `SCPM-85301`
 
 ![aa](../images/covers/gtc_nissan350z.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia802208.us.archive.org/view_archive.php?archive=/25/items/sony_playstation2_g/Gran%20Turismo%203%20-%20Nissan%20350Z%20Edition%20%28USA%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/80593/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/80593/)
 
 Game Code: `SCUS-97219`
 
@@ -109,7 +109,7 @@ Game Code: `PAPX-90504`
 
 ![aa](../images/covers/gtc_nissan_micra.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia902208.us.archive.org/view_archive.php?archive=%2F25%2Fitems%2Fsony_playstation2_g%2FGran+Turismo+-+Nissan+Micra+Edition+%28Europe%29.zip) · :material-disc: Entries exist on Redump, ISO CRC does not match
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: Entries exist on Redump, ISO CRC does not match
 
 Game Code: `SCED-51352`
 
@@ -137,7 +137,7 @@ Mentioned in [Notable Gran Turismo Collaborations](../images/covers/gt3c_notable
 
 ![aa](../images/covers/gtc_nissan_micra2.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia802208.us.archive.org/view_archive.php?archive=/25/items/sony_playstation2_g/Gran%20Turismo%20-%20Nissan%20Micra%20Edition%20%28Europe%29%20%28Rev%202%29.zip) · :material-disc: Entries exist on Redump, ISO CRC does not match
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: Entries exist on Redump, ISO CRC does not match
 
 Game Code: `SCED-51352#2`
 

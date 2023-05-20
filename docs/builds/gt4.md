@@ -8,7 +8,7 @@ After many iterations and demos of Gran Turismo 4 Prologue, GT4 was finally rele
 
 ![aa](../images/covers/gt4_bmw.png){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%204%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28BMW%201%20Series%20Virtual%20Drive%20Dealership%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
 
 Game Code: `SCED-52681`
 
@@ -32,7 +32,7 @@ Game Code: `SCED-52681`
 
 ![aa](../images/covers/gt4_bmw_dealership.jpg){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%204%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28BMW%201%20Series%20Virtual%20Drive%20Dealership%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
 
 Game Code: `SCED-52578`
 
@@ -107,7 +107,7 @@ The main build of Gran Turismo 4.
 
 ![aa](../images/covers/gt4_mazda.png){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia802208.us.archive.org/view_archive.php?archive=/25/items/sony_playstation2_g/Gran%20Turismo%204%20-%20Mazda%20MX-5%20Edition%20%28USA%29%20%28Demo%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/56788/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/56788/)
 
 Game Code: `SCUS-97483`
 

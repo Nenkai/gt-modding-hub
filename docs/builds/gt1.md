@@ -72,7 +72,7 @@ Game Code: `PCPX-96096`
 
 ![aa](../images/covers/gt1_us_demo_disc.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia801802.us.archive.org/view_archive.php?archive=/14/items/redump.psx.p2/Gran%20Turismo%20%28USA%29%20%28Demo%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/12307/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/redump.psx.p2) · :material-disc: [Redump Info](http://redump.org/disc/12307/)
 
 Game Code: `SCUS-94257`
 

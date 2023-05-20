@@ -106,7 +106,7 @@ Game Code: `SCES-52438`
 
 ![aa](../images/covers/gt4p_toyota_demo.jpg){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g/Gran%20Turismo%20Special%20Edition%202004%20Toyota%20Demo%20%28USA%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/20528/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/20528/)
 
 Game Code: `SCUS-97384`
 

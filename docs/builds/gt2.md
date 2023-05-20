@@ -26,7 +26,7 @@ Note that a lot of Playstation demos share the same GT2 contents.
 
 ![aa](../images/covers/gt2_opsm27.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/chd_psx/CHD-PSX-USA/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2027%20%28USA%29.chd) · :material-disc: [Redump Info](http://redump.org/disc/11257/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/chd_psx) · :material-disc: [Redump Info](http://redump.org/disc/11257/)
 
 Game Code: `SCUS-94435`
 
@@ -51,7 +51,7 @@ TODO
 ![aa](../images/covers/gt2_bbhdd_vol1_cov.jpg){ width="250" }
 ![aa](../images/covers/gt2_bbhdd_vol1.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/chd_psx/CHD-PSX-USA/Best%20Buy%20Greatest%20Hits%20Demo%20Disc%20-%20Volume%20One%20%28USA%29.chd) · :material-disc: [Redump Info](http://redump.org/disc/57321/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/chd_psx) · :material-disc: [Redump Info](http://redump.org/disc/57321/)
 
 Game Code: `SCUS-94668`
 
@@ -77,7 +77,7 @@ Mentioned as playable in ign article: https://www.ign.com/articles/1999/09/17/tg
 
 ![aa](../images/covers/gt2_eu_demo_53.png){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/chd_psx_eur/CHD-PSX-EUR/Euro%20Demo%2053%20%28Europe%29.chd) · :material-disc: [Redump Info](http://redump.org/disc/310/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/chd_psx_eur) · :material-disc: [Redump Info](http://redump.org/disc/310/)
 
 Game Code: `SCED-01827`
 
@@ -92,7 +92,7 @@ Game Code: `SCED-01827`
 
 ![aa](../images/covers/gt2_testdrive.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia801802.us.archive.org/view_archive.php?archive=/14/items/redump.psx.p2/Gran%20Turismo%202%20%28Japan%29%20%28Demo%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/34160/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/redump.psx.p2) · :material-disc: [Redump Info](http://redump.org/disc/34160/)
 
 Game Code: `PAPX-90054`
 

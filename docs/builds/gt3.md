@@ -37,7 +37,7 @@ Game Code: `PAPX-90203`
 
 ![aa](../images/covers/gt3_autobacs_seven.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia902208.us.archive.org/view_archive.php?archive=/25/items/sony_playstation2_g/Gran%20Turismo%203%20-%20A-Spec%20-%20Autobacs%20Gentei%20Replay%20Theater%20%28Japan%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/75434/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/75434/)
 
 Game Code: `PAPX-90207`
 
@@ -57,7 +57,7 @@ Game Code: `PCPX-96312`
 
 ![aa](../images/covers/gt3_replay_art.png){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia802208.us.archive.org/view_archive.php?archive=/25/items/sony_playstation2_g/Gran%20Turismo%203%20-%20A-Spec%20-%20Replay%20Theater%20%28Japan%29%20%28Demo%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/38277/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/38277/)
 
 Game Code: `PAPX-90208`
 
@@ -67,7 +67,7 @@ Game Code: `PAPX-90208`
 
 ![aa](../images/covers/gt3_netz.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia802208.us.archive.org/view_archive.php?archive=/25/items/sony_playstation2_g/Gran%20Turismo%203%20-%20A-Spec%20-%20Netz%20Toyota%20-%20Replay%20Theater%20Disc%20%28Japan%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/75435/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/75435/)
 
 Game Code: `PAPX-90209`
 
@@ -103,7 +103,7 @@ Game Code: `PCPX-96311`
 
 ![aa](../images/covers/gt3_aspec_demo.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia902208.us.archive.org/view_archive.php?archive=/25/items/sony_playstation2_g/Gran%20Turismo%203%20-%20A-Spec%20%28USA%29%20%28Demo%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/45090/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/45090/)
 
 Game Code: `SCUS-97115`
 
@@ -121,7 +121,7 @@ Game Code: `PCPX-96606`
 
 ![aa](../images/covers/gt3_opsm5.png){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://ia802206.us.archive.org/view_archive.php?archive=/25/items/sony_playstation2_o_part1/Official%20PlayStation%202%20Magazine%20Demo%205%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.zip) · :material-disc: [Redump Info](http://redump.org/disc/4594/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_o_part1) · :material-disc: [Redump Info](http://redump.org/disc/4594/)
 
 Game Code: `SCED-50140`
 
