@@ -42,6 +42,8 @@ Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterla
     - :flag_us: :flag_jp: [LOD almost disabled](https://xn--pckq0c4g.com/codes/GT4)
     - :flag_us: :flag_jp: [Blurry replay effect](https://xn--pckq0c4g.com/codes/GT4)
 
+* :flag_us: [More cheats on PCSX2 forums](https://forums.pcsx2.net/Thread-Gran-Turismo-4-PNach-Codes)
+
 ## GT4 Online (Online Beta Version)
 * CRC: `32A1C752`
 
@@ -52,6 +54,21 @@ Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterla
     * [Adjusted triggers sensitivity](https://cookieplmonster.github.io/mods/gran-turismo-4/)
     * [GT3-like chase camera](https://cookieplmonster.github.io/mods/gran-turismo-4/)
     * [Far chase camera](https://cookieplmonster.github.io/mods/gran-turismo-4/)
+
+* Codes by [@Nenkai](https://twitter.com/Nenkaai)
+
+    ??? abstract "Skip CORE.GT4 SHA-512 Hash Check (For editing `CORE.GT4`)"
+
+        ```
+        gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
+        comment=Bypass the specific SHA-512 generated hash through RSA entirely
+        author=Nenkai
+
+        // bneq loc_1004C8C -> j loc_1004C8C @ 1004A0C
+        patch=1,EE,21004A0C,extended,08401323
+        ```
+
+        If you want to edit the executable directly with the patch, edit `9F 00 40 10` at `0x5A0C` to `23 13 40 08`.
 
 ---
 
