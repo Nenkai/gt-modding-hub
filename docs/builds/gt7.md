@@ -106,6 +106,14 @@ The main build of Gran Turismo 7.
 
     * 1.31 - 'Oregon'
         * Volume Date: `03/17/2023 17:39:04`
+
+    * 1.32 - 'Paris'
+        * Volume Date: `04/15/2023 9:48:03 PM`
+
+    * 1.33 - N/A (Bugfix)
+
+    * 1.34 - 'Quebec'
+        * Volume Date: `05/16/2023 23:00:13`
 ---
 
 ## GT7 Kiosk Demo
