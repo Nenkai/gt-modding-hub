@@ -13,6 +13,13 @@ You can also join the [RPCS3 Discord](https://discord.com/invite/Af7H9yp)
 
 ![aa](../../images/rpcs3_settings.png)
 
+!!! note
+
+    For fixing, or checking issues, refer to the game specific pages on the RPCS3 Wiki:
+
+    * [Gran Turismo 5](https://wiki.rpcs3.net/index.php?title=Gran_Turismo_5)
+    * [Gran Turismo 6](https://wiki.rpcs3.net/index.php?title=Gran_Turismo_6)
+
 ---
 
 ## Recommend Build
