@@ -63,7 +63,7 @@ Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterla
 
         ```
         gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
-        comment=Rotate car turntable with right stick
+        comment=Rotate car camera with R3
         author=Nenkai (ported from Vyerq/unko)
 
         // Jump to 0xF1100 (custom code) at computeViewAngle() - 0x2063D8
@@ -91,7 +91,7 @@ Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterla
 
         ```
         gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
-        comment=Rotate car camera with R3
+        comment=Rotate car turntable with right stick
         author=Nenkai (ported from Vyerq/unko for GT4 Online)
 
         // We are overriding PDISTD::DynamicReal::act at 0x528C98 for mCarModel::update
