@@ -17,7 +17,7 @@ Gpb files can contain compressed assets (inflate algorithm), and will be decompr
 
 ## Unpacking/Packing
 
-The [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain) can be used to unpack and pack these containers.
+The [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain) can be used to unpack and pack these containers. Compiled builds can be acquired from the [Actions](https://github.com/Nenkai/GTAdhocToolchain/actions) page, clicking on the latest build, and scrolling to the bottom for a build's executable. **It is recommended to always check for updates**.
 
 ---
 

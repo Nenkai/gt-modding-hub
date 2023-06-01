@@ -61,7 +61,7 @@ As explained in the introduction, Adhoc scripts are responsible for roughly 99% 
 
 Scripts that have not been reverse-engineered can be edited, but it is a difficult process as you will have to deal with hex-editing instructions.
 
-Most of the operations are done through the [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain).
+Most of the operations are done through the [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain). Compiled builds can be acquired from the [Actions](https://github.com/Nenkai/GTAdhocToolchain/actions) page, clicking on the latest build, and scrolling to the bottom for a build's executable. **It is recommended to always check for updates**.
 
 That said, adhoc in general is quite similar to popular programming languages, a few differences and features be seen at the [language spec](https://github.com/Nenkai/GTAdhocToolchain/blob/master/LANGUAGE_SPECIFICATION.md).
 

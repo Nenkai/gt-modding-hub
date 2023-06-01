@@ -12,7 +12,7 @@ This is the main header for [Adhoc Scripts](../../concepts/adhoc/adhoc.md). Most
 
 ## Dissasembling
 
-The [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain) can be used to dissasemble compiled `.adc` scripts into an assembly-like text file.
+The [GTAdhocToolchain](https://github.com/Nenkai/GTAdhocToolchain) can be used to dissasemble compiled `.adc` scripts into an assembly-like text file. Compiled builds can be acquired from the [Actions](https://github.com/Nenkai/GTAdhocToolchain/actions) page, clicking on the latest build, and scrolling to the bottom for a build's executable.
 
 ---
 
