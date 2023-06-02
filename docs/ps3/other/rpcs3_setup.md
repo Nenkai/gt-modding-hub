@@ -11,6 +11,10 @@ You can also join the [RPCS3 Discord](https://discord.com/invite/Af7H9yp)
 
 ## Recommended Settings
 
+!!! success "Update"
+
+    As of *02/06/2023*, desyncs have been fixed, no special build is required! Ignore `Reprotect Hack` and `VK Event Hack` in the Debug Settings.
+
 ![aa](../../images/rpcs3_settings.png)
 
 To enable debug settings,
@@ -29,19 +33,6 @@ To enable debug settings,
 
     * [Gran Turismo 5](https://wiki.rpcs3.net/index.php?title=Gran_Turismo_5)
     * [Gran Turismo 6](https://wiki.rpcs3.net/index.php?title=Gran_Turismo_6)
-
----
-
-## Recommend Build
-
-*Updated 26/05/2023*
-
-A potential fix for freezes/desyncs is available [here](https://github.com/RPCS3/rpcs3/pull/13917) ([Cirrus-CI Build](https://cirrus-ci.com/task/5723344243261440), check artifacts). 
-
-Note: You can ignore `Reprotect hack` and `VK Event Hack` missing in the debug settings.
-
-!!! warning
-    **Do not use this build to report issues in the RPCS3 discord server!** It has not yet been merged to master.
 
 ---
 
