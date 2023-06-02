@@ -77,7 +77,7 @@ GT4FS --read <path to extracted volume with edited contents> --output MyNewVolum
 ## Building an ISO
 
 !!! note
-    This part covers games that uses one disc layer such as Tourist Trophy. For building dual-layer isos, use this section then refer to the next section.
+    This part covers games that uses one disc layer such as GT4 Online. For building dual-layer isos, use this section then refer to the next section.
 
 For every change to the VOL, the ISO needs to be built. As this can be a lengthy process, building ISOs on a SSD is highly recommended.
 
