@@ -76,8 +76,8 @@ GT4FS --read <path to extracted volume with edited contents> --output MyNewVolum
 
 ## Building an ISO
 
-!!! warning
-    This part does not cover building GT4 retail yet, only GT4O.
+!!! note
+    This part covers games that uses one disc layer such as Tourist Trophy. For building dual-layer isos, use this section then refer to the next section.
 
 For every change to the VOL, the ISO needs to be built. As this can be a lengthy process, building ISOs on a SSD is highly recommended.
 
@@ -140,4 +140,22 @@ You can use [UltraISO](https://www.ultraiso.com/) which natively and properly su
 Open your original ISO (preferably a copy of it, always have a backup of the original) into UltraISO, remove `GT4.VOL`.
 
 At the top left, in `Actions`, go to `Add Files` and select the newly built `GT4.VOL` file. Then simply just save. It'll take a few dozen seconds, but after that, your ISO is ready to go.
+
+---
+
+## Building a Dual-Layered ISO
+
+!!! warning 
+    This is untested.
+
+This applies to retail GT4. Read the "Building an ISO" part first. 
+
+The second layer contains all the videos/movies. You are free to extract it with GT4FS if you want to view/edit anything, otherwise leave it as-is.
+
+You will need [Apache3](https://www.romhacking.net/utilities/584/) AND UltraISO to build dual-layered discs. 
+
+* Select the original ISO, and extract all the files. On top of the original file structure, you should also have `GT4L1.VOL` file on top of the original file structure.
+* Move `GT4L1.VOL` into it's own folder. Using `UltraISO`, create an ISO of the folder containing it.
+* Create the first layer with the process described before.
+* Using `ISOLayerMerge`, merge both iso files into one.
 
