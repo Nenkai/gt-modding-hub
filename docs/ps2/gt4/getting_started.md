@@ -68,8 +68,8 @@ This is the slow method, building an entirely new volume from an extracted folde
 
 Using `GT4FS`, you can run the following command to build a volume from a game directory:
 
-```markdown title="Appending to the Volume"
-GT4FS --read <path to extracted volume with edited contents> --output MyNewVolume.VOL
+```markdown title="Building a brand new volume"
+GT4FS pack --read <path to extracted volume with edited contents> --output MyNewVolume.VOL
 ```
 
 ---
