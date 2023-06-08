@@ -13,7 +13,7 @@ You can also join the [RPCS3 Discord](https://discord.com/invite/Af7H9yp)
 
 !!! success "Update"
 
-    As of *02/06/2023*, desyncs have been fixed, no special build is required! `Check For Updates` in `Help` at the top menu. Ignore `Reprotect Hack` and `VK Event Hack` in the Debug Settings.
+    As of *02/06/2023*, desyncs have been fixed, no special build is required! `Check For Updates` in `Help` at the top menu.
 
 ### CPU / GPU / Advanced
 ![aa](../../images/rpcs3_settings/cpu.png){ width="300"}
