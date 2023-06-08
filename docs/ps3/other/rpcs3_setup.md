@@ -15,7 +15,13 @@ You can also join the [RPCS3 Discord](https://discord.com/invite/Af7H9yp)
 
     As of *02/06/2023*, desyncs have been fixed, no special build is required! `Check For Updates` in `Help` at the top menu. Ignore `Reprotect Hack` and `VK Event Hack` in the Debug Settings.
 
-![aa](../../images/rpcs3_settings.png)
+### CPU / GPU / Advanced
+![aa](../../images/rpcs3_settings/cpu.png){ width="300"}
+![aa](../../images/rpcs3_settings/gpu.png){ width="300"}
+![aa](../../images/rpcs3_settings/advanced.png){ width="300"}
+
+### Debug
+![aa](../../images/rpcs3_settings/debug.png){ width="300"}
 
 To enable debug settings,
 
@@ -53,9 +59,8 @@ GT6 1.02 mod since it runs better on that version - unlocks develop/debug menu (
 2. Download RadminVPN and install it.
 3. Connect to the Network `RPCS3 LAN`, Password is `Onlineplz`.
 4. Copy the IP shown below your name in RadminVPN.
-5. Open RPCS3s Config File for GT5, located in `/config/custom_configs/GT5s-GameID.yml`. If said file doesn't exist, right-click on GT5 and select `Create Custom Configuration`, then click save and check again.
-6. Paste the IP you copied earlier in the IP Address field at the bottom.
-7. Open RPCS3, and make sure you have Network Status set to Connected, and PSN Status set to Disconnected for GT5. (Right-click on GT5 and select `Create Custom Configuration`)
-8. Run GT5, go to the Secret Settings at the very bottom of the Settings menu, and enable `label_lounge` under Display Options. Also enable Online Lounge Demo under `Special Network Options` to the right.
-9. Go to the LAN Racing Symbol in the Main Menu, select `LAN Battle` and you should be good to go!
+5. Open RPCS3, Paste the IP to `Network` -> `Bind address` in settings.
+6. Make sure you have Network Status set to `Connected`, and PSN Status set to `Disconnected` for GT5.
+7. Run GT5, go to the Secret Settings at the very bottom of the Settings menu, and enable `label_lounge` under Display Options. Also enable Online Lounge Demo under `Special Network Options` to the right.
+8. Go to the LAN Racing Symbol in the Main Menu, select `LAN Battle` and you should be good to go!
 
