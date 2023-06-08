@@ -56,7 +56,7 @@ GT6 1.02 mod since it runs better on that version - unlocks develop/debug menu (
     Only RPCS3 <-> RPCS3 at the moment.
 
 1. Set up GT5 on RPCS3 (make sure you have the latest RPCS3), Update the game to 2.11 by installing each update in order, and install Nenkai's LAN Mod.
-2. Download RadminVPN and install it.
+2. Download [RadminVPN](https://www.radmin-vpn.com/) and install it.
 3. Connect to the Network `RPCS3 LAN`, Password is `Onlineplz`.
 4. Copy the IP shown below your name in RadminVPN.
 5. Open RPCS3, Paste the IP to `Network` -> `Bind address` in settings.
