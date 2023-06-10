@@ -46,4 +46,4 @@ Replace:
     * Consider investing in a capture card, like an Elgato. This will allow you to preview your PS3 in its own window so you don't have to keep moving around.
     * Consider using a second screen/monitor for the PS3 if above is not possible.
     * If above is still not possible, consider using an HDMI Switch.
-    * RPCS3 can be helpful for anything that is not in-race mods on GT6 (due to [desyncs](https://github.com/RPCS3/rpcs3/issues/10882)).
+    * RPCS3 can be very helpful for modding (except race mods in later versions of GT6 where the game is unplayable).
