@@ -1,4 +1,4 @@
-# Resources/Tools for GT2
+# Resources/Tools for GT4
 
 ## Tools
 | Name                 | Author         | Description                                                      |
