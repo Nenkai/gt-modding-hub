@@ -7,7 +7,7 @@ comments: true
 :material-shovel: *Dumped*: :x: {==No==}
 
 ??? youtube "Video"
-    <iframe width="1180" height="664" src="https://www.youtube.com/embed/iCzymfwApFY" title="Gran Turismo 5: Gamescom 2009 gameplay video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="1180" height="664" src="https://www.youtube.com/embed/Wc7PC4msIBM" title="Gran Turismo 5: Gamescom 2009 gameplay video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
