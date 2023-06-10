@@ -11,7 +11,7 @@ comments: true
 
 ---
 
-## GT5 Toyko Games Show 2009 Demo  (~Sep ??, 2009)
+## GT5 Tokyo Games Show 2009 Demo  (~Sep ??, 2009)
 
 :material-shovel: *Dumped*: :x: {==No==}
 
@@ -146,7 +146,7 @@ A demo build of GT5 showcased during Gamescom 2010, mid August. It contains the 
 
 ---
 
-## GT5 Toyko Games Show 2010 Demo  (~Sep ??, 2010)
+## GT5 Tokyo Games Show 2010 Demo  (~Sep ??, 2010)
 
 :material-shovel: *Dumped*: :x: {==No==}
 
