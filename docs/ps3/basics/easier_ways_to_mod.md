@@ -3,7 +3,7 @@
 Ways to avoid PDIPFS exist to allow modding game files more easily.
 
 ## Raw Reading Patch (GT5 2.11)
-GT5 can be patched to read files loose to help testing mods faster. To publish mods continue on with the packing section of [Volume System](./basics/volume_system.md).
+GT5 can be patched to read files loose to help testing mods faster. To publish mods continue on with the packing section of [Volume System](../basics/volume_system.md).
 
 === "RPCS3 Patch"
     Edit `RPCS3\patches\patch.yml`, add the following under the correct PPU hash entry (indentation matters!), while also changing the game code accordingly:
@@ -93,7 +93,7 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
 
 ## FSRoot (GT6)
 
-[FSRoot](other/fsroot.md) is a method of running the game that allows editing the game files in real time by streaming files from your PC, And drastically helps modding and testing much more quickly. To publish mods continue on with the packing section of [Volume System](./basics/volume_system.md).
+[FSRoot](../other/fsroot.md) is a method of running the game that allows editing the game files in real time by streaming files from your PC, And drastically helps modding and testing much more quickly. To publish mods continue on with the packing section of [Volume System](../basics/volume_system.md).
 
 Requirements:
 
