@@ -28,9 +28,7 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         - [ be32, 0x00a7316c, 0x941D0540 ] # Rectify pointer offset to device list field
         - [ be32, 0x00a73160, 0x480047C9 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceGameData
     ```
-    
-    Extracted game files go under `USRDIR` as such that `/dev_hdd0/game/BCES00569/USRDIR/font/vec/fontset_US.txt` is valid. Base game contents must be extracted (GT.VOL), then update contents (PDIPFS) extracted ontop of it. 
-    
+        
     Enable the patch in the game patches menu by right clicking on the game and clicking on `Manage Game Patches`.
 
 === "EBOOT Patch"
@@ -68,6 +66,8 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
     00a7316c 94 1d 05 40     stwu       r0,0x540(r29)
     00a73160 48 00 47 c9     bl         FUN_00a77928 
     ```
+
+Extracted game files go under `USRDIR` as such that `/dev_hdd0/game/BCES00569/USRDIR/font/vec/fontset_US.txt` is valid. Base game contents must be extracted (GT.VOL), then update contents (PDIPFS) extracted ontop of it. 
 
 !!! warning
     You may need to move some files from `specdb/GT5_JP3009` to `specdb/GT5_JP3010` if you get a crash.
