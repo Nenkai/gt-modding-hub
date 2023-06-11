@@ -71,6 +71,8 @@ Game Code: `DEMO-32768`
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/E0MDfrXxYxk" title="Gran Turismo 6 Gamescom 2013 Build | DEMO32768 | Aug 20, 2013" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+??? youtube "Hidden/Beta Content"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/0jMl1m1369o" title="Hidden/Beta Content | Gran Turismo 6 Gamescom 2013 Build | DEMO32768" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
 ## GT6 Tokyo Games Show 2013 Demo (~Sep ??, 2013)

@@ -55,6 +55,8 @@ Game Code: `PAPX-90512`
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="843" height="664" src="https://www.youtube.com/embed/vyunOYFGa2g" title="Gran Turismo 4 Prius Trial Version | PAPX-90512 | Sep 25, 2003" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+??? youtube "Hidden/Beta Tracks"
+    <iframe width="1224" height="721" src="https://www.youtube.com/embed/oKQtPPpCQUI" title="Hidden/Beta Tracks | Gran Turismo 4 Prius Trial Version | PAPX-90512 (On real hardware)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
 ## GT Special Edition 2004 Geneva Edition (Feb 17, 2004)

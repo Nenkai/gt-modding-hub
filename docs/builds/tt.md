@@ -20,6 +20,11 @@ Tourist Trophy is quite simply GT4 in disguise, most of its internal code and fi
     * ISO Size: `2.3 GB`
     * ISO CRC: `TODO`
 
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1220" height="721" src="https://www.youtube.com/embed/rWZlVnH5rdg" title="Tourist Trophy Store Demo | PCPX-96660 | Sep 4, 2005" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+??? youtube "Hidden/Beta Tracks"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/ybJLyw42V5w" title="Hidden/Beta Content | Tourist Trophy Store Demo | PCPX-96660" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
 ## Tourist Trophy

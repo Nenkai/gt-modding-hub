@@ -41,6 +41,11 @@ Game Code: `PAPX-90203`
 
 Game Code: `PAPX-90207`
 
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="919" height="721" src="https://www.youtube.com/embed/HRx_nALGv_w" title="Gran Turismo 3 Replay Theater Autobacs Seven | PAPX-90207 | Sep 26, 2000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+??? youtube "Hidden/Beta Tracks"
+    <iframe width="919" height="721" src="https://www.youtube.com/embed/5QGMapRW5hA" title="Hidden/Beta Tracks | Gran Turismo 3 Replay Theater Autobacs Seven | PAPX-90207 (On real Hardware)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
 ## GT3 Store Trial Disk Autobacs (Oct 3, 2000)
@@ -75,7 +80,7 @@ Game Code: `PAPX-90209`
 
 ## GT3 Netz Toyota Dealership Demo (Oct 9, 2000)
 
-:material-shovel: *Dumped*: :x: {++Yes++} - available on [archive](https://archive.org/details/gt3-toyota-netz-pcpx-96309) · :material-disc: No Redump Info
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt3-toyota-netz-pcpx-96309) · :material-disc: No Redump Info
 
 Game Code: `PCPX-96309`
 
@@ -140,6 +145,8 @@ Game Code: `PCPX-96609`
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/vhnZSF1dPAg" title="Gran Turismo 3: A-Spec Store Demo Vol.2 | PCPX-96609 | Dec 29, 2000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+??? youtube "Hidden/Beta Content"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/NaUuc1GUAh8" title="Hidden/Beta Content | Gran Turismo 3 Store Demo Vol. 2 | PCPX-96609 (On real Hardware) [60FPS]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
 ## Preview Version NTSC GT3 A-Spec (Apr. 18, 2001)

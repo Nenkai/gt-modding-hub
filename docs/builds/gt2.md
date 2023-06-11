@@ -38,6 +38,8 @@ Game Code: `SCUS-94435`
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1180" height="664" src="https://www.youtube.com/embed/LN4-WXUMY-8" title="(Gran Turismo 2) Official U.S. PlayStation Magazine Demo Disc 27 | SCUS-94435 | Jul 29, 1999" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+??? youtube "Hidden/Beta Tracks"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/hVaMhWmcLGY" title="Hidden/Beta Tracks | (GT2 Demo Build 1) Official U.S. PlayStation Magazine Demo Disc 27 | SCUS-94435" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
 ## McDonald's: Demo 01
@@ -63,6 +65,11 @@ Game Code: `SCUS-94668`
     * OPM US Demo 46 (US, `SCUS-94649`)
     * Gran Turismo 2: Music at the Speed of Sound: The Album (Bonus PlayStation Disc) (US, `SCUS-94588`)
 
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/eCTze-7yjN4" title="(GT2 Demo Build 2) Best Buy Greatest Hits Demo Disc Vol 1 | SCUS-94668 | Aug 30, 1999" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+??? youtube "Hidden/Beta Tracks"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/GQ5cxaHZ7Fs" title="Hidden/Beta Tracks | (GT2 Demo Build 2) Best Buy Greatest Hits Demo Disc Vol 1 | SCUS-94668" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
 ## GT2 Tokyo Games Show Build 1999  (~Sep ??, 1999)

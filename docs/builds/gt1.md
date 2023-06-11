@@ -22,6 +22,9 @@ Game Code: `PCPX-96085`
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="935" height="721" src="https://www.youtube.com/embed/gZnCtS0LnpM" title="Gran Turismo Test Drive Disc | PCPX-96088 | Aug 2, 1997" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+??? youtube "Hidden/Beta Tracks"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/iA_YvJv2c2Y" title="Hidden/Beta Content | Gran Turismo Test Drive Disc | PCPX-96088" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
 ---
 
 ## Gran Turismo - Preview Build V1 (Sep ??, 1997)
