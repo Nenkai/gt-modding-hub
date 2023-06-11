@@ -19,7 +19,7 @@ These pages currently cover **GT5**, and **GT6**.
 GT5 2.11 is the recommended version to mod. 2.12+ adds no content and mostly fixes exploits.
 
 ### GT6 1.05 and 1.22
-The latest version (`1.22`) of GT6 is recommended version to mod. `1.05` can also be used as it is the more playable version on RPCS3.
+The latest version of GT6 (`1.22`) is the recommended version to mod. `1.05` can also be used as it is the more playable version on RPCS3.
 
 ---
 
