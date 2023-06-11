@@ -4,7 +4,7 @@ PS2-era GT Textures uses the [Tex1](../../formats/texture/img_tex1_textureset.md
 
 ## Viewing
 
-Textures can be viewed with [GTMP](https://github.com/adeyblue/GTVolTools). May requires compilation however.
+Textures can be viewed with [GTMP](https://github.com/adeyblue/GTVolTools). May require compilation however.
 
 ## Editing/Creation
 

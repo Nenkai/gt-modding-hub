@@ -72,6 +72,15 @@ This was a PSN-only demo. Presumably no japanese release. [Official News](https:
     * BuildMode: `default-nodfe-nodls-aclgdev-pal-nortime` (No DFE, No DLS/Pace, No Network Platform, AC Logitech Dev, No RTime)
 ---
 
+## GT5 Mercedes-Benz Museum Build (~Feb ??, 2010)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/iBwAy_jo290" title="GT5 Mercedes-Benz Museum Build" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
 ## GT5 Nür 2010 Demo (~May ??, 2010)
 
 :material-shovel: *Dumped*: :x: {==No==}

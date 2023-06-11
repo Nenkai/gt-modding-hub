@@ -43,7 +43,7 @@ Where `output_folder` is the folder that the game files will be extracted to.
 
 ## Packing
 
-Assuming you've unpacked the game, you also need to know how to repack files. This is where the Patch File System shines.
+Assuming you've unpacked the game, you also need to know how to repack files, as this is the way to distribute mods. This is where the Patch File System shines.
 
 As said previously, `PDIPFS` allows editing existing files while keeping the actual original files intact so that you can easily revert back to original.
 

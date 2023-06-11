@@ -80,7 +80,7 @@ nav:
   - PS3 (GT5/GT6):
     - Getting Started: ps3/getting_started.md
     - Basics: 
-      - Volume System: ps3/basics/volume_system.md
+      - Volume & Making Edits: ps3/basics/volume_system.md
       - Folder/File Structure: ps3/basics/file_structure.md
     - Text Editing: ps3/text_editing.md
     - Textures/Image Editing: ps3/textures.md

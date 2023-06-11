@@ -7,10 +7,11 @@ FSRoot allows you to stream game contents from your PC, without a volume file.
 
 ## Setting up GT6 for FSRoot
 The `USRDIR` folder should contain ALL of the game's data - the contents of both GT.VOL and PDIPFS in one. 
+
 Extract `GT.VOL` in one folder, extract the `PDIPFS` into another, then all extracted PDIPFS contents should go into the extracted GT.VOL folder. Name this folder `EXTRACTED`.
 
 !!! tip
-    Drag all files from where `USRDIR` is (i.e `TROPDIR`, `PARAM.SFO`) into `USRDIR`, create `PS3_GAME`in `USRDIR`, drag the `PARAM.SFO` there. It's weird but yeah.
+    Copy all files from where `USRDIR` is (i.e `TROPDIR`, `PARAM.SFO`) into `USRDIR`, create `PS3_GAME`in `USRDIR`, copy the `PARAM.SFO` there. It's weird but yeah.
 In the end, you should end up with something like:
 ``` markdown title="Folder Structure for FSRoot"
 .
@@ -43,7 +44,7 @@ In the end, you should end up with something like:
 Game should now boot.
 
 !!! note "RPCS3"
-    In the RPCS3 directory, create `app_home/`, paste your EXTRACTED folder there, then boot RPCS3 as such with `cmd`:
+    Boot RPCS3 as such with `cmd`:
     ```
     rpcs3.exe <path to EBOOT> fsroot=EXTRACTED
     ```

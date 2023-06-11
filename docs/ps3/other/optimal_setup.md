@@ -1,13 +1,13 @@
 # Optimal Setup for Modding
 
 !!! tip 
-    You can skip all of this if you are using FSRoot or RPCS3.
+    You can skip all of this if you are using [FSRoot](fsroot.md), GT5 Raw reading patch, or RPCS3.
 
 As it may be tiring to always pack files for each edit being made, here is a simple table of things to do to remedy that process.
 
 ---
 
-## Batch Script File
+## Batch Script File (for PDIPFS)
 Use a [Batch File](https://en.wikipedia.org/wiki/Batch_file) to pack the files for you and automatically transfer them over to your PS3 through FTP with [WinSCP](https://winscp.net/eng/download.php). 
 
 Create a file named `Pack_And_Transfer.bat`, and inside it, put the following :
