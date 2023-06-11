@@ -82,23 +82,27 @@ nav:
     - Basics: 
       - Volume & Making Edits: ps3/basics/volume_system.md
       - Folder/File Structure: ps3/basics/file_structure.md
-    - Text Editing: ps3/text_editing.md
-    - Textures/Image Editing: ps3/textures.md
-    - Music Tracks / SFX: ps3/music_tracks.md
-    - Car Sound Editing: ps3/car_sound_editing.md
-    - SpecDB (Car Specs): ps3/specdb.md
-    - Events: ps3/events.md
-    - Adhoc: ps3/adhoc.md
-    - Movies: ps3/movies.md
-    - Models: ps3/models.md
-    - Fonts: ps3/fonts.md
-    - Resources / Tools: ps3/tools.md
+      - Easier Ways to Mod : ps3/basics/easier_ways_to_mod.md
+
+    - Asset Editing:
+      - Text Editing: ps3/text_editing.md
+      - Textures/Image Editing: ps3/textures.md
+      - Music Tracks / SFX: ps3/music_tracks.md
+      - Car Sound Editing: ps3/car_sound_editing.md
+      - SpecDB (Car Specs): ps3/specdb.md
+      - Events: ps3/events.md
+      - Adhoc: ps3/adhoc.md
+      - Movies: ps3/movies.md
+      - Models: ps3/models.md
+      - Fonts: ps3/fonts.md
+
     - Other:
         - Optimal Modding Setup: ps3/other/optimal_setup.md
         - Command Line Arguments: ps3/other/command_line_args.md
         - FSRoot: ps3/other/fsroot.md
         - Custom Server: ps3/other/custom_server.md
         - RPCS3 Settings: ps3/other/rpcs3_setup.md
+        - Resources / Tools: ps3/tools.md
 
   - PS4 (GTS/GT7):
     - Index: ps4/index.md
