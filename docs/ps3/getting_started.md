@@ -37,6 +37,8 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         - [ be32, 0x00a73160, 0x480047C9 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceGameData
     ```
     
+    Extracted game files go under `USRDIR` as such that `/dev_hdd0/game/BCES00569/USRDIR/font/vec/fontset_US.txt` is valid.
+    
 === "EBOOT Patch"
 
     TrueAncestorSELFResigner is required. decrypt `EBOOT.BIN` with `1. Decrypt EBOOT.BIN Only`.
