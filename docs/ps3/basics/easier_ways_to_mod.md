@@ -6,7 +6,7 @@ Ways to avoid PDIPFS exist to allow modding game files more easily.
 GT5 can be patched to read files loose to help testing mods faster. To publish mods continue on with the packing section of [Volume System](../basics/volume_system.md).
 
 === "RPCS3 Patch"
-    Edit `RPCS3\patches\patch.yml`, add the following under the correct PPU hash entry (indentation matters!), while also changing the game code accordingly:
+    Edit `RPCS3\patches\patch.yml`, add the following under the correct PPU hash entry (indentation matters!):
     
     * :flag_eu: EU: `PPU-7a5ee7bc2fef9566dd80e35893fe2c5571197726`
     * :flag_us: US: `PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce`
