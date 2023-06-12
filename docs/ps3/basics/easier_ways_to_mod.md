@@ -6,27 +6,31 @@ Ways to avoid PDIPFS exist to allow modding game files more easily.
 GT5 can be patched to read files loose to help testing mods faster. To publish mods continue on with the packing section of [Volume System](../basics/volume_system.md).
 
 === "RPCS3 Patch"
-    Edit `RPCS3\patches\patch.yml`, add the following under the correct PPU hash entry (indentation matters!):
+    Edit `RPCS3\patches\patch.yml`, add the following under the correct PPU hash entry (indentation matters!). Also change the game code accordingly!
     
     * :flag_eu: EU: `PPU-7a5ee7bc2fef9566dd80e35893fe2c5571197726`
     * :flag_us: US: `PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce`
 
     ```yaml
-    "Raw Reading patch":
+    "Raw Reading Patch":
       Games:
         "Gran Turismo 5":
-          BCES00569: [ 02.11 ] # Change the game code accordingly
+          BCES00569: [ 02.11 ]
       Author: "Nenkai"
       Patch Version: 1.0
       Group: ""
       Notes: ""
       Patch:
-        - [ be32, 0x000120a0, 0x38600548 ] # Adjust sizeof(PDIPS3::FileDevicePFSGameData) to sizeof(PDIPS3::FileDeviceGameData) for new
-        - [ be32, 0x000120d8, 0x7F84E378 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, gamecode, "/", 0)
-        - [ be32, 0x000120dc, 0x7D054378 ]
-        - [ be32, 0x000120e0, 0x38C00000 ]
-        - [ be32, 0x00a7316c, 0x941D0540 ] # Rectify pointer offset to device list field
-        - [ be32, 0x00a73160, 0x480047C9 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceGameData
+        - [ be32, 0x000120a0, 0x386004A0 ] # Adjust sizeof(PDIPS3::FileDevicePFSGameData) to sizeof(PDIPS3::FileDeviceCellFS) for new
+        - [ be32, 0x000120d8, 0x3888E308 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, param1, param2, param3)
+        - [ be32, 0x000120dc, 0x38A8E330 ] # Change pointer to a vtable name
+        - [ be32, 0x000120e0, 0x7D064378 ] # Change pointer to a vtable name
+        - [ be32, 0x00a73160, 0x48004ED5 ] # Rectify pointer offset to device list field
+        - [ be32, 0x00a7316c, 0x941D0498 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceCellFS
+        - [ utf8, 0x013dde10, /dev_hdd0\0 ] # param_1
+        - [ be16, 0x013dde19, 0x0000 ] # Null terminate
+        - [ utf8, 0x013dde38, /game/BCES00569/USRDIR/direct ] # <-- Change BCES00569 accordingly!
+        - [ be16, 0x013dde55, 0x0000 ] # Null terminate
     ```
         
     Enable the patch in the game patches menu by right clicking on the game and clicking on `Manage Game Patches`.
@@ -37,12 +41,16 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
 
     With a hex editor, edit `EBOOT.ELF` and place bytes at the following offsets:
     ```
-    000020a0 - 38 60 05 48
-    000020d8 - 7f 84 e3 78
-    000020dc - 7d 05 43 78
-    000020e0 - 38 c0 00 00
-    00a6316c - 94 1d 05 40
-    00a63160 - 48 00 47 c9
+    000020a0 - 38 60 04 a0
+    000020d8 - 38 88 E3 08
+    000020dc - 38 A8 E3 30
+    000020e0 - 7D 06 43 78
+    00a6316c - 48 00 4E D5
+    00a63160 - 94 1D 04 98
+    013dde10 - /dev_hdd0
+    013dde19 - 00
+    013dde38 - /game/BCES00569/USRDIR/direct
+    013dde55 - 00 00
     ```
 
     Then resign it using the `2. Resign to NON-DRM EBOOT` option.
@@ -59,12 +67,16 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
     00a73160 4b ff fe ed     bl         FUN_00a7304c 
 
     Edited:
-    000120a0 38 60 05 48     li         param_1,0x548
-    000120d8 7f 84 e3 78     or         param_2,r28,r28
-    000120dc 7d 05 43 78     or         param_3,param_6,param_6
-    000120e0 38 c0 00 00     li         param_4,0x0
-    00a7316c 94 1d 05 40     stwu       r0,0x540(r29)
-    00a73160 48 00 47 c9     bl         FUN_00a77928 
+    000120a0 38 60 04 a0     li         param_1,0x4a0
+    000120d8 38 88 e3 08     subi       param_2,param_6,0x1cf8
+    000120dc 38 a8 e3 30     subi       param_3,param_6,0x1cd0
+    000120e0 7d 06 43 78     or         param_4,param_6,param_6
+
+    00a73160 48 00 4e d5     bl         PDIPS3::FileDeviceCellFS::FileDeviceCellFS
+    00a7316c 94 1d 04 98     stwu       r0,0x498(r29)
+
+    13dde10 - "/dev_hdd0" (null terminated)
+    13dde38 - "/PS3_GAME/USRDIR/direct" (null terminated)
     ```
 
 Extracted game files go under `USRDIR` as such that `/dev_hdd0/game/BCES00569/USRDIR/font/vec/fontset_US.txt` is valid. Base game contents must be extracted (GT.VOL), then update contents (PDIPFS) extracted ontop of it. 
