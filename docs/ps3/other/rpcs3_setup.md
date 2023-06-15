@@ -42,6 +42,12 @@ To enable debug settings,
 
 ---
 
+## Game Updates
+
+[Game Updates](updates.md)
+
+---
+
 ## Develop/Debug Menu for GT6 1.02
 
 GT6 1.02 mod since it runs better on that version - unlocks develop/debug menu (SELECT + R1)

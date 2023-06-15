@@ -124,8 +124,8 @@
 
 === ":earth_asia: BCAS-25018 (Asia)"
     * [1.01](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS20108/BCAS20108_T2/6815778f72efdcda/HP9000-BCAS20108_00-0000000000000000-A0101-V0100-PE.pkg) (pulled, can be skipped)
+    * 1.02
     * 1.03
-    * 1.05
 	* [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS20108/BCAS20108_T63/310f02ffb2837cce/HP9000-BCAS20108_00-0000000000000000-A0105-V0100-PE.pkg)
 	* [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS20108/BCAS20108_T63/310f02ffb2837cce/HP9000-BCAS20108_00-0000000000000000-A0106-V0101-PE.pkg)
 	* [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS20108/BCAS20108_T63/310f02ffb2837cce/HP9000-BCAS20108_00-0000000000000000-A0107-V0100-PE.pkg)
