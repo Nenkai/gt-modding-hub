@@ -293,7 +293,7 @@
     * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0121-V0100-PE.pkg)
     * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
 
-=== ":flag_asia: BCAS-25018 (Asia Disc)"
+=== ":earth_asia: BCAS-25018 (Asia Disc)"
     * [1.01](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T27/a0f733e930e29aa5/HP9000-BCAS25018_00-0000000000000000-A0101-V0101-PE.pkg) (delisted update due to exploit, can be skipped)
     * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0102-V0101-PE.pkg)
     * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0103-V0100-PE.pkg)
