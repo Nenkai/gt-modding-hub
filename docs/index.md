@@ -11,7 +11,7 @@ Welcome to the Gran Turismo Modding Hub! This is a new site created to cover eve
 
 This website is still a work in progress, incase you have anything to suggest, join us on our modding discord!
 
-[![name](https://discordapp.com/api/guilds/775896906500538378/widget.png?style=banner2&raw=true)](https://nenkai.github.io/gt-modding-hub/discord/)	
+[![GT Modding Community Discord](https://discordapp.com/api/guilds/775896906500538378/widget.png?style=banner2&raw=true)](https://nenkai.github.io/gt-modding-hub/discord/)	
 
 ## Contributing
 
