@@ -1,0 +1,268 @@
+# Updates
+
+!!! warning
+    Updates must always be installed in the correct order, you can **not** skip an update unless stated otherwise.
+
+## GT6
+=== ":flag_eu: BCES-01893 (Disc)"
+    * [1.01](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T27/7e3350cee3aeb220/EP9001-BCES01893_00-0000000000000000-A0101-V0100-PE.pkg) (delisted update due to exploit, can be skipped)
+    * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0102-V0101-PE.pkg)
+    * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0103-V0100-PE.pkg)
+    * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0104-V0100-PE.pkg)
+    * [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0105-V0100-PE.pkg)
+
+    Starting from 1.06, massive issues occur on RPCS3.
+
+    * [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0106-V0100-PE.pkg)
+    * [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0107-V0100-PE.pkg)
+    * [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0108-V0100-PE.pkg)
+    * [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0109-V0100-PE.pkg)
+    * [1.10](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0110-V0100-PE.pkg)
+    * [1.11](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0111-V0100-PE.pkg)
+    * [1.12](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0112-V0100-PE.pkg)
+    * [1.13](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0113-V0100-PE.pkg)
+    * [1.14](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0114-V0100-PE.pkg)
+    * [1.15](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0115-V0100-PE.pkg)
+    * [1.16](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0116-V0100-PE.pkg)
+    * [1.17](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0117-V0100-PE.pkg)
+    * [1.18](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0118-V0100-PE.pkg)
+    * [1.19](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0119-V0100-PE.pkg)
+    * [1.20](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0120-V0100-PE.pkg)
+    * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0121-V0100-PE.pkg)
+    * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01893/BCES01893_T359/b80952de9329a9ba/EP9001-BCES01893_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
+
+=== ":flag_gb: BCES-01977 (Disc)"
+    * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0102-V0101-PE.pkg)
+    * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0103-V0100-PE.pkg)
+    * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0104-V0100-PE.pkg)
+    * [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0105-V0100-PE.pkg)
+
+    Starting from 1.06, massive issues occur on RPCS3.
+    
+    * [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0106-V0100-PE.pkg)
+    * [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0107-V0100-PE.pkg)
+    * [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0108-V0100-PE.pkg)
+    * [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0109-V0100-PE.pkg)
+    * [1.10](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0110-V0100-PE.pkg)
+    * [1.11](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0111-V0100-PE.pkg)
+    * [1.12](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0112-V0100-PE.pkg)
+    * [1.13](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0113-V0100-PE.pkg)
+    * [1.14](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0114-V0100-PE.pkg)
+    * [1.15](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0115-V0100-PE.pkg)
+    * [1.16](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0116-V0100-PE.pkg)
+    * [1.17](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0117-V0100-PE.pkg)
+    * [1.18](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0118-V0100-PE.pkg)
+    * [1.19](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0119-V0100-PE.pkg)
+    * [1.20](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0120-V0100-PE.pkg)
+    * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0121-V0100-PE.pkg)
+    * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/BCES01977/BCES01977_T363/006e42acca2b2b6e/EP9001-BCES01977_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
+
+=== ":flag_us: BCUS-98296 (Disc)"
+    * [1.01](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T27/b1a77102f714cda3/UP9000-BCUS98296_00-0000000000000000-A0101-V0100-PE.pkg) (delisted update due to exploit, can be skipped)
+    * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0102-V0101-PE.pkg)
+    * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0103-V0100-PE.pkg)
+    * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0104-V0100-PE.pkg)
+    * [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0105-V0100-PE.pkg)
+
+    Starting from 1.06, massive issues occur on RPCS3.
+    
+    * [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0106-V0100-PE.pkg)
+    * [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0107-V0100-PE.pkg)
+    * [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0108-V0100-PE.pkg)
+    * [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0109-V0100-PE.pkg)
+    * [1.10](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0110-V0100-PE.pkg)
+    * [1.11](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0111-V0100-PE.pkg)
+    * [1.12](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0112-V0100-PE.pkg)
+    * [1.13](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0113-V0100-PE.pkg)
+    * [1.14](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0114-V0100-PE.pkg)
+    * [1.15](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0115-V0100-PE.pkg)
+    * [1.16](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0116-V0100-PE.pkg)
+    * [1.17](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0117-V0100-PE.pkg)
+    * [1.18](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0118-V0100-PE.pkg)
+    * [1.19](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0119-V0100-PE.pkg)
+    * [1.20](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0120-V0100-PE.pkg)
+    * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0121-V0100-PE.pkg)
+    * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
+
+=== ":flag_jp: BCJS-37016 (Disc)"
+    * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0102-V0101-PE.pkg)
+    * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0103-V0100-PE.pkg)
+    * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0104-V0100-PE.pkg)
+    * [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0105-V0100-PE.pkg)
+
+    Starting from 1.06, massive issues occur on RPCS3.
+    
+    * [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0106-V0100-PE.pkg)
+    * [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0107-V0100-PE.pkg)
+    * [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0108-V0100-PE.pkg)
+    * [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0109-V0100-PE.pkg)
+    * [1.10](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0110-V0100-PE.pkg)
+    * [1.11](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0111-V0100-PE.pkg)
+    * [1.12](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0112-V0100-PE.pkg)
+    * [1.13](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0113-V0100-PE.pkg)
+    * [1.14](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0114-V0100-PE.pkg)
+    * [1.15](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0115-V0100-PE.pkg)
+    * [1.16](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0116-V0100-PE.pkg)
+    * [1.17](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0117-V0100-PE.pkg)
+    * [1.18](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0118-V0100-PE.pkg)
+    * [1.19](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0119-V0100-PE.pkg)
+    * [1.20](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0120-V0100-PE.pkg)
+    * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0121-V0100-PE.pkg)
+    * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
+
+=== ":earth_americas: BCUS-98296 (LATAM Disc)"
+    * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0102-V0101-PE.pkg)
+    * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0103-V0100-PE.pkg)
+    * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0104-V0100-PE.pkg)
+    * [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0105-V0100-PE.pkg)
+
+    Starting from 1.06, massive issues occur on RPCS3.
+    
+    * [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0106-V0100-PE.pkg)
+    * [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0107-V0100-PE.pkg)
+    * [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0108-V0100-PE.pkg)
+    * [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0109-V0100-PE.pkg)
+    * [1.10](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0110-V0100-PE.pkg)
+    * [1.11](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0111-V0100-PE.pkg)
+    * [1.12](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0112-V0100-PE.pkg)
+    * [1.13](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0113-V0100-PE.pkg)
+    * [1.14](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0114-V0100-PE.pkg)
+    * [1.15](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0115-V0100-PE.pkg)
+    * [1.16](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0116-V0100-PE.pkg)
+    * [1.17](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0117-V0100-PE.pkg)
+    * [1.18](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0118-V0100-PE.pkg)
+    * [1.19](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0119-V0100-PE.pkg)
+    * [1.20](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0120-V0100-PE.pkg)
+    * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0121-V0100-PE.pkg)
+    * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS99247/BCUS99247_T358/8bf56f62f800b74d/UP9000-BCUS99247_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
+
+=== ":earth_asia: BCAS-25018 (Asia Disc)"
+    * [1.01](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T27/a0f733e930e29aa5/HP9000-BCAS25018_00-0000000000000000-A0101-V0101-PE.pkg) (delisted update due to exploit, can be skipped)
+    * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0102-V0101-PE.pkg)
+    * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0103-V0100-PE.pkg)
+    * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0104-V0100-PE.pkg)
+    * [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0105-V0100-PE.pkg)
+
+    Starting from 1.06, massive issues occur on RPCS3.
+    
+    * [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0106-V0100-PE.pkg)
+    * [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0107-V0100-PE.pkg)
+    * [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0108-V0100-PE.pkg)
+    * [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0109-V0100-PE.pkg)
+    * [1.10](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0110-V0100-PE.pkg)
+    * [1.11](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0111-V0100-PE.pkg)
+    * [1.12](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0112-V0100-PE.pkg)
+    * [1.13](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0113-V0100-PE.pkg)
+    * [1.14](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0114-V0100-PE.pkg)
+    * [1.15](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0115-V0100-PE.pkg)
+    * [1.16](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0116-V0100-PE.pkg)
+    * [1.17](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0117-V0100-PE.pkg)
+    * [1.18](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0118-V0100-PE.pkg)
+    * [1.19](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0119-V0100-PE.pkg)
+    * [1.20](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0120-V0100-PE.pkg)
+    * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0121-V0100-PE.pkg)
+    * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
+
+=== ":flag_eu: NPEA-00502 (PSN)"
+    * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0102-V0101-PE.pkg)
+    * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0103-V0100-PE.pkg)
+    * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0104-V0100-PE.pkg)
+    * [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0105-V0100-PE.pkg)
+
+    Starting from 1.06, massive issues occur on RPCS3.
+    
+    * [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0106-V0100-PE.pkg)
+    * [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0107-V0100-PE.pkg)
+    * [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0108-V0100-PE.pkg)
+    * [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0109-V0100-PE.pkg)
+    * [1.10](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0110-V0100-PE.pkg)
+    * [1.11](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0111-V0100-PE.pkg)
+    * [1.12](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0112-V0100-PE.pkg)
+    * [1.13](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0113-V0100-PE.pkg)
+    * [1.14](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0114-V0100-PE.pkg)
+    * [1.15](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0115-V0100-PE.pkg)
+    * [1.16](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0116-V0100-PE.pkg)
+    * [1.17](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0117-V0100-PE.pkg)
+    * [1.18](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0118-V0100-PE.pkg)
+    * [1.19](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0119-V0100-PE.pkg)
+    * [1.20](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0120-V0100-PE.pkg)
+    * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0121-V0100-PE.pkg)
+    * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
+
+=== ":flag_us: NPUA-81049 (PSN)"
+    * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0102-V0101-PE.pkg)
+    * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0103-V0100-PE.pkg)
+    * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0104-V0100-PE.pkg)
+    * [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0105-V0100-PE.pkg)
+
+    Starting from 1.06, massive issues occur on RPCS3.
+    
+    * [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0106-V0100-PE.pkg)
+    * [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0107-V0100-PE.pkg)
+    * [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0108-V0100-PE.pkg)
+    * [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0109-V0100-PE.pkg)
+    * [1.10](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0110-V0100-PE.pkg)
+    * [1.11](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0111-V0100-PE.pkg)
+    * [1.12](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0112-V0100-PE.pkg)
+    * [1.13](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0113-V0100-PE.pkg)
+    * [1.14](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0114-V0100-PE.pkg)
+    * [1.15](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0115-V0100-PE.pkg)
+    * [1.16](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0116-V0100-PE.pkg)
+    * [1.17](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0117-V0100-PE.pkg)
+    * [1.18](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0118-V0100-PE.pkg)
+    * [1.19](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0119-V0100-PE.pkg)
+    * [1.20](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0120-V0100-PE.pkg)
+    * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0121-V0100-PE.pkg)
+    * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
+
+=== ":flag_jp: NPJA-00113 (PSN)"
+    * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0102-V0101-PE.pkg)
+    * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0103-V0100-PE.pkg)
+    * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0104-V0100-PE.pkg)
+    * [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0105-V0100-PE.pkg)
+
+    Starting from 1.06, massive issues occur on RPCS3.
+    
+    * [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0106-V0100-PE.pkg)
+    * [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0107-V0100-PE.pkg)
+    * [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0108-V0100-PE.pkg)
+    * [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0109-V0100-PE.pkg)
+    * [1.10](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0110-V0100-PE.pkg)
+    * [1.11](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0111-V0100-PE.pkg)
+    * [1.12](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0112-V0100-PE.pkg)
+    * [1.13](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0113-V0100-PE.pkg)
+    * [1.14](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0114-V0100-PE.pkg)
+    * [1.15](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0115-V0100-PE.pkg)
+    * [1.16](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0116-V0100-PE.pkg)
+    * [1.17](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0117-V0100-PE.pkg)
+    * [1.18](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0118-V0100-PE.pkg)
+    * [1.19](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0119-V0100-PE.pkg)
+    * [1.20](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0120-V0100-PE.pkg)
+    * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0121-V0100-PE.pkg)
+    * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
+
+=== ":earth_asia: NPHA-80269 (Asia PSN)"
+    * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0102-V0101-PE.pkg)
+    * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0103-V0100-PE.pkg)
+    * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0104-V0100-PE.pkg)
+    * [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0105-V0100-PE.pkg)
+
+    Starting from 1.06, massive issues occur on RPCS3.
+    
+    * [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0106-V0100-PE.pkg)
+    * [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0107-V0100-PE.pkg)
+    * [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0108-V0100-PE.pkg)
+    * [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0109-V0100-PE.pkg)
+    * [1.10](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0110-V0100-PE.pkg)
+    * [1.11](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0111-V0100-PE.pkg)
+    * [1.12](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0112-V0100-PE.pkg)
+    * [1.13](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0113-V0100-PE.pkg)
+    * [1.14](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0114-V0100-PE.pkg)
+    * [1.15](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0115-V0100-PE.pkg)
+    * [1.16](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0116-V0100-PE.pkg)
+    * [1.17](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0117-V0100-PE.pkg)
+    * [1.18](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0118-V0100-PE.pkg)
+    * [1.19](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0119-V0100-PE.pkg)
+    * [1.20](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0120-V0100-PE.pkg)
+    * [1.21](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0121-V0100-PE.pkg)
+    * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80269/NPHA80269_T347/bbbe3231612e1ba4/HP9000-NPHA80269_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
