@@ -204,7 +204,21 @@ Game Code: `BCKS-10030` (based on NPHA-80045)
     * Split executables (EBOOT + EMAIN)
     * `TV.DAT` (movies + XML + strobes + Pace DLS)
 
+??? tip "Grim Files"
+    Build contains the following file types:
+
+    * Pace DLS
+    * Movie Strobe
+    * Movies XMLs
+    * Movies PAM
+
+    Decryption of Grim files using GTToolsSharp:
+    ```
+    crypt -g GT5P_KR -i grim\file\contents\tv_8_465539187.dls --keyset-seed-override BCKS-10030 --alternative
+    ```
+
 ??? note "Video Keys"
+    Decrypt the grim files individually first, then use `cryptmovie` with the keys below
     * tv_8_280528187.pam key: `IgCub2PBagBN7bi5SxsXXbvWWBvOejk1/Ng+qVWTArY=` (デイトナ・インターナショナル・スピードウェイ)
     * tv_9_759604186.pam key: `VD7GwRdpX1HzTHIq1gx3OzFJNgQwbx+BlKIpWs1CQ7I=` (アイガー北壁コース)
     * tv_10_759604186.pam key: `nEhnJFlE/Mablm/yMvjqSabq3+BGyglN86LSCvyikt4=` (富士スピードウェイ)
@@ -212,8 +226,6 @@ Game Code: `BCKS-10030` (based on NPHA-80045)
     * tv_12_957666642.pam key: `56dtpix1GqgJKWBVHZHw+4pLTDGIWC0AtlZgcxAYUmA=` (鈴鹿サーキット)
     * tv_46_494248732.pam key: `CMQO4V1Gj+eUxqMJN0RNCe7DySAeiNA5I2CJ9ShOXPI=` (OPENING)
     * tv_63_494248732.pam key: `at03Qoe8C3KYJfLetWnzy7bdqG10T8XwNzWyvsyUkjU=` (ENDING)
-
----
 
 ---
 

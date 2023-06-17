@@ -27,4 +27,3 @@ The latest version of GT6 (`1.22`) is the recommended version to mod. `1.05` can
 ---
 
 Proceed to [Volume & Making Edits](./basics/volume_system.md) for extracting files.
-

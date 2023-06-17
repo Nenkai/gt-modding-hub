@@ -95,6 +95,7 @@ nav:
       - Movies: ps3/movies.md
       - Models: ps3/models.md
       - Fonts: ps3/fonts.md
+      - Text Data (GT5): ps3/textdata.md
 
     - Other:
         - Optimal Modding Setup: ps3/other/optimal_setup.md
