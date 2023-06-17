@@ -177,6 +177,10 @@ Game Code: `NPUA-80075`
 
 Game Code: `BCKS-10030` (based on NPHA-80045)
 
+??? abstract "File List"
+    * [Disc + GT.VOL](file_lists/BCKS10030_disc.txt)
+    * [Game Dir](file_lists/BCKS10030_install.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `11`
     * Supports up to instruction: `57 - ASSIGN_POP`
