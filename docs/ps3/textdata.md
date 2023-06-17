@@ -1,6 +1,6 @@
 # Textdata Editing (GT5)
 
-Textdata refers to the `textdata` folder described on the [File Structure](./basics/file_structure.md) page. It is mostly database for UI defined events, cars, items and more.
+Textdata refers to the `textdata` folder described on the [File Structure](./basics/file_structure.md) page. It is mostly a database for UI defined events, cars, items and more.
 
 However, most of the files are only read **once**. The files are used to build a temporary SQLite database for performance. 
 
@@ -121,7 +121,7 @@ Defines the dealers available in the premium dealership.
 
 ---
 
-## Nurburgring Corner (corner_nurburgring.xml)
+## Nurburgring Corners (corner_nurburgring.xml)
 
 Defines the names of each corner of the nurburgring.
 
@@ -147,6 +147,91 @@ Defines the cars to use when an event's generate type is set to `ENEMY_LIST`.
 * `enemy_premium_racecar.xml` - Used when car category is **not** `gtengine::CarCategory::NORMAL` and for premiums.
 * `enemy_premium_racecar_dirt.xml` - Used when car category is **not** `gtengine::CarCategory::NORMAL` premium, and the track is dirt/snow track.
 * `enemy_premium_racecar_night.xml` - Unused.
+
+??? abstract "XML Attributes"
+    Attribute | Description
+    ------------ | -----------
+    `code` | Car Label, from SpecDB's GENERIC_CAR
+    `pp` | "Fake" Car PP. Can be used for rebalancing.
+
+---
+
+## Event Present (event_present.xml)
+
+*Parsed by `scripts/gt5/EventPresentUtil.ad`, used by `scripts/gt5/global_status/GameRecord.ad` for `t_event_present`*
+
+Defines the misc event presents/prizes.
+
+??? abstract "XML Attributes"
+    Attribute | Description
+    ------------ | -----------
+    `present_id` | Unique identifier for this present.
+    `eventtype_id` | Event type.
+    `argument0` | Argument 0
+    `argument1` | Argument 1
+    `argument2` | Argument 2
+    `argument3` | Argument 3
+    `argument4` | Argument 4
+    `type_id` | Type
+    `category_id` | Category of the present.
+    `gameitem_id` | Game Item ID.
+    `carcode` | | Car Label, from SpecDB's GENERIC_CAR (if applicable)
+    `messagecode` | Message to show when acquiring the present.
+    `function_name` | Trophy to unlock.
+
+---
+
+## Driver Names (lnames.txt)
+
+*Parsed by `scripts/gt5/DriverNameUtil.ad` for `t_driver_names`*
+
+Defines AI driver names. One line is `<First Name>,<Second Name>,?,Country ID`. Only the first name is used.
+
+---
+
+## Online Car Set (online_car_set.xml)
+
+Defines the recommended car sets for online lobbies. 
+
+??? abstract "XML Attributes"
+    Attribute | Description
+    ------------ | -----------
+    `id` | Unique ID. From 10 to 127.
+    `priority` | Sort order.
+    `dirtsnow` | Whether this car set is allowed on dirt/snow courses.
+    `file` | File name containing the cars for the specified car set, under the `online_car_set` folder.
+
+!!! warning
+    A maximum of 250 cars across all car sets can be used. The code handling the car set list is engine handled.
+
+---
+
+## Photo Travel (photo_travel.xml)
+
+Defines and sets up photo travel positions.
+
+---
+
+## Present Car (presentcar.xml)
+
+*Parsed by `scripts/gt5/GameItemData.ad` for `t_presentcar`*
+
+Defines the car prizes.
+
+??? abstract "XML Attributes"
+    Attribute | Description
+    ------------ | -----------
+    `id` | Unique identifier.
+    `gameitem_id` | Game Item ID linked to this present.
+    `carcode` | Car Label, from SpecDB's GENERIC_CAR
+    `item_code` | Item Code
+    `color` | Car color index. `-1` is default.
+
+---
+
+## Shuffler (shuffler_*.xml)
+
+Defines the cars in shuffle race mode.
 
 ??? abstract "XML Attributes"
     Attribute | Description
