@@ -145,6 +145,9 @@ Game Code: `BCES-00104`
 
 Game Code: `NPUA-80075`
 
+??? abstract "File List"
+    * [Game Dir](file_lists/NPUA80075_install.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `?`
     * Supports up to instruction: `48 - SYMBOL_CONST`
@@ -167,6 +170,17 @@ Game Code: `NPUA-80075`
     * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
     * Split executables (EBOOT + EMAIN)
 
+??? tip "Grim Files"
+    Build contains the following file types:
+
+    * Pace DLS
+    * Movie Strobe
+    * Movies XMLs
+    
+    Decryption of Grim files using GTToolsSharp:
+    ```
+    crypt -g GT5P_USPSN -i grim\file\contents\tv_8_465539187.dls --keyset-seed-override BCUS-98158 --alternative
+    ```
 ---
 
 ## GT5P Spec II (Korea) (May 19th, 2008)
