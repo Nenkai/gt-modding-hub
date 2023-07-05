@@ -270,6 +270,9 @@ Game Code: `BCKS-10030` (based on NPHA-80045)
 
 Game Code: `BCED-00393` / `PKJM00393`
 
+??? abstract "File List"
+    * [Disc + GT.VOL + TV.DAT](file_lists/BCED00393_disc.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `12`
     * Supports up to instruction: `60 - DOUBLE_CONST`
