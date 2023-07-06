@@ -116,6 +116,9 @@ Early build of the game compiled on July 16, 2010. Decrypted by Razerman & Elsto
 
 * America - `NPUA-70115`
 
+??? abstract "File List"
+    * [Install + PDIPFS](file_lists/NPUA70115_install.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `12`
     * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
@@ -133,6 +136,7 @@ Early build of the game compiled on July 16, 2010. Decrypted by Razerman & Elsto
     * Volume Seed: `ARABIAN-312107402`
     * Volume Key: `808907869, 3509889855, 2241488475, 385363869`
     * Volume Serial: `300811023`
+    * Volume Title ID: `GT5E-ARABIAN-312107402`
     * Grim URL: `https://gt5pdev01.ps3.online.us.gran-turismo.com`
     * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
     * One executable (EBOOT)
