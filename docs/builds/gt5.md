@@ -174,6 +174,9 @@ Buggy build of the game intended for QA compiled on September 16, 2010 dumped by
 
 The game code is identical to european retail, `BCES-00569`.
 
+??? abstract "File List"
+    * [Disc + GT.VOL](file_lists/BCES00569_QA_disc.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `12`
     * VersionBranch: `gt5`
@@ -186,6 +189,7 @@ The game code is identical to european retail, `BCES-00569`.
     * Volume Seed: `PDIPFSDEFAULT`
     * Volume Key: `79764919, 79764919, 79764919, 79764919`
     * Volume Serial: `306292359`
+    * Volume Title ID: `GT5-UK-PDIPFSDEFAULT`
     * CompileDateTime: `2010/09/16 01:08:49`
     * CompileSVNRevision: `42777`
     * Grim URL: `https://gt5.ps3.online.uk.gran-turismo.com`
