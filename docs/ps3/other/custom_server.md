@@ -4,8 +4,6 @@
 
 A proof-of-concept [Grim](../../concepts/online/grim.md) server exists for GT5/6 at [Grimoire](https://github.com/Nenkai/Grimoire).
 
-Emphasis on proof of concept - it does not have any security features, nor is it ready for production at all.
-
 !!! warning
     **Any project being advertised as reviving custom servers using this project is not endorsed nor wanted.**
 
