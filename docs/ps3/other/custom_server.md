@@ -19,74 +19,50 @@ A replacement for both GT5 & GT6's defunct servers.
 
 ### Who works on it?
 
-As of right now, just Nenkai.
+As of right now, [Nenkai](https://twitter.com/) and [ddm999](https://twitter.com/ddm999).
 
-### Do you need PSN to use the custom server?
+### Can you use this on consoles?
 
-Unfortunately, yes. This is a hard requirement because the game needs to fetch the player's profile to then send the information to the server.
+Yes, but unplanned. PSN is a hard requirement, and a modded console is also required, which has ban risks.
 In the distant future, this may no longer be required thanks to [hyenas](https://github.com/Jump-Suit/hyenas) (although the project seems to be dead as of 2023).
 
-The server is likely to only support RPCS3 for safety.
+### What about emulators such as RPCS3?
 
-### Do you need a modded console?
-
-Unfortunately also yes as of right now, there is no figured out way to let OFW connect to it through a DNS swap, due to the game's requirement on HTTPS. No eboot editing is required, it can be performed just with game files.
-
-As stated previously, the server is likely to only support RPCS3.
-
-### RPCS3
+The server will only support [RPCS3](https://rpcs3.net/) for safety.
 
 Functional thanks to RPCN. Most community features are functional.
 
-GT5 lobbies do function, GT6 however crashes the emulator upon lobby creation.
-
-
 ### Can you host and join lobbies?
 
-Yes, sort of. Lobbies and matching is all handled by the PSN however, this is something that will be actively attempted to avoid.
+There is currently an issue with RPCS3/RPCN where joining others's lobbies does not work. We hope that this can be solved in the future.
 
 ### Is it released yet?
 
-Officially, no. It's still a work-in-progress.
+Officially, no. It's still a work-in-progress. **GT5** is currently being tested as of July 2023.
+
+### Is it secure?
+
+SSL is fully implemented. RPCN authenticity is also fully verified upon login.
 
 ### Open-Sourced?
-Only the proof of concept - the real project is private. https://github.com/Nenkai/Grimoire
-
-Any further work to be made until post-release will be privated.
-
+Only the [proof of concept](https://github.com/Nenkai/Grimoire) - the real project is private for the time being. 
 
 ### What's "Grim"?
 
-A: PDI's official name for their server infrastructure. The server revival project's name is based on it. 
+PDI's official name for their server infrastructure. The server revival project's name *Grimoire* is based on it. 
+
+More info on the [Grim](../../concepts/online/grim.md) page.
 
 ---
 
-## What Works / What doesn't
+## What doesn't work so far (GT5)
 
-✅ GT5 Progress on what currently works
-
-- Museum (Original cards + Can create new ones)
-- GTTV
-- News List (On main menu + actual news menu)
-- Online Car Dealership
-- Seasonals Menu + Functioning Rankings + Replay Downloading + Custom Backgrounds/Logos
-- Item Gifting to other users
-- Friend List based on PSN friend list
-- GT Mail
-- BBS (Bulletin Board to leave messages on player's profiles)
-- Player Logs
-- Sharing Courses, and Photos
-
-✅ GT6 Progress on what currently works
-
-- News
-- Messaging
-- Seasonals
-- Loading Custom Tracks
-- Clubs, Club Forum
-
-🔧 What needs to be worked on
-
-- Remote B-Spec (very big feature so it'll be worked on post-release)
-- Some other minor stuff
-- Refactoring, polishing, checks
+* Going inside GTTV causes an emulator crash (emulator issue, NP Commerce not implemented).
+* It is not yet possible to connect to other players's lobbies (emulator issue, sceNpBasic* possibly not implemented)
+* Only Time and Drift trials are currently implemented (grimoire side)
+* Remote B-Spec's event is not currently implemented (grimoire side)
+* The online car dealership only has two cars (787B's), listings have yet to be properly implemented (grimoire side)
+* The museum is missing a few entries for the time being (grimoire side, we do not have the images for them yet)
+* It is not possible to view who is online in-game yet (emulator issue, sceNpPresence is not implemented)
+* Sometimes downloaded images (avatars) can be black (emulator issue).
+* Sometimes creating custom track or avatar thumbnails can fail and be all black or glitched (emulator issue).
