@@ -17,7 +17,7 @@ A replacement for both GT5 & GT6's defunct servers.
 
 ### Who works on it?
 
-As of right now, [Nenkai](https://twitter.com/) and [ddm999](https://twitter.com/ddm999).
+As of right now, [Nenkai](https://twitter.com/Nenkaai) and [ddm999](https://twitter.com/ddm999).
 
 ### Can you use this on consoles?
 
