@@ -16,6 +16,8 @@ A shuffle race is a race where every player will use a random car across a certa
 
 Starts a shuffle lobby, only one can be hosted per channel/thread. This command will take a PP range along with a tire compound to use. Up to 10 drivers can be added, further drivers can be added with the `/shuf add` command.
 
+You can also set the lobby as public - incase you want people to be able to join on their own. This can be done by setting `is_public` to true.
+
 Enforcing a drivetrain is also possible.
 
 !!! tip
@@ -60,6 +62,12 @@ Rerolls the car of a specific driver. This will bypass penalties, and attempt to
 
 ---
 
+#### `/shuf setpublic` - Set Lobby Public/Private
+
+Sets the lobby as private, or public (which means anyone can join using `/shuf join`).
+
+---
+
 #### `/shuf givehost` - Give Host
 
 Gives the lobby host to another driver.
@@ -67,6 +75,12 @@ Gives the lobby host to another driver.
 ---
 
 ## Driver Commands
+
+#### `/shuf join` - Join Lobby
+
+Joins the shuffle lobby, **only** if the shuffle has been marked as public.
+
+---
 
 #### `/shuf reroll` - Reroll Car
 
