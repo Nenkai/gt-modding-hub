@@ -8,9 +8,16 @@ A shuffle race is a race where every player will use a random car across a certa
 
 The way it works is that a lobby is hosted, and **BoP** has to be enabled. The bot will provide a random car for each driver to use given the specified tire compound set by the host.
 
+!!! warning
+
+    In order to make this more enjoyable it is **very highly recommended** to have a large collection of road cars not to hold everyone else in the lobby up.
+
+
 !!! note
 
     All group cars are excluded from this.
+
+---
 
 ## Lobby Owner Commands
 
