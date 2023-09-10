@@ -6,11 +6,13 @@ This pages explains how the GT7 Shuffle Bot operates, and how to use it. This bo
 
 A shuffle race is a race where every player will use a random car across a certain car pool. This bot attempts to make this process easier in place of GT7's missing shuffle race mode.
 
+The way it works is that a lobby is hosted, and **BoP** has to be enabled. The bot will provide a random car for each driver to use given the specified tire compound set by the host.
+
 !!! note
 
     All group cars are excluded from this.
 
-## Host Commands
+## Lobby Owner Commands
 
 #### `/shuf start` - Start Lobby
 
@@ -31,6 +33,20 @@ Enforcing a drivetrain is also possible.
 Ends the shuffle lobby.
 
 ---
+
+#### `/shuf addhost` - Add Host
+
+Adds host permissions to another driver. This is useful incase you want multiple people to handle managing the bot.
+
+---
+
+#### `/shuf removehost` - Remove Host
+
+Removes host permissions from a host.
+
+---
+
+## Host Commands
 
 #### `/shuf set` - Update Shuffle Parameters
 
@@ -58,19 +74,13 @@ Removes a driver from the shuffle lobby. No more than 16 drivers can take part i
 
 #### `/shuf rerolldriver` - Reroll Driver
 
-Rerolls the car of a specific driver. This will bypass penalties, and attempt to give a car that hasn't already been given to anyone else if possible.
+Rerolls the car of a specific driver. This will bypass penalties, and attempt to give a car that hasn't already been given to anyone else if possible, and a car that isn't already being used by the target driver.
 
 ---
 
 #### `/shuf setpublic` - Set Lobby Public/Private
 
 Sets the lobby as private, or public (which means anyone can join using `/shuf join`).
-
----
-
-#### `/shuf givehost` - Give Host
-
-Gives the lobby host to another driver.
 
 ---
 
@@ -84,7 +94,7 @@ Joins the shuffle lobby, **only** if the shuffle has been marked as public.
 
 #### `/shuf reroll` - Reroll Car
 
-Reroll own car incase you don't own it. This can be done up to **2** times, the first time is always free, the second time will be penalized and will always be a worse car than the previous one.
+Reroll own car incase you don't own it. This can be done up to **2** times, the first time is always free, the second time will be penalized and will always be a worse car than the previous one. If you are already using the worst car, rerolling with a penalty is effectively pointless.
 
 ---
 
