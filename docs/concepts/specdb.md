@@ -126,76 +126,85 @@ The most important tables are [`GENERIC_CAR`](#generic_car) and `DEFAULT_PARTS`.
 `TCSC`                 | Defines traction control parts.
 `TIRECOMPOUND`         | Defines tire compounds. Used by FRONTTIRE and REARTIRE.
 `TIREFORCEVOL`         | Defines tire force volumes.
-`TIRESIZE`             | Defines tire sizes. Used by FRONTTIRE and REARTIRE.
+[`TIRESIZE`](#tiresize)             | Defines tire sizes. Used by FRONTTIRE and REARTIRE.
 [`TUNER_LIST`](#tuner_list)           | Defines which tuner/dealer you can go to to upgrade a car in GT4.
 `TURBINEKIT`           | Defines all the turbos.
 [`VARIATION`](#variation) | Defines all the car paint colors (and models, for GT4).
 `WHEEL`                | Defines all the wheels.
 `WING`                 | Defines all the wings. (for GT4, maybe GT5P)
 
+---
+
 ### CAR_VARIATION
 :material-check: *Applicable to: GT4 / TT*
 
 Links a car to a [VARIATION](#variation) row.
 
-|     Column          |  Data Type    | Description
-| --------------------| ------------- | ----------- | 
-`Label`               | String        | The human-readable reference name for the car. Must match with the car to search.
-`VariationID`         | Int           | ID matching [VARIATION](#variation).
+??? info "Table (click to expand)"
+    |     Column          |  Data Type    | Description
+    | --------------------| ------------- | ----------- | 
+    `Label`               | String        | The human-readable reference name for the car. Must match with the car to search.
+    `VariationID`         | Int           | ID matching [VARIATION](#variation).
+
+---
 
 ### ENGINE
 :material-check: *Applicable to: GT4 and above*
 
-|     Column          |  Data Type    | Description
-| --------------------| ------------- | ----------- | 
-`Label`               | String | The human-readable reference name for the part. Matching this to the GENERIC_CAR label isn't mandatory, but keeps things simple.
-`Displacement`        | String | The engine's displacement capacity. Formatted as cubic capacity (e.g. `4965cc`) for piston-driven engines, and (cc * rotors) (e.g. `654x2cc`) for rotor-driven engines. Blank/hidden values are `- cc`.
-`EngineType`          | String | The engine's layout, used for dealership stat displays (e.g. `L4` for inline 4, `Boxer6` for flat 6, `Rotor2` for 2-rotor, `V6`, `V10`, etc. and `-` for blank/hidden).
-`Cam`                 | String | The camshaft/valve type if applicable. Overhead cams and valves are listed as their abbreviation, e.g. `DOHC` or `OHV`. `Rotary` is listed in full, and blank/hidden is `-`.
-`Aspiration`          | String | The aspiration type of the engine, used for dealership stat displays and possibly event restrictions. `NA`, `TURBO` (and `TUBRO` for the Lancer Evolution III), `SuperCharger`, and `-` are used. Twincharged cars are not supported, so cars such as the Lancia Delta S4 are listed as turbo.
-`psrpm`               | String | Display stat. The RPM at which peak power is achieved.
-`torquerpm`           | String | Display stat. The RPM at which peak torque is achieved. As this is a string value, ranges such as `2500-6000` are supported where required (e.g. turbo cars)
-`soundNum`            | UShort | The ID for this engine's sound, mapped to files like `carsound\xxxx\12345`, where xxxx is the folder for normal or turbo engines split by exhaust upgrade level.
-`psvalue`             | Short  | Display stat. The engine's peak mechanical horsepower (PS). Converted to other units in-game depending on region/language settings. Combines with `psrpm` to produce readouts such as `Power:301HP/5600rpm`.
-`torquevalue`         | Short  | Display stat. The engine's peak torque (kgm*100). Converted to other units in-game depending on region/language settings. Combines with `torquerpm` to produce readouts such as `Torque:339.22ft.lb/2700-4250rpm`.
-`torque(A through X)` | Short  | Simulation stat. Each lettered column is mapped to a `rpm(A through X)` column to produce this amount of torque (kgm^100) at a given RPM, building the torque curve of the engine (e.g. `torqueE` is the torque produced at `rpmE`).
-`Category`            | Byte   | Unknown.
-`dpsflag`             | Byte   | Unknown. Possibly related to downshift protection.
-`shiftlimit`          | Byte   | The RPM at which the automatic transmission assist will shift up under full throttle. Values for this and all other RPM-related sim values are multiplied by 100 in game, so a `shiftlimit` of `65` means the redline starts at 6500rpm.
-`revlimit`            | Byte   | The RPM at which the engine hits the rev limiter and will not rev any further. Also multiplied by 100 in game, so `70` means the rev limiter is hit at 7000rpm.
-`Unk`                 | Byte   | Unknown. Possibly RPM related.
-`clutchmeetrpm`       | Byte   | Not fully known. Seems to be `250` for almost every car except for some historic cars and the Tank Car.
-`torquepoint`         | Byte   | How many `rpm/torque` points are used to build the torque curve. Maximum of 24 as each only goes from A to X.
-`rpm(A through X)`    | Byte   | RPM values divided by 100 corresponding to `torque(A through X)` values. Can start from any value and jump up in any (or even inconsistent) intervals, but base game cars typically start at 10 or 15 (1000rpm and 1500rpm) and increase in intervals of 5 (500rpm).
-`RedLine`             | Byte   | The RPM at which UI redline starts.
-`MeterScale`          | Byte   | Unknown. All values are set to `0` in GT4.
-`torquevol`           | Byte   | Unknown. Possibly a multiplier related to the engine's torque curve.
-`GasConsumptionRate`  | Byte   | Unknown. As the name suggests this is related to fuel consumption, but every engine in GT4 has a value of `0` for this column, and the units/effects are unknown. Possibly unused.
+??? info "Table (click to expand)"
+    |     Column          |  Data Type    | Description
+    | --------------------| ------------- | ----------- | 
+    `Label`               | String | The human-readable reference name for the part. Matching this to the GENERIC_CAR label isn't mandatory, but keeps things simple.
+    `Displacement`        | String | The engine's displacement capacity. Formatted as cubic capacity (e.g. `4965cc`) for piston-driven engines, and (cc * rotors) (e.g. `654x2cc`) for rotor-driven engines. Blank/hidden values are `- cc`.
+    `EngineType`          | String | The engine's layout, used for dealership stat displays (e.g. `L4` for inline 4, `Boxer6` for flat 6, `Rotor2` for 2-rotor, `V6`,   `V10`, etc. and `-` for blank/hidden).
+    `Cam`                 | String | The camshaft/valve type if applicable. Overhead cams and valves are listed as their abbreviation, e.g. `DOHC` or `OHV`. `Rotary` is listed in full, and blank/hidden is `-`.
+    `Aspiration`          | String | The aspiration type of the engine, used for dealership stat displays and possibly event restrictions. `NA`, `TURBO` (and `TUBRO` for the Lancer Evolution III), `SuperCharger`, and `-` are used. Twincharged cars are not supported, so cars such as the Lancia Delta S4 are listed as turbo.
+    `psrpm`               | String | Display stat. The RPM at which peak power is achieved.
+    `torquerpm`           | String | Display stat. The RPM at which peak torque is achieved. As this is a string value, ranges such as `2500-6000` are supported where required (e.g. turbo cars)
+    `soundNum`            | UShort | The ID for this engine's sound, mapped to files like `carsound\xxxx\12345`, where xxxx is the folder for normal or turbo engines split by exhaust upgrade level.
+    `psvalue`             | Short  | Display stat. The engine's peak mechanical horsepower (PS). Converted to other units in-game depending on region/language  settings. Combines with `psrpm` to produce readouts such as `Power:301HP/5600rpm`.
+    `torquevalue`         | Short  | Display stat. The engine's peak torque (kgm*100). Converted to other units in-game depending on region/language settings. Combines     with `torquerpm` to produce readouts such as `Torque:339.22ft.lb/2700-4250rpm`.
+    `torque(A through X)` | Short  | Simulation stat. Each lettered column is mapped to a `rpm(A through X)` column to produce this amount of torque (kgm^100) at a given RPM, building the torque curve of the engine (e.g. `torqueE` is the torque produced at `rpmE`).
+    `Category`            | Byte   | Unknown.
+    `dpsflag`             | Byte   | Unknown. Possibly related to downshift protection.
+    `shiftlimit`          | Byte   | The RPM at which the automatic transmission assist will shift up under full throttle. Values for this and all other RPM-related sim values are multiplied by 100 in game, so a `shiftlimit` of `65` means the redline starts at 6500rpm.
+    `revlimit`            | Byte   | The RPM at which the engine hits the rev limiter and will not rev any further. Also multiplied by 100 in game, so `70` means the rev limiter is hit at 7000rpm.
+    `Unk`                 | Byte   | Unknown. Possibly RPM related.
+    `clutchmeetrpm`       | Byte   | Not fully known. Seems to be `250` for almost every car except for some historic cars and the Tank Car.
+    `torquepoint`         | Byte   | How many `rpm/torque` points are used to build the torque curve. Maximum of 24 as each only goes from A to X.
+    `rpm(A through X)`    | Byte   | RPM values divided by 100 corresponding to `torque(A through X)` values. Can start from any value and jump up in any (or even inconsistent) intervals, but base game cars typically start at 10 or 15 (1000rpm and 1500rpm) and increase in intervals of 5 (500rpm).
+    `RedLine`             | Byte   | The RPM at which UI redline starts.
+    `MeterScale`          | Byte   | Unknown. All values are set to `0` in GT4.
+    `torquevol`           | Byte   | Unknown. Possibly a multiplier related to the engine's torque curve.
+    `GasConsumptionRate`  | Byte   | Unknown. As the name suggests this is related to fuel consumption, but every engine in GT4 has a value of `0` for this column, and the units/effects are unknown. Possibly unused.
+
+---
 
 ### GEAR
 :material-check: *Applicable to: GT4 and above*
 
-|     Column                  |  Data Type    | Description
-| ----------------------------| ------------- | ----------- |
-`Label`                       | String        | The human-readable reference name for the part. Matching this to the GENERIC_CAR label isn't mandatory, but keeps things simple.
-`Gear(1st through 11th)`      | Short         | The gear ratio for a given gear. Multiplied by 100, so a specdb value of `3595` is a ratio of `3.595`.
-`GearReverse`                 | Short         | The reverse gear ratio. Multiplied by 100.
-`finalgearMIN`                | Short         | The minimum value allowed for the final drive ratio when tuning gear ratios.
-`finalgearMAX`                | Short         | The maximum value allowed for the final drive ratio when tuning gear ratios.
-`finalgearDF`                 | Short         | The default value for the final drive ratio when tuning gear ratios.
-`ExtraFinalGearRatio`         | Short         | Specifies an alternative final drive ratio where applicable (for cars with two output shafts such as the 2005 Volkswagen Golf GTI).
-`Price`                       | Short         | How much the part costs to buy if not stock.
-`category`                    | Byte          | The upgrade level of a transmission part.
-`geartype`                    | Byte          | Which type of gearbox behaviour to use. `0` and `1` are both used on manual transmissions but the difference between the two is unknown. `2` is used to apply realistic smooth shifting to cars with torque converter automatics. `3` and `4` are unknown but may be related to hybrid cars as they are used on the Toyota Priuses and Triathlon car respectively. `7` is scooters. `0` or `2` means `CanShowGearChart` is true. `2` and `3` may be CVT. `1`, `3`, `4` and `7` are considered automatic only.
-`Nshift`                      | Byte          | Number of gears (forward). This also reflects how the driver shifting animations operate.
-`gearflag`                    | Byte          | Determines whether or not to calculate the gear ratios automatically. `0` is used for road cars with specified real-world ratios, `1` is used for most race cars and upgraded gearboxes. `2` is unknown and only used on the 1954 Chevrolet Corvette which has two gears and real-world defined ratios. `AutoGearRatio_Generate` is called if the flag is not `0`.
-`maxspeedMIN`                 | Byte          | The minimum value allowed for the `Auto` adjustment slider when tuning gear ratios.
-`maxspeedMAX`                 | Byte          | The maximum value allowed for the `Auto` adjustment slider when tuning gear ratios.
-`maxspeedDF`                  | Byte          | The default value for the `Auto` adjustment slider when tuning gear ratios.
-`ExtraFinalGearUsage`         | Byte          | Subtracted from `Nshift` to determine which gear the `ExtraFinalGearRatio` is used for. For example, `ExtraFinalGearUsage` set to `2` and `Nshift` set to `6` means that the ratio specified in `ExtraFinalGearRatio` will apply from 4th gear onwards.
-`LowGearPos`                  | Byte          | Used for rendering the driver animations. Likely related to shift animations, as it appears to only be set to `1` for convertibles with a manual gearbox and `0` for everything else.
-`ReverseGearPos`              | Byte          | Used for rendering the driver animations. Similar assignments to `LowGearPos`, but has a larger range of possible values (`0`, `6`, `8`, and `255`).
-`GearPattern`                 | Byte          | Used for rendering the driver animations. Likely related to shifting animations but the actual nature of each value is unknown.
+??? info "Table (click to expand)"
+    |     Column                  |  Data Type    | Description
+    | ----------------------------| ------------- | ----------- |
+    `Label`                       | String        | The human-readable reference name for the part. Matching this to the GENERIC_CAR label isn't mandatory, but keeps   things simple.
+    `Gear(1st through 11th)`      | Short         | The gear ratio for a given gear. Multiplied by 100, so a specdb value of `3595` is a ratio of `3.595`.
+    `GearReverse`                 | Short         | The reverse gear ratio. Multiplied by 100.
+    `finalgearMIN`                | Short         | The minimum value allowed for the final drive ratio when tuning gear ratios.
+    `finalgearMAX`                | Short         | The maximum value allowed for the final drive ratio when tuning gear ratios.
+    `finalgearDF`                 | Short         | The default value for the final drive ratio when tuning gear ratios.
+    `ExtraFinalGearRatio`         | Short         | Specifies an alternative final drive ratio where applicable (for cars with two output shafts such as the 2005   Volkswagen Golf GTI).
+    `Price`                       | Short         | How much the part costs to buy if not stock.
+    `category`                    | Byte          | The upgrade level of a transmission part.
+    `geartype`                    | Byte          | Which type of gearbox behaviour to use. `0` and `1` are both used on manual transmissions but the difference    between the two is unknown. `2` is used to apply realistic smooth shifting to cars with torque converter automatics. `3` and `4` are unknown but may be related to     hybrid cars as they are used on the Toyota Priuses and Triathlon car respectively. `7` is scooters. `0` or `2` means `CanShowGearChart` is true. `2` and `3` may be     CVT. `1`, `3`, `4` and `7` are considered automatic only.
+    `Nshift`                      | Byte          | Number of gears (forward). This also reflects how the driver shifting animations operate.
+    `gearflag`                    | Byte          | Determines whether or not to calculate the gear ratios automatically. `0` is used for road cars with specified  real-world ratios, `1` is used for most race cars and upgraded gearboxes. `2` is unknown and only used on the 1954 Chevrolet Corvette which has two gears and    real-world defined ratios. `AutoGearRatio_Generate` is called if the flag is not `0`.
+    `maxspeedMIN`                 | Byte          | The minimum value allowed for the `Auto` adjustment slider when tuning gear ratios.
+    `maxspeedMAX`                 | Byte          | The maximum value allowed for the `Auto` adjustment slider when tuning gear ratios.
+    `maxspeedDF`                  | Byte          | The default value for the `Auto` adjustment slider when tuning gear ratios.
+    `ExtraFinalGearUsage`         | Byte          | Subtracted from `Nshift` to determine which gear the `ExtraFinalGearRatio` is used for. For example,    `ExtraFinalGearUsage` set to `2` and `Nshift` set to `6` means that the ratio specified in `ExtraFinalGearRatio` will apply from 4th gear onwards.
+    `LowGearPos`                  | Byte          | Used for rendering the driver animations. Likely related to shift animations, as it appears to only be set to `1`   for convertibles with a manual gearbox and `0` for everything else.
+    `ReverseGearPos`              | Byte          | Used for rendering the driver animations. Similar assignments to `LowGearPos`, but has a larger range of possible   values (`0`, `6`, `8`, and `255`).
+    `GearPattern`                 | Byte          | Used for rendering the driver animations. Likely related to shifting animations but the actual nature of each value     is unknown.
 
 ---
 
@@ -238,10 +247,11 @@ Links a car to a [VARIATION](#variation) row.
 
 This table links a car to a list of tuners - tuners can tune the car.
 
-|     Column                  |  Data Type    | Description
-| ----------------------------| ------------- | ----------- |
-`Label`                       | String        | The human-readable reference name for the car. Must match from [GENERIC_CAR](#generic_car).
-`Maker(1 through 10)`                | Short         | Maker IDs. The list of makers is hardcoded in GT4/TT. 
+??? info "Table (click to expand)"
+    |     Column                  |  Data Type    | Description
+    | ----------------------------| ------------- | ----------- |
+    `Label`                       | String        | The human-readable reference name for the car. Must match from [GENERIC_CAR](#generic_car).
+    `Maker(1 through 10)`                | Short         | Maker IDs. The list of makers is hardcoded in GT4/TT. 
 
 ??? abstract "Maker List (For GT4/TT)"
     ```
@@ -340,6 +350,29 @@ This table links a car to a list of tuners - tuners can tune the car.
     ysp_presto  |  91
     trickstar   |  92
     ```
+---
+
+### TIRESIZE
+
+TireSize defines tire sizes.
+
+??? info "Table (click to expand)"
+    |     Column                  |  Data Type    | Description
+    | ----------------------------| ------------- | ----------- | 
+    `Label`                       | String        | The internal name for the color. 
+    `flatness`                    | Byte          | Tire profile.
+    `unk`                         | Byte          | Unknown. Possibly category?
+    `diameter`                    | Byte          | Rim Diameter. Divide by 10 for inches.
+    `width`                       | Byte          | Tire Width. Multiply by 5 for millimeters.
+
+So for example, `cougar_xr7_67`, which uses Tire Size ID `859` (Label: `sz209`) in GT4:
+
+- Flatness: `12` (profile 60)
+- Diameter: `150` (15 in.)
+- Width: `51` (255mm)
+
+**Tire Size = 255/60R15.**
+
 ---
 
 ### VARIATION
