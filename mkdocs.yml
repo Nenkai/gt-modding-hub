@@ -63,8 +63,8 @@ nav:
         - Tools / Resources: ps2/gt3/tools.md
 
     - GT4 / GT4P / TT:
-      - Basics:
-        - Getting Started: ps2/gt4/getting_started.md
+      - Getting Started:
+        - Volume: ps2/gt4/getting_started.md
         - Folder/File Structure: ps2/gt4/file_structure.md
       - SpecDB (Car Specs): ps2/gt4/specdb.md
       - Textures: ps2/textures.md
