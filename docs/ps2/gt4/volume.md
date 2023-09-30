@@ -30,6 +30,9 @@ This may take a while, but when complete, you should be able to see a new `extra
 
 ## Setting up HostFS (recommended method)
 
+!!! warning
+    This section currently only applies to GT4 Online US (SCUS-97436).
+
 HostFS is a feature normally available on PS2 devkits which allows loading files loose without a volume file. This avoids the need of normally creating a new volume file and ISO file for every change you want to make.
 
 PCSX2 supports HostFS, but games needs to have explicit support for it.
