@@ -12,8 +12,11 @@ Credits, without any particular order:
 * [pez2k](https://github.com/pez2k) - Never-ending knowledge source
 * [Silent](https://twitter.com/__silent_) - Patches, helping towards many various aspects
 * [GTArchive/Paiky](https://www.youtube.com/@GTArchivePaiky) - Acquiring, dumping many builds, and kind donations
+* [DustinEden](https://twitter.com/DustinEdenYT) - "Mod testing", support, donations & more
 * JumpAce - Generous donations
 * Echelo, q-k - Reverse-engineering work towards GT4, 5, and 6
+* [xan1242](https://github.com/xan1242) - General help and guidance
+* [errmaccer](https://ermaccer.github.io/) - PS2 Plugin Injector + Guidance
 * [The Modding Discord](https://nenkai.github.io/gt-modding-hub/discord/)
 
 !!! tip ""
