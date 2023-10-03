@@ -96,15 +96,56 @@ Game Code: `PCPX-96649`
 
 The main build of Gran Turismo 4.
 
+* Japan: `SCPS-17001` (Dec 17, 2004)
 * Europe: `SCES-51719` (Jan 26, 2005)
+* US: `SCUS-97328` (1.01) (Jan 26, 2005)
+* US: `SCUS-97328` (2.00) (Oct 18, 2006)
 
-??? note "Build Info"
+??? abstract "File List"
+    * SCPS-17001 - [ISO + VOL](file_lists/SCPS-17001.txt)
+    * SCUS-97328 1.01 - [ISO + VOL](file_lists/SCUS-97328_1.01.txt)
+    * SCUS-97328 2.00 - [ISO + VOL](file_lists/SCUS-97328_2.00.txt)
+    * SCES-51719 - [ISO + VOL](file_lists/SCES-51719.txt)
+
+??? note "Build Info (SCPS-17001)"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `main`
+    * VersionString: `r0001`
+    * BuildNumber: `366`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `6.16 GB` (Dual Layer/DVD9)
+    * ISO CRC32: `14285442`
+
+??? note "Build Info (SCUS-97328) 1.01"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `main`
+    * VersionString: `r0001`
+    * BuildNumber: `415`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `4.94 GB` (Dual Layer/DVD9)
+    * ISO CRC32: `D1D25931`
+
+??? note "Build Info (SCUS-97328) 2.00"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `main`
+    * VersionString: `r0001`
+    * BuildNumber: `415`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `4.94 GB` (Dual Layer/DVD9)
+    * ISO CRC32: `831F9F84`
+
+??? note "Build Info (SCES-51719) 1.00"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
     * VersionBranch: `main`
     * VersionString: `r0001`
     * BuildNumber: `1010`
-    * Game Code: `SCES-51719` - 1.00
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `5.27 GB` (Dual Layer/DVD9)
