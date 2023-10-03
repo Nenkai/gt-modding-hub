@@ -142,6 +142,9 @@ Despite being rather large in size, it only allows access to three tracks: Tsuku
 
 Game Code: `SCCS-60062`
 
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCUS-97483.txt)
+    
 ??? note "Build Info"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
