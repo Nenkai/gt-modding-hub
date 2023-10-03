@@ -149,6 +149,9 @@ nav:
     - Models:
       - .mdl / MDL3 / ModelSet3: formats/models/mdl3_modelset3.md
       
+    - Courses:
+      - GT4 Course Data: formats/courses/gt4_coursedata.md
+
     - Fonts:
       - .vec - NVEC: formats/fonts/vec_nvec.md
 
