@@ -12,6 +12,9 @@ After many iterations and demos of Gran Turismo 4 Prologue, GT4 was finally rele
 
 Game Code: `SCED-52681`
 
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCED-52578.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
@@ -61,6 +64,9 @@ Same build as above, with a time limit.
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt4firstpreview) · :material-disc: [Redump Info](http://redump.org/disc/41243/)
 
 Game Code: `PCPX-96649`
+
+??? abstract "File List"
+    * [ISO + VOL](file_lists/PCPX-96649.txt)
 
 ??? note "Build Info"
     * Adhoc Version: `5`
@@ -112,6 +118,9 @@ The main build of Gran Turismo 4.
 Game Code: `SCUS-97483`
 
 Despite being rather large in size, it only allows access to three tracks: Tsukuba, Laguna Seca and Côte d'Azur. All of GT4's content is still present inside its volume.
+
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCUS-97483.txt)
 
 ??? note "Build Info"
     * Adhoc Version: `5`
