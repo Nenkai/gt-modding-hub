@@ -156,6 +156,9 @@ Game Code: `SCUS-97436`
 
 All around improved version of GT4. Runs on a newer version of Adhoc, has proper widescreen support and Online functionality. It does not bundle videos; but is relatively small in size.
 
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCUS-97436.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `7`
     * Supports up to instruction: `39 - SOURCE_FILE`
