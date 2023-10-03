@@ -13,7 +13,7 @@ After many iterations and demos of Gran Turismo 4 Prologue, GT4 was finally rele
 Game Code: `SCED-52681`
 
 ??? abstract "File List"
-    * [ISO + VOL](file_lists/SCED-52578.txt)
+    * [ISO + VOL](file_lists/SCED-52681.txt)
 
 ??? note "Build Info"
     * Adhoc Version: `5`
@@ -40,6 +40,9 @@ Game Code: `SCED-52681`
 Game Code: `SCED-52578`
 
 Same build as above, with a time limit.
+
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCED-52578.txt)
 
 ??? note "Build Info"
     * Adhoc Version: `5`
@@ -143,8 +146,8 @@ Despite being rather large in size, it only allows access to three tracks: Tsuku
 Game Code: `SCCS-60062`
 
 ??? abstract "File List"
-    * [ISO + VOL](file_lists/SCUS-97483.txt)
-    
+    * [ISO + VOL](file_lists/SCCS-60002.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
@@ -177,7 +180,7 @@ All around improved version of GT4. Runs on a newer version of Adhoc, has proper
     * VersionBranch: `beta`
     * VersionString: `r0001`
     * BuildNumber: `76`
-    * Game Code: `SCUS-97483`
+    * Game Code: `SCUS-97436`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `2.47 GB`
