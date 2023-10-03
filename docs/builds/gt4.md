@@ -62,7 +62,7 @@ Same build as above, with a time limit.
 
 ## GT4 First Preview (Sep 20, 2004)
 
-![aa](https://ia803108.us.archive.org/18/items/gt4firstpreview/gt4_first_preview.png){ width="200" }
+![aa](../images/covers/gt4_fp.png){ width="200" }
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt4firstpreview) · :material-disc: [Redump Info](http://redump.org/disc/41243/)
 
@@ -90,23 +90,39 @@ Game Code: `PCPX-96649`
 
 ## GT4
 
-![aa](https://www.gran-turismo.com/images/c/i1UkJZak4T1rSEc.jpg){ width="200" }
+![aa](../images/covers/gt4.jpg){ width="200" }
+![aa](../images/covers/gt4_jp.jpg){ width="200" }
 
 :material-shovel: *Dumped*: {++Yes++}
 
 The main build of Gran Turismo 4.
 
+* Asia/China: `SCAJ-30007` (Dec 15, 2004)
 * Japan: `SCPS-17001` (Dec 17, 2004)
 * Europe: `SCES-51719` (Jan 26, 2005)
 * US: `SCUS-97328` (1.01) (Jan 26, 2005)
+* Korea: `SCKA-30001` (Jan 30, 2005)
 * US: `SCUS-97328` (2.00) (Oct 18, 2006)
 
 ??? abstract "File List"
+    * SCAJ-30007 - [ISO + VOL](file_lists/SCAJ-30007.txt)
     * SCPS-17001 - [ISO + VOL](file_lists/SCPS-17001.txt)
-    * SCUS-97328 1.01 - [ISO + VOL](file_lists/SCUS-97328_1.01.txt)
-    * SCUS-97328 2.00 - [ISO + VOL](file_lists/SCUS-97328_2.00.txt)
     * SCES-51719 - [ISO + VOL](file_lists/SCES-51719.txt)
+    * SCUS-97328 1.01 - [ISO + VOL](file_lists/SCUS-97328_1.01.txt)
+    * SCKA-30001 - [ISO + VOL](file_lists/SCKA-30001.txt)
+    * SCUS-97328 2.00 - [ISO + VOL](file_lists/SCUS-97328_2.00.txt)
 
+??? note "Build Info (SCAJ-30007)"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `main`
+    * VersionString: `r0001`
+    * BuildNumber: `358`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `5.70 GB` (Dual Layer/DVD9)
+    * ISO CRC32: `AD8AA6C9`
+    
 ??? note "Build Info (SCPS-17001)"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
@@ -117,6 +133,17 @@ The main build of Gran Turismo 4.
     * Bootstrap + Core executables
     * ISO Size: `6.16 GB` (Dual Layer/DVD9)
     * ISO CRC32: `14285442`
+
+??? note "Build Info (SCES-51719)"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `main`
+    * VersionString: `r0001`
+    * BuildNumber: `1010`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `5.27 GB` (Dual Layer/DVD9)
+    * ISO CRC32: `E1CA4D84`
 
 ??? note "Build Info (SCUS-97328) 1.01"
     * Adhoc Version: `5`
@@ -129,6 +156,17 @@ The main build of Gran Turismo 4.
     * ISO Size: `4.94 GB` (Dual Layer/DVD9)
     * ISO CRC32: `D1D25931`
 
+??? note "Build Info (SCKA-30001)"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `main`
+    * VersionString: `r0001`
+    * BuildNumber: `1016`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `5.00 GB` (Dual Layer/DVD9)
+    * ISO CRC32: `02C25ED0`
+
 ??? note "Build Info (SCUS-97328) 2.00"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
@@ -139,17 +177,6 @@ The main build of Gran Turismo 4.
     * Bootstrap + Core executables
     * ISO Size: `4.94 GB` (Dual Layer/DVD9)
     * ISO CRC32: `831F9F84`
-
-??? note "Build Info (SCES-51719) 1.00"
-    * Adhoc Version: `5`
-    * Supports up to instruction: `36 - VARIABLE_PUSH`
-    * VersionBranch: `main`
-    * VersionString: `r0001`
-    * BuildNumber: `1010`
-    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
-    * Bootstrap + Core executables
-    * ISO Size: `5.27 GB` (Dual Layer/DVD9)
-    * ISO CRC32: `E1CA4D84`
 
 ---
 
@@ -202,6 +229,33 @@ Game Code: `SCCS-60062`
     * ISO CRC: `0A806E05`
 ---
 
+## GT4 - Online Test Version (May 2nd, 2006)
+
+![aa](../images/covers/gt4o_jp.jpg){ width="200" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/62270/)
+
+Game Code: `PAPX-90523`
+
+All around improved version of GT4. Runs on a newer version of Adhoc, has proper widescreen support and Online functionality. It does not bundle videos; but is relatively small in size.
+
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCUS-97436.txt)
+
+??? note "Build Info"
+    * Adhoc Version: `7`
+    * Supports up to instruction: `39 - SOURCE_FILE`
+    * VersionBranch: `beta`
+    * VersionString: `r0001`
+    * BuildNumber: `50`
+    * Game Code: `PAPX-90523`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `3.30 GB`
+    * ISO CRC: `7C01EE57`
+
+---
+
 ## GT4 - Online Public Beta (June 6th, 2006)
 
 ![aa](../images/covers/gt4o_us.jpg){ width="200" }
@@ -210,7 +264,7 @@ Game Code: `SCCS-60062`
 
 Game Code: `SCUS-97436`
 
-All around improved version of GT4. Runs on a newer version of Adhoc, has proper widescreen support and Online functionality. It does not bundle videos; but is relatively small in size.
+US version of the Online Test Version, released a month later.
 
 ??? abstract "File List"
     * [ISO + VOL](file_lists/SCUS-97436.txt)
