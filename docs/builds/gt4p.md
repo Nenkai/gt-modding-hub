@@ -89,9 +89,52 @@ Game Code: `SCED-52455`
 
 :material-shovel: *Dumped*: {++Yes++}
 
-Game Code: `SCES-52438`
+- :flag_jp: - `SCPS-15055`
+- :earth_asia: `SCAJ-20066`
+- :flag_kr: - `SCKA-20022`
+- :flag_eu: - `SCES-52438`
+- :flag_us: - Not released
 
-??? note "Build Info"
+??? abstract "File List"
+    * SCPS-15055 - [ISO + VOL](file_lists/SCPS-15055.txt)
+    * SCAJ-20066 - [ISO + VOL](file_lists/SCAJ-20066.txt)
+    * SCKA-20022 - [ISO + VOL](file_lists/SCKA-20022.txt)
+    * SCES-52438 - [ISO + VOL](file_lists/SCES-52438.txt)
+
+??? note "Build Info ( :flag_jp: SCPS-15055)"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `prologue`
+    * BuildNumber: `215`
+    * Game Code: `SCPS-15055`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume, despite being named `GT4.VOL`)
+    * Bootstrap + Core executables
+    * ISO Size: `1.87 GB`
+    * ISO CRC: `DBAFB8EB`
+
+??? note "Build Info ( :earth_asia: SCAJ-20066)"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `prologue`
+    * BuildNumber: `229`
+    * Game Code: `SCPS-15055`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume, despite being named `GT4.VOL`)
+    * Bootstrap + Core executables
+    * ISO Size: `1.87 GB`
+    * ISO CRC: `518F9E69`
+
+??? note "Build Info ( :flag_kr: SCKA_20022)"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `prologue`
+    * BuildNumber: `249`
+    * Game Code: `SCKA_20022`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume, despite being named `GT4.VOL`)
+    * Bootstrap + Core executables
+    * ISO Size: `1.59 GB`
+    * ISO CRC: `893C4805`
+
+??? note "Build Info ( :flag_eu: SCES-52438)"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
     * VersionBranch: `prologue`

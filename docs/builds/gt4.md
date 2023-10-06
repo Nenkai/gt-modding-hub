@@ -97,12 +97,12 @@ Game Code: `PCPX-96649`
 
 The main build of Gran Turismo 4.
 
-* Asia/China: `SCAJ-30007` (Dec 15, 2004)
-* Japan: `SCPS-17001` (Dec 17, 2004)
-* Europe: `SCES-51719` (Jan 26, 2005)
-* US: `SCUS-97328` (1.01) (Jan 26, 2005)
-* Korea: `SCKA-30001` (Jan 30, 2005)
-* US: `SCUS-97328` (2.00) (Oct 18, 2006)
+- :earth_asia: `SCAJ-30007` (Dec 15, 2004)
+- :flag_jp: `SCPS-17001` (Dec 17, 2004)
+- :flag_eu: `SCES-51719` (Jan 26, 2005)
+- :flag_us: `SCUS-97328` (1.01) (Jan 26, 2005)
+- :flag_kr: `SCKA-30001` (Jan 30, 2005)
+- :flag_us: `SCUS-97328` (2.00) (Oct 18, 2006)
 
 ??? abstract "File List"
     * SCAJ-30007 - [ISO + VOL](file_lists/SCAJ-30007.txt)
@@ -112,7 +112,7 @@ The main build of Gran Turismo 4.
     * SCKA-30001 - [ISO + VOL](file_lists/SCKA-30001.txt)
     * SCUS-97328 2.00 - [ISO + VOL](file_lists/SCUS-97328_2.00.txt)
 
-??? note "Build Info (SCAJ-30007)"
+??? note "Build Info ( :earth_asia: SCAJ-30007)"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
     * VersionBranch: `main`
@@ -123,7 +123,7 @@ The main build of Gran Turismo 4.
     * ISO Size: `5.70 GB` (Dual Layer/DVD9)
     * ISO CRC32: `AD8AA6C9`
     
-??? note "Build Info (SCPS-17001)"
+??? note "Build Info ( :flag_jp: SCPS-17001)"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
     * VersionBranch: `main`
@@ -134,7 +134,7 @@ The main build of Gran Turismo 4.
     * ISO Size: `6.16 GB` (Dual Layer/DVD9)
     * ISO CRC32: `14285442`
 
-??? note "Build Info (SCES-51719)"
+??? note "Build Info ( :flag_eu: SCES-51719)"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
     * VersionBranch: `main`
@@ -145,7 +145,7 @@ The main build of Gran Turismo 4.
     * ISO Size: `5.27 GB` (Dual Layer/DVD9)
     * ISO CRC32: `E1CA4D84`
 
-??? note "Build Info (SCUS-97328) 1.01"
+??? note "Build Info ( :flag_us: SCUS-97328) 1.01"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
     * VersionBranch: `main`
@@ -156,7 +156,7 @@ The main build of Gran Turismo 4.
     * ISO Size: `4.94 GB` (Dual Layer/DVD9)
     * ISO CRC32: `D1D25931`
 
-??? note "Build Info (SCKA-30001)"
+??? note "Build Info ( :flag_kr: SCKA-30001)"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
     * VersionBranch: `main`
@@ -167,7 +167,7 @@ The main build of Gran Turismo 4.
     * ISO Size: `5.00 GB` (Dual Layer/DVD9)
     * ISO CRC32: `02C25ED0`
 
-??? note "Build Info (SCUS-97328) 2.00"
+??? note "Build Info ( :flag_us: SCUS-97328) 2.00"
     * Adhoc Version: `5`
     * Supports up to instruction: `36 - VARIABLE_PUSH`
     * VersionBranch: `main`
