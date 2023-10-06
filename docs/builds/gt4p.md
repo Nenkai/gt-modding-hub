@@ -155,6 +155,9 @@ Game Code: `SCED-52455`
 
 Game Code: `SCUS-97384`
 
+??? abstract "File List"
+    * SCUS-97384 - [ISO + VOL](file_lists/SCUS-97384.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `5`
     * Config: `mtr`
@@ -164,6 +167,7 @@ Game Code: `SCUS-97384`
     * Based on the GT3 engine
     * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume, despite being named `GT4.VOL`)
     * Unified executable
+    * SpecDB: `GT4_MTR_PRIUS1000`
     * ISO Size: `1.14 GB`
     * ISO CRC: `691F32D4`
 
