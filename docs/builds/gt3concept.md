@@ -118,6 +118,9 @@ Game Code: `SCUS-97219`
 
 Game Code: `PAPX-90504`
 
+??? abstract "File List"
+    * [ISO + VOL](file_lists/PAPX-90504.txt)
+
 ??? note "Build Info"
     * Game Code: `PAPX-90504`
     * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
@@ -153,7 +156,7 @@ Game Code: `PAPX-90504`
     * Game Code: `SCES-50858`
     * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
     * Bootstrap + Core executables
-    * ISO Size: `3.41 GB` (DVD9/Dual Layer. Layer0 is audio/videos, Layer1 is game contents)
+    * ISO Size: `3.41 GB`
     * ISO CRC: `96D26314`
 
     
