@@ -67,6 +67,9 @@ Game Code: `PAPX-90512`
 
 Game Code: `SCED-52455`
 
+??? abstract "File List"
+    * SCED-52455 - [ISO + VOL](file_lists/SCED-52455.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `5`
     * Config: `mtr`
