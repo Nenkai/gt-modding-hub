@@ -75,6 +75,9 @@ Game Code: `SCPS-56005` (1.02, 2.00)
 
 Game Code: `SCPM-85301`
 
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCPM-85301.txt)
+
 ??? note "Build Info"
     * Game Code: `SCPM-85301`
     * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
