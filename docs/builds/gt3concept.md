@@ -105,6 +105,26 @@ Game Code: `PAPX-90504`
     <iframe width="1226" height="721" src="https://www.youtube.com/embed/m4bd-SBgHGs" title="Gran Turismo Concept Mitsubishi Airtrek Turbo Special Edition | PAPX-90504 | May 16, 2002" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
+## Gran Turismo Concept - 2002 Tokyo-Geneva (June 25th, 2002)
+
+![aa](../images/covers/gtc_2002_tokyo_geneva.jpg){ width="250" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/62229/)
+
+Game Code: `SCPS-55902`
+
+??? abstract "File List"
+    * SCPS-55902 - [ISO + VOL](file_lists/SCPS-55902.txt)
+
+??? note "Build Info"
+    * Game Code: `SCPS-55902`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `7.93 GB` (DVD9/Dual Layer. Layer0 is audio/videos, Layer1 is game contents)
+    * ISO CRC: `97534BFB`
+    
+---
+
 ## Gran Turismo Nissan Micra Edition (October 4, 2002)
 
 ![aa](../images/covers/gtc_nissan_micra.jpg){ width="250" }
