@@ -46,7 +46,28 @@ Contents identical to retail.
 
 ---
 
-## Gran Turismo Concept Copen Special Edition (Mar 25, 2002)
+## Gran Turismo Concept - 2002 Tokyo-Seoul (Mar 20th, 2002)
+
+![aa](../images/covers/gtc_2002_tokyo_seoul.jpg){ width="250" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/80596/)
+
+Game Code: `SCPS-56005` (1.02, 2.00)
+
+??? abstract "File List"
+    * SCPS-56005 - [ISO + VOL](file_lists/SCPS-56005.txt)
+    * SCPS-56005 (2.00) - [ISO + VOL](file_lists/SCPS-56005_2.00.txt)
+
+??? note "Build Info"
+    * Game Code: `SCPS-56005`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `3.77` (DVD9/Dual Layer. Layer0 is audio/videos, Layer1 is game contents)
+    * ISO CRC: `06DB23F4` (1.02), `5CFD0575` (2.00)
+
+---
+
+## Gran Turismo Concept Copen Special Edition (Mar 25th, 2002)
 
 ![aa](../images/covers/gtc_copen.jpg){ width="250" }
 
@@ -111,17 +132,27 @@ Game Code: `PAPX-90504`
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/62229/)
 
-Game Code: `SCPS-55902`
+* :flag_jp: `SCPS-55902`
+* :flag_eu: `SCES-50858`
 
 ??? abstract "File List"
     * SCPS-55902 - [ISO + VOL](file_lists/SCPS-55902.txt)
+    * SCES-50858 - [ISO + VOL](file_lists/SCES-50858.txt)
 
-??? note "Build Info"
+??? note "Build Info ( :flag_jp: SCPS-55902)"
     * Game Code: `SCPS-55902`
     * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
     * Bootstrap + Core executables
     * ISO Size: `7.93 GB` (DVD9/Dual Layer. Layer0 is audio/videos, Layer1 is game contents)
     * ISO CRC: `97534BFB`
+
+??? note "Build Info ( :flag_eu: SCES-50858)"
+    * Game Code: `SCES-50858`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `3.41 GB` (DVD9/Dual Layer. Layer0 is audio/videos, Layer1 is game contents)
+    * ISO CRC: `96D26314`
+
     
 ---
 
