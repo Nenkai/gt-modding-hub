@@ -161,11 +161,20 @@ Volume contents is identical to `PCPX-96606`.
 
 Game Code: `PCPX-96609`
 
+??? abstract "File List"
+    * [ISO + GT3.VOL](file_lists/PCPX-96609.txt)
+    * ISO Size: `834 MB`
+    * ISO CRC: `2B6AA922`
+
+??? note "Build Info"
+    * Has some code for HostFS
+
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/vhnZSF1dPAg" title="Gran Turismo 3: A-Spec Store Demo Vol.2 | PCPX-96609 | Dec 29, 2000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ??? youtube "Hidden/Beta Content"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/NaUuc1GUAh8" title="Hidden/Beta Content | Gran Turismo 3 Store Demo Vol. 2 | PCPX-96609 (On real Hardware) [60FPS]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 ## Preview Version NTSC GT3 A-Spec (Apr. 18, 2001)
