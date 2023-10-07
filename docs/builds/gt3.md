@@ -41,6 +41,12 @@ Game Code: `PAPX-90203`
 
 Game Code: `PAPX-90207`
 
+??? abstract "File List"
+    * [ISO + VOL](file_lists/PAPX-90207.txt)
+
+??? note "Build Info"
+    * Has PDI-GL (rendering lib) asserts, which are removed in later builds/games (`PDI-GL Ver.1.01d,00111,16,2,2,Sep 25 2000,20:01:00`)
+
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="919" height="721" src="https://www.youtube.com/embed/HRx_nALGv_w" title="Gran Turismo 3 Replay Theater Autobacs Seven | PAPX-90207 | Sep 26, 2000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

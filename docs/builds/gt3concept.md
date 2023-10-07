@@ -107,7 +107,6 @@ Game Code: `SCUS-97219`
     * Unified executable
     * ISO Size: `3.81 GB`
     * ISO CRC: `1ACC0BA6`
-    * Has PDI-GL (rendering lib) asserts, which are removed in later builds/games (`PDI-GL Ver.1.01d,00111,16,2,2,Sep 25 2000,20:01:00`)
 
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="812" height="480" src="https://www.youtube.com/embed/8L40Ax8RH1Q" title="Gran Turismo Concept - Nissan 350Z Edition | SCUS-97219 | May 1, 2002" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
