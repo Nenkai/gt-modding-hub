@@ -19,6 +19,12 @@ comments: true
 
 Game Code: `PAPX-90203`
 
+??? abstract "File List"
+    * [Contents + GT2K.VOL](file_lists/PAPX-90203.txt)
+
+??? note "Build Info"
+    * Has PDI-GL (rendering lib) asserts, which are removed in later builds/games (`PDI-GL Ver.1.01d,00111,16,2,2,Feb 14 2000,08:40:04`)
+
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="915" height="721" src="https://www.youtube.com/embed/3MaPYMz_TB8" title="Gran Turismo 2000 | PAPX-90203 | Feb 13, 2000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -42,7 +48,7 @@ Game Code: `PAPX-90203`
 Game Code: `PAPX-90207`
 
 ??? abstract "File List"
-    * [ISO + VOL](file_lists/PAPX-90207.txt)
+    * [Contents + GT2K.VOL](file_lists/PAPX-90207.txt)
 
 ??? note "Build Info"
     * Has PDI-GL (rendering lib) asserts, which are removed in later builds/games (`PDI-GL Ver.1.01d,00111,16,2,2,Sep 25 2000,20:01:00`)
