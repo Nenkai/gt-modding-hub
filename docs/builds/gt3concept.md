@@ -98,12 +98,15 @@ Game Code: `SCPM-85301`
 
 Game Code: `SCUS-97219`
 
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCUS-97219.txt)
+
 ??? note "Build Info"
     * Game Code: `SCUS-97219`
     * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
     * Unified executable
-    * ISO Size: `1.00 GB`
-    * ISO CRC: `D9EE1ECD`
+    * ISO Size: `3.81 GB`
+    * ISO CRC: `1ACC0BA6`
 
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="812" height="480" src="https://www.youtube.com/embed/8L40Ax8RH1Q" title="Gran Turismo Concept - Nissan 350Z Edition | SCUS-97219 | May 1, 2002" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
