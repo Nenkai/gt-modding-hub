@@ -111,6 +111,13 @@ Volume contents is identical to `PAPX-90209`
 
 Game Code: `PCPX-96311`
 
+??? abstract "File List"
+    * [Contents + GT2K.VOL](file_lists/PCPX-96311.txt)
+
+??? note "Build Info"
+    * Has PDI-GL (rendering lib) asserts, which are removed in later builds/games (`PDI-GL Ver.1.01d,00111,16,2,2,Oct  9 2000,13:46:19`)
+    * Has some code for HostFS
+
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="917" height="721" src="https://www.youtube.com/embed/gqBHJ1JeLdQ" title="Gran Turismo 3: A-Spec Store Demo Vol.1 | PCPX-96311 | Oct 10, 2000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
