@@ -208,6 +208,7 @@ The main build of Gran Turismo 3.
 ??? abstract "File List"
     * SCES-50294 - [ISO + GT3.VOL](file_lists/SCES-50294.txt)
     * SCUS-91702 - [ISO + GT3.VOL](file_lists/SCUS-91702.txt)
+    * SCPS-15009 - [ISO + GT3.VOL](file_lists/SCPS-15009.txt)
 
 ??? note ":flag_eu: SCES-50294"
     * ISO Size: `3.43 GB`
@@ -217,4 +218,9 @@ The main build of Gran Turismo 3.
 ??? note ":flag_us: SCES-50294"
     * ISO Size: `3.61 GB`
     * ISO CRC: `AE611D2EAE611D2E`
+    * Has some code for HostFS
+
+??? note ":flag_jp: SCPS-15009"
+    * ISO Size: `2.36 GB`
+    * ISO CRC: `34381D7D`
     * Has some code for HostFS
