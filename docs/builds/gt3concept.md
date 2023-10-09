@@ -173,12 +173,15 @@ Game Code: `PAPX-90504`
 
 Game Code: `SCED-51352`
 
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCED-51352.txt)
+
 ??? note "Build Info"
     * Game Code: `SCED-51352`
     * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
     * Unified executable
-    * ISO Size: `1.00 GB`
-    * ISO CRC: `01783D80`
+    * ISO Size: `3.42 GB`
+    * ISO CRC: `949DC7C3`
 
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/CEuMiSavzW8" title="Gran Turismo Nissan Micra Edition | SCED-51352 | Okt 4, 2002" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
