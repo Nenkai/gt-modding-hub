@@ -7,8 +7,33 @@ Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterla
 ---
 
 ## GT3
+
+* :flag_eu: SCES-50294 CRC: `B590CE04`
+
+---
+
 * :flag_eu: :flag_us: [Adjustable units](https://cookieplmonster.github.io/mods/gran-turismo-3/)
 * :flag_eu: :flag_us: [Adjusted triggers sensitivity](https://cookieplmonster.github.io/mods/gran-turismo-3/)
+
+### HostFS support by Nenkai
+
+??? abstract ":flag_eu: SCES-50294"
+
+    ```
+    [HostFS]
+    gametitle=Gran Turismo 3 - A-Spec (EU)
+    comment=Enables HostFS (in data/ folder)
+    author=Nenkai
+
+    // Change file device mode to 3
+    // 0 = default (vol)
+    // 1 = ?
+    // 2 = just host:
+    // 3 = host:data/
+    patch=1,EE,20242BAC,bytes,03000524 // li $a1, $zero -> li $a1, 3
+    ```
+
+---
 
 ## GT Concept (Tokyo-Geneva)
 * :flag_eu: + Asia [Adjustable units](https://cookieplmonster.github.io/mods/gran-turismo-concept/)

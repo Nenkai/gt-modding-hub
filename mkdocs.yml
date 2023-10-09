@@ -58,13 +58,14 @@ nav:
   - PS2 (GT3/GT4/TT):
     - Index: ps2/index.md
     - GT3 / GTC:
-        - Getting Started: ps2/getting_started.md
+        - Getting Started:
+          - Volume & Making Edits: ps2/gt3/volume.md
         - Patches / Cheats: ps2/gt3/patches.md
         - Tools / Resources: ps2/gt3/tools.md
 
     - GT4 / GT4P / TT:
       - Getting Started:
-        - Volume: ps2/gt4/volume.md
+        - Volume & Making Edits: ps2/gt4/volume.md
         - Folder/File Structure: ps2/gt4/file_structure.md
       - SpecDB (Car Specs): ps2/gt4/specdb.md
       - Textures: ps2/textures.md
