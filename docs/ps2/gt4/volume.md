@@ -8,13 +8,13 @@
 * [GT4FS](https://github.com/Razer2015/GT4FS)
 
 !!! warning
-    It is recommend to mod Gran Turismo 4 Online Public Beta as opposed to retail, as retail uses dual-layer discs which cannot be built easily.
+    It is recommend to mod [Gran Turismo 4 Online Public Beta](../../builds/gt4.md#gt4-online-public-beta-june-6th-2006) as opposed to retail, as retail uses dual-layer discs which cannot be built easily.
 
 ---
 
 ## Extracting the game
 
-All PS2 GT titles use the [volume system](../concepts/volume.md), which will need to be extracted in order to gain access to game contents.
+All PS2 GT titles use the [volume system](../../concepts/volume.md), which will need to be extracted in order to gain access to game contents.
 
 If you haven't already, extract the `.iso` file using [7-Zip](https://www.7-zip.org/) or by any other means. You should be able to see a `GT4.VOL` file.
 

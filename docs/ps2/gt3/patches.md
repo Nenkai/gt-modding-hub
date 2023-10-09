@@ -15,7 +15,7 @@ Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterla
 * :flag_eu: :flag_us: [Adjustable units](https://cookieplmonster.github.io/mods/gran-turismo-3/)
 * :flag_eu: :flag_us: [Adjusted triggers sensitivity](https://cookieplmonster.github.io/mods/gran-turismo-3/)
 
-### HostFS support by Nenkai
+### HostFS
 
 ??? abstract ":flag_eu: SCES-50294"
 
