@@ -22,15 +22,19 @@ Patches go into their own file in the `cheats` folder. Example: `<CRC>_deinterla
     ```
     [HostFS]
     gametitle=Gran Turismo 3 - A-Spec (EU)
-    comment=Enables HostFS (in data/ folder)
+    comment=Enables HostFS (in /data folder)
     author=Nenkai
-
+    
     // Change file device mode to 3
     // 0 = default (vol)
     // 1 = ?
     // 2 = just host:
     // 3 = host:data/
     patch=1,EE,20242BAC,bytes,03000524 // li $a1, $zero -> li $a1, 3
+    
+    // Looks like setting it to 1 or 3 skips over over some critical part of the initter
+    // comment this line if you're setting it to 0, or 2
+    patch=1,EE,2023EF50,bytes,06000010 // force branch. beqz $a1, loc_23EF6C -> b loc_23EF6C
     ```
 
 ---
