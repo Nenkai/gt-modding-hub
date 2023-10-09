@@ -19,6 +19,9 @@ theme:
     - navigation.sections
     - navigation.footer
     - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
     - toc.integrate
     - toc.follow
     - search.suggest

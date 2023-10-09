@@ -169,10 +169,10 @@ Game Code: `PCPX-96609`
 
 ??? abstract "File List"
     * [ISO + GT3.VOL](file_lists/PCPX-96609.txt)
-    * ISO Size: `834 MB`
-    * ISO CRC: `2B6AA922`
 
 ??? note "Build Info"
+    * ISO Size: `834 MB`
+    * ISO CRC: `2B6AA922`
     * Has some code for HostFS
 
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
@@ -204,3 +204,17 @@ The main build of Gran Turismo 3.
 * JP Game Code: `SCPS-15009`
 * US Game Code: `SCUS-97102` / `PBPX-95503`
 * EU Game Code: `SCES-50294`
+
+??? abstract "File List"
+    * SCES-50294 - [ISO + GT3.VOL](file_lists/SCES-50294.txt)
+    * SCUS-91702 - [ISO + GT3.VOL](file_lists/SCUS-91702.txt)
+
+??? note ":flag_eu: SCES-50294"
+    * ISO Size: `3.43 GB`
+    * ISO CRC: `FA111523`
+    * Has some code for HostFS
+
+??? note ":flag_us: SCES-50294"
+    * ISO Size: `3.61 GB`
+    * ISO CRC: `AE611D2EAE611D2E`
+    * Has some code for HostFS

@@ -205,12 +205,16 @@ Mentioned in [Notable Gran Turismo Collaborations](../images/covers/gt3c_notable
 
 Game Code: `SCED-51352#2`
 
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCED-51352_Rev2.txt)
+
 ??? note "Build Info"
     * Game Code: `SCED-51352#2`
     * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
     * Unified executable
-    * ISO Size: `1.00 GB`
-    * ISO CRC: `63C696B8`
+    * ISO Size: `3.42 GB`
+    * ISO CRC: `03549184`
+    * Has HostFS implementation
 
 ---
 

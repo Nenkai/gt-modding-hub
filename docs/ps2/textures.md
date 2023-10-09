@@ -1,6 +1,6 @@
 # Textures
 
-PS2-era GT Textures uses the [Tex1](../../formats/texture/img_tex1_textureset.md) format. 
+PS2-era GT Textures uses the [Tex1](../formats/texture/img_tex1_textureset.md) format. 
 
 ## Viewing
 
