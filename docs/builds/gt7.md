@@ -20,9 +20,9 @@ Most of the formats on the PS4 version are identical, if not directly compatible
 
 An internal demo/beta build of GT7 for PS5, with a chess icon. Initially spotted on October 29, 2021.
 
-* Europe: [PPSA-05485](https://prosperopatches.com/PPSA05483)
-* America: [PPSA-05484](https://prosperopatches.com/PPSA05485)
-* Japan: [PPSA-05483](https://prosperopatches.com/PPSA05485)
+* Europe: [PPSA-05485](https://prosperopatches.com/PPSA05485)
+* America: [PPSA-05484](https://prosperopatches.com/PPSA05484)
+* Japan: [PPSA-05483](https://prosperopatches.com/PPSA05483)
 
 ---
 
