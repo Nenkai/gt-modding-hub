@@ -215,7 +215,7 @@ Game Code: `SCED-51352#2`
     * ISO Size: `3.42 GB`
     * ISO CRC: `03549184`
     * Has HostFS implementation
-
+    * Has some `.gnu_linkonce` symbols
 ---
 
 ## Gran Turismo: LUPO CUP Training Version 1 (Apr ??, 2003)

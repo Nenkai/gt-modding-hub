@@ -26,6 +26,13 @@ For GT5, you can refer to the `gamelist.xml` in the `aspec_race` folder to figur
 `event_count` | Event count in that folder. |
 `is_championship` | Whether the folder is a championship where you cannot start an individual event. |
 
+!!! warning
+    `id` must be in order! For instance, `109` is the last event folder in the Beginner category, if you are adding a new folder, the next one has to be `110`. 
+    
+    The game has a rather poor event handling code, you might see a crash that kicks out of the event menus if ids are not in order.
+
+---
+
 ## (GT5) Folder Title/Description
 
 !!! info
@@ -33,7 +40,7 @@ For GT5, you can refer to the `gamelist.xml` in the `aspec_race` folder to figur
 
 In order to add or edit new event information, you will need to do some text editing.
 
-Open the `projects/gt5/gtmode/<locale>` folder into the GT.RText tool. Go to the `ASpecEventName` or `BSpecEventName`.
+Open the `projects/gt5/gtmode/<locale>` folder into the GT.RText tool. Go to the `ASpecEventNameGT5` or `BSpecEventNameGT5`.
 
 Add a row as such (where xxx is your event ID):
 
@@ -60,7 +67,7 @@ In GT6 compared to GT5 the process has been changed (and made a lot more flexibl
 That sqlite database is located at `database/gt6/menudb.dat`.
 
 !!! warning
-    This file is encrypted, follow the SpecDB guide to decrypt it.
+    This file is encrypted, follow the [SpecDB guide](specdb.md) to decrypt it.
 
 Open the file through SQLiteStudio. You will notice a few tables on the left pane, you'll be interested only in `t_event_folder` and `t_event_folder_localize`.
 Go to the "Data" tab.
@@ -123,4 +130,4 @@ If you're creating an event make sure it matches the IDs for your folders in eit
 !!! tip "Note for GT6"
     If you are editing original events, you might also notice these `.fgp` files - You will need to remove them from the `PDIPFS` in order for the game to bypass its event cache or no changes will occur. 
     
-    Read: [Removing files from the game](../ps3/basics/volume_system.md#removing-files-from-the-game)
+    Read -> [Removing files from the game](../ps3/basics/volume_system.md#removing-files-from-the-game)
