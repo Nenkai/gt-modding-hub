@@ -5,9 +5,12 @@ comments: true
 # Pat0 / Color Patch
 :octicons-cpu-24: *Applies to: GT4* · :material-file-question: Extension: `.pat` / none · :octicons-arrow-right-16: Endian: Little
 
-Color Patches are responsible for holding a car model's data for each paint color. More precisely - these files contain *data patches* that will changes bytes within a [texture set](../texture/img_tex1_textureset.md), in this case, located inside the car model's [model set](mdls_modelset2.md) structure.
+Color Patches are responsible for holding a car model's data for each paint color. More precisely - these files contain *data patches* that will change bytes for a car model's [model set](mdls_modelset2.md) structure, for instance, its [texture set](../texture/img_tex1_textureset.md) when switching to one car paint to another.
 
 As model sets are fully loaded in memory as the actual runtime buffers, patching a model set's texture bytes on the fly is what allows seamless color switching in car/paint selections. It is a smart way of doing color transitions, but remains complicated to construct - texture buffers especially inside car models can be swizzled.
+
+!!! tip
+    Presumably the way these were built were by diffing texture sets or whole model sets. Comparison between a paint and another is converted into patches - this file.
 
 ---
 

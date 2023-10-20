@@ -18,7 +18,7 @@ It's no surprise that most files uses proprietary [magic numbers](https://en.wik
 
 ### Mapping
 
-When a file is opened, the buffer that serves for reading the file is often the structure itself that stays in memory. Offsets are therefore rewritten into memory addresses to each part of the structure. They call this process *mapping*. It is similar to [pointer swizzling](https://en.wikipedia.org/wiki/Pointer_swizzling).
+When a file is opened, **the buffer that serves for reading the file is often the structure itself that stays in memory**. Offsets are therefore rewritten into memory addresses to each part of the structure. They call this process *mapping*. It is similar to [pointer swizzling](https://en.wikipedia.org/wiki/Pointer_swizzling).
 
 This process happens immediately after the file was opened, for each single structure containing offsets. 
 

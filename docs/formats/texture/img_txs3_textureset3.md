@@ -8,6 +8,8 @@ comments: true
 
 TXS3 is an evolution of the [`Tex1`](../texture/img_tex1_textureset.md) format that GT3 and GT4 uses. It now allows being linked to a "streaming" texture file, which holds compressed textures to be streamed - mostly used for courses.
 
+The `3` in TextureSet3 represents PS**3**.
+
 ---
 
 ## Converting from/to TXS3
