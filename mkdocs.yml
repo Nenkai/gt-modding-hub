@@ -151,6 +151,7 @@ nav:
       - .gpb - GpbData: formats/adhoc/gpb_gpbdata.md
 
     - Models:
+      - .pat / Pat0 / ColorPatch: formats/models/pat0_colorpatch.md
       - .mdl / MDL3 / ModelSet3: formats/models/mdl3_modelset3.md
       
     - Courses:
