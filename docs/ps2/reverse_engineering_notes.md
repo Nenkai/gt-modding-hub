@@ -1,0 +1,31 @@
+# Reverse-Engineerign Notes
+
+## Encrypted VIF1 program
+
+The [VIF1](https://psi-rockin.github.io/ps2tek/#vif) microcode is, for some unhinged reason, encrypted. The VIF0 program is however not encrypted.
+
+You can find them at the following offsets:
+
+* GT4 EU VIF0: `0x34AF00` - Size `0x398`
+* GT3 EU VIF1: `0x2F8A80` - Size `0x3DA8`
+* GT4 Online US VIF0: `0x731180` - Size `0x920`
+* GT4 Online US VIF1: `0x69B110` - Size `0x3FF0`
+
+To decrypt the VIF1 bytecode:
+
+```csharp
+static int _hash = 0x32277070;
+
+static int GetRandom()
+{
+    currentHash = 0x5D588B65 * currentHash + 1;
+    return currentHash;
+}
+
+var bytes = File.ReadAllBytes("<path to bytecode>");
+for (int i = 0; i < size; i++) // Replace size by actual size
+{
+    bytes[i] ^= (byte)GetRandom();
+}
+```
+
