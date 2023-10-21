@@ -6,7 +6,7 @@ The [VIF1](https://psi-rockin.github.io/ps2tek/#vif) microcode is, for some unhi
 
 You can find them at the following offsets:
 
-* GT4 EU VIF0: `0x34AF00` - Size `0x398`
+* GT3 EU VIF0: `0x34AF00` - Size `0x398`
 * GT3 EU VIF1: `0x2F8A80` - Size `0x3DA8`
 * GT4 Online US VIF0: `0x731180` - Size `0x920`
 * GT4 Online US VIF1: `0x69B110` - Size `0x3FF0`
