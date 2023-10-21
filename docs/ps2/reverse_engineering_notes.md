@@ -18,8 +18,8 @@ static int _hash = 0x32277070;
 
 static int GetRandom()
 {
-    currentHash = 0x5D588B65 * currentHash + 1;
-    return currentHash;
+    _hash = 0x5D588B65 * _hash + 1;
+    return _hash;
 }
 
 var bytes = File.ReadAllBytes("<path to bytecode>");
