@@ -62,7 +62,7 @@ The main build of Gran Turismo 7.
     * 1.08
         * Volume Date: `03/18/2022 02:54:08 +00:00`
     
-    * 1.09
+    * 1.09 - 'Berlin'
         * MISSING
 
     * 1.11
@@ -110,10 +110,17 @@ The main build of Gran Turismo 7.
     * 1.32 - 'Paris'
         * Volume Date: `04/15/2023 9:48:03 PM`
 
-    * 1.33 - N/A (Bugfix)
+    * 1.33 - 'Paris-Fix'
 
     * 1.34 - 'Quebec'
         * Volume Date: `05/16/2023 23:00:13`
+
+    * 1.35 - 'Rome'
+    * 1.36 - 'Sevilla'
+    * 1.37 - 'Sevilla-Fix'
+    * 1.38 - 'Tahiti'
+    * 1.39 - 'Tahiti-Fix'
+    * 1.40 - Spec II 'Utah'
 ---
 
 ## GT7 Kiosk Demo
