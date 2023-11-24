@@ -121,6 +121,7 @@ The main build of Gran Turismo 7.
     * 1.38 - 'Tahiti'
     * 1.39 - 'Tahiti-Fix'
     * 1.40 - Spec II 'Utah'
+        * Volume Date: `27/10/2023 02:27:00` (Serial: `720066420`)
 ---
 
 ## GT7 Kiosk Demo
