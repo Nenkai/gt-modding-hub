@@ -4,6 +4,16 @@ comments: true
 
 After many iterations and demos of Gran Turismo 4 Prologue, GT4 was finally released after its move to Adhoc was completed. It is one of the first few games to ship running on a scripting engine this extensively.
 
+## GT4 E3 2004 (May ??, 2004)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="400" height="293" src="https://www.youtube.com/embed/rDIth1LG1So" title="Gran Turismo 4 - Demo Walkthrough E3 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+---
+
 ## GT4 BMW 1 Series Virtual Drive (Jun 18, 2004)
 
 ![aa](../images/covers/gt4_bmw.png){ width="200" }
@@ -57,6 +67,15 @@ Same build as above, with a time limit.
 
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1180" height="664" src="https://www.youtube.com/embed/VxjN_30_95U?list=PLXiAEH9wPLwup_xJd3xgorb4ZPzHXcFXF" title="Gran Turismo 4 BMW 1 Series Virtual Drive Dealership | SCED-52578 | 18 Jun, 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT4 Tokyo Game Show (Sept ??, 2004)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="953" height="715" src="https://www.youtube.com/embed/qEs0OohYojc?start=862" title="Tokyo Game Show 2004  Gamepro 2004/12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 

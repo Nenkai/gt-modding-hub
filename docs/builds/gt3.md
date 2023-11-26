@@ -30,6 +30,17 @@ Game Code: `PAPX-90203`
 
 ---
 
+## GT 2000 Tokyo Game Show Autumn Build (Late March ??, 2000)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+Deep Forest & Seattle are shown. Time limited build.
+
+??? youtube "Video"
+    <iframe width="953" height="715" src="https://www.youtube.com/embed/7bbqBMm9gGw?start=4713" title="ECTS London &amp; Tokyo Game Show Autumn [2000] [Polish Press] [VHS Rip]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
 ## GT 2000 E3 Build (~May ??, 2000)
 
 :material-shovel: *Dumped*: :x: {==No==}

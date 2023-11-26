@@ -33,6 +33,16 @@ Most of it still uses GT4 formats.
 
 ---
 
+## GT HD Le Mans 2007 (June ??, 2007)
+
+:material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1280" height="712" src="https://www.youtube.com/embed/RDXhoPGWXgI" title="gt hd le mans" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+
 ## GT HD Nissan Xanavi Nismo Z Build (?? ??, 200?)
 
 :material-shovel: *Dumped*: :x: {==No==}

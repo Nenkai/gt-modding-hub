@@ -135,6 +135,36 @@ Game Code: `PAPX-90504`
     <iframe width="1226" height="721" src="https://www.youtube.com/embed/m4bd-SBgHGs" title="Gran Turismo Concept Mitsubishi Airtrek Turbo Special Edition | PAPX-90504 | May 16, 2002" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
+## Gran Turismo Concept - Nissan 350Z Edition PAL (June 23th, 2002)
+
+![aa](../images/covers/gtc_nissan350z_eu.jpg){ width="250" }
+![aa](../images/covers/gtc_nissan350z_eu_back.jpg){ width="250" }
+![aa](../images/covers/gtc_nissan350z_eu_disc.jpg){ width="250" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-concept-nissan-350-z-sced-51097-4)
+
+Game Code: `SCED-51097`
+
+Available in-game contents identical to `SCUS-97219` (350Z & Monte Carlo).
+
+Volume is updated with in-progress content such as GT4 cars in GT3 format.
+
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCED-51097.txt)
+
+??? note "Build Info"
+    * Game Code: `SCED-51097`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
+    * Unified executable
+    * ISO Size: `3.41 GB`
+    * ISO CRC: `E58804C3`
+    * Has some symbols as `.gnu_linkonce` segments
+
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="837" height="471" src="https://www.youtube.com/embed/ajzoykbzu40" title="Gran Turismo Concept - Nissan Z | SCED-51097 | Jun 23, 2002" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
 ## Gran Turismo Concept - 2002 Tokyo-Geneva (June 25th, 2002)
 
 ![aa](../images/covers/gtc_2002_tokyo_geneva.jpg){ width="250" }
@@ -215,7 +245,7 @@ Game Code: `SCED-51352#2`
     * ISO Size: `3.42 GB`
     * ISO CRC: `03549184`
     * Has HostFS implementation
-    * Has some `.gnu_linkonce` symbols
+    * Has some symbols as `.gnu_linkonce` segments
 ---
 
 ## Gran Turismo: LUPO CUP Training Version 1 (Apr ??, 2003)
