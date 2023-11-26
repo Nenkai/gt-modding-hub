@@ -105,6 +105,16 @@ Game Code: `PAPX-90054`
 
 ---
 
+## GT2 NTSC Preview (Nov 30, 1999)
+
+![aa](../images/covers/gt2_ntsc_prev_arcade.jpg){ width="250" }
+![aa](../images/covers/gt2_ntsc_prev_gtmode.jpg){ width="250" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt-2-ntsc-preview-version-gt-mode) :material-disc: Redump Info [Arcade](http://redump.org/disc/105858/) - [GT Mode](http://redump.org/disc/105860/)
+
+Game Code: `SCPS-10117` (same as release)
+
+---
 ## GT2 Unknown Build (~Dec ??, 1999)
 
 :material-shovel: *Dumped*: :x: {==No==}
