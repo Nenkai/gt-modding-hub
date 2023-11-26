@@ -8,24 +8,25 @@ categories:
   - Models
 authors:
   - Nenkai
+slug: lifting-bonnet-on-gt-models
+comments: true
 
-slug: inside-look-modelset
 ---
 
-# An Inside Look at a Structured & Flexible Model Format
+# Lifting the Bonnet on Gran Turismo's Model Format
 
 With custom models upon us, now feels the perfect time to showcase an impressive model format developed by Polyphony Digital for the _Gran Turismo_ series. This post focusses on the implementation used in the PlayStation 2 era of _GT_ titles—however the core concepts would continue to be used across successive games and console generations.
 
 <!-- more -->
 
-## Polyphony Digital's Mindset
+## Digital Atelier
 But before that, a refresher on Polyphony's *development process* in general - most of their technologies are created [in-house](https://en.wikipedia.org/wiki/In-house_software) - meaning that they normally build their own tools to achieve their goals. Be it being [Adhoc](../../concepts/adhoc/adhoc.md), [SpecDB](../../concepts/specdb.md), this mindset applies nearly to the entirety of the development pipeline.
 
 However creating a custom software implementation doesn’t mean being constrained to limited use cases or the overhead of familiarisation—in fact it can be the complete opposite!
 
 ## Enter PDI-GL
 
-_PDI-GL_, or _Polyphony Digital Inc. – Graphics Library_, is PDI’s graphics rendering framework designed for accessibility and drawing inspiration directly from OpenGL [OpenGL](https://en.wikipedia.org/wiki/OpenGL). PDI-GL empowers any developer with a basic understanding of OpenGL to easily begin console development—a huge productivity boost considering the notorious difficulty of working with the PS2[^2] and PS3[^3].
+_PDI-GL_, or _Polyphony Digital Inc. – Graphics Library_, is PDI’s graphics rendering framework designed for accessibility and drawing inspiration directly from [OpenGL](https://en.wikipedia.org/wiki/OpenGL). PDI-GL empowers any developer with a basic understanding of OpenGL to easily begin console development—a huge productivity boost considering the notorious difficulty of working with the PS2[^2] and PS3[^3].
 
 The library abstracts away the complexities of a console’s rendering through of an intuitive set of functions. But what does it mean in practice? Well, consider this basic OpenGL 2.0 example which would rotate a cube around the X axis:
 
@@ -73,7 +74,7 @@ _Model Set_ is the name of the file format which contains renderable models. Fir
 
 ### Header
 
-When new model files are open for reading, they are [re-mapped](http://127.0.0.1:8000/gt-modding-hub/formats/abstract/#mapping) - the file itself is the structure that stays in memory and is then used to operate on. There is no *parsing* involved, therefore much faster to process if they are ready to go.
+When new model files are open for reading, they are [re-mapped](../../../formats/abstract/#mapping) - the file itself is the structure that stays in memory and is then used to operate on. There is no *parsing* involved, therefore much faster to process if they are ready to go.
 
 Each model set header follows the same general pattern - a table of counts and a table of offsets, each pointing to a specific distinct component of a model set. 
 
@@ -119,7 +120,7 @@ Introducing model rendering commands!
 
 When a game needs to render a model set's models, it will iterate through all of the models and *interpret* their list of commands which closely maps PDI-GL functions.
 
-The main commands to keep in mind are the `CallShape` commands. These take a shape index, and sends the shape's data to VIF for rendering. Any command before after it merely sets up how to render the shape.
+The main commands to keep in mind are the `CallShape` commands. These take a shape index, and sends the shape's data for rendering. Any command before after it merely sets up how to render the shape.
 
 In this example, this model sets up the [boundary box](https://en.wikipedia.org/wiki/Minimum_bounding_box) for rendering, sets up how to render the shape (disabling [alpha test](https://en.wikipedia.org/wiki/Multisample_anti-aliasing#Alpha_testing), setting the [blending function](https://www.khronos.org/opengl/wiki/Blending), disabling [depth mask](https://registry.khronos.org/OpenGL-Refpages/gl4/html/glDepthMask.xhtml)...).
 
@@ -187,7 +188,7 @@ We’ll use the beloved GT-R Pace Car as an example, which features two rotating
 First, let's highlight the important VM related bits within the ModelSet2 header:
 
 <figure markdown>
-  ![Image title](VM.png){ width="300" }
+  ![Image title](VM.png){ width="500" }
 </figure>
 
 1. **Instance Flags** - This is a flag that determines whether the structure/context for the VM instance is part of the model set. If not, it will be allocated aside, away from the model file. The instance is **where the VM registers are stored along with host method callbacks**.
@@ -210,7 +211,7 @@ Each model contain VM entrypoints - when to use the VM and where within bytecode
 Here are the render commands specific to the Pace Car's strobe lights.
 
 <figure markdown>
-  ![Image title](VM2.png){ width="300" }
+  ![Image title](VM2.png){ width="600" }
 </figure>
 
 First, the VM is called. For the sake of this blog post I will not go into details as for how the bytecode translates into each instruction, so here is the pseudocode for this model and optionally the original instructions, interpreted:
@@ -263,7 +264,7 @@ First, the VM is called. For the sake of this blog post I will not go into detai
     Return
     ```
 
-We can see that the VM returns two registers - `builtin_br0` and `builtin_tw0` (likely meaning `branch` and `tween`). The first is a boolean while the other is a float. These all depend on the current delta time in order to smoothly animate, with `1000f` being the duration in milliseconds.
+We can see that the VM returns two registers - `builtin_br0` and `builtin_tw0` (likely short for `branch` and `tween`). The first is a boolean while the other is a float. These all depend on the current delta time in order to smoothly animate, with `1000f` being the duration in milliseconds.
 
 The following `VM_pgluShapeTweenRatio` uses `builtin_tw0` as the angle for the light, while the next `VM_Branch` uses `builtin_br0` as a way to determine whether to follow a logic branch to render an additional shape.
 
