@@ -1,11 +1,9 @@
 ---
-draft: true 
-date: 2023-11-24 
+
+date: 2023-11-26
 categories:
-  - PS2
-  - GT3
-  - GT4
   - Models
+
 authors:
   - Nenkai
 slug: lifting-bonnet-on-gt-models
@@ -20,7 +18,7 @@ With custom models upon us, now feels the perfect time to showcase an impressive
 <!-- more -->
 
 ## Digital Atelier
-But before that, a refresher on Polyphony's *development process* in general - most of their technologies are created [in-house](https://en.wikipedia.org/wiki/In-house_software) - meaning that they normally build their own tools to achieve their goals. Be it being [Adhoc](../../concepts/adhoc/adhoc.md), [SpecDB](../../concepts/specdb.md), this mindset applies nearly to the entirety of the development pipeline.
+But before that, a refresher on Polyphony's *development process* in general - most of their technologies are created [in-house](https://en.wikipedia.org/wiki/In-house_software) - meaning that they normally build their own tools to achieve their goals. Be it being [Adhoc](../../../concepts/adhoc/adhoc.md), [SpecDB](../../../concepts/specdb.md), this mindset applies nearly to the entirety of the development pipeline.
 
 However creating a custom software implementation doesn’t mean being constrained to limited use cases or the overhead of familiarisation—in fact it can be the complete opposite!
 
@@ -60,21 +58,21 @@ Observe that the only change was the addition of a `p` prefix (which self-eviden
 
 _Model Set_ is the name of the file format which contains renderable models. First introduced in 1999 with the concept title and demo _Gran Turismo 2000_, model set has seen continued use right through to the latest release _Gran Turismo 7_ (2022). There are six known revisions:
 
-| Revision | Name | |
-|-|-|-|
-| `GTM0` | ModelSet0 | _GT2000_ |
-| `GTM1` | ModelSet1 | _GT3_, _GTC_ |
-| `MDLS` | ModelSet2 | _GT4_, _TT_ |
-| `MDL3`, `3LDM` | ModelSet3 | _GT_ (PSP), _GT5_, _GT6_ |
-| `4LDM` | ModelSet4 | _GT Sport_, _GT7_ (PS4) |
-| `5LDM` | ModelSet5 | _GT7_ (PS5) |
+| Revision | Name | Games | Notes
+|-|-|-|-|
+| `GTM0` | ModelSet0 | _GT2000_ | Initial version |
+| `GTM1` | ModelSet1 | _GT3_, _GTC_ | Structure changes
+| `MDLS` | ModelSet2 | _GT4_, _TT_ | VM, Model color patching, Bind matrices (bones)
+| `MDL3`, `3LDM` | ModelSet3 | _GT_ (PSP), _GT5_, _GT6_ | Flexible Vertices, Packed Meshes, Seperate streamed data, Bundled hardware shaders
+| `4LDM` | ModelSet4 | _GT Sport_, _GT7_ (PS4) | 64-bit & More
+| `MDL5` | ModelSet5 | _GT7_ (PS5) | Same as ModelSet4 (number change)
 
 !!! note
     Each revision can also be versioned on their own, this is the case for ModelSet3 & above. But in general, revisions implement more structures or features while retaining the same underlying concepts.
 
 ### Header
 
-When new model files are open for reading, they are [re-mapped](../../../formats/abstract/#mapping) - the file itself is the structure that stays in memory and is then used to operate on. There is no *parsing* involved, therefore much faster to process if they are ready to go.
+When new model files are open for reading, they are [re-mapped](../../../formats/abstract.md#mapping) - the file itself is the structure that stays in memory and is then used to operate on. There is no *parsing* involved, therefore much faster to process if they are ready to go.
 
 Each model set header follows the same general pattern - a table of counts and a table of offsets, each pointing to a specific distinct component of a model set. 
 

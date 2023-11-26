@@ -50,6 +50,7 @@ theme:
 
 nav:
   - Main Page: index.md
+  - Blog: blog
 
   - PS1 (GT1/GT2):
     - Index: ps1/index.md
@@ -250,6 +251,7 @@ plugins:
   - glightbox
   - blog:
       draft: true
+      blog_toc: true
 
 extra:
   social:
