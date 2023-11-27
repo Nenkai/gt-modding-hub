@@ -61,6 +61,8 @@ nav:
 
   - PS2 (GT3/GT4/TT):
     - Index: ps2/index.md
+    - Models: ps2/models.md
+    
     - GT3 / GTC:
         - Getting Started:
           - Volume & Making Edits: ps2/gt3/volume.md
