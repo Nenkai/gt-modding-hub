@@ -151,6 +151,8 @@ Links a car to a [VARIATION](#variation) row.
 ### ENGINE
 :material-check: *Applicable to: GT4 and above*
 
+**ENGINE** defines all the car engines/parts.
+
 ??? info "Table (click to expand)"
     |     Column          |  Data Type    | Description
     | --------------------| ------------- | ----------- | 
@@ -183,6 +185,8 @@ Links a car to a [VARIATION](#variation) row.
 ### GEAR
 :material-check: *Applicable to: GT4 and above*
 
+**GEAR** defines all the car transmission mechanisms/parts.
+
 ??? info "Table (click to expand)"
     |     Column                  |  Data Type    | Description
     | ----------------------------| ------------- | ----------- |
@@ -195,7 +199,7 @@ Links a car to a [VARIATION](#variation) row.
     `ExtraFinalGearRatio`         | Short         | Specifies an alternative final drive ratio where applicable (for cars with two output shafts such as the 2005   Volkswagen Golf GTI).
     `Price`                       | Short         | How much the part costs to buy if not stock.
     `category`                    | Byte          | The upgrade level of a transmission part.
-    `geartype`                    | Byte          | Which type of gearbox behaviour to use. `0` and `1` are both used on manual transmissions but the difference    between the two is unknown. `2` is used to apply realistic smooth shifting to cars with torque converter automatics. `3` and `4` are unknown but may be related to     hybrid cars as they are used on the Toyota Priuses and Triathlon car respectively. `7` is scooters. `0` or `2` means `CanShowGearChart` is true. `2` and `3` may be     CVT. `1`, `3`, `4` and `7` are considered automatic only.
+    `geartype`                    | Byte          | Which type of gearbox behaviour to use. Refer to [Gear Type Enum](#gear-type-enumeration)
     `Nshift`                      | Byte          | Number of gears (forward). This also reflects how the driver shifting animations operate.
     `gearflag`                    | Byte          | Determines whether or not to calculate the gear ratios automatically. `0` is used for road cars with specified  real-world ratios, `1` is used for most race cars and upgraded gearboxes. `2` is unknown and only used on the 1954 Chevrolet Corvette which has two gears and    real-world defined ratios. `AutoGearRatio_Generate` is called if the flag is not `0`.
     `maxspeedMIN`                 | Byte          | The minimum value allowed for the `Auto` adjustment slider when tuning gear ratios.
@@ -204,7 +208,45 @@ Links a car to a [VARIATION](#variation) row.
     `ExtraFinalGearUsage`         | Byte          | Subtracted from `Nshift` to determine which gear the `ExtraFinalGearRatio` is used for. For example,    `ExtraFinalGearUsage` set to `2` and `Nshift` set to `6` means that the ratio specified in `ExtraFinalGearRatio` will apply from 4th gear onwards.
     `LowGearPos`                  | Byte          | Used for rendering the driver animations. Likely related to shift animations, as it appears to only be set to `1`   for convertibles with a manual gearbox and `0` for everything else.
     `ReverseGearPos`              | Byte          | Used for rendering the driver animations. Similar assignments to `LowGearPos`, but has a larger range of possible   values (`0`, `6`, `8`, and `255`).
-    `GearPattern`                 | Byte          | Used for rendering the driver animations. Likely related to shifting animations but the actual nature of each value     is unknown.
+    `GearPattern`                 | Byte          | Used for rendering the driver animations. Refer to [Gear Pattern Enum](#gear-pattern-enumeration)
+
+##### Gear Type Enumeration
+??? abstract "Gear Type"
+
+    !!! note
+        Information based on GT7. Not all may be available in previous games.
+
+    | Value | Name                   |
+    |-------|------------------------|
+    | `0`     | `GEAR_TYPE_CLASSIC`
+    | `1`     | `GEAR_TYPE_LINEAR_CVT`
+    | `2`     | `GEAR_TYPE_SPORTS_CVT`
+    | `3`     | `GEAR_TYPE_TOYOTA_HYBRID`
+    | `4`     | `GEAR_TYPE_RIGID`
+    | `5`     | `GEAR_TYPE_TQ_CONV_AT`
+    | `6`     | `GEAR_TYPE_DSG`
+    | `7`     | `GEAR_TYPE_SCOOTER`
+    | `8`     | `GEAR_TYPE_TC_SST`
+    | `9`     | `GEAR_TYPE_F1_SEAMLESS`
+    | `10`    | `GEAR_TYPE_KART_1AT`
+    | `11`    | `GEAR_TYPE_NON_SYNCHRO`
+    | `12`    | `GEAR_TYPE_TQ_CONV_AT_QK`
+    | `13`    | `GEAR_TYPE_AMT`
+    | `14`    | `GEAR_TYPE_NON_SYNCHRO_MT`
+
+##### Gear Pattern Enumeration
+??? abstract "Gear Pattern"
+
+    !!! note
+        Information based on GT7. Not all may be available in previous games.
+
+    | Value | Name                   |
+    |-------|------------------------|
+    | `0`     | `DRIVER_GEAR_PATTERN_NO_USE`
+    | `1`     | `DRIVER_GEAR_PATTERN_H`
+    | `2`     | `DRIVER_GEAR_PATTERN_SEQUENTIAL`
+    | `3`     | `DRIVER_GEAR_PATTERN_BUTTERFLY`
+    | `4`     | `DRIVER_GEAR_PATTERN_AUTOMATIC`
 
 ---
 
