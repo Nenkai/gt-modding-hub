@@ -84,6 +84,7 @@ nav:
     - Other:
       - Executables (CORE.GT3/CORE.GT4): ps2/executables.md
       - Reverse-Engineering Notes: ps2/reverse_engineering_notes.md
+      - Model Render Commands: ps2/model_render_commands.md
     
   - PS3 (GT5/GT6):
     - Getting Started: ps3/getting_started.md
