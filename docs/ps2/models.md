@@ -80,6 +80,7 @@ To create a model set, make a `.yaml` file in your model folder. These are the m
 
     ```yaml
     Models:
+      # List of models. Every model will be rendered on every render tick (shapes to render depending on current LOD.)
       MyPlaneModel: # Model name, can be anything really
         LODs: # List of LODs, not optional
           plane.obj: # LOD0 - Each LOD must be pointing to a obj file
@@ -111,8 +112,12 @@ To create a model set, make a `.yaml` file in your model folder. These are the m
 
           plane1.obj: # LOD1
             # ...
+
+      # <More models here if needed>
     
+    ############################
     # Configuration for textures
+    ############################
     Textures:
       MyModel/MyTexture.png: # Should match paths in the .mtl file
 
@@ -141,11 +146,40 @@ Then to create a model:
 GTPS2ModelTool make-model-set -i <path to .yaml file>
 ```
 
-!!! tip
+!!! tip "Tips"
 
-    Pay attention to any warning the output may have. Creating a model will also always dump the output for viewing.
+    * Pay attention to any warning the output may have. Creating a model will also always dump the output for viewing.
+    * The order of meshes added to the model set is **alphabetical**. Do keep this in mind when using commands (especially for reflection shapes which should appear after their base shape).
+    * If you just wish to test the model, you can insert it directly into an existing car model by overwriting bytes starting from the first `GTM1` header (provided it doesn't overlap with other model components). You can use `vw0020` for the Beetle which is used in the first license test.
+    * If you wish to look more at the output model file, grab [010 Editor](https://www.sweetscape.com/010editor/) and the appropriate [GTM1](https://github.com/Nenkai/GT-File-Specifications-Documentation/blob/master/Formats/PS2/GT3/GTM1_ModelSet1.bt) template.
 
-    If you just wish to test the model, you can insert it directly into an existing car model by overwriting bytes starting from the first `GTM1` header (provided it doesn't overlap with other model components). You can use `vw0020` for the Beetle which is used in the first license test.
+---
+
+#### Reflections
+
+For shape reflections, you need to duplicate your base shape into another one which will be used solely for reflections. The mesh must overlay the base shape - same vertex positions.
+
+* The **base** texture should be textured.
+* The reflective shape should not be textured or have a material assigned.
+* The reflective shape should have vertex colors. It is not mandatory, but original game models seems to use them.
+* `UseExternalTexture` should be set to true for the reflection shape.
+* Three commands must at least be set for the shape:
+    * [`DisableAlphaTest`](model_render_commands.md#disablealphatest)
+    * [`BlendFunction(0, 2, 1, 1, 0)`](model_render_commands.md#blendfunction)
+    * [`DisableDepthMask`](model_render_commands.md#disabledepthmask)
+* Optionally, three more can be used (based on original models i.e va0012):
+    * [`FogColor(0)`](model_render_commands.md#fogcolor)
+    * [`EnableDestinationAlphaTest`](model_render_commands.md#enabledestinationalphatest)
+    * [`UnkGT3_3_4f`](model_render_commands.md#unkgt3_3_4f) - Note: don't mind the name, command purpose is unknown. Only used in GT3.
+
+---
+
+#### Sample Models
+
+Two samples are provided with GTPS2ModelTool:
+
+* `Plane_With_Taillamp_Callback` - A simple texture plane with two lods, with `Brake Off` text when brakes are not active, `Brake On` when active.
+* `Reflection_Sphere` - A sphere model composed of two shapes - the base shape, and the reflective shape.
 
 ---
 

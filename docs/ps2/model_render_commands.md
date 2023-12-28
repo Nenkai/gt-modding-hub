@@ -10,7 +10,7 @@ Sets the Alpha function to use.
 
 Usage: `AlphaFunction(func, ref)`
 
-- `func`: **String** - Function mode. Valid modes:
+- `func`: **String** - Sets [GS TEST Alpha Test](https://psi-rockin.github.io/ps2tek/#gstestsandpixelcontrol) method. Valid modes:
     - `NEVER`
     - `ALWAYS`
     - `LESS`
@@ -19,7 +19,7 @@ Usage: `AlphaFunction(func, ref)`
     - `GEQUAL`
     - `GREATER` <- Default
     - `NOTEQUAL`
-- `ref`: **Byte** - Alpha value to be compared and referred to. Defaults to `0x20`/`32`
+- `ref`: **Byte** - Sets [GS Test AREF](https://psi-rockin.github.io/ps2tek/#gstestsandpixelcontrol) value. Alpha value to be compared and referred to. Defaults to `0x20`/`32`
 
 ---
 
@@ -29,7 +29,7 @@ Sets the alpha fail method to use.
 
 Usage: `AlphaFail(method)`
 
-- `method`: **String** - Function mode. Valid modes:
+- `method`: **String** - Sets [GS TEST Alpha Test Failure processing](https://psi-rockin.github.io/ps2tek/#gstestsandpixelcontrol). Valid modes:
     - `KEEP` - **Default** - Neither frame buffer nor Z buffer is updated.
     - `ALWAYS` - Only frame buffer is updated.
     - `ZB_ONLY` - Only Z buffer is updated.
@@ -39,7 +39,7 @@ Usage: `AlphaFail(method)`
 
 ## BlendFunction
 
-Sets the blending function to use.
+Sets the [GS Alpha Blending](https://psi-rockin.github.io/ps2tek/#gsalphablending) function to use. 
 
 Usage: `BlendFunction(a, b, c, d, fix)`
 
@@ -97,6 +97,14 @@ Usage: `DestinationAlphaFunc(tst)`
 
 ---
 
+## EnableDestinationAlphaTest
+
+Enables GS Destination Alpha testing.
+
+Usage: `EnableDestinationAlphaTest`
+
+---
+
 ## FogColor
 
 Sets the fog color - GS `FOGCOL` register.
@@ -119,7 +127,7 @@ Usage: `DepthBias(bias)`
 
 ## PushMatrix
 
-Pushes the current matrix stack down by one, duplicating the current matrix. Intended to be used with transformation commands.
+Pushes the current matrix stack down by one, duplicating the current matrix. Intended to be used with transformation commands. Similar to [glPushMatrix](https://registry.khronos.org/OpenGL-Refpages/gl2.1/xhtml/glPushMatrix.xml).
 
 Usage: `PushMatrix`
 
@@ -127,7 +135,7 @@ Usage: `PushMatrix`
 
 ## PopMatrix
 
-Pushes the current matrix stack down by one, duplicating the current matrix. Intended to be used after transformation commands.
+Pushes the current matrix stack down by one, duplicating the current matrix. Intended to be used after transformation commands. Similar to [glPopMatrix](https://registry.khronos.org/OpenGL-Refpages/gl2.1/xhtml/glPopMatrix.xml).
 
 Usage: `PopMatrix`
 
@@ -135,7 +143,7 @@ Usage: `PopMatrix`
 
 ## MatrixMode
 
-Sets the matrix mode.
+Sets the matrix mode. Similar to [glPushMatrix](https://registry.khronos.org/OpenGL-Refpages/gl2.1/xhtml/glPushMatrix.xml).
 
 Usage: `MatrixMode(mode)`
 
@@ -148,7 +156,7 @@ Usage: `MatrixMode(mode)`
 
 ## Rotate
 
-Performs a rotation transformation.
+Performs a rotation transformation. Similar to [glRotate](https://registry.khronos.org/OpenGL-Refpages/gl2.1/xhtml/glRotate.xml).
 
 Usage: `Rotate(angle, x, y, z)`
 
@@ -161,7 +169,7 @@ Usage: `Rotate(angle, x, y, z)`
 
 ## Translate
 
-Performs a translation transformation.
+Performs a translation transformation. Similar to [glTranslate](https://registry.khronos.org/OpenGL-Refpages/gl2.1/xhtml/glTranslate.xml)
 
 Usage: `Translate(x, y, z)`
 
@@ -173,7 +181,7 @@ Usage: `Translate(x, y, z)`
 
 ## Scale
 
-Performs a scale transformation.
+Performs a scale transformation. Similar to [glScale](https://registry.khronos.org/OpenGL-Refpages/gl2.1/xhtml/glScale.xml).
 
 Usage: `Scale(x, y, z)`
 
