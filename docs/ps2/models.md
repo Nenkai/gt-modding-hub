@@ -17,16 +17,31 @@ This is a guide to get started with importing or exporting models from or to GT3
 
 Models are located within the following folders:
 
-| Game | Path | Description |
-|-|-|-|
-| GT3 | `cars/day`  | Models for tracks on day setting
-|     | `cars/eve`  | Models for tracks on day setting i.e Seattle
-|     | `cars/night`| Models for tracks on evening setting i.e Special Stage Route 5
-|     | `menu/cars` | Menu models
-| GT4 | `car/lod`   | Race models
-|     | `car/menu`  | Menu models
-|     | `car/open`  | Race models (cars with open interior)
+#### GT3 Model Folders
 
+Model file names are based on `RACINGMODIFY` in the Car Database/ParamDB.
+
+| Path | Description |
+|-|-|
+|`cars/day`  | Models for tracks on day setting
+|`cars/eve`  | Models for tracks on day setting i.e Seattle
+|`cars/night`| Models for tracks on evening setting i.e Special Stage Route 5
+|`menu/cars` | Menu models
+
+!!! tip "Car Model List"
+    A list of car names & their model files for GT3 is available [here](gt3/model_car_list.md).
+
+#### GT4 Model Folders
+
+Model file names are based on `CAR_VARIATION` -> `VARIATION` in the SpecDB.
+
+|Path | Description |
+|-|-|
+|`car/lod`   | Race models
+|`car/menu`  | Menu models
+|`car/open`  | Race models (cars with open interior)
+
+---
 
 Run GTPS2ModelTool as such to dump a model for viewing:
 
