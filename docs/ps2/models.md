@@ -176,7 +176,7 @@ For shape reflections, you need to duplicate your base shape into another one wh
 
 * The **base** texture should be textured.
 * The reflective shape should not be textured or have a material assigned.
-* The reflective shape should have vertex colors. It is not mandatory, but original game models seems to use them.
+* The reflective shape should have **vertex colors**. It is not mandatory, but original game models seems to use them. They should appear after every `v` statement in your obj file as such that you have `v <x> <y> <z> <r> <g> <b>`.
 * `UseExternalTexture` should be set to true for the reflection shape.
 * Three commands must at least be set for the shape:
     * [`DisableAlphaTest`](model_render_commands.md#disablealphatest)
@@ -262,3 +262,8 @@ GTPS2ModelTool make-car-model --model <path to car .mdl> --car-info <path to car
 Like model set creation, pay attention to any warnings or errors.
 
 If everything went well, starting from here, you can edit the SpecDB using [GTDataSQLiteConverter](https://github.com/Nenkai/GTDataSQLiteConverter) to edit/add the car.
+
+!!! note "Collision Box"
+
+    In GT3, the collision box is calculated from the `RACINGMODIFY` database table, using `ModelFront`/`ModelRear`/`ModelWidth`/`ModelHeight`.
+

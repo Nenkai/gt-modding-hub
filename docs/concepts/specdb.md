@@ -119,7 +119,7 @@ The most important tables are [`GENERIC_CAR`](#generic_car) and `DEFAULT_PARTS`.
 `PORTPOLISH`           | Defines all port polishing parts. (for GT4)
 `PROPELLERSHAFT`       | Defines all propeller shaft parts.
 `RACE`                 | Defines all races in GT4. Label must match a certain pattern.
-`RACINGMODIFY`         | Defines racing modifications (GT5), aero/chassis data (GT4).
+`RACINGMODIFY`         | Defines racing modifications (GT5) or aero/chassis data (GT3/GT4).
 `REARTIRE`             | Defines all rear tires.
 `STEER`                | Defines steering assist parameters.
 `SUSPENSION`           | Defines all suspension parts.
