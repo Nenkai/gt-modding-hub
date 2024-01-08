@@ -54,8 +54,8 @@ Dumping will output cars in obj, png formats for viewing externally. This will o
 !!! note
 
     * Dumping models does **not** make them suitable for re-importing.
-    * If you are viewing with Blender, Y and Z are swapped.
     * Dumping works with `Tex1, GTTR, GTTW, GTM1, CAR4, MDLS, PRM0, PRZ0, GTBR` files.
+    * :simple-blender: If you are viewing with Blender, Y and Z are swapped.
 
 ---
 
@@ -63,7 +63,7 @@ Dumping will output cars in obj, png formats for viewing externally. This will o
 
 * Understanding how to edit game files - [GT3](gt3/volume.md) / [GT4](gt4/volume.md)
 * Modeling Knowledge
-* Modeling Software ([Blender](https://www.blender.org/), [3ds Max](https://www.autodesk.com/products/3ds-max/overview)...)
+* Modeling Software (:simple-blender: [Blender](https://www.blender.org/), :simple-autodesk: [3ds Max](https://www.autodesk.com/products/3ds-max/overview)...)
 * [GTPS2ModelTool](https://github.com/Nenkai/GTPS2ModelTool)
 
 The first thing you should do if you haven't is to start dumping original models in order to be familiar with their requirements (vertex count, texture formats, etc).
@@ -176,7 +176,7 @@ For shape reflections, you need to duplicate your base shape into another one wh
 
 * The **base** texture should be textured.
 * The reflective shape should not be textured or have a material assigned.
-* The reflective shape should have **vertex colors**. It is not mandatory, but original game models seems to use them. They should appear after every `v` statement in your obj file as such that you have `v <x> <y> <z> <r> <g> <b>`.
+* The reflective shape should have __**vertex colors**__. It is not mandatory, but original game models seems to use them. They should appear after every `v` statement in your obj file as such that you have `v <x> <y> <z> <r> <g> <b>`.
 * `UseExternalTexture` should be set to true for the reflection shape.
 * Three commands must at least be set for the shape:
     * [`DisableAlphaTest`](model_render_commands.md#disablealphatest)
@@ -186,6 +186,25 @@ For shape reflections, you need to duplicate your base shape into another one wh
     * [`FogColor(0)`](model_render_commands.md#fogcolor)
     * [`EnableDestinationAlphaTest`](model_render_commands.md#enabledestinationalphatest)
     * [`UnkGT3_3_4f`](model_render_commands.md#unkgt3_3_4f) - Note: don't mind the name, command purpose is unknown. Only used in GT3.
+
+??? tip ":simple-blender: Vertex Colors with Blender"
+    
+    **Make sure that you are at least using 3.3**. To export a mesh with vertex colors:
+
+    1. Go into Vertex Paint mode, then select all the vertices (or press ++a++)
+
+         ![aa](../images/doc_images/blender_vertex_colors.png)
+    2. Select the current edit color
+
+         ![aa](../images/doc_images/blender_vertex_colors_2.png)
+
+    3. Apply edit color to all vertices (or press ++ctrl+x++)
+
+         ![aa](../images/doc_images/blender_vertex_colors_3.png)
+
+    4. Make sure that Geometry->Colors is enabled when exporting to obj.
+
+         ![aa](../images/doc_images/blender_vertex_colors_4.png)
 
 ---
 
