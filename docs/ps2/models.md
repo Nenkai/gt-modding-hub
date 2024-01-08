@@ -191,7 +191,7 @@ For shape reflections, you need to duplicate your base shape into another one wh
     
     **Make sure that you are at least using 3.3**. To export a mesh with vertex colors:
 
-    1. Go into Vertex Paint mode, then select all the vertices (or press ++a++)
+    1. Go into Vertex Paint mode, Vertex Selection, then select all the vertices (or press ++a++)
 
          ![aa](../images/doc_images/blender_vertex_colors.png)
     2. Select the current edit color
@@ -205,6 +205,8 @@ For shape reflections, you need to duplicate your base shape into another one wh
     4. Make sure that Geometry->Colors is enabled when exporting to obj.
 
          ![aa](../images/doc_images/blender_vertex_colors_4.png)
+
+    Do note that preview is only available in Viewport Shading view.
 
 ---
 
