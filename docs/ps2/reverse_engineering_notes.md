@@ -29,3 +29,34 @@ for (int i = 0; i < size; i++) // Replace size by actual size
 }
 ```
 
+## VM Pseudocode
+
+Example: `classic1.mdl`
+
+```csharp
+// rightGrasp is host method (provided by engine)
+// blink is host method (provided by engine)
+
+constructor()
+{
+	out blend_br0 = 0;
+	out blend_tw0 = 0;
+	
+	out blend_br1 = 0;
+	out blend_tw1 = 0;
+}
+
+update()
+{
+	var temp;
+
+	temp = ((rightGrasp * 1.0f) * 0.99999f);
+	out blend_br0 = ToInt(temp);
+	out blend_tw0 = temp % 1.0f;
+	
+	temp = ((blink * 1.0f) * 0.99999f);
+	out blend_br1 = ToInt(temp);
+	out blend_tw1 = temp % 1.0f;
+}
+```
+

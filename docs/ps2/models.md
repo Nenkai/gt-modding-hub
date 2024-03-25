@@ -76,7 +76,7 @@ You'll be able to observe that cars are generally made up of **3 LODs**, and als
 
     * The scale is `1 unit = 1 meter`
     * Polygons must be triangles so make sure that there are no quads, otherwise make a *copy* of your model and triangulate it.
-    * Your triangulated model will be processed by the tool and converted to tri-strips which is what the games uses. You can not reuse the output.
+    * Your triangulated model will be processed by the tool and converted to tri-strips which is what the games uses.
     * The main concern is **model file size** and __textures__ will take most of it. It is always recommended to use paletted texture formats such as 4bpp which is the default and should always be used in general (it is okay to rarely use 8bpp for more colors). Remember to account for LODs.
         * For GT3, the max car model file size is `688.128` bytes (`672Kb`) for __race__ models, `819.200` bytes (`800Kb`) for __menu__ models.
     * Texture dimensions must generally be a __**power of two**__ i.e 16x16, 32x16, etc.
