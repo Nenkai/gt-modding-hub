@@ -148,7 +148,6 @@ Links a car to a [VARIATION](#variation) row.
 
 ---
 
-
 ### CHASSIS
 :material-check: *Applicable to: GT4 and above*
 
@@ -184,6 +183,7 @@ Links a car to a [VARIATION](#variation) row.
     `GasCapacity`         | Byte   | Unused, all cars have it set to 100 except cars which can't be used in races with pitting enabled.
 
 ---
+
 ### ENGINE
 :material-check: *Applicable to: GT4 and above*
 
