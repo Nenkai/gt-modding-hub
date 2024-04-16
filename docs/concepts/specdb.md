@@ -89,7 +89,7 @@ The most important tables are [`GENERIC_CAR`](#generic_car) and `DEFAULT_PARTS`.
 `CAR_NAME_*`           | Defines all names for cars for each region. The row ID is and should be linked to the ID in `GENERIC_CAR`.
 [`CAR_VARIATION_*`](#car_variation)      | Mainly used for GT4, this defines all car label/model mappings for each region.
 `CATALYST`             | Defines all catalyst tuning parts.
-`CHASSIS`              | Defines chassis specifications such as dimensions, mass, and weight bias.
+[`CHASSIS`](#chassis)  | Defines chassis specifications such as dimensions, mass, and weight bias.
 `CLUTCH`               | Defines all clutch parts.
 `COMPUTER`             | Defines all ECU tuning parts.
 `COURSE`               | Defines all courses in the game. In GT5, `courselist.xml`, the arcade and freerun xmls refer to it using their labels. In GT6, menudb refers to it for available arcade courses.
@@ -157,19 +157,19 @@ Links a car to a [VARIATION](#variation) row.
     |     Column          |  Data Type    | Description
     | --------------------| ------------- | ----------- | 
     `Label`               | String | The human-readable reference name for the part. Matching this to the GENERIC_CAR label isn't mandatory, but keeps things simple.
-    `length`              | Byte   | The car's length in mm. Seems to have minimal effect on car handling, with wheelbase taking precedence.
-    `height`              | Byte   | The car's height in mm. Seems to have minimal effect on car handling.
+    `length`              | Byte   | The car's length in mm. Seems to have no effect on car handling, with wheelbase taking precedence.
+    `height`              | Byte   | The car's height in mm. Seems to have no effect on car handling.
     `wheelbase`           | Byte   | The distance between the front and rear wheels. A shorter wheelbase will cause exaggerated forward-and-back weight transfer while accelerating and braking, while a longer wheelbase will provide better stability at the cost of worse braking distances and traction due to the car's weight being more centralised.
     `mass`                | Byte   | The car's weight in kg.
     `dlength`             | Byte   | The car's display length in mm, visible in the spec sheet in-game.
     `dheight`             | Byte   | The car's display height in mm, visible in the spec sheet in-game.
     `dmass`               | Byte   | The car's display weight in kg, visible in the spec sheet in-game before the car is purchased.
-    `performanceF`        | Byte   | A grip modifier for the front wheels. A higher performanceF results in improved turning ability, better corner exit traction in FWD's, and reduced tyre wear. A high performanceF and a low performanceR will induce oversteer.
-    `performanceR`        | Byte   | A grip modifier for the rear wheels. A higher performanceR results in improved mid-corner grip, better corner exit traction in RWD's, and reduced tyre wear. A high performanceR and a low performanceF will induce understeer.
-    `treadF`              | Byte   | Unknown, seems to have minimal effect on car handling.
-    `treadR`              | Byte   | Unknown, seems to have minimal effect on car handling.
-    `width`               | Byte   | The car's width in mm. Seems to have minimal effect on car handling.
-    `dwidth`              | Byte   | The car's display width in mm, visible in the spec sheet in-game.
+    `performanceF`        | Byte   | A grip modifier for the front wheels. A higher performanceF results in improved turning ability, better corner exit traction in FWD's, and reduced tyre wear. A high performanceF (and a low performanceR) will induce oversteer.
+    `performanceR`        | Byte   | A grip modifier for the rear wheels. A higher performanceR results in improved mid-corner grip, better corner exit traction in RWD's, and reduced tyre wear. A high performanceR (and a low performanceF) will induce understeer.
+    `treadF`              | Byte   | Unknown, seems to have no effect on car handling.
+    `treadR`              | Byte   | Unknown, seems to have no effect on car handling.
+    `width`               | Byte   | The car's width in mm. Seems to have no effect on car handling.
+    `dwidth`              | Byte   | The car's display width in mm, visible in the spec sheet in-game. This width s
     `category`            | Byte   | Unused, all cars have it set to 0. 
     `cartype`             | Byte   | Unknown, 1 seems to denominate non-production cars, but also includes many production Skyline GT-R's, Lancer Evolution's and other newer models.
     `percentageF`         | Byte   | Defines the car's weight distribution, specifically the percentage of car's weight that rests on the front wheels. A percentageF of 50 means that the car has a balanced 50:50 weight distribution. Weight distribution affects the car's overall handling and traction and tyre wear for both front and rear, depending on whether the car is more front-heavy or rear-heavy.
