@@ -163,24 +163,24 @@ Links a car to a [VARIATION](#variation) row.
     `mass`                | Byte   | The car's weight in kg.
     `dlength`             | Byte   | The car's display length in mm, visible in the spec sheet in-game.
     `dheight`             | Byte   | The car's display height in mm, visible in the spec sheet in-game.
-    `dmass`               | Byte   | The car's display weight in kg, visible in the spec sheet in-game before the car is purchased.
+    `dmass`               | Byte   | The car's display weight in kg, visible in the spec sheet in-game (before the car is purchased).
     `performanceF`        | Byte   | A grip modifier for the front wheels. A higher performanceF results in improved turning ability, better corner exit traction in FWD's, and reduced tyre wear. A high performanceF (and a low performanceR) will induce oversteer.
     `performanceR`        | Byte   | A grip modifier for the rear wheels. A higher performanceR results in improved mid-corner grip, better corner exit traction in RWD's, and reduced tyre wear. A high performanceR (and a low performanceF) will induce understeer.
     `treadF`              | Byte   | Unknown, seems to have no effect on car handling.
     `treadR`              | Byte   | Unknown, seems to have no effect on car handling.
     `width`               | Byte   | The car's width in mm. Seems to have no effect on car handling.
-    `dwidth`              | Byte   | The car's display width in mm, visible in the spec sheet in-game. This width s
+    `dwidth`              | Byte   | The car's display width in mm, visible in the spec sheet in-game.
     `category`            | Byte   | Unused, all cars have it set to 0. 
-    `cartype`             | Byte   | Unknown, 1 seems to denominate non-production cars, but also includes many production Skyline GT-R's, Lancer Evolution's and other newer models.
-    `percentageF`         | Byte   | Defines the car's weight distribution, specifically the percentage of car's weight that rests on the front wheels. A percentageF of 50 means that the car has a balanced 50:50 weight distribution. Weight distribution affects the car's overall handling and traction and tyre wear for both front and rear, depending on whether the car is more front-heavy or rear-heavy.
-    `yaw`                 | Byte   | Appears to be a body roll/turning ability modifier that scales based on the car's mass. A low yaw means that the car can turn more fluidly. Yaw is unaffected by placing a ballast on the car.
+    `cartype`             | Byte   | Unknown, possibly unused (1 seems to denominate non-production cars, but also includes many production Skyline GT-R's, Lancer Evo's and other newer models).
+    `percentageF`         | Byte   | Defines the car's weight distribution, specifically the percentage of the car's weight that rests on the front wheels. A percentageF of 50 means that the car has a balanced 50:50 weight distribution. Weight distribution affects the car's overall handling, traction and tyre wear for both front and rear, depending on whether the car is more front-heavy or rear-heavy.
+    `yaw`                 | Byte   | Appears to be a body roll/turning ability modifier that scales based on the car's mass. A low yaw means that the car can turn more fluidly and is more responsive to turn inputs. Yaw is unaffected by placing a ballast on the car.
     `cheight`             | Byte   | The distance between the ground and the floor of the chassis.
     `WheelLayout`         | Byte   | Defines how many wheels the car has (0 = four wheels, 2 = three wheels).
     `GrowInch`            | Byte   | Unknown.
     `TireWidthR`          | Byte   | Unknown.
     `FrontStiffness`      | Byte   | A turning resistance modifier for the front of the car, with higher values resulting in more resistance while turning.
     `RearStiffness`       | Byte   | A turning resistance modifier for the rear of the car, with higher values resulting in more resistance while turning.
-    `GasCapacity`         | Byte   | Unused, all cars have it set to 100 except cars which can't be used in races with pitting enabled.
+    `GasCapacity`         | Byte   | Would define the car's gas capacity, but seems to be unused, all cars have it set to 100 (except cars which can't be used in races with pitting enabled).
 
 ---
 
