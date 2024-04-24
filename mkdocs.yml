@@ -11,7 +11,7 @@ theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.png
-  custom_dir: docs/overrides/
+  custom_dir: overrides/
 
   features:
     - navigation.tabs
@@ -247,8 +247,8 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
-    repository: nenkai/gt-modding-hub
-    branch: main
+      repository: nenkai/relink-modding
+      branch: main
   - social:
       cards_color:
         fill: "#2F2F3E"
