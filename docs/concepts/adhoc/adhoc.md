@@ -65,6 +65,14 @@ Most of the operations are done through the [GTAdhocToolchain](https://github.co
 
 That said, adhoc in general is quite similar to popular programming languages, a few differences and features be seen at the [language spec](https://github.com/Nenkai/GTAdhocToolchain/blob/master/LANGUAGE_SPECIFICATION.md).
 
+!!! tip API
+
+    An API documentation exists:
+
+    * GT4 - N/A
+    * GT5 - N/A
+    * [GT6 Adhoc API](https://nenkai.github.io/GTAdhocAPI/html/index.html) ([Repo](https://github.com/Nenkai/GTAdhocAPI)) - many applies to GT5
+
 ---
 
 ## Editing and recompiling scripts
