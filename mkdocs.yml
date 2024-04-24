@@ -246,8 +246,8 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
-      repository: nenkai/relink-modding
-      branch: main
+      repository: nenkai/gt-modding-hub
+      branch: master
   - social:
       cards_color:
         fill: "#2F2F3E"
