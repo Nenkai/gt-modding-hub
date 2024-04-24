@@ -11,7 +11,6 @@ theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.png
-
   custom_dir: overrides
 
   features:
@@ -247,6 +246,9 @@ markdown_extensions:
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
+  - git-committers:
+    repository: nenkai/gt-modding-hub
+    branch: main
   - social:
       cards_color:
         fill: "#2F2F3E"
