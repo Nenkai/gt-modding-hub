@@ -232,6 +232,9 @@ Despite being rather large in size, it only allows access to three tracks: Tsuku
 
 Game Code: `SCCS-60062`
 
+!!! warning 
+    This build requires a Chinese PS2 Bios to run on PCSX2. Bios `SCPH-50009` or `DTL-H50009` works.
+
 ??? abstract "File List"
     * [ISO + VOL](file_lists/SCCS-60002.txt)
 
