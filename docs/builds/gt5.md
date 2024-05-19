@@ -72,9 +72,83 @@ This was a PSN-only demo. Presumably no japanese release. [Official News](https:
     * BuildMode: `default-nodfe-nodls-aclgdev-pal-nortime` (No DFE, No DLS/Pace, No Network Platform, AC Logitech Dev, No RTime)
 ---
 
-## GT5 Mercedes-Benz Museum Build (~Feb ??, 2010)
+## GT5 CES Demo  (~Early Jan, 2010)
 
 :material-shovel: *Dumped*: :x: {==No==}
+
+??? youtube "Video"
+    <iframe width="1250" height="703" src="https://www.youtube.com/embed/ByC76xZ8c1k" title="Gran Turismo 5 CES 2010 Demo - Mclaren F1 Replay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT5 SLS Demo (Jan 28th, 2010)
+
+![aa](../images/covers/gt5_sls_demo.png){ width="300" }
+
+:material-shovel: *Dumped*: {++Yes++}
+
+* Europe - [`NPEA-90056`]
+
+A build *heavily* hacked on-top of the CES Demo Build (which is still very close to GT5P). It features only one car and track - The SLS AMG '10 on a special version of the Nordschleife (`t095` aka `nurburgring_ces2010`, which is closer to GT4).
+
+Internally, all cars and tracks that appeared on the CES Demo Build are present in the SLS Demo. This includes Tokyo R246, Fuji, Indianapolis and Nordschleife. 
+
+When `VersionBranch` is changed to `gt5`, GT Mode becomes available, but is *extremely* barebones & early in. Nearly nothing is functional & license mode refers to PS2 tracks. Arcade is also completely non-functional.
+
+Car collisions also seem hilariously broken.
+
+??? abstract "File List"
+    * [Install + PDIPFS](file_lists/NPEA90056-install.txt)
+
+??? note "Build Info"
+    * Adhoc Version: `12`
+    * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+    * VersionBranch: `sls` (behaves same as `demo`)
+    * VersionTarget: `ps3`
+    * VersionEnvironment: `product-edi-strong`
+    * VersionBuild: `release`
+    * VersionUser: `build`
+    * ProductVersion: `1.00`
+    * PDIVersion: `1.00`
+    * CompileDateTime: `2010/07/16 18:02:29`
+    * CompileSVNRevision: `36640`
+    * KeyLicensee: `0x724e0fee6f14c981a33a01ec7652faff`
+    * SpecDB Version: `GT5_PREVIEW2900`
+    * Volume Seed: `WATTENMEER-12406149`
+    * Volume Key: `837868487, 385572593, 3612100789, 3505763611`
+    * Volume Serial: `286384853`
+    * Volume Title ID: `GT5E-WATTENMEER-12406149`
+    * Grim URL: `https://gt5pdev01.ps3.online.us.gran-turismo.com`
+    * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+    * One executable (EBOOT)
+    * BuildMode: `default-pal` (Default, PAL)
+
+??? tip "Secret Commands"
+
+    **In Options**
+
+    * Special Settings (Full)
+        - Hold **L1** + **R1** then :material-arrow-down: :material-arrow-right: :material-arrow-right: :material-arrow-down: :material-arrow-right: :material-arrow-right: :material-arrow-down: :material-arrow-right: :material-arrow-right: :material-arrow-down: :material-arrow-right: :material-arrow-right: **Start**
+
+    * Special Settings (second icon, Guest Name) 
+        - Hold **L1 + L2** then :material-arrow-up: :material-arrow-up: :material-arrow-left: :material-arrow-left: :material-arrow-up: :material-arrow-left: :material-arrow-up: **Start**
+
+    * Extra Dls Settings while highlighting "Disable Advanced Download Option"
+        - Hold **L1** + **R1** then :material-arrow-left: :material-arrow-right: :material-arrow-left: :material-arrow-right: :material-arrow-right: **Start**
+
+    * Show "Special Settings 2" while inside Special Settings window
+        - Hold **L1** + **R1** & :material-arrow-left: :material-arrow-down: :material-arrow-up: :material-arrow-right: :material-arrow-right: :material-arrow-left: **Start**
+
+    **In Main Menu**
+
+    * ?
+        - Hold **L1** + **L2** then :material-arrow-up: :material-arrow-down: :material-arrow-up: :material-arrow-down: **Start**
+
+    **In Online Menu**
+
+    * ?
+        - Hold **L1** + **L2** then :material-arrow-up: :material-arrow-down: :material-arrow-up: :material-arrow-down: **Start**
+
 
 ??? youtube "Video"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/iBwAy_jo290" title="GT5 Mercedes-Benz Museum Build" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
