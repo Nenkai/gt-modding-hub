@@ -85,9 +85,9 @@ This was a PSN-only demo. Presumably no japanese release. [Official News](https:
 
 ![aa](../images/covers/gt5_sls_demo.png){ width="300" }
 
-:material-shovel: *Dumped*: {++Yes++}
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-5-sls-demo-jan-28th-2010)
 
-* Europe - [`NPEA-90056`]
+* Europe - `NPEA-90056`
 
 A build *heavily* hacked on-top of the CES Demo Build (which is still very close to GT5P). It features only one car and track - The SLS AMG '10 on a special version of the Nordschleife (`t095` aka `nurburgring_ces2010`, which is closer to GT4).
 
@@ -96,6 +96,8 @@ Internally, all cars and tracks that appeared on the CES Demo Build are present 
 When `VersionBranch` is changed to `gt5`, GT Mode becomes available, but is *extremely* barebones & early in. Nearly nothing is functional & license mode refers to PS2 tracks. Arcade is also completely non-functional.
 
 Car collisions also seem hilariously broken.
+
+Interestingly, this build seems to use the [DoubleFusion SDK](https://www.gamedeveloper.com/game-platforms/double-fusion-releases-v2-0-of-in-game-ad-sdk) (DFEngine).
 
 ??? abstract "File List"
     * [Install + PDIPFS](file_lists/NPEA90056-install.txt)
@@ -110,7 +112,7 @@ Car collisions also seem hilariously broken.
     * VersionUser: `build`
     * ProductVersion: `1.00`
     * PDIVersion: `1.00`
-    * CompileDateTime: `2010/07/16 18:02:29`
+    * CompileDateTime: `2010/01/28 15:19:51`
     * CompileSVNRevision: `36640`
     * KeyLicensee: `0x724e0fee6f14c981a33a01ec7652faff`
     * SpecDB Version: `GT5_PREVIEW2900`
