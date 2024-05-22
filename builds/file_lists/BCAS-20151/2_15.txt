@@ -1,0 +1,21 @@
+Name         Format          Size  Path                                                           MD5                             
+----------------------------------------------------------------------------------------------------------------------------------
+ICON0.PNG    PNG        28.194 KB  \ICON0.PNG                                                     241689215A6E0CA5F769F5B39D9E9238
+PARAM.SFO    SFO         420 Byte  \PARAM.SFO                                                     D72E37B6255D31418B11CF8FFCA69C48
+PS3LOGO.DAT  DAT         5.000 KB  \PS3LOGO.DAT                                                   0AAD59DBA6C06F041B8D1E579BDA2C32
+TROPHY.TRP   TRP         2.848 MB  \TROPDIR\NPWR00651_00\TROPHY.TRP                               AC286666E7835B314454214EEBC240E1
+EBOOT.BIN    BIN         9.065 MB  \USRDIR\EBOOT.BIN                                              9EE87662192EB0CEB382659D882EEE00
+1G                      13.649 KB  \USRDIR\PDIPFS\9\83\1G                                         43C65D6BEBCE85B1856C4472BA52103C
+7Z                     752.173 KB  \USRDIR\PDIPFS\9\HJ\7Z                                         950527AC3730A9A9254B7E07D75BFA25
+CT                     442.843 KB  \USRDIR\PDIPFS\9\PM\CT                                         A686430424C93932B86D734DCCF4C491
+CC                     384.859 KB  \USRDIR\PDIPFS\9\R5\CC                                         3A579B1A59DBDB8A78C3F6D9B72897A3
+LB                       1.678 MB  \USRDIR\PDIPFS\9\UE\LB                                         95281D04105499C4A66A9F956770F69F
+O9                       1.710 KB  \USRDIR\PDIPFS\9\VX\O9                                         040F43539C1B8FAAA27A4B7105B5A04B
+4D                       160 Byte  \USRDIR\PDIPFS\K\4D                                            B7732FDF31D5438D9FAC8EB17DE7BFC1
+02250019             1,018.375 KB  \USRDIR\PDIPFS_EXTRACTED\car\hq\02250019                       1444188A50EB2F7CF3CA6B0B649A70E6
+02250019                 3.809 KB  \USRDIR\PDIPFS_EXTRACTED\car\info\02250019                     39FB175B7755DB664BB93F21ABF3ED96
+02250019                 2.676 MB  \USRDIR\PDIPFS_EXTRACTED\car\interior\02250019                 7642B22652E6DC6DF38EAA043ADDAE95
+02250019               958.188 KB  \USRDIR\PDIPFS_EXTRACTED\car\race\02250019                     F478E967F49D37CAAEFF7C79DC545F0A
+rtext.rt2    RT2        34.070 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gps_replay\EL\rtext.rt2  38D09B556615F24FE2B433CBF773C688
+----------------------------------------------------------------------------------------------------------------------------------
+17 Files - 19.824 MB

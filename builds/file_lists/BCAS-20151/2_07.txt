@@ -1,0 +1,42 @@
+Name         Format        Size  Path                                                       MD5                             
+----------------------------------------------------------------------------------------------------------------------------
+ICON0.PNG    PNG      28.194 KB  \ICON0.PNG                                                 241689215A6E0CA5F769F5B39D9E9238
+PARAM.SFO    SFO       420 Byte  \PARAM.SFO                                                 C53B04EEF0DD6192DD77F6BBD7F84B61
+PS3LOGO.DAT  DAT       5.000 KB  \PS3LOGO.DAT                                               0AAD59DBA6C06F041B8D1E579BDA2C32
+TROPHY.TRP   TRP       2.848 MB  \TROPDIR\NPWR00651_00\TROPHY.TRP                           AC286666E7835B314454214EEBC240E1
+EI                    85.295 KB  \USRDIR\PDIPFS\9\5J\EI                                     4102C3AEADF6D862F33C68B08C0DC8E8
+4L                    96.409 KB  \USRDIR\PDIPFS\9\6U\4L                                     B8B673FE8A20BA8CBFCFD7A70E177690
+0K                     867 Byte  \USRDIR\PDIPFS\9\8X\0K                                     2AAE567FAA65BD3C69B543561A1D37A8
+QM                    87.181 KB  \USRDIR\PDIPFS\9\92\QM                                     64C425ECC638C2C1A1291C76BB22D1C7
+PL                   744.424 KB  \USRDIR\PDIPFS\9\9W\PL                                     9BD23AE0AA42A4BF81EFA16656B0A207
+1F                    95.747 KB  \USRDIR\PDIPFS\9\AJ\1F                                     02B6964304C9C1109EE30415B6EDDFB6
+72                    88.881 KB  \USRDIR\PDIPFS\9\DJ\72                                     BF2AB1723B99855D4710E4FAB6EE47CC
+68                    93.882 KB  \USRDIR\PDIPFS\9\E0\68                                     2DD5F383EB5BB7E95EDA63F04030EBB4
+HA                    94.498 KB  \USRDIR\PDIPFS\9\H3\HA                                     CE785A27489A197C629966CDAD72217D
+R9                    92.573 KB  \USRDIR\PDIPFS\9\J4\R9                                     970C76DCC08EC5026D1BD6DF9397BDDA
+I4                    87.865 KB  \USRDIR\PDIPFS\9\OZ\I4                                     D5C09A9149EC9C286E22926B7E7266D0
+3T                    92.003 KB  \USRDIR\PDIPFS\9\PI\3T                                     DAE54F373BD11F7168442115ACDC6492
+RE                   118.436 KB  \USRDIR\PDIPFS\9\QF\RE                                     282F9F5112627C8A8B1FB87D074D19A1
+D1                    91.936 KB  \USRDIR\PDIPFS\9\SR\D1                                     9F84AEBB347A47881BF86633E5C77920
+3Z                    93.052 KB  \USRDIR\PDIPFS\9\TU\3Z                                     50BD547C03DDC39925FF31CAB585F80D
+DQ                    88.336 KB  \USRDIR\PDIPFS\9\UH\DQ                                     1A45A86EF1FB398C6622FD50E38F371D
+ZQ                   103.841 KB  \USRDIR\PDIPFS\9\WZ\ZQ                                     B99B796AF54D5BBDDD313612D6148DE7
+4D                     160 Byte  \USRDIR\PDIPFS\K\4D                                        3C41D17B569135EE62445253AE95E9E3
+c193.ad      AD        4.375 KB  \USRDIR\PDIPFS_EXTRACTED\crs\c193.ad                       D7950EAC9D49BE8B97193ED75E6BDEA9
+rtext.rt2    RT2     293.016 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\DE\rtext.rt2  DF1AF57836A887ACCF31EE23A43DE5D4
+rtext.rt2    RT2     489.313 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\EL\rtext.rt2  DD471147AA079DB3AA6DC073C5A77712
+rtext.rt2    RT2     285.625 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\ES\rtext.rt2  2034CFA43870FEA7DAD43595010A8A49
+rtext.rt2    RT2     297.859 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\FR\rtext.rt2  79310A26B34A2BFBFBB6212D691C8C9B
+rtext.rt2    RT2     268.559 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\GB\rtext.rt2  C592F9E0E76378463ACCB6D8C354436A
+rtext.rt2    RT2     286.473 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\IT\rtext.rt2  066985A4CD575D75605BC65D41446BC4
+rtext.rt2    RT2     317.809 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\JP\rtext.rt2  B14CC8AC1F2A9D3A33877F1B1254D40D
+rtext.rt2    RT2     289.641 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\KR\rtext.rt2  9AA0D2DD8EF7D1C1AC932EDE2C5228F3
+rtext.rt2    RT2     266.504 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\NL\rtext.rt2  3360933565FCD08AB718E317731B2618
+rtext.rt2    RT2     280.004 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\PL\rtext.rt2  8DD098442A6038AE56FC1559C973AEEC
+rtext.rt2    RT2     290.109 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\PT\rtext.rt2  55E02C8BFE389E644B169085DD9BE9F3
+rtext.rt2    RT2     394.422 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\RU\rtext.rt2  C298671E5437062E5F6E140442D96C66
+rtext.rt2    RT2     281.301 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\TR\rtext.rt2  70A3630811B3A973B510ED4E0F7318C0
+rtext.rt2    RT2     233.613 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\TW\rtext.rt2  60F5DC374F5E332F9DDC06D062C044A2
+rtext.rt2    RT2     263.137 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\US\rtext.rt2  C06C28177F18F559C18F4D6A3A5C9C33
+----------------------------------------------------------------------------------------------------------------------------
+38 Files - 9.421 MB
