@@ -1,0 +1,695 @@
+Name                     Format          Size  Path                                                                           MD5                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+ICON0.PNG                PNG        28.194 KB  \ICON0.PNG                                                                     241689215A6E0CA5F769F5B39D9E9238
+PARAM.SFO                SFO         420 Byte  \PARAM.SFO                                                                     E5225CC22CF76DA1864A719D47352EBA
+PS3LOGO.DAT              DAT         5.000 KB  \PS3LOGO.DAT                                                                   0AAD59DBA6C06F041B8D1E579BDA2C32
+TROPHY.TRP               TRP         2.848 MB  \TROPDIR\NPWR00651_00\TROPHY.TRP                                               AC286666E7835B314454214EEBC240E1
+EBOOT.BIN                BIN        25.792 MB  \USRDIR\EBOOT.BIN                                                              FCA0535D08AC68D3402A4274B4C146EB
+CM                                  29.737 KB  \USRDIR\PDIPFS\9\40\CM                                                         3F40412CA0184A00264C75963BF4B394
+QU                                  43.062 KB  \USRDIR\PDIPFS\9\40\QU                                                         F2A93EAA10898BBDFE16C43931E93AD5
+Z7                                  45.348 KB  \USRDIR\PDIPFS\9\46\Z7                                                         CF0AEF681105611572EF66B0273A3A5B
+21                                  13.908 KB  \USRDIR\PDIPFS\9\47\21                                                         36F5B687E6D1929F2E8FB01E5723DB95
+4M                                  46.416 KB  \USRDIR\PDIPFS\9\47\4M                                                         AC854D1F8A7856331479D07707BE5986
+KF                                  43.073 KB  \USRDIR\PDIPFS\9\47\KF                                                         C20478BC45FF95A062FCD40AFB2B5928
+1D                                  19.382 KB  \USRDIR\PDIPFS\9\4A\1D                                                         C51B9B51C9140962F949503E711FD595
+2V                                  16.129 KB  \USRDIR\PDIPFS\9\4A\2V                                                         561EF59507AF56B6B110D9659619741D
+85                                   2.125 KB  \USRDIR\PDIPFS\9\4H\85                                                         0F6C939074790D2A78ECA9EC710EF357
+9O                                 110.244 KB  \USRDIR\PDIPFS\9\4H\9O                                                         A5B0D4E9C32DE7106E615A0036910BD8
+E9                                  24.496 KB  \USRDIR\PDIPFS\9\4I\E9                                                         B3FB62ADED6E9B773FC25844752D63D4
+O5                                   7.902 KB  \USRDIR\PDIPFS\9\4T\O5                                                         9D48668D5986D38AD0B472BC3F8C02BB
+ZT                                  13.141 KB  \USRDIR\PDIPFS\9\4T\ZT                                                         BAB808460C8FFCFF07FE64DBDEE809E3
+PP                                  13.214 KB  \USRDIR\PDIPFS\9\4Z\PP                                                         D8C0DDBE77FF82FED011A4F5F6D299C1
+9E                                  42.566 KB  \USRDIR\PDIPFS\9\54\9E                                                         0007B87ED3F51C137DA0DB81A2984224
+I8                                 113.422 KB  \USRDIR\PDIPFS\9\54\I8                                                         E489444CBD9A7A85891B5E438BC8EB30
+LH                                   385 Byte  \USRDIR\PDIPFS\9\54\LH                                                         87418E1D75741B90DD7328DE648AA9A1
+97                                  12.242 KB  \USRDIR\PDIPFS\9\55\97                                                         C3432C70C6688C0E67EE6CD72E17FC18
+DM                                   7.117 KB  \USRDIR\PDIPFS\9\55\DM                                                         15D18A226CA21514B583DB5D33AEC11D
+6L                                  16.884 KB  \USRDIR\PDIPFS\9\5C\6L                                                         7EEBA2F9AC3E34B65F481BD826E74FFF
+CU                                  46.066 KB  \USRDIR\PDIPFS\9\5C\CU                                                         4C7E291A9961753D59C2EDE578F3730C
+ZY                                  14.730 KB  \USRDIR\PDIPFS\9\5C\ZY                                                         B15E1E2223109B3677B0F89CC6F7426C
+71                                  28.717 KB  \USRDIR\PDIPFS\9\5G\71                                                         8AD82DE5359D94F7A4383B734C6BD045
+TI                                  12.596 KB  \USRDIR\PDIPFS\9\5G\TI                                                         17882E9460CADFA287B478B927EB66FE
+QH                                  63.950 KB  \USRDIR\PDIPFS\9\5J\QH                                                         BA3A76B5F6810CC7ABF8512034367CE6
+PR                                  25.382 KB  \USRDIR\PDIPFS\9\5K\PR                                                         04621ECE428BC4D2657CDF3406EC540A
+IY                                  41.837 KB  \USRDIR\PDIPFS\9\5L\IY                                                         8E41E247122E18DFDD40A4766001B280
+52                                  12.949 KB  \USRDIR\PDIPFS\9\5Q\52                                                         5FA94A00F371601F317CEF7FF2B8C831
+0T                                   9.108 KB  \USRDIR\PDIPFS\9\5U\0T                                                         1A2211DB857B3D8B9640E6D49EA6608D
+ZF                                  12.045 KB  \USRDIR\PDIPFS\9\5V\ZF                                                         2A9BF991AC12F53743D39C8E59FB5251
+79                                  32.104 KB  \USRDIR\PDIPFS\9\60\79                                                         BCA8E4F73080F90CE5BCA949F5162BDF
+LT                                  45.527 KB  \USRDIR\PDIPFS\9\60\LT                                                         6571EBDB93CD4C5B66AECCBD4BCCF488
+78                                  12.543 KB  \USRDIR\PDIPFS\9\63\78                                                         2209D968E42CF09740464AD66B41959C
+JH                                  51.598 KB  \USRDIR\PDIPFS\9\63\JH                                                         8DF939AF587B68180F287EBDA7792E37
+GL                                  13.189 KB  \USRDIR\PDIPFS\9\65\GL                                                         75DC9A5EEF49F2BED72C1D089CEEC32D
+AE                                  18.759 KB  \USRDIR\PDIPFS\9\67\AE                                                         6D74D65664137757CEF680DC49A04BB5
+JH                                   629 Byte  \USRDIR\PDIPFS\9\68\JH                                                         5ED9812FBE1C4BDB8585CF8F504B9DD5
+5K                                 121.038 KB  \USRDIR\PDIPFS\9\6B\5K                                                         C9ABDC846B098B67F60533CE42DCF564
+BG                                  12.771 KB  \USRDIR\PDIPFS\9\6D\BG                                                         F2979760B5D5BCC211CBAF2AEB8B5E23
+L3                                  12.241 KB  \USRDIR\PDIPFS\9\6E\L3                                                         A69CADEB919E4A6701B3B3380B6B322F
+10                                  54.257 KB  \USRDIR\PDIPFS\9\6K\10                                                         6C46933A86749D75EF03D1D0EE29CCF9
+3D                                  46.791 KB  \USRDIR\PDIPFS\9\6K\3D                                                         EE4A47C33776FEC7B40CDA4316CA3749
+I6                                  41.324 KB  \USRDIR\PDIPFS\9\6T\I6                                                         A54FEC46EFC5D5B18060B7DF516756E4
+SL                                  63.892 KB  \USRDIR\PDIPFS\9\6U\SL                                                         930BBF2E88942F87F38661E3D2A6A23C
+YF                                  80.043 KB  \USRDIR\PDIPFS\9\6Z\YF                                                         4EB4B87BA65561A648555B024E76BF00
+4N                                   9.220 KB  \USRDIR\PDIPFS\9\72\4N                                                         4339062CA885F8FF78836A5C5898FCE5
+UN                                  12.783 KB  \USRDIR\PDIPFS\9\73\UN                                                         74162189C2053FE23167DD9043A55791
+W5                                 109.789 KB  \USRDIR\PDIPFS\9\75\W5                                                         9EE7BE220345C8D7D3A18A08743705EA
+X5                                  13.741 KB  \USRDIR\PDIPFS\9\79\X5                                                         71EEE663656F1F6E54521A227A0BFA11
+SN                                  45.000 KB  \USRDIR\PDIPFS\9\7E\SN                                                         E436508B4406403F778B9C556331ACD7
+W7                                  27.860 KB  \USRDIR\PDIPFS\9\7G\W7                                                         FC0C5F9F3FE9E06A63460B92D97DFD7B
+BO                                   750 Byte  \USRDIR\PDIPFS\9\7K\BO                                                         75229E96B025E76CDD3E40D03367C555
+98                                  12.913 KB  \USRDIR\PDIPFS\9\7M\98                                                         920E4F502248E96517B088C2948B7CC7
+PV                                  28.749 KB  \USRDIR\PDIPFS\9\7M\PV                                                         E7AA351F0D1F909A0B3F66C1E724D3D4
+PB                                 145.603 KB  \USRDIR\PDIPFS\9\7Q\PB                                                         B4814175D67AFAA6978343E581491461
+SJ                                  81.226 KB  \USRDIR\PDIPFS\9\7R\SJ                                                         D2F4E346AB6199E128D225E31563A85F
+DY                                  57.584 KB  \USRDIR\PDIPFS\9\7W\DY                                                         746B81609CD95E7C0B681E4C13AD1547
+NT                                  29.340 KB  \USRDIR\PDIPFS\9\7W\NT                                                         A1D84B4D3B37C812DC990B4681B44ADB
+48                                  19.155 KB  \USRDIR\PDIPFS\9\7Y\48                                                         7FBCBDEDE62D8C732B645D8F2F98397F
+5W                                  22.765 KB  \USRDIR\PDIPFS\9\7Y\5W                                                         0A4F0600026318BA2384F50B7F644A6D
+5P                                  34.623 KB  \USRDIR\PDIPFS\9\82\5P                                                         2DBB69BB379888EC9B999CA85872EDB5
+7I                                  46.722 KB  \USRDIR\PDIPFS\9\82\7I                                                         6B6D3E37E3D15B0BA3C984E21B73D339
+YJ                                  25.849 KB  \USRDIR\PDIPFS\9\82\YJ                                                         EC55F83345F6190DEA53562AF8E40363
+U7                                  40.483 KB  \USRDIR\PDIPFS\9\86\U7                                                         4B7D0C3564C8A25B85146E30257BDF42
+4J                                  24.795 KB  \USRDIR\PDIPFS\9\8E\4J                                                         F86BEC917127803947DBB53AA738E878
+8F                                  15.575 KB  \USRDIR\PDIPFS\9\8G\8F                                                         13F26D968B46834AC2AF13FEFF4D0C53
+1X                                  12.660 KB  \USRDIR\PDIPFS\9\8H\1X                                                         10B8FCBB008CFAD442AE0057ED1BE63E
+76                                  33.044 KB  \USRDIR\PDIPFS\9\8H\76                                                         6AE9575DA34794EB80ABBF438A913789
+V2                                  64.328 KB  \USRDIR\PDIPFS\9\8H\V2                                                         CEB9F1DEE555B8C792D297485E1A3B81
+2K                                  19.798 KB  \USRDIR\PDIPFS\9\8L\2K                                                         E484010F9993984CF006E657BCFDF49B
+XL                                 112.908 KB  \USRDIR\PDIPFS\9\8L\XL                                                         A036EE65BE2BF60586B3CED74AD6EA47
+F6                                  12.518 KB  \USRDIR\PDIPFS\9\8P\F6                                                         635784BE18861A5B488F29AD6C718AEE
+8P                                  12.807 KB  \USRDIR\PDIPFS\9\8S\8P                                                         72382CBEBB66043C5E3BC4D5D6B64D86
+Z9                                  13.205 KB  \USRDIR\PDIPFS\9\8S\Z9                                                         1BC7783CF58ECEFC3818BCD98D6E48E5
+IX                                  23.102 KB  \USRDIR\PDIPFS\9\8X\IX                                                         992249D9B14CE92B193FF70A7F63D609
+LU                                  18.751 KB  \USRDIR\PDIPFS\9\8X\LU                                                         E28BA5633D48665D5BF7945A1A2B45E0
+89                                  68.509 KB  \USRDIR\PDIPFS\9\92\89                                                         A9446EEC15DDF395F034663BC38345D9
+2B                                 113.301 KB  \USRDIR\PDIPFS\9\98\2B                                                         916B9EA7883408B6479EA5E350EE14A0
+4R                                 144.508 KB  \USRDIR\PDIPFS\9\98\4R                                                         EB87E7A8A6BC5D793C06492DD7D3F8DC
+Z5                                  16.108 KB  \USRDIR\PDIPFS\9\99\Z5                                                         84E2473F6C60C9A1860066928FF1601B
+KO                                   2.011 KB  \USRDIR\PDIPFS\9\9B\KO                                                         98E84C19B169A4E84C4B1A30E411088E
+NG                                  12.485 KB  \USRDIR\PDIPFS\9\9C\NG                                                         7BFDBFFE5FAB36C95C95FB499467CB5B
+OY                                  15.136 KB  \USRDIR\PDIPFS\9\9D\OY                                                         4123DE36B6C91EA116E1FA9E1B55118E
+Q1                                  76.577 KB  \USRDIR\PDIPFS\9\9D\Q1                                                         2F98A777C6297D7278CE418DB3A4E325
+ET                                  48.058 KB  \USRDIR\PDIPFS\9\9N\ET                                                         F3A4B04B8AEA96388566FEA9166F7509
+WG                                  14.980 KB  \USRDIR\PDIPFS\9\9N\WG                                                         B1A6B39968B8B2388C4D392F00A0EF20
+XF                                  13.660 KB  \USRDIR\PDIPFS\9\9N\XF                                                         3E83DACCB95547F73EDE658250E1A305
+G2                                  12.422 KB  \USRDIR\PDIPFS\9\9O\G2                                                         974A93EA68C4DED93811B53D23AE0984
+ON                                  25.185 KB  \USRDIR\PDIPFS\9\9O\ON                                                         219F45D6AF26E9D86180A53ED940717D
+XX                                  27.765 KB  \USRDIR\PDIPFS\9\9O\XX                                                         C15A3EF3696598F33B2120CB216A5421
+TG                                  25.469 KB  \USRDIR\PDIPFS\9\9W\TG                                                         AF5083012F11EF8DBA591BBD1DF68462
+UV                                  18.725 KB  \USRDIR\PDIPFS\9\9W\UV                                                         B1CAA8D73C409655139D0573AE370317
+Z4                                  22.238 KB  \USRDIR\PDIPFS\9\9X\Z4                                                         0BAAD0044215344D922EF8AC70EC2EE1
+5Y                                  28.461 KB  \USRDIR\PDIPFS\9\A7\5Y                                                         65D54B826B7523E8F934A93A6B25324E
+A1                                  36.291 KB  \USRDIR\PDIPFS\9\A7\A1                                                         083D554EAA7BA5AE1B69B9E0C261D091
+NS                                  12.579 KB  \USRDIR\PDIPFS\9\AH\NS                                                         92F6E25E51F0FAB96215A72068CE5EC9
+0P                                  18.448 KB  \USRDIR\PDIPFS\9\AJ\0P                                                         482FDE881B64F2D649FA7E53B89782C7
+TY                                   4.346 KB  \USRDIR\PDIPFS\9\AJ\TY                                                         45C3AED0DA828E13CBB14A5A1DC4C158
+RI                                  90.063 KB  \USRDIR\PDIPFS\9\AP\RI                                                         4F5CD22B34BCE9260EF7430D20728CDD
+ZE                                  82.798 KB  \USRDIR\PDIPFS\9\B4\ZE                                                         A00B9A699F5156D79FE578AE48BDFD3E
+M3                                  11.442 KB  \USRDIR\PDIPFS\9\BF\M3                                                         F4869524B5267CF118628CE66C4E613A
+VI                                  12.363 KB  \USRDIR\PDIPFS\9\BF\VI                                                         46DD9D0AFA9CF7E6B739D55357998435
+0Z                                  14.562 KB  \USRDIR\PDIPFS\9\BJ\0Z                                                         4F164C090F1FE58CEFF43C0EB8CE19FC
+IB                                   8.141 KB  \USRDIR\PDIPFS\9\BJ\IB                                                         3B5F6FB7E284B693E5ABBDE1C3F02E56
+JY                                  18.087 KB  \USRDIR\PDIPFS\9\BK\JY                                                         18CA43E62FC85B9B60BE0E3CC496C925
+V0                                  12.725 KB  \USRDIR\PDIPFS\9\BL\V0                                                         1344B865E26D21B908FF50B0E4EA514D
+LG                                  29.719 KB  \USRDIR\PDIPFS\9\BN\LG                                                         38B8795C793E625FC330A2626DE48E49
+X9                                  55.156 KB  \USRDIR\PDIPFS\9\BN\X9                                                         4F2F40014300758314AB5AC356A9C411
+TC                                  52.659 KB  \USRDIR\PDIPFS\9\BP\TC                                                         5AE9205A99E174462A919B2E2D86C3B2
+BW                                 451.222 KB  \USRDIR\PDIPFS\9\BR\BW                                                         B80F401FB3D9B5655549D1B282BE350D
+QU                                   3.031 MB  \USRDIR\PDIPFS\9\BR\QU                                                         34E5CDCBC197A33F7BA326320105CB7C
+98                                  15.392 KB  \USRDIR\PDIPFS\9\BS\98                                                         7E4EF2BBB2B61EFC2299868766ED0D2C
+6D                                  41.553 KB  \USRDIR\PDIPFS\9\BU\6D                                                         9533BFBA92385D28278639CF025A31B1
+IF                                  24.702 KB  \USRDIR\PDIPFS\9\BX\IF                                                         AAC3E0B3BC27483EB989F7F6BDB13392
+RX                                   4.486 KB  \USRDIR\PDIPFS\9\BY\RX                                                         E9F7C90676A03F5EA3F021832DE1F00E
+Y8                                  25.566 KB  \USRDIR\PDIPFS\9\BY\Y8                                                         C01F65CB8806A6BA3569339B7C91AC45
+0P                                  29.373 KB  \USRDIR\PDIPFS\9\D2\0P                                                         F85CCFF71A24A8AAADAA5F3614030BD0
+JA                                  12.723 KB  \USRDIR\PDIPFS\9\D2\JA                                                         522AE9EC69D18C589EA57A7C5CC14D26
+BB                                   2.701 KB  \USRDIR\PDIPFS\9\D4\BB                                                         B800F7C0DE57868A47601035709D363E
+T5                                  34.081 KB  \USRDIR\PDIPFS\9\D8\T5                                                         E94A167E815823BA4AF26E08A6111459
+1L                                  82.436 KB  \USRDIR\PDIPFS\9\DB\1L                                                         182B0D985E56BC636AEFC4C280D80759
+G1                                  39.480 KB  \USRDIR\PDIPFS\9\DD\G1                                                         102096D8458F9CCC0DF339719BCDA902
+R4                                  42.085 KB  \USRDIR\PDIPFS\9\DF\R4                                                         1064F7F515CEE1F063B1FF59B28EDE2F
+D2                                  65.575 KB  \USRDIR\PDIPFS\9\DJ\D2                                                         F8169A4F07E5D35DE77D8419C074495A
+E0                                  30.040 KB  \USRDIR\PDIPFS\9\DN\E0                                                         6C7F789DF453754E0471F11C9F5FF8CA
+VD                                  13.349 KB  \USRDIR\PDIPFS\9\DN\VD                                                         C1F9201B3232FAA9A7EF0FAC480E1155
+GA                                 106.117 KB  \USRDIR\PDIPFS\9\DO\GA                                                         6EED795A7E2B31E2248C10ED05C7BA74
+QF                                   776 Byte  \USRDIR\PDIPFS\9\DO\QF                                                         8C2355440D4DD0E58E0F93E09C4187DA
+OW                                  12.697 KB  \USRDIR\PDIPFS\9\DV\OW                                                         74C25DB84CCE326C6517E6294309C03C
+2C                                 309.542 KB  \USRDIR\PDIPFS\9\DW\2C                                                         E5998EC3A4C07D8FC9FF09BE26A7D909
+HX                                  47.021 KB  \USRDIR\PDIPFS\9\DW\HX                                                         3A9DD6A0071DB5A2C23FDABADE54846D
+Y7                                  30.030 KB  \USRDIR\PDIPFS\9\DY\Y7                                                         87875187F0E3A63677A54FCFF0CC8B29
+0T                                  24.750 KB  \USRDIR\PDIPFS\9\E0\0T                                                         32C430131DF87D4085A4FDD848B44978
+S8                                  66.526 KB  \USRDIR\PDIPFS\9\E0\S8                                                         2F41E851FB4AE3D77DFBB6F65E6034E0
+5P                                  15.986 KB  \USRDIR\PDIPFS\9\E2\5P                                                         42E4C7B5530539498D34EA8264C620F6
+23                                  29.438 KB  \USRDIR\PDIPFS\9\E5\23                                                         7BF46A6795EB4D0A3B4B1C340ACC13E8
+5X                                  79.375 KB  \USRDIR\PDIPFS\9\EC\5X                                                         21E5F399313507BD3026505C77A48B8F
+7J                                  39.829 KB  \USRDIR\PDIPFS\9\EE\7J                                                         97A0E62B8C423B1DDE521F391FBA04DC
+0M                                  12.395 KB  \USRDIR\PDIPFS\9\EJ\0M                                                         632FD2A381842BFE3F26CE6959EEEC1D
+XH                                 106.122 KB  \USRDIR\PDIPFS\9\EN\XH                                                         9846933A043AF7F78D2DFEC2FFA945D5
+JD                                   873 Byte  \USRDIR\PDIPFS\9\EP\JD                                                         8943FE0201851A8269B399A68FE95224
+O9                                  44.582 KB  \USRDIR\PDIPFS\9\EQ\O9                                                         8BA8636C7269CED1C2D126DDC32DF3B9
+O8                                   7.864 KB  \USRDIR\PDIPFS\9\EU\O8                                                         335C97C4ADA8FBD0F947E38B7DA53CC4
+XP                                  72.331 KB  \USRDIR\PDIPFS\9\EU\XP                                                         D335ED5BFABD1FD9A4C881356FC5A1E6
+WL                                  18.018 KB  \USRDIR\PDIPFS\9\EW\WL                                                         08E48AC109034E78063C215037A2DA4A
+U1                                  14.346 KB  \USRDIR\PDIPFS\9\EX\U1                                                         9FB42F28F1E6B4FC1A0E4E1003F34C45
+TM                                  16.482 KB  \USRDIR\PDIPFS\9\EZ\TM                                                         A38A7BEA46F0BBCC2B6948CC99922372
+7A                                  66.440 KB  \USRDIR\PDIPFS\9\H3\7A                                                         D54EA4E2D5508B69F4A0993402A5DEC5
+R1                                  25.724 KB  \USRDIR\PDIPFS\9\H6\R1                                                         CB003993FAD5CC92885783743D80DA86
+4I                                  12.787 KB  \USRDIR\PDIPFS\9\H7\4I                                                         E97914D3858A4D6F41E5D2CDA7FA628B
+AJ                                  28.458 KB  \USRDIR\PDIPFS\9\H7\AJ                                                         6BD0BC773E198E81139872019969FE60
+2S                                  12.572 KB  \USRDIR\PDIPFS\9\HA\2S                                                         53C793079AE08AD0FB033EC398BDBAE4
+2L                                  15.737 KB  \USRDIR\PDIPFS\9\HB\2L                                                         5DEEEC7E0775F614968E45F06991C952
+4Z                                  18.552 KB  \USRDIR\PDIPFS\9\HH\4Z                                                         EE9ED4947F37E07B402B96D90A43D545
+7M                                  45.963 KB  \USRDIR\PDIPFS\9\HH\7M                                                         5318E82C35D80E79F140347FF7E56481
+0C                                  12.863 KB  \USRDIR\PDIPFS\9\HL\0C                                                         2CBE99C4A0B6FEAF8C743504B769E1BB
+0O                                  13.592 KB  \USRDIR\PDIPFS\9\HQ\0O                                                         0A3772910AB5374CE32674A9F133C1C6
+ST                                  24.232 KB  \USRDIR\PDIPFS\9\HQ\ST                                                         15EFC928304AE379BABB4F5643103D87
+YF                                  15.626 KB  \USRDIR\PDIPFS\9\HS\YF                                                         68FB3D746C321C87D4E3ECCF8AD19026
+0G                                  52.012 KB  \USRDIR\PDIPFS\9\HU\0G                                                         67D0F924DAA93C1A1A821F6C791B819D
+2H                                 129.929 KB  \USRDIR\PDIPFS\9\HX\2H                                                         512D14845F49C8AEC394AE620F252124
+V1                                  20.776 KB  \USRDIR\PDIPFS\9\J1\V1                                                         7B126B0D3AA9BFABA503BE7ADCCFABDB
+C2                                  25.715 KB  \USRDIR\PDIPFS\9\J4\C2                                                         FB03132D17201657C58D13DD9622C068
+E9                                  68.612 KB  \USRDIR\PDIPFS\9\J4\E9                                                         18C885D3356A403875146FC0AEC62C0D
+NY                                  12.512 KB  \USRDIR\PDIPFS\9\J9\NY                                                         4D83D14ACF14F75063A691B95CB2DA19
+ZS                                 109.903 KB  \USRDIR\PDIPFS\9\J9\ZS                                                         39C2518378EC785808290D3CD005634E
+QW                                  48.955 KB  \USRDIR\PDIPFS\9\JL\QW                                                         D10952AAB185F60E47F6771EA3143C12
+8H                                  28.402 KB  \USRDIR\PDIPFS\9\JM\8H                                                         2572DD194114F1BD917F2747745574DE
+CG                                  20.235 KB  \USRDIR\PDIPFS\9\JP\CG                                                         664B5F6D3B56F8A0C288D6516D5963B8
+9M                                  26.200 KB  \USRDIR\PDIPFS\9\JR\9M                                                         3E98A4FCD2348BD3A92880FA26E5970E
+PC                                   4.499 KB  \USRDIR\PDIPFS\9\JS\PC                                                         A63E7C48E60D9AD1D6DEB32B1CAD0680
+7N                                  27.669 KB  \USRDIR\PDIPFS\9\JT\7N                                                         AC7A77D035ABD72F3EB4F7B28747CCCC
+F3                                  47.472 KB  \USRDIR\PDIPFS\9\JT\F3                                                         59527B18E9A38F9074C6A37943460636
+0Z                                   7.069 KB  \USRDIR\PDIPFS\9\JW\0Z                                                         1C8396479950C3D7550E0442CE9425B4
+G9                                   873 Byte  \USRDIR\PDIPFS\9\JY\G9                                                         969D699C1450F34F335183BE3AEC6FD1
+QP                                  15.309 KB  \USRDIR\PDIPFS\9\JY\QP                                                         7489F529108D611BF80E0DB1FA06A5D3
+JO                                  34.680 KB  \USRDIR\PDIPFS\9\JZ\JO                                                         91C1DE9409BC8CA0BC9480B66B605C09
+R3                                 660.571 KB  \USRDIR\PDIPFS\9\JZ\R3                                                         2950AB62A2002684C10A7CD816CE17DD
+1V                                  15.327 KB  \USRDIR\PDIPFS\9\K2\1V                                                         373837BD95B47976E1EEFD1495B0E2D4
+0H                                  29.894 KB  \USRDIR\PDIPFS\9\K7\0H                                                         37E8AEA0D0B32DBC9CA4D6BAB5C85D6B
+AF                                  45.469 KB  \USRDIR\PDIPFS\9\K7\AF                                                         692CE3AF7DAC5A19DAF4ED287A89338C
+5E                                  19.310 KB  \USRDIR\PDIPFS\9\K8\5E                                                         E3DA51847B2802EB37D993E24EBECDB5
+J5                                  24.471 KB  \USRDIR\PDIPFS\9\K8\J5                                                         1C47334EFD627C95146CB1E4B1534350
+N9                                   4.938 KB  \USRDIR\PDIPFS\9\KH\N9                                                         60931BEFE30903E15912AD90919E7639
+AM                                  12.981 KB  \USRDIR\PDIPFS\9\KM\AM                                                         A93E69FD947C8D5D45D1AFA8E649FF03
+MF                                  30.591 KB  \USRDIR\PDIPFS\9\KM\MF                                                         0045B0D88461DB13A0760C356A09674D
+FL                                  40.891 KB  \USRDIR\PDIPFS\9\KQ\FL                                                         D7407DE206A8D950327E77481DFCFB27
+U4                                  30.026 KB  \USRDIR\PDIPFS\9\KT\U4                                                         19BA73AC21E4637264716B1C70382FA0
+L6                                   4.229 KB  \USRDIR\PDIPFS\9\KW\L6                                                         D32FC87178340E2343AF57649C0713DC
+NJ                                  14.241 KB  \USRDIR\PDIPFS\9\KW\NJ                                                         77E499194C5225AD7B144341648C1909
+WQ                                  79.565 KB  \USRDIR\PDIPFS\9\KY\WQ                                                         7A2D0CCEFCFE4FF5D2F3EA7541B43E92
+JW                                  41.299 KB  \USRDIR\PDIPFS\9\M1\JW                                                         08876189F2C2A74D59051A574EA9F01F
+S5                                 106.371 KB  \USRDIR\PDIPFS\9\M1\S5                                                         4E7602CCFAC7F729BBF02E10998D95A2
+2Z                                   6.787 KB  \USRDIR\PDIPFS\9\M7\2Z                                                         E59FF53AF971A83C603DE578300EB7AF
+M3                                  28.149 KB  \USRDIR\PDIPFS\9\M7\M3                                                         315D9B3BD93C4A8EE2F1F1C38E18AEA3
+54                                  88.411 KB  \USRDIR\PDIPFS\9\MB\54                                                         E67F5E26C100B2C85F4FD3A613ED9C20
+AA                                  16.021 KB  \USRDIR\PDIPFS\9\MB\AA                                                         58DEE7C86E24CF4230017F0FAF938CF6
+YS                                   235 Byte  \USRDIR\PDIPFS\9\MB\YS                                                         6BD48F90E5D7535747B8ADB0C78494DE
+MK                                  14.572 KB  \USRDIR\PDIPFS\9\MC\MK                                                         5FCD90BB22812490C87A26865CAE6AC9
+V9                                  63.670 KB  \USRDIR\PDIPFS\9\MC\V9                                                         0EAC80C1789F3CE0361812A491EB3716
+3Z                                   7.069 KB  \USRDIR\PDIPFS\9\MD\3Z                                                         6CDB4FCD6F91D5CADD0DD53013502250
+3N                                  19.312 KB  \USRDIR\PDIPFS\9\MH\3N                                                         F18FD0501FB0515A0CAD584AEE39B576
+AS                                  25.019 KB  \USRDIR\PDIPFS\9\MI\AS                                                         D8824CE96638857B4BCFC9920CA5FFCD
+2N                                  47.913 KB  \USRDIR\PDIPFS\9\MO\2N                                                         6775DD6AA9B396E7FD4CBFA8774CC194
+RD                                  12.720 KB  \USRDIR\PDIPFS\9\MO\RD                                                         A88BAFBCDA5133FA1DDD5E89C12645DB
+IO                                  13.479 KB  \USRDIR\PDIPFS\9\MZ\IO                                                         32FD4E31630AC152F950549D78C17497
+CM                                  13.751 KB  \USRDIR\PDIPFS\9\O0\CM                                                         BD7D0D6DA4F5F309D9E49D14D3667EF5
+RU                                   175 Byte  \USRDIR\PDIPFS\9\O8\RU                                                         F776D4984214EABA5AB4FBC66DCDC812
+TW                                 107.112 KB  \USRDIR\PDIPFS\9\O8\TW                                                         E9131E40AC1E976E919D511733E3E24E
+7V                                  72.285 KB  \USRDIR\PDIPFS\9\O9\7V                                                         64EEEC401BD9014F81E7086D38C7AFDF
+FO                                  22.860 KB  \USRDIR\PDIPFS\9\O9\FO                                                         79E87328A0C2002924B8F6FA42AFB60B
+V8                                   2.673 KB  \USRDIR\PDIPFS\9\OE\V8                                                         81D168ABA016668F8C230ECA47947DFF
+B1                                  11.696 KB  \USRDIR\PDIPFS\9\OF\B1                                                         0D2764422270627F7DE071840CA6DC02
+FN                                  48.047 KB  \USRDIR\PDIPFS\9\OJ\FN                                                         156114030C101C011E22A5F68214F5B1
+ZZ                                  13.166 KB  \USRDIR\PDIPFS\9\OJ\ZZ                                                         5EE9D9A56FE8676C8511869122117F85
+XA                                 100.854 KB  \USRDIR\PDIPFS\9\ON\XA                                                         9E86FA083F95486A31C83ECD3D823833
+A3                                   5.701 KB  \USRDIR\PDIPFS\9\OP\A3                                                         D3913940957A240BA90036E6CBB4DEA0
+TP                                  41.002 KB  \USRDIR\PDIPFS\9\OT\TP                                                         16EB92F06D9DF590BB3B03002B4104D1
+MS                                  16.178 KB  \USRDIR\PDIPFS\9\OV\MS                                                         AE0094353ACF7244BEC39FB846D774E1
+HF                                  19.744 KB  \USRDIR\PDIPFS\9\OW\HF                                                         F8746A1A03CEC4838D0F43DB4AA7896F
+C4                                  64.162 KB  \USRDIR\PDIPFS\9\OZ\C4                                                         4D067286A90C3C4FEDE39BCE29BA6DAF
+I1                                  28.559 KB  \USRDIR\PDIPFS\9\P4\I1                                                         9F33890C53BB8F48AF4B2CB87B7A518D
+5A                                  16.167 KB  \USRDIR\PDIPFS\9\P6\5A                                                         6FC21BE101B22502FA722CCFF451BD57
+ST                                   7.324 KB  \USRDIR\PDIPFS\9\P6\ST                                                         1B2F4157771216B8CF84B1A5DAB90DBB
+GS                                  13.299 KB  \USRDIR\PDIPFS\9\PC\GS                                                         08BDD56949A08012984E582276F2FAC2
+SR                                  11.393 KB  \USRDIR\PDIPFS\9\PG\SR                                                         2D36E0D6555C20B6451BA93E62A95A5A
+5E                                  57.494 KB  \USRDIR\PDIPFS\9\PH\5E                                                         D9036AB176254A6BABF28D218055E620
+TS                                 145.926 KB  \USRDIR\PDIPFS\9\PH\TS                                                         C6F95D65734D015A7CD508ACE1A2B9FE
+1K                                  23.011 KB  \USRDIR\PDIPFS\9\PI\1K                                                         A6B5AF83D1E5861BFAFC84BD7CCE918C
+GT                                  89.624 KB  \USRDIR\PDIPFS\9\PI\GT                                                         25805CA555F03C11163FA8DCA02D42D4
+1V                                  13.147 KB  \USRDIR\PDIPFS\9\PJ\1V                                                         8F334936F569230619CA5689F51015D2
+B8                                 142.431 KB  \USRDIR\PDIPFS\9\PJ\B8                                                         DF374751B7C5AC14ACC4B0C2CC855F65
+A6                                  29.126 KB  \USRDIR\PDIPFS\9\PN\A6                                                         5740418608B3C3F1D4E1F31FD171067B
+BO                                   7.229 KB  \USRDIR\PDIPFS\9\PP\BO                                                         3D486FE65F13BBC62184A4E86ABB7AC4
+MW                                  25.358 KB  \USRDIR\PDIPFS\9\PX\MW                                                         6A1867ECCA534885756939A5CED86CEA
+XG                                  12.079 KB  \USRDIR\PDIPFS\9\PX\XG                                                         A5E7996FCA7D7F6BF9889B6C7D144077
+L2                                   8.000 KB  \USRDIR\PDIPFS\9\PY\L2                                                         7DCE30F930B80B55D914364F76825E81
+9K                                  18.415 KB  \USRDIR\PDIPFS\9\Q0\9K                                                         84C90BDC9708A4F5B96D359BCBE5797C
+IM                                  21.952 KB  \USRDIR\PDIPFS\9\Q0\IM                                                         A1F030CE9CDF7CF243E598A1F21D04D8
+Z5                                   9.036 KB  \USRDIR\PDIPFS\9\Q1\Z5                                                         9122348F592E2AFE1FA6B2F36BDD550D
+AD                                  81.578 KB  \USRDIR\PDIPFS\9\Q5\AD                                                         DAD706CA0BB5593B7B863B87604229B9
+HL                                  16.380 KB  \USRDIR\PDIPFS\9\Q9\HL                                                         1A7FD4A5594DA290A39EBFE18D1A9412
+MJ                                 429.545 KB  \USRDIR\PDIPFS\9\Q9\MJ                                                         90FFFC0B04BB194E3EDD5E12EE45C43A
+3F                                  44.854 KB  \USRDIR\PDIPFS\9\QA\3F                                                         E96EC2888921700C2982DC81C119D983
+7T                                  29.210 KB  \USRDIR\PDIPFS\9\QA\7T                                                         3E7FD2A72AD1E616A2188938DFB6EB38
+FM                                  24.839 KB  \USRDIR\PDIPFS\9\QA\FM                                                         53030727FBAC82B8939C1455312877EB
+J0                                  21.124 KB  \USRDIR\PDIPFS\9\QF\J0                                                         55509A550C2C5056560D175B793186B0
+TG                                  16.745 KB  \USRDIR\PDIPFS\9\QF\TG                                                         B0D22AE04B131F399E17EC827F328C0B
+27                                  12.040 KB  \USRDIR\PDIPFS\9\QK\27                                                         99AD5568CE2E74A92C56F5D91A4949ED
+GZ                                  46.674 KB  \USRDIR\PDIPFS\9\QK\GZ                                                         F15261803860A5E8102C714096A94FE1
+W0                                   6.819 KB  \USRDIR\PDIPFS\9\QK\W0                                                         269F2A35A57D6ED36576565CE6B545A1
+21                                   1.729 MB  \USRDIR\PDIPFS\9\QO\21                                                         D976F57D3F357A254C02FF7EB1AC60C0
+EI                                  15.464 KB  \USRDIR\PDIPFS\9\QR\EI                                                         92F7C9AF1171B416F27ABAE453255F76
+OM                                  42.283 KB  \USRDIR\PDIPFS\9\QU\OM                                                         F02C1BC69351738AAD8E7F0C9747BB70
+WU                                 115.604 KB  \USRDIR\PDIPFS\9\QU\WU                                                         C6216BFF706A5AC3BF2CB54937E4481D
+E2                                  12.810 KB  \USRDIR\PDIPFS\9\QV\E2                                                         CBED7FA85C072F0453D1D21A54EE6A46
+HL                                  66.504 KB  \USRDIR\PDIPFS\9\QV\HL                                                         102ED2D4867B5A9340C64C0D53C608C4
+JS                                   6.955 KB  \USRDIR\PDIPFS\9\R1\JS                                                         290503BBF90DD5C09ABF13263A25FEEA
+2F                                  28.803 KB  \USRDIR\PDIPFS\9\R7\2F                                                         C953E891F03C1BFFD9828596E3CE7A79
+8T                                  13.042 KB  \USRDIR\PDIPFS\9\RA\8T                                                         723A9977A74A0E757D592B55D7E82031
+MA                                  25.158 KB  \USRDIR\PDIPFS\9\RA\MA                                                         80C967C39B042C8A699CB97F60A87703
+4C                                  29.752 KB  \USRDIR\PDIPFS\9\RB\4C                                                         5001CB0436B01B8250C3056EDA87F3C0
+2R                                  12.225 KB  \USRDIR\PDIPFS\9\RD\2R                                                         035F1B910F0D6D656F1E65DD97DCFF6A
+EC                                  24.353 KB  \USRDIR\PDIPFS\9\RD\EC                                                         F2D3A8F90FF979B994B04FA1AEE7B205
+7K                                  62.312 KB  \USRDIR\PDIPFS\9\RF\7K                                                         5C867948F8B73554846B948A792514C2
+VI                                  45.257 KB  \USRDIR\PDIPFS\9\RF\VI                                                         43F79B7CA3C4A7146B90B31CEFA7D709
+DJ                                   450 Byte  \USRDIR\PDIPFS\9\RI\DJ                                                         7BA399CF10D87C1C866B743AB54B3EE3
+NP                                  41.711 KB  \USRDIR\PDIPFS\9\RI\NP                                                         3E1AF7EDE974D339B253C323E1601C2B
+P5                                   7.095 KB  \USRDIR\PDIPFS\9\RK\P5                                                         2F78C7DB60A075B3C5EF27036B7FD28D
+H9                                  18.815 KB  \USRDIR\PDIPFS\9\RO\H9                                                         6755A214AD7D6D2FBA1F4E7C8547E08D
+6U                                  12.212 KB  \USRDIR\PDIPFS\9\RV\6U                                                         6360F96C650219A9D88FF415C5F5403C
+6B                                  29.053 KB  \USRDIR\PDIPFS\9\S5\6B                                                         E268F324BF2CE6BC3793B84879C43242
+JK                                  25.862 KB  \USRDIR\PDIPFS\9\SA\JK                                                         569D0CE215A456143CA209CD2D533FF5
+MT                                 163.357 KB  \USRDIR\PDIPFS\9\SF\MT                                                         290BA585A47C00530B8DA6ACE684421D
+2N                                  19.486 KB  \USRDIR\PDIPFS\9\SI\2N                                                         74FB4F30DD3E3BFE527F89423B613219
+7S                                  25.268 KB  \USRDIR\PDIPFS\9\SI\7S                                                         F1754C2B01A62332DA02CEBDDC42139A
+BH                                  12.479 KB  \USRDIR\PDIPFS\9\SK\BH                                                         44AA64A0D206CE9948AE7F94F98294D2
+Q8                                  24.357 KB  \USRDIR\PDIPFS\9\SK\Q8                                                         A85ADA354D257BA9424BE9A957B47851
+1P                                  29.315 KB  \USRDIR\PDIPFS\9\SN\1P                                                         6A226D0D391EA2C9A55DF42BD928E504
+HM                                  13.489 KB  \USRDIR\PDIPFS\9\SN\HM                                                         2CB6E2AE29F34383411A70C602471ECF
+Q8                                 170.481 KB  \USRDIR\PDIPFS\9\SQ\Q8                                                         7FE0C98E6AFD876406227864E5936296
+JU                                  79.759 KB  \USRDIR\PDIPFS\9\SR\JU                                                         E92FCFD68C3BD87F512C0D46322B6D07
+SM                                  12.418 KB  \USRDIR\PDIPFS\9\SR\SM                                                         EACDB60951530076876DAFC826A986CF
+PG                                  15.858 KB  \USRDIR\PDIPFS\9\SS\PG                                                         4EA454E11A432DD78A6B74F1C1AAEB29
+XO                                  79.975 KB  \USRDIR\PDIPFS\9\SS\XO                                                         7D26267F0070BA5604383AC129457ABA
+B2                                  41.818 KB  \USRDIR\PDIPFS\9\SU\B2                                                         C38AFE2B05D0AADBA963028B6EC8AFA4
+GL                                 128.737 KB  \USRDIR\PDIPFS\9\SU\GL                                                         BB2529A2D975BA2A18691FB332F81D04
+3O                                  12.663 KB  \USRDIR\PDIPFS\9\T1\3O                                                         B71CF53EB0F80BEC2CFF03D40FD06BA6
+AK                                   6.964 KB  \USRDIR\PDIPFS\9\T1\AK                                                         EB6A29646C9A57CE365684E1EAD7F7B1
+OM                                  29.127 KB  \USRDIR\PDIPFS\9\T9\OM                                                         93DAFCED67C4C065FA2952617DBD7709
+Z1                                  47.021 KB  \USRDIR\PDIPFS\9\T9\Z1                                                         489E68FA3AE99F7DA12CCCFEF346DA96
+V5                                  79.825 KB  \USRDIR\PDIPFS\9\TF\V5                                                         06A7E213D109A750ADA8AFFAE5EFE0E2
+4F                                  17.908 KB  \USRDIR\PDIPFS\9\TH\4F                                                         B93F4AAAEBC16D6D2176608E3B0552AC
+YR                                  18.732 KB  \USRDIR\PDIPFS\9\TH\YR                                                         BFAFF7549A9D51AB781D43D6B1571E1E
+GW                                  75.871 KB  \USRDIR\PDIPFS\9\TL\GW                                                         C0E125681E85B7B93DB47E8FB30003C6
+XD                                  15.683 KB  \USRDIR\PDIPFS\9\TL\XD                                                         F6E4A7141AAAE83470E06626F4471114
+D7                                  29.675 KB  \USRDIR\PDIPFS\9\TM\D7                                                         33AD47532A020B514218ADC4D64D4FCA
+UO                                   7.132 KB  \USRDIR\PDIPFS\9\TM\UO                                                         BC25A8A6D3BB4843DA16F3C413629BBA
+LT                                  22.984 KB  \USRDIR\PDIPFS\9\TQ\LT                                                         CF253B986A4F76C367F8734A4ABE54E1
+9J                                   8.410 KB  \USRDIR\PDIPFS\9\TU\9J                                                         BB1014F813EB0E5797BD955DF2EE8C26
+LV                                  19.321 KB  \USRDIR\PDIPFS\9\TU\LV                                                         546677428B7757248DC0394353C406D7
+ND                                  16.415 KB  \USRDIR\PDIPFS\9\TU\ND                                                         7A76AA2BFF5EAB30696224DD70A45EAC
+6I                                  25.429 KB  \USRDIR\PDIPFS\9\TW\6I                                                         7C206E9C10E9E2CB570BE528F1150F62
+8F                                  12.049 KB  \USRDIR\PDIPFS\9\U0\8F                                                         E85BC4EBB313163685936A9B67DA5EC8
+BT                                  18.575 KB  \USRDIR\PDIPFS\9\U3\BT                                                         13190FF11F57699A29CF2E51345F4B9D
+SO                                  74.834 KB  \USRDIR\PDIPFS\9\U5\SO                                                         124B8ACC7196EC9A333212BF653BD5F4
+AR                                  15.960 KB  \USRDIR\PDIPFS\9\U7\AR                                                         436C074BD718ED5B54F9E7C08F372F67
+4C                                  15.281 KB  \USRDIR\PDIPFS\9\U9\4C                                                         2B29116363387C1C8AF09850F37EAA20
+7Q                                  67.873 KB  \USRDIR\PDIPFS\9\UH\7Q                                                         33608E481287105000475CF2C95111B8
+YO                                  24.727 KB  \USRDIR\PDIPFS\9\UH\YO                                                         C6707695D635DA2015B66D4FB0D637C6
+UJ                                  27.899 KB  \USRDIR\PDIPFS\9\UM\UJ                                                         905DF476533908F4B41884019E689CA7
+56                                 111.575 KB  \USRDIR\PDIPFS\9\UR\56                                                         FF9DD8EE26CE55C77478808EEFD18231
+Y5                                  13.228 KB  \USRDIR\PDIPFS\9\UR\Y5                                                         993F11CE1CC9BAC785F8699CAF895D9D
+JD                                  25.233 KB  \USRDIR\PDIPFS\9\UT\JD                                                         37A0830D5CBE10A89FF060ACD9B475CC
+R0                                  12.532 KB  \USRDIR\PDIPFS\9\UT\R0                                                         9F3C7497763C2CF9373F2902A01CDBED
+RK                                   7.762 KB  \USRDIR\PDIPFS\9\UU\RK                                                         42288A147E6132326F6362DDC48D3652
+RM                                   6.966 KB  \USRDIR\PDIPFS\9\V1\RM                                                         9E97CCBBBB5E4D87C3B1A4B4841D732D
+GD                                  28.293 KB  \USRDIR\PDIPFS\9\V6\GD                                                         2225429BDF8DE6FC27D7FF347D2C232D
+WU                                  25.724 KB  \USRDIR\PDIPFS\9\V6\WU                                                         C6B2581BCC6ADC7FFE3D5E670D7925D9
+AL                                  15.733 KB  \USRDIR\PDIPFS\9\VA\AL                                                         891F1E5CB58CC38370418C4E7F5B90DA
+D5                                  75.665 KB  \USRDIR\PDIPFS\9\VB\D5                                                         0A48E6AD2D972AE6930E9205F334F05A
+34                                  12.815 KB  \USRDIR\PDIPFS\9\VF\34                                                         6410B33EE40772EB67F169A3B94CFFFC
+4V                                  61.540 KB  \USRDIR\PDIPFS\9\VF\4V                                                         2887A0C87D1261CCB28606C7913DBD0D
+7X                                  30.095 KB  \USRDIR\PDIPFS\9\VM\7X                                                         3B17DAFEAFBDEAFECF03B589708C823E
+RG                                  12.992 KB  \USRDIR\PDIPFS\9\VO\RG                                                         BA46CE957D578F099F932CF272866487
+TR                                    78 Byte  \USRDIR\PDIPFS\9\VO\TR                                                         5F95A68FCD349E6C05CBD5D7585A6638
+EI                                  12.854 KB  \USRDIR\PDIPFS\9\VS\EI                                                         0D9E609E28584BBDDB70356DFA38DDC0
+7B                                  19.753 KB  \USRDIR\PDIPFS\9\VT\7B                                                         0F161A56E6CC49578542C51443BBAB59
+RM                                  41.512 KB  \USRDIR\PDIPFS\9\VV\RM                                                         582C46227C58CF58DD3CDC2AABC69760
+7Q                                  25.012 KB  \USRDIR\PDIPFS\9\W8\7Q                                                         239A4237B0385CA8142003937A53738E
+T6                                  12.843 KB  \USRDIR\PDIPFS\9\W8\T6                                                         79C8C06B618787E39EB8F628A54860E1
+48                                  27.874 KB  \USRDIR\PDIPFS\9\WB\48                                                         EF90C7275F95C7576FF2548BF12BD1C0
+BN                                  28.638 KB  \USRDIR\PDIPFS\9\WD\BN                                                         70377C34DDE46BDDAFD65467BA2B3C0A
+G1                                  19.919 KB  \USRDIR\PDIPFS\9\WD\G1                                                         1924EF49A31D78B6C183A9C7528B0EDD
+AX                                  32.332 KB  \USRDIR\PDIPFS\9\WE\AX                                                         EDAAD62EC7A4562ADF39C1EF655E8DC1
+RF                                  42.083 KB  \USRDIR\PDIPFS\9\WE\RF                                                         AC5CC846B022A5974A580F9EC31261AF
+1R                                  76.252 KB  \USRDIR\PDIPFS\9\WG\1R                                                         8DD75B2E97F88C0E0D6CD27E08CCDEDB
+OF                                  17.180 KB  \USRDIR\PDIPFS\9\WG\OF                                                         20094C38FC92E9F8C56F38CAAAACCAE3
+UA                                  13.394 KB  \USRDIR\PDIPFS\9\WK\UA                                                         128C683DE5325F34067511DB376ED89B
+QZ                                  25.479 KB  \USRDIR\PDIPFS\9\WO\QZ                                                         32C9B6ED99AFFE147EDCBB69215A82F2
+4C                                  13.298 KB  \USRDIR\PDIPFS\9\WR\4C                                                         A9A9CC4A2471610E89B1DB0B9582E628
+LW                                  12.843 KB  \USRDIR\PDIPFS\9\WZ\LW                                                         991010D5DFBF56F3A6404D42E30B7F50
+N5                                  69.158 KB  \USRDIR\PDIPFS\9\WZ\N5                                                         CB872D04BE47308F20CEFF5234D4359A
+4D                                   160 Byte  \USRDIR\PDIPFS\K\4D                                                            674CF5BEBA3F0003271CD8D633E3EA7E
+00130003                             4.695 MB  \USRDIR\PDIPFS_EXTRACTED\car\hq\00130003                                       B636BDAB6A7D5781B0D1822FF5F546C5
+00130003                             2.935 MB  \USRDIR\PDIPFS_EXTRACTED\car\race\00130003                                     F6FCDB597C2847949C86A41762CD6B84
+gtr_specv_09_ac_sp_00               20.503 KB  \USRDIR\PDIPFS_EXTRACTED\car\thumbnail_M\gtr_specv_09_ac_sp_00                 909FA0E3ED63584D9355A3024B99620B
+c025.road                ROAD        4.871 KB  \USRDIR\PDIPFS_EXTRACTED\crs\c025.road                                         D2AFEC56BC6934726066A0CFE0CC521B
+c061.road                ROAD        9.992 KB  \USRDIR\PDIPFS_EXTRACTED\crs\c061.road                                         AB1494555DD48920C4FFE6927B67DE4D
+c124.road                ROAD       10.289 KB  \USRDIR\PDIPFS_EXTRACTED\crs\c124.road                                         944BDA501CE21C631728C54D0C044EFF
+DID_JP.rt2               RT2        35.199 KB  \USRDIR\PDIPFS_EXTRACTED\description\gt5\DID_JP.rt2                            DB05317E590A0520A0F7BF4BA08AAB66
+JP.rt2                   RT2         1.294 MB  \USRDIR\PDIPFS_EXTRACTED\description\gt5\JP.rt2                                389B5AFDA89E3193093DF321A5BC27F1
+m0679                              242.405 KB  \USRDIR\PDIPFS_EXTRACTED\motion\m0679                                          73A3ED37B2A213AC47A583411E770029
+rtext.rt2                RT2        30.574 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\arcade\RU\rtext.rt2                      D7CDB931423599879D242C63F93C609F
+rtext.rt2                RT2        36.000 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\DE\rtext.rt2                        492D7F415CB084CF7B8E945D95EE34C0
+rtext.rt2                RT2        53.246 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\EL\rtext.rt2                        6E8BC733A6EB2D893FEF7CED17BFB204
+rtext.rt2                RT2        35.094 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\ES\rtext.rt2                        D3150028CE6A78EA3B418E4224D6D3F2
+rtext.rt2                RT2        36.141 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\FR\rtext.rt2                        1470C265095080ED7829B40668DCB57D
+rtext.rt2                RT2        32.441 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\GB\rtext.rt2                        2EA7687AC7232CB1DF19F47FF9D81642
+rtext.rt2                RT2        34.746 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\IT\rtext.rt2                        05ECB088C94264573F04DD18831FF1B1
+rtext.rt2                RT2        41.766 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\JP\rtext.rt2                        CC73A66282F83815D5EABC30294BD09C
+rtext.rt2                RT2        38.723 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\KR\rtext.rt2                        77A3B43A3B09176B9186F89159BD0EA8
+rtext.rt2                RT2        33.559 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\NL\rtext.rt2                        8C484201001D0206DC81E38B7375D78C
+rtext.rt2                RT2        34.867 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\PL\rtext.rt2                        557B27DB8A32E0D267FD8FFDEC5AEC8A
+rtext.rt2                RT2        35.699 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\PT\rtext.rt2                        6B0F2FFC423EC455110521DE46F98579
+rtext.rt2                RT2        47.078 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\RU\rtext.rt2                        841226A24A920C940B2CF1B6807723DD
+rtext.rt2                RT2        34.086 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\TR\rtext.rt2                        5E7D01C6E1E2553EDE8F4A3BC0A91E3A
+rtext.rt2                RT2        31.516 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\TW\rtext.rt2                        EC2920DB55F01696D83B7687BE3B815A
+rtext.rt2                RT2        32.328 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\boot\US\rtext.rt2                        79A5ED3F446FB45785DFCBBD1CE501D7
+rtext.rt2                RT2        51.270 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\DE\rtext.rt2                     DC02E90D6DC13C8C71553FB22157A9AE
+rtext.rt2                RT2        75.676 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\EL\rtext.rt2                     AEC5DD30714F20EEF7B1AD1570621243
+rtext.rt2                RT2        51.164 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\ES\rtext.rt2                     99CB1D79D5C25E184245CA7D224728BD
+rtext.rt2                RT2        51.707 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\FR\rtext.rt2                     D2D5A5AD833A4E4FBE2D6F3FCC3973FB
+rtext.rt2                RT2        47.605 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\GB\rtext.rt2                     2C65BE06D11D582A2B481B1540C3B3FC
+rtext.rt2                RT2        50.492 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\IT\rtext.rt2                     AE6399EACB740ED6E676AAB2DF5E1B5C
+rtext.rt2                RT2        58.871 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\JP\rtext.rt2                     A6A3F470EB619FD26670D473B2A3DE0A
+rtext.rt2                RT2        54.281 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\KR\rtext.rt2                     2530A6ECCAFFCD09CBA21D7D9B7F579F
+rtext.rt2                RT2        48.273 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\NL\rtext.rt2                     C66048F8381C8B5B184D65F4A1AEFE96
+rtext.rt2                RT2        51.219 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\PL\rtext.rt2                     2D6239FE3E9D8BB7AF1BFD4E3F62F1ED
+rtext.rt2                RT2        51.605 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\PT\rtext.rt2                     B65CFE25643A60283E70C2ABBAE877A0
+rtext.rt2                RT2        66.648 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\RU\rtext.rt2                     185E27F5C1BF94BAF6C4A1C5B9A10DA3
+rtext.rt2                RT2        49.293 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\TR\rtext.rt2                     6DC55167979E61D428916DD25060C2F7
+rtext.rt2                RT2        46.242 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\TW\rtext.rt2                     F590FFA8C5BE0BDA39887F55B0F7923F
+rtext.rt2                RT2        47.262 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\concept\US\rtext.rt2                     66BD4CE6CF3774E98309F3797A7FDFA1
+rtext.rt2                RT2       210.844 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\DE\rtext.rt2                      7EC4AB6DEEE96ACBBBC68B6EA0133989
+rtext.rt2                RT2       345.766 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\EL\rtext.rt2                      6CADCA122183FD413052472DA3575685
+rtext.rt2                RT2       202.414 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\ES\rtext.rt2                      8E5913021040D34BEB5CFF8386666B1A
+rtext.rt2                RT2       207.824 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\FR\rtext.rt2                      A29964868AD1D6B15C96946C64A03C71
+rtext.rt2                RT2       190.738 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\GB\rtext.rt2                      4E086880336CF9902948404034CC39DD
+rtext.rt2                RT2       202.750 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\IT\rtext.rt2                      FB86E70285A2F80143585A6E9BF089BC
+rtext.rt2                RT2       233.676 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\JP\rtext.rt2                      82E867223C702D6BCCB35D87B5EA32A4
+rtext.rt2                RT2       210.953 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\KR\rtext.rt2                      0A2BDC19564B0D97D92AA62B7D13E696
+rtext.rt2                RT2       190.031 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\NL\rtext.rt2                      64473EECD7FD0FA3F0D5610FCE5D1FD1
+rtext.rt2                RT2       201.211 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\PL\rtext.rt2                      07999B7771A7BFC45C88AB79A7621015
+rtext.rt2                RT2       207.262 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\PT\rtext.rt2                      3542CB746622B248F307B63E1E703A81
+rtext.rt2                RT2       293.559 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\RU\rtext.rt2                      1BF2779F7F06F2250FD7AED8B58C91F5
+rtext.rt2                RT2       203.848 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\TR\rtext.rt2                      D1F531D3DEFEB83C06D78C5290BEA20A
+rtext.rt2                RT2       172.680 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\TW\rtext.rt2                      3755E78BCDCB73B7CA88092D719B018F
+rtext.rt2                RT2       191.355 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\cursor\US\rtext.rt2                      0C85075991DC03F679AAE293D4355187
+dialog.adc               ADC        84.545 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\dialog\dialog.adc                        F29CB3A9E3B3CC8D81CE1A54591B7F0E
+rtext.rt2                RT2        83.578 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\DE\rtext.rt2                      32650D0B824AD8E86F707C1D9FD0B237
+rtext.rt2                RT2       120.645 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\EL\rtext.rt2                      9FF248AF9B90417282C123DF62142039
+rtext.rt2                RT2        82.082 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\ES\rtext.rt2                      51DFA94484C9F6FC2512241D154B1291
+rtext.rt2                RT2        83.719 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\FR\rtext.rt2                      C51078B0E12A70BDB776ED396F9AC5A9
+rtext.rt2                RT2        78.164 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\GB\rtext.rt2                      934B9D847BD9B1823B545B82222C441F
+rtext.rt2                RT2        81.402 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\IT\rtext.rt2                      1B554C30866FDC813DDC4C444FF8A9E2
+rtext.rt2                RT2        93.465 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\JP\rtext.rt2                      730D0F4D3B4E08C41329521B7350C46F
+rtext.rt2                RT2        82.652 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\KR\rtext.rt2                      F521B6B3E1E9DB197A60F3FD3855DB41
+rtext.rt2                RT2        78.621 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\NL\rtext.rt2                      3F8B7F26DE122621C2C16562360F7256
+rtext.rt2                RT2        82.625 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\PL\rtext.rt2                      4B027EA6DBB34682BEA734209ABC5079
+rtext.rt2                RT2        81.660 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\PT\rtext.rt2                      E31B74E8F5CFF093FEF3DA30D65008F3
+rtext.rt2                RT2       106.637 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\RU\rtext.rt2                      1F232B1F23410D75F25CF122A7A3AE50
+rtext.rt2                RT2        81.242 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\TR\rtext.rt2                      8A6D9FA9CE849E45FDF613FD01530906
+rtext.rt2                RT2        72.047 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\TW\rtext.rt2                      B3C6C9D49901082D974B62CB99BFA763
+rtext.rt2                RT2        77.188 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtauto\US\rtext.rt2                      9F46CFE991DB2CE060F3629E3ABF9033
+rtext.rt2                RT2       326.621 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\DE\rtext.rt2                      65A8F30D4E59B0C2A5BFB9A932C9801B
+rtext.rt2                RT2       519.352 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\EL\rtext.rt2                      354DBED1643FA153F1E2CA05A7C95B18
+rtext.rt2                RT2       314.664 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\ES\rtext.rt2                      1C2F5E1EC2DE0D0154477530CC6B1B3B
+rtext.rt2                RT2       322.934 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\FR\rtext.rt2                      C78B4D3580B7A5DE0DFEA1D650FD5CDA
+rtext.rt2                RT2       298.906 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\GB\rtext.rt2                      AD6803F844E70660C878956D129937A3
+gtmode.adc               ADC         1.479 MB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\gtmode.adc                        B8DBA980ABA120A34EF531556A7B0B8B
+rtext.rt2                RT2       314.828 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\IT\rtext.rt2                      B3365AB923A52D1E7A94123A8CC218AF
+rtext.rt2                RT2       388.887 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\JP\rtext.rt2                      71D7638E7A64FA3E9A162D0A7C08F955
+rtext.rt2                RT2       325.023 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\KR\rtext.rt2                      07ADF4D0C29D90932542E6B6BBFE0EB1
+rtext.rt2                RT2       297.855 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\NL\rtext.rt2                      9AA9FED07CE8C6E0EBC0F87FD8DFE176
+rtext.rt2                RT2       315.105 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\PL\rtext.rt2                      70DFBF2704890DA3EECA04EF6E9F7922
+rtext.rt2                RT2       321.164 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\PT\rtext.rt2                      FB8E719300322901C44AB38C83D48968
+rtext.rt2                RT2       444.914 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\RU\rtext.rt2                      1C8772542CE5AD023004CB33600A7F71
+rtext.rt2                RT2       315.973 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\TR\rtext.rt2                      3AB14A25B2106D75E929FFE34B464D92
+rtext.rt2                RT2       272.320 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\TW\rtext.rt2                      1CC4AC83AF71C16AAEECEEB592F767A7
+rtext.rt2                RT2       320.723 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gtmode\US\rtext.rt2                      1E97A344902BED46DA2413F1AB1B497A
+rtext.rt2                RT2        33.242 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\DE\rtext.rt2                       3F8D801894D0784869B63A7F337D33B8
+rtext.rt2                RT2        48.813 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\EL\rtext.rt2                       A6DF95D435DE5379FA499782581EEEFC
+rtext.rt2                RT2        32.750 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\ES\rtext.rt2                       BE881A45E0BA38C89822F2FC4436B0EC
+rtext.rt2                RT2        33.570 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\FR\rtext.rt2                       5D2F4AFE0D6749709C3B9D7CA6F4E864
+rtext.rt2                RT2        30.449 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\GB\rtext.rt2                       2E3CDC4BDD1B01AAAFA233D04DC20123
+rtext.rt2                RT2        32.375 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\IT\rtext.rt2                       C43E1E3D2B43D97024479E803871B749
+rtext.rt2                RT2        38.352 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\JP\rtext.rt2                       09701E0B8C9F3EFEA22EE171716B99C3
+rtext.rt2                RT2        35.809 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\KR\rtext.rt2                       1DF1D12AC78BE17B0AD3559F67A6EB75
+rtext.rt2                RT2        31.238 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\NL\rtext.rt2                       B66CA5CEB29B03B7607FCD78FECC458C
+rtext.rt2                RT2        32.934 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\PL\rtext.rt2                       E253B5C3086D69EE96990BD5823CE692
+rtext.rt2                RT2        33.512 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\PT\rtext.rt2                       0811DFE0344A17E45C8E91BB2BA81FA0
+rtext.rt2                RT2        43.602 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\RU\rtext.rt2                       7202C5A5A5F69A0A2B3197BD76D64D1C
+rtext.rt2                RT2        31.824 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\TR\rtext.rt2                       D2F71E701F06C072D0992F0F9FDDA52F
+rtext.rt2                RT2        29.609 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\TW\rtext.rt2                       092C451F1073C10F864D94964DCBF60F
+rtext.rt2                RT2        30.426 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\US\rtext.rt2                       AC79803F59A8ECF9CFA15084FEE90FF3
+rtext.rt2                RT2        47.363 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttv2\FR\rtext.rt2                       83E192E5EE31330EA3F5C848E7894E69
+rtext.rt2                RT2        44.383 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttv2\NL\rtext.rt2                       B97D9173F796764411FE6CEEFD2B0276
+rtext.rt2                RT2        45.906 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttv2\PL\rtext.rt2                       569510C6FEA5253936B48AE18204E259
+rtext.rt2                RT2        46.664 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttv2\PT\rtext.rt2                       67B1DB745EBCB5DB508445F921295F88
+rtext.rt2                RT2        60.930 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttv2\RU\rtext.rt2                       7CF06EC26724F123BCE7675F83158E21
+leavedemo.adc            ADC        22.896 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\leavedemo\leavedemo.adc                  94771BAED801CC0A25B9131FB9C43549
+rtext.rt2                RT2       251.102 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\DE\rtext.rt2                      6BFF81BEA1D0D60BBD52FAED69C60F28
+rtext.rt2                RT2       414.664 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\EL\rtext.rt2                      07B0B0F0FC1B8483C156CBF56795E84B
+rtext.rt2                RT2       243.816 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\ES\rtext.rt2                      2BA3953AF53692FB6974824AB860A024
+rtext.rt2                RT2       255.211 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\FR\rtext.rt2                      F36AABC58E803AA877A0D1D5C0DEA030
+rtext.rt2                RT2       230.379 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\GB\rtext.rt2                      551FEA068C8AC60A83C1509798D758D9
+rtext.rt2                RT2       245.156 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\IT\rtext.rt2                      63B7932FB785DB0CD896B1A398E75A12
+rtext.rt2                RT2       271.949 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\JP\rtext.rt2                      E055E2642EF1FA8D9210A910D5BF2DDD
+rtext.rt2                RT2       247.902 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\KR\rtext.rt2                      A6CED46339CF3AEF8245E440AA3B291D
+manual.adc               ADC        99.023 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\manual.adc                        AF14C32BC7059BA13D356DC4FD597F84
+rtext.rt2                RT2       228.758 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\NL\rtext.rt2                      7D45F2FCEA656BF42CB5581CB7771D7A
+rtext.rt2                RT2       239.117 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\PL\rtext.rt2                      1B3D92DAE5453C1779BA11DDCD5826EF
+rtext.rt2                RT2       248.594 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\PT\rtext.rt2                      D25B423A260F9AA726598463943EBDA1
+rtext.rt2                RT2       332.121 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\RU\rtext.rt2                      CA4AB81C47888FFE0A94D076FCD7D7D0
+rtext.rt2                RT2       241.574 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\TR\rtext.rt2                      71DC020143C42F7A36F7ABE1AFAE474F
+rtext.rt2                RT2       201.684 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\TW\rtext.rt2                      96E66977CDAEFA688B57ABAF19A9BF96
+rtext.rt2                RT2       227.070 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\manual\US\rtext.rt2                      BB2859FC15E30C26C88B2E56BDAA7A5D
+rtext.rt2                RT2         7.258 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\multimonitor\FR\rtext.rt2                551B52591A45EA050A71E5847C913185
+rtext.rt2                RT2         7.176 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\multimonitor\PT\rtext.rt2                1BE756B9820C01B3187F50BF017C892A
+rtext.rt2                RT2        35.082 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\news\FR\rtext.rt2                        8FB2F038C44E0C060A319C3F9F258269
+news.adc                 ADC        96.909 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\news\news.adc                            7D83FEE44B1C5D07877EF243642CDB6C
+rtext.rt2                RT2        32.594 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\news\NL\rtext.rt2                        4A157FC309A25767DDD922158EA4C192
+rtext.rt2                RT2        33.875 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\news\PL\rtext.rt2                        50800CDC3E74998ECC5BE3C3EDFB99E3
+rtext.rt2                RT2        34.324 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\news\PT\rtext.rt2                        C70FA02561EEC46EA6CACDFB56277C98
+rtext.rt2                RT2        44.930 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\news\RU\rtext.rt2                        B98BCA758944784E7B7BA38B641664EB
+rtext.rt2                RT2        77.375 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\DE\rtext.rt2                      FB7A01DFA3010DBE5481EB56FF6375CB
+rtext.rt2                RT2       112.480 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\EL\rtext.rt2                      551B1151879B636D31149F6374A465B8
+rtext.rt2                RT2        76.441 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\ES\rtext.rt2                      1A2A07A1DC9592E10C94AD95B2EEAB52
+rtext.rt2                RT2        77.563 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\FR\rtext.rt2                      DA32221D0F6D796A7B59BE6EE3F6A4B6
+rtext.rt2                RT2        71.637 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\GB\rtext.rt2                      83549F98AF100297B34647E308BB73F8
+rtext.rt2                RT2        75.527 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\IT\rtext.rt2                      542F851529B058E05137B7B8EEA45BB3
+rtext.rt2                RT2        86.613 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\JP\rtext.rt2                      1135E3A0B9E05359A2F59600890F1AEA
+rtext.rt2                RT2        79.945 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\KR\rtext.rt2                      EE7308F2976727D5032DA25278180B1E
+rtext.rt2                RT2        72.836 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\NL\rtext.rt2                      711ABADD32871ABE6D078D408B23B107
+rtext.rt2                RT2        76.352 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\PL\rtext.rt2                      11CF04A23B3FF7023223843494D9935D
+rtext.rt2                RT2        77.414 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\PT\rtext.rt2                      EB5567AF07477A8732E8C11F0E591CA9
+rtext.rt2                RT2       100.152 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\RU\rtext.rt2                      C1841E4EBE6C1CE834B856B2AC2EF98E
+rtext.rt2                RT2        74.480 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\TR\rtext.rt2                      BC2E3B3F080D26146CF3ECA05687D26E
+rtext.rt2                RT2        68.461 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\TW\rtext.rt2                      B3A9725AC5252D21D7BEBB25E135528F
+rtext.rt2                RT2        71.258 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online\US\rtext.rt2                      E78E239024CB77E87826D2AC7C08FB42
+rtext.rt2                RT2        14.531 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\DE\rtext.rt2                2AD4AAF0DEEC1F24640045794B229380
+rtext.rt2                RT2        18.109 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\EL\rtext.rt2                2D53BF7E8204CEE3F60B8445FB5D8E2F
+rtext.rt2                RT2        14.398 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\ES\rtext.rt2                4170B8E4E2FF47228DE95D15367A296B
+rtext.rt2                RT2        14.641 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\FR\rtext.rt2                801E45CACF8684328E2D86053324561E
+rtext.rt2                RT2        14.031 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\GB\rtext.rt2                89D6E13B95F426ECAE43AF2BA20F5EA8
+rtext.rt2                RT2        14.336 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\IT\rtext.rt2                7C0E4D91F8039EBAB7B79C07A4C55F6C
+rtext.rt2                RT2        17.012 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\JP\rtext.rt2                2E07F03685BE0253A99B1940E62235F6
+rtext.rt2                RT2        15.152 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\KR\rtext.rt2                7E0B1192E07E107CA4BEFB91F68CB0A8
+rtext.rt2                RT2        14.191 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\NL\rtext.rt2                FD484FC2050940C9C04359BC481BCE59
+online_bspec.adc         ADC       117.396 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\online_bspec.adc            80078CD9442818FE1723069EEB3335F7
+online_bspec.mproject    MPROJECT  147.322 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\online_bspec.mproject       E249815188B64A9E5DCA277A9B939FF1
+rtext.rt2                RT2        14.668 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\PL\rtext.rt2                BF07A2B7079B19468A99D1C469FFF197
+rtext.rt2                RT2        14.637 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\PT\rtext.rt2                13CD76F2399D556D1692F9BF48D7A254
+rtext.rt2                RT2        17.000 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\RU\rtext.rt2                9D30826F249B92C9B65AB303C24A6A7B
+rtext.rt2                RT2        14.488 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\TR\rtext.rt2                99BD8E874AFF77B3C66DB826B4EEB912
+rtext.rt2                RT2        14.102 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\TW\rtext.rt2                1E7E22FDDCFBC2CC2F7162D724DF8DA8
+rtext.rt2                RT2        14.035 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\online_bspec\US\rtext.rt2                112EFB0D83D26C4DFB5EE36CA37818B4
+rtext.rt2                RT2       107.313 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\option\FR\rtext.rt2                      BA2E0904CF8F597B19FD9B923D046048
+rtext.rt2                RT2       101.879 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\option\NL\rtext.rt2                      B1919C85C6FD4394D5D6C7E2D8EE4F91
+option.adc               ADC       591.956 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\option\option.adc                        529CC4A39F4B585031740D1302BFA448
+rtext.rt2                RT2       106.523 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\option\PL\rtext.rt2                      512DC532085AB14283BBEC754BA00047
+rtext.rt2                RT2       106.359 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\option\PT\rtext.rt2                      8F90B200998F941E61F20A336F6FC83E
+rtext.rt2                RT2       135.941 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\option\RU\rtext.rt2                      E9EEB02409098625994643B54A96E5BF
+rtext.rt2                RT2       108.699 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\DE\rtext.rt2                        41C1D8E3FE3DF563D2AC101E9C9855EB
+OnboardMeterRoot.gpb     GPB         1.134 MB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\EL\OnboardMeterRoot.gpb             D684259972D5FF58DE92BC765B8CDC89
+rtext.rt2                RT2       157.121 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\EL\rtext.rt2                        BA69778D3A354374F6594A1676BC9C03
+rtext.rt2                RT2       109.766 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\ES\rtext.rt2                        8D02DFDAB17DC6EC4127EE37B920C70C
+rtext.rt2                RT2       109.648 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\FR\rtext.rt2                        81D5547C9BEFF0A4404B4A6794B34BF9
+rtext.rt2                RT2       102.961 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\GB\rtext.rt2                        22E3F198A45AA443A7D2F25B3AE78EB9
+rtext.rt2                RT2       107.988 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\IT\rtext.rt2                        A7DFA27665CC11C20CFC7A67CED5325A
+rtext.rt2                RT2       121.254 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\JP\rtext.rt2                        FA0ED6EB963114377F089CED7A99C40A
+rtext.rt2                RT2       113.336 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\KR\rtext.rt2                        17B4C914BA07AF3D0600492676348C53
+rtext.rt2                RT2       104.379 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\NL\rtext.rt2                        E57E80433EBBE6E7D9FAE576C15A84A1
+OnboardMeterRoot.gpb     GPB         1.134 MB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\PL\OnboardMeterRoot.gpb             BC7752DC589147B79EC4562861BB5565
+rtext.rt2                RT2       108.547 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\PL\rtext.rt2                        5EA18440855CBF03922A7D441B367994
+rtext.rt2                RT2       109.590 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\PT\rtext.rt2                        8E7E02B310F078FA557DBA0B75136BF7
+rtext.rt2                RT2       139.316 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\RU\rtext.rt2                        546A8E0B77AB8C4B9E9308136BBD0B06
+OnboardMeterRoot.gpb     GPB         1.134 MB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\TR\OnboardMeterRoot.gpb             F0B2579A0F007DDD0153D778B5C3D3E5
+rtext.rt2                RT2       106.469 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\TR\rtext.rt2                        9A8EC4EC83FBE5CE4D1C3B53F1E8AE0B
+rtext.rt2                RT2        99.871 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\TW\rtext.rt2                        4606C3035948267E3A60BDA189CCBE8D
+rtext.rt2                RT2       101.594 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race\US\rtext.rt2                        435AAA16A8F9EEE76C63761BA88EF222
+rtext.rt2                RT2        10.543 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_arena\FR\rtext.rt2                  8E5FEF6396A3CA23B605F608F7AF1291
+race_arena.adc           ADC        39.006 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_arena\race_arena.adc                68B52659819E80036A4A7BF25B0D6C5E
+rtext.rt2                RT2        39.676 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_course_edit\FR\rtext.rt2            3EB096BA5439619251F5A764E6315E2F
+rtext.rt2                RT2        37.516 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_course_edit\NL\rtext.rt2            600F7DBC1702A5564AAC3B08D6E7DE99
+rtext.rt2                RT2        38.770 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_course_edit\PL\rtext.rt2            6B5B804DA7DA8CB3F63E7887C2419B42
+rtext.rt2                RT2        39.207 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_course_edit\PT\rtext.rt2            5C7AB6BC3FAD0FC01DBD1053EEC47801
+race_course_edit.adc     ADC       301.691 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_course_edit\race_course_edit.adc    D2CD2FA4ECE68C02EF5A4B654A9A2231
+rtext.rt2                RT2        49.641 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_course_edit\RU\rtext.rt2            12DE70D6956C74BC2F75E253627E8FD4
+QuickRoot.gpb            GPB       155.125 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_drift\EL\QuickRoot.gpb              F3E410CE3E74E69A3E1B254CFEC5DFFF
+rtext.rt2                RT2        41.121 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_drift\FR\rtext.rt2                  4DAE58853DDF08FF872FDD2F56D8477E
+QuickRoot.gpb            GPB       155.125 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_drift\PL\QuickRoot.gpb              F69A963EF311FBD6B27A7FDCCBDB160D
+rtext.rt2                RT2        41.340 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_drift\PT\rtext.rt2                  0008AF049FC901CDCB4D9431DF71B75C
+QuickRoot.gpb            GPB       155.125 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_drift\TR\QuickRoot.gpb              46617A68109FE3137FE5BBF5CEC343FB
+rtext.rt2                RT2        36.605 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_drift\TW\rtext.rt2                  411EDAEC8F9D43CB582F5C4256D31BE0
+rtext.rt2                RT2        23.199 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_edit\FR\rtext.rt2                   67BE4AD815A0456110AA5A47D5A7BB96
+race_edit.adc            ADC       244.865 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_edit\race_edit.adc                  EDBAC6CC0D7DE4FDFF70AF4086BA3BA8
+rtext.rt2                RT2        64.113 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_event\FR\rtext.rt2                  CDABF0C276D4C5857F4D1EA8052F1146
+rtext.rt2                RT2        63.395 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_event\PT\rtext.rt2                  F9F186D0457C578342DED800B017C537
+rtext.rt2                RT2        54.559 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_event\TW\rtext.rt2                  B92FDFB1D39A17B5846D62C8CF6F16D9
+rtext.rt2                RT2        73.785 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_license\FR\rtext.rt2                8587313690333BA11504300403B59E47
+rtext.rt2                RT2        32.996 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\DE\rtext.rt2           9BBD42247175AF64308D9689E9FBCA84
+rtext.rt2                RT2        46.188 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\EL\rtext.rt2           0F55E01A3E72502220A346C8FB05DAD3
+rtext.rt2                RT2        32.805 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\ES\rtext.rt2           2D19704D1AC55A955AB95611F499E2AC
+rtext.rt2                RT2        33.496 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\FR\rtext.rt2           3103BE417052075FEB24C08E3A99ED5A
+rtext.rt2                RT2        30.504 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\GB\rtext.rt2           162F01957B42F0A639CD58E99BA7E4E7
+rtext.rt2                RT2        32.441 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\IT\rtext.rt2           E41932A84687DFBC26DAFAB88A07A333
+rtext.rt2                RT2        38.484 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\JP\rtext.rt2           0ED3D62A3068D60320EB3B6A2B9D3A80
+rtext.rt2                RT2        35.586 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\KR\rtext.rt2           6F22B543B255C83EFC21E0D848E7A76D
+rtext.rt2                RT2        31.316 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\NL\rtext.rt2           6A954241B19EA9E6A0F3F79E2812AD3E
+rtext.rt2                RT2        32.914 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\PL\rtext.rt2           9640F00520BD527C04508E34F8C41627
+rtext.rt2                RT2        33.504 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\PT\rtext.rt2           0A69A1B67110E8862C03D763E6AD28AB
+rtext.rt2                RT2        42.313 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\RU\rtext.rt2           605036467D72A62C8A10B9897DEAEAED
+rtext.rt2                RT2        31.961 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\TR\rtext.rt2           42E0294A75114F45EC5F5DD488FA3B16
+rtext.rt2                RT2        30.367 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\TW\rtext.rt2           5F5DFC254ADEE906D39B60C65D4E6221
+rtext.rt2                RT2        30.414 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_event\US\rtext.rt2           DA7BC3BE607F99CB071FAD620E64A771
+rtext.rt2                RT2       122.191 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\DE\rtext.rt2            B308B4AEC8E8A3B695F33724F9136E6D
+rtext.rt2                RT2       173.422 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\EL\rtext.rt2            A384E33872BD101E36A374A67888BFB6
+rtext.rt2                RT2       121.008 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\ES\rtext.rt2            6026A0FE736488CD3FBB7AC95D76474B
+rtext.rt2                RT2       123.137 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\FR\rtext.rt2            908C79ACBDB6D70022CD21A453A21232
+rtext.rt2                RT2       114.328 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\GB\rtext.rt2            EB37267028983C3E88CDE1F1F8E6DC2E
+rtext.rt2                RT2       120.098 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\IT\rtext.rt2            12943622CCD7F6D70E957853544EA338
+rtext.rt2                RT2       135.426 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\JP\rtext.rt2            F1194871D3F2A0C0AC6869B32A65DE52
+rtext.rt2                RT2       126.141 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\KR\rtext.rt2            62F2E87D811F2A53A86B219EFA2FF739
+rtext.rt2                RT2       115.930 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\NL\rtext.rt2            123279147E28E5B2454E7D6B00C60A34
+rtext.rt2                RT2       121.520 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\PL\rtext.rt2            7EBB8F1A8993E3A74EE05949AAF24239
+rtext.rt2                RT2       122.215 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\PT\rtext.rt2            544B3B3D4D24F077DE6FB877EB6B080E
+race_online_room.adc     ADC       481.819 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\race_online_room.adc    ECA84BCC7FCF7ED1D7D35B91D9F17AF8
+rtext.rt2                RT2       155.387 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\RU\rtext.rt2            B7E396C9809B5301DB1F882D7272DA75
+rtext.rt2                RT2       119.355 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\TR\rtext.rt2            1303776692DCD3A28127ECC50AE3B314
+rtext.rt2                RT2       110.645 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\TW\rtext.rt2            61628CE4E31C6439C30D12DA2103712F
+rtext.rt2                RT2       113.434 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_room\US\rtext.rt2            A3FFCEBB2B5790647540EEADA218C0DB
+rtext.rt2                RT2        32.949 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\DE\rtext.rt2           F4376C5DF5E98FEEFDC593086933FD7B
+rtext.rt2                RT2        46.055 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\EL\rtext.rt2           2ABD41C3910BC5FF07BBD51F21777058
+rtext.rt2                RT2        32.746 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\ES\rtext.rt2           EFFEDCBB3EA1586FA6053114E51CA73D
+rtext.rt2                RT2        33.445 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\FR\rtext.rt2           CC2C67FAB73323D741DC9185B291265B
+rtext.rt2                RT2        30.453 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\GB\rtext.rt2           2B1C45112473F5C718EDDA03436728C7
+rtext.rt2                RT2        32.387 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\IT\rtext.rt2           BD701F04EAB83D5472134470C50085A0
+rtext.rt2                RT2        38.434 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\JP\rtext.rt2           2CBDC7F456AB7BA4D3E9AABA5861EDBE
+rtext.rt2                RT2        35.535 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\KR\rtext.rt2           0728338270A017B0A18B211A88356D0F
+rtext.rt2                RT2        31.273 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\NL\rtext.rt2           D74546A477778B655FE0462795C2A86A
+rtext.rt2                RT2        32.863 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\PL\rtext.rt2           B6850F55EA84D25B22D0530C6225176E
+rtext.rt2                RT2        33.453 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\PT\rtext.rt2           A2AD637F6024A3D31D9F96FB3A6C80AA
+rtext.rt2                RT2        42.215 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\RU\rtext.rt2           EB7B2692A388755B42F520EA9D896333
+rtext.rt2                RT2        31.891 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\TR\rtext.rt2           8F1FEAB9354D763A3682061A7EAE56F9
+rtext.rt2                RT2        30.320 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\TW\rtext.rt2           D2899BC7566DF44C24F644EF815EE6E6
+rtext.rt2                RT2        30.359 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_split\US\rtext.rt2           4D6986F994034BBA1FD26939017CC4D6
+QuickRoot.gpb            GPB       120.375 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_timeattack\EL\QuickRoot.gpb  B70818D31C7A44CFE7A95D1F5FE428EF
+rtext.rt2                RT2        29.027 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_timeattack\FR\rtext.rt2      A497E62D864191353498861CAE399885
+QuickRoot.gpb            GPB       120.375 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_timeattack\PL\QuickRoot.gpb  73B3DFC7CAB47F3F74AB796B1ACE3EC8
+rtext.rt2                RT2        29.109 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_timeattack\PT\rtext.rt2      2C26B6283FADDC1CBEDF4EBCD5D86BB5
+QuickRoot.gpb            GPB       120.375 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_online_timeattack\TR\QuickRoot.gpb  9B2204CA62EAEFD866B2A48B3F847260
+rtext.rt2                RT2        53.344 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_rally\FR\rtext.rt2                  190D41F9F9E8A43D85F69E9F0947F387
+rtext.rt2                RT2        62.336 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_school\FR\rtext.rt2                 E6D60952196723003E2B8B57C196048D
+rtext.rt2                RT2        19.258 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_single\FR\rtext.rt2                 FCA5BC6E238DE4423376798E84CEC00A
+rtext.rt2                RT2         9.918 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_split\FR\rtext.rt2                  A5C70D909946C2F12BC5FD35162446A2
+rtext.rt2                RT2        22.125 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_timeattack\FR\rtext.rt2             0667963501AF532C56FBC6F43897A424
+rtext.rt2                RT2        75.672 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\race_tour\FR\rtext.rt2                   9F4E9D355DB83D98B869AA98AC06A7C8
+rtext.rt2                RT2        41.742 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\DE\rtext.rt2                     83F716041E446FE68B63F2B62B3E8787
+rtext.rt2                RT2        62.020 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\EL\rtext.rt2                     1A57A2C6062A249F84470BFC3211A37C
+rtext.rt2                RT2        41.984 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\ES\rtext.rt2                     B6D22DBDD874507E120C1FD711E81105
+rtext.rt2                RT2        42.211 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\FR\rtext.rt2                     345FE7D0C69804191366A8D62F2330BE
+rtext.rt2                RT2        39.027 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\GB\rtext.rt2                     EF4513413F03CDF1D33A0142DB747863
+rtext.rt2                RT2        41.027 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\IT\rtext.rt2                     C80544CDCAD5CF58EA079A8A8AB5E7B2
+rtext.rt2                RT2        46.832 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\JP\rtext.rt2                     385291BEEEF487BFB0605346C27F4986
+rtext.rt2                RT2        43.125 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\KR\rtext.rt2                     F299052226980D011871A92D3C1A241F
+rtext.rt2                RT2        39.461 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\NL\rtext.rt2                     EC76AA3958C069425D05E217BD9C0146
+rtext.rt2                RT2        41.875 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\PL\rtext.rt2                     C9F9847F6DF7A8F6015983FE014BB460
+rtext.rt2                RT2        42.148 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\PT\rtext.rt2                     C4122C9F54CE964CD6FC4F75E6EDA22D
+ranking.adc              ADC       108.855 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\ranking.adc                      1D19001ADF0CAAFE9587B8811CCBCB04
+ranking.mproject         MPROJECT  111.011 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\ranking.mproject                 E92933DF2A221B3066630E560894AD02
+rtext.rt2                RT2        53.613 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\RU\rtext.rt2                     EB9A100DDBCF79EBE74CBECDED4F1041
+rtext.rt2                RT2        40.176 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\TR\rtext.rt2                     75A6B6F054C55E5FC0C98B2E8A0B223C
+rtext.rt2                RT2        37.703 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\TW\rtext.rt2                     1558362FE92FFE5ADC42B508E09324E8
+rtext.rt2                RT2        38.551 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ranking\US\rtext.rt2                     738C00F8D9F901B0AFCE8C9F6B0CA3A8
+rtext.rt2                RT2       135.914 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\setting\KR\rtext.rt2                     CB1EA4401AFF225C0042F579CC1C166B
+rtext.rt2                RT2       128.344 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\setting\NL\rtext.rt2                     67BA6570F36D779221ECF68D2AD4E0C5
+rtext.rt2                RT2       134.395 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\setting\PL\rtext.rt2                     9349EA1EA861BD1EFE1677C8CC620957
+rtext.rt2                RT2       135.547 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\setting\PT\rtext.rt2                     70FFCD1FA68766832649D83E014CABF0
+rtext.rt2                RT2       189.621 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\setting\RU\rtext.rt2                     81D0A1CB4D3E3F9FC8D21E039AEDAD2F
+setting.adc              ADC       269.063 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\setting\setting.adc                      400F4C2B787045B089C1F7707254C013
+rtext.rt2                RT2       169.047 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ui_kit\NL\rtext.rt2                      D88EE2730476B3791BF52F327156B3D1
+rtext.rt2                RT2       178.875 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ui_kit\PL\rtext.rt2                      D003F7A7205FB5E3524E27BEE3B24DBC
+rtext.rt2                RT2       184.438 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ui_kit\PT\rtext.rt2                      92CD48572A36B9C413D72728D0F8B263
+rtext.rt2                RT2       262.660 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ui_kit\RU\rtext.rt2                      A87471B9A6C7020CDFC94F57D4848ACA
+rtext.rt2                RT2       152.895 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ui_kit\TW\rtext.rt2                      233BC7B800C21555E75BC75FFBEDE59D
+ui_kit.adc               ADC       172.559 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\ui_kit\ui_kit.adc                        F017B9AA80B50D23303746F3F14E52A3
+rtext.rt2                RT2        62.930 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\DE\rtext.rt2                BFD41374A50F34832976240542100967
+rtext.rt2                RT2        87.871 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\EL\rtext.rt2                69395F4D754C0DC2E35A982F4240FF52
+rtext.rt2                RT2        61.484 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\ES\rtext.rt2                64AD88C221C4C29EF47F338F7B2C5482
+rtext.rt2                RT2        63.293 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\FR\rtext.rt2                FD78DFFFE458DD1F9FD570FE10774B76
+rtext.rt2                RT2        58.219 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\GB\rtext.rt2                A25B75CB1FE64349F0F0373D70019064
+rtext.rt2                RT2        60.941 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\IT\rtext.rt2                4F9064BCF6DB4C661F10A591196E2837
+rtext.rt2                RT2        70.574 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\JP\rtext.rt2                CBFD7C579C31C3EB875FC33CA198B091
+rtext.rt2                RT2        65.762 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\KR\rtext.rt2                350BB154F7E82E182F98F7AF421F3135
+rtext.rt2                RT2        59.621 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\NL\rtext.rt2                DD72D54129AA95872CD5FE59EF189B1F
+rtext.rt2                RT2        61.824 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\PL\rtext.rt2                45ECFD43CE358716FD52703F423976AB
+rtext.rt2                RT2        62.625 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\PT\rtext.rt2                FA23658B7CF13DDDB5D19F50C1825BC8
+rtext.rt2                RT2        79.816 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\RU\rtext.rt2                29CD026FF8A4F9CCBBC55DFEC87FAD5B
+rtext.rt2                RT2        61.047 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\TR\rtext.rt2                B9C39CAB531CB1CCC609F19307A50F53
+rtext.rt2                RT2        56.590 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\TW\rtext.rt2                02C31D7EEA9598957DCEB7938CDD0ABC
+rtext.rt2                RT2        57.980 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\US\rtext.rt2                709F56284EE136026CFE3C6427D6700F
+user_profile.adc         ADC       177.974 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\user_profile\user_profile.adc            8741B661E4641B066F10D304E83E5A35
+s0305                               25.074 KB  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0305                                    B4D51DB58CCA06A9F0B2158255AAB1EF
+s0312                               24.586 KB  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0312                                    670E9174FB6FA19DBFB638B983927E47
+s0630                                2.324 KB  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0630                                    54F7AB0B230A2E75586F520656C50B4C
+s0633                                367 Byte  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0633                                    D3B4DA2BC63ADB865E8E86E14E720569
+s0634                                2.021 KB  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0634                                    6AE5E1E12B6E246A18B1CD55221BFECB
+s0635                                2.017 KB  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0635                                    426C4B7E12D2C7207ABFB11F42917F15
+s0636                                1.250 KB  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0636                                    B7E5AAE362EF78B3CC14948453F2C703
+s0637                                1.551 KB  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0637                                    934C251C75DC78F08CCFB89A58A9DF5B
+s0648                                2.214 KB  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0648                                    74FCE53B27E2F8F3D5BEB2F7652B13BF
+s0649                                2.214 KB  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0649                                    C112B98E616EDDE6DAA022FB2D29D098
+s0652                                118 Byte  \USRDIR\PDIPFS_EXTRACTED\scene\script\s0652                                    358AAAC575110419B0A832EE48CA5BB0
+bootstrap_phase3.adc     ADC        15.722 KB  \USRDIR\PDIPFS_EXTRACTED\scripts\gt5\bootstrap_phase3.adc                      6B8BD8A6F8DD6A45D956878E161C757B
+packed_main_loop.adc     ADC         1.044 MB  \USRDIR\PDIPFS_EXTRACTED\scripts\gt5\packed_main_loop.adc                      C5916F5A81701B8ABBFFC38A102015D1
+EventPresentUtil.adc     ADC        55.576 KB  \USRDIR\PDIPFS_EXTRACTED\scripts\gt5\util\EventPresentUtil.adc                 A01539064A762C8914522CAD3378FF51
+gtmode_pack.adc          ADC       137.007 KB  \USRDIR\PDIPFS_EXTRACTED\scripts\gt5\util\gtmode_pack.adc                      F6A0B83FC494238A08F1A52F90132E46
+ThumbnailAvatarUtil.adc  ADC        14.694 KB  \USRDIR\PDIPFS_EXTRACTED\scripts\gt5\util\ThumbnailAvatarUtil.adc              E689745F0C8FE1FE381D503864DC09CB
+CHASSIS.dbt              DBT        48.616 KB  \USRDIR\PDIPFS_EXTRACTED\specdb\GT5_JP3010\CHASSIS.dbt                         052D52A02F58B29B85DB820C28011D0F
+event_present_107.xml    XML         343 Byte  \USRDIR\PDIPFS_EXTRACTED\textdata\gt5\event_present_107.xml                    4DA10788A0E1AE06919314A69BC91B47
+0028                                70.688 KB  \USRDIR\PDIPFS_EXTRACTED\tire\hq\0028                                          C5DF6086F1784B09F3632C4D5118AD9B
+0041                                70.688 KB  \USRDIR\PDIPFS_EXTRACTED\tire\hq\0041                                          FA48F62D697EF6B78FB22112C7D5ED6E
+2797                                70.063 KB  \USRDIR\PDIPFS_EXTRACTED\tire\hq\2797                                          CA04A5F0EF1DA4C51CAA6694080917BC
+2811                                70.063 KB  \USRDIR\PDIPFS_EXTRACTED\tire\hq\2811                                          D5594634F63F465000F34B89AECEFC9D
+2812                                69.688 KB  \USRDIR\PDIPFS_EXTRACTED\tire\hq\2812                                          CB1FEC6F3F08185F771DA48CF9E8DEC8
+2813                                69.813 KB  \USRDIR\PDIPFS_EXTRACTED\tire\hq\2813                                          5414AFE295C2BC474C3846B72A104BB2
+2814                                70.313 KB  \USRDIR\PDIPFS_EXTRACTED\tire\hq\2814                                          B02208A14B787841B67A08533EF3ECF8
+0028                                71.250 KB  \USRDIR\PDIPFS_EXTRACTED\tire\race\0028                                        F3655B7A5CC66F991831BFFB31B32504
+0041                                71.375 KB  \USRDIR\PDIPFS_EXTRACTED\tire\race\0041                                        304E2652889A7A2A25FDD3FCAB05974D
+2797                                70.875 KB  \USRDIR\PDIPFS_EXTRACTED\tire\race\2797                                        17885B94C7CD29E1AA07F768AB8ADAD0
+2811                                70.875 KB  \USRDIR\PDIPFS_EXTRACTED\tire\race\2811                                        708F39B5ECB69F372FF6615256ED4468
+2812                                70.375 KB  \USRDIR\PDIPFS_EXTRACTED\tire\race\2812                                        2A1C4C349A2B7811F4E8B6CC7F07CF5A
+2813                                70.500 KB  \USRDIR\PDIPFS_EXTRACTED\tire\race\2813                                        EB0C28ABA7AE122145AAD31BE34645B7
+2814                                71.000 KB  \USRDIR\PDIPFS_EXTRACTED\tire\race\2814                                        8444AAB58A8178EEB67874CEEBD4424E
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+691 Files - 92.683 MB

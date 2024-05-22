@@ -286,26 +286,673 @@ The game code is identical to european retail, `BCES-00569`.
 
 ![aa](https://www.gran-turismo.com/images/c/i1GTp4M5eGVNORB.jpg){ width="200"}
 
-:material-shovel: *Dumped*: {==Mostly==} - Asian version missing. Korea/JP available on archive, redump collection
+:material-shovel: *Dumped*: {==Mostly==} - available on archive, redump collection (separate entry for Asia). 
 
 The main build of Gran Turismo 5, released on November 24, 2010.
 
 * Europe - `BCES-00569`
 * America - `BCUS-98114`
 * JP - `BCJS-30001`
-* Korea - `	BCKS-10096`
+* Korea - `BCKS-10096`
+* Asia - `BCAS-20151`
+
+??? abstract "File List"
+
+    ??? note "BCAS-20151"
+
+        * [Disc + GT.VOL](file_lists/BCAS-20151/1_00_disc.txt)
+        * [1.01](file_lists/BCAS-20151/1_01.txt)
+        * [1.05](file_lists/BCAS-20151/1_05.txt)
+        * [1.06](file_lists/BCAS-20151/1_06.txt)
+        * [1.07](file_lists/BCAS-20151/1_07.txt)
+        * [1.08](file_lists/BCAS-20151/1_08.txt)
+        * [1.09](file_lists/BCAS-20151/1_09.txt)
+        * [1.10](file_lists/BCAS-20151/1_10.txt)
+        * [1.11](file_lists/BCAS-20151/1_11.txt)
+        * [1.12](file_lists/BCAS-20151/1_12.txt)
+        * [1.13](file_lists/BCAS-20151/1_13.txt)
+        * [2.00](file_lists/BCAS-20151/2_00.txt)
+        * [2.01](file_lists/BCAS-20151/2_01.txt)
+        * [2.02](file_lists/BCAS-20151/2_02.txt)
+        * [2.03](file_lists/BCAS-20151/2_03.txt)
+        * [2.04](file_lists/BCAS-20151/2_04.txt)
+        * [2.05](file_lists/BCAS-20151/2_05.txt)
+        * [2.06](file_lists/BCAS-20151/2_06.txt)
+        * [2.07](file_lists/BCAS-20151/2_07.txt)
+        * [2.08](file_lists/BCAS-20151/2_08.txt)
+        * [2.09](file_lists/BCAS-20151/2_09.txt)
+        * [2.10](file_lists/BCAS-20151/2_10.txt)
+        * [2.11](file_lists/BCAS-20151/2_11.txt)
+        * [2.12](file_lists/BCAS-20151/2_12.txt)
+        * [2.13](file_lists/BCAS-20151/2_13.txt)
+        * [2.14](file_lists/BCAS-20151/2_14.txt)
+        * [2.15](file_lists/BCAS-20151/2_15.txt)
+        * [2.16](file_lists/BCAS-20151/2_16.txt)
+        * [2.17](file_lists/BCAS-20151/2_17.txt)
 
 ??? note "Build Info"
-    * Adhoc Version: `12`
-    * VersionBranch: `gt5`
-    * VersionTarget: `ps3`
-    * VersionEnvironment: `product-bd-strong`
-    * VersionBuild: `release`
-    * VersionUser: `build`
-    * SpecDB Version: `GT5_JP3010`
-    * EU Volume Seed: `KALAHARI-37863889`
-    * EU Volume Key: `770582183, 1093507573, 2285671657, 253390953`
-    * EU Grim URL: `https://gt5.ps3.online.uk.gran-turismo.com`
+
+    ??? abstract "BCAS-20151"
+
+        ??? tip "1.00"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2010/10/25 02:43:49`
+            * CompileSVNRevision: `45221`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3009`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `309667538`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime-face3dglass` (No DFE, No RTime, Face 3D Glass)
+
+        ??? tip "1.01"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.01`
+            * PDIVersion: `1.01`
+            * CompileDateTime: `2010/11/21 04:10:56`
+            * CompileSVNRevision: `46226`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `312005518`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime-face3dglass` (No DFE, No RTime, Face 3D Glass)
+
+        ??? tip "1.05"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `1.05`
+            * CompileDateTime: `2010/12/17 21:25:38`
+            * CompileSVNRevision: `46667`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `314314012`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime-face3dglass` (No DFE, No RTime, Face 3D Glass)
+
+        ??? tip "1.06"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.01`
+            * PDIVersion: `1.06`
+            * CompileDateTime: `2011/02/15 17:46:31`
+            * CompileSVNRevision: `46988`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `314314012`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime-face3dglass` (No DFE, No RTime, Face 3D Glass)
+
+        ??? tip "1.07"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `1.07`
+            * CompileDateTime: `2011/02/21 10:15:04`
+            * CompileSVNRevision: `47015`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `319977704`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime-face3dglass` (No DFE, No RTime, Face 3D Glass)
+
+        ??? tip "1.08"
+            * Volume Serial: `321291289`
+
+        ??? tip "1.09"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `1.09`
+            * CompileDateTime: `2011/03/25 10:56:14`
+            * CompileSVNRevision: `47120`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `323104492`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime-face3dglass` (No DFE, No RTime, Face 3D Glass)
+
+        ??? tip "1.10"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `1.10`
+            * CompileDateTime: `2011/05/17 21:12:15`
+            * CompileSVNRevision: `47241`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `327359587`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "1.11"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.01`
+            * PDIVersion: `1.11`
+            * CompileDateTime: `2011/08/16 09:38:56`
+            * CompileSVNRevision: `47485`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `335180707`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "1.12"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `1.12`
+            * CompileDateTime: `2011/08/30 19:01:11`
+            * CompileSVNRevision: `47541`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `336423727`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "1.13"
+            * Volume Serial: `337617117`
+
+        ??? tip "2.00 (Spec II)"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.00`
+            * CompileDateTime: `2011/10/05 11:53:35`
+            * CompileSVNRevision: `48060`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `339508463`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.01"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.01`
+            * CompileDateTime: `2011/10/20 19:56:50`
+            * CompileSVNRevision: `48207`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `340833468`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.02"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.02`
+            * CompileDateTime: `2011/11/24 22:34:05`
+            * CompileSVNRevision: `48504`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `343867145`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.03"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.03`
+            * CompileDateTime: `2011/12/15 20:16:33`
+            * CompileSVNRevision: `48671`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `345673663`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.04"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.04`
+            * CompileDateTime: `2012/01/27 17:27:32`
+            * CompileSVNRevision: `48843`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `349378584`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.05"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.05`
+            * CompileDateTime: `2012/02/10 01:51:50`
+            * CompileSVNRevision: `48913`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `350531552`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.06"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.06`
+            * CompileDateTime: `2012/05/14 18:13:06`
+            * CompileSVNRevision: `49419`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `358712043`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.07"
+            * Volume Serial: `359585115`
+
+        ??? tip "2.08"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.08`
+            * CompileDateTime: `2012/08/29 15:45:47`
+            * CompileSVNRevision: `50026`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `367947990`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.09"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.09`
+            * CompileDateTime: `2012/10/25 15:51:27`
+            * CompileSVNRevision: `50472`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `372873180`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.10"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.10`
+            * CompileDateTime: `2012/11/30 15:09:51`
+            * CompileSVNRevision: `50748`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `375981040`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.11"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.11`
+            * CompileDateTime: `2013/02/05 15:08:33`
+            * CompileSVNRevision: `51085`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `381769750`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.12"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.12`
+            * CompileDateTime: `2013/04/09 14:24:42`
+            * CompileSVNRevision: `51796`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `387210321`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.13"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.13`
+            * CompileDateTime: `2013/05/27 18:16:37`
+            * CompileSVNRevision: `52754`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `391371433`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.14"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.14`
+            * CompileDateTime: `2013/06/25 14:32:53`
+            * CompileSVNRevision: `53382`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `393863611`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.15"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.15`
+            * CompileDateTime: `2013/10/04 15:09:16`
+            * CompileSVNRevision: `53382`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `402592191`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.16"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.16`
+            * CompileDateTime: `2014/04/16 12:25:33`
+            * CompileSVNRevision: `59653`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `419343973`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+        ??? tip "2.17"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * VersionBranch: `gt5`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-bd-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.00`
+            * PDIVersion: `2.17`
+            * CompileDateTime: `2014/06/26 18:39:06`
+            * CompileSVNRevision: `60542`
+            * KeyLicensee: `0x4bf3706075f519f103cb8a6e87f708dc`
+            * SpecDB Version: `GT5_JP3010`
+            * Volume Seed: `TAKLAMAKAN-63706075`
+            * Volume Key: `2474130825, 869625781, 3882883907, 1613933971`
+            * Volume Serial: `425515783`
+            * Volume Title ID: `GT5-TW-TAKLAMAKAN-63706075`
+            * Grim URL: `https://gt5.ps3.online.tw.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * One executable (EBOOT)
+            * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
+
+    ??? note "BCES-00569"
+
+        * Adhoc Version: `12`
+        * VersionBranch: `gt5`
+        * VersionTarget: `ps3`
+        * VersionEnvironment: `product-bd-strong`
+        * VersionBuild: `release`
+        * VersionUser: `build`
+        * SpecDB Version: `GT5_JP3010`
+        * Volume Seed: `KALAHARI-37863889`
+        * Volume Key: `770582183, 1093507573, 2285671657, 253390953`
+        * Grim URL: `https://gt5.ps3.online.uk.gran-turismo.com`
 
 ??? note "Video Keys"
     * tv_263_951753387.pam key: `?`
@@ -318,6 +965,7 @@ The main build of Gran Turismo 5, released on November 24, 2010.
     * tv_322_507817159.pam key: `?`
     * tv_327_112435164.pam key: `?`
     * tv_362_111334274.pam key: `?`
+    * tv_364_153181276.pam key: `?` (In Asia Version)
     * tv_366_195028278.pam key: `?`
     * tv_382_413592331.pam key: `?`
     * tv_383_934515332.pam key: `?`

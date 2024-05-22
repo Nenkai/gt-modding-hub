@@ -1,0 +1,17 @@
+Name             Format        Size  Path                                                       MD5                             
+--------------------------------------------------------------------------------------------------------------------------------
+ICON0.PNG        PNG      28.194 KB  \ICON0.PNG                                                 241689215A6E0CA5F769F5B39D9E9238
+PARAM.SFO        SFO       420 Byte  \PARAM.SFO                                                 B5FE130754C7E47FE3DA18BD5D7EFC8F
+PS3LOGO.DAT      DAT       5.000 KB  \PS3LOGO.DAT                                               0AAD59DBA6C06F041B8D1E579BDA2C32
+TROPHY.TRP       TRP       2.848 MB  \TROPDIR\NPWR00651_00\TROPHY.TRP                           AC286666E7835B314454214EEBC240E1
+EBOOT.BIN        BIN       9.065 MB  \USRDIR\EBOOT.BIN                                          D9E679A810A9EAAB0FBE08D617113FAA
+2O                        84.158 KB  \USRDIR\PDIPFS\9\RK\2O                                     D5F04DC6A44BB712D7F6A8A3F893CD98
+ND                       751.787 KB  \USRDIR\PDIPFS\9\TA\ND                                     5437E585E69DB2B72AA26EAAFD74A7C1
+GH                         7.655 KB  \USRDIR\PDIPFS\9\UP\GH                                     8784C1B9E71F4B44E5BF22AD93C6BFD8
+1J                        55.729 KB  \USRDIR\PDIPFS\9\VF\1J                                     B4777573C7A200DDCADAE33A4734687C
+4D                         160 Byte  \USRDIR\PDIPFS\K\4D                                        E0A822688C251DA5BF38CA9CEA5B3F1A
+gttop.adc        ADC     282.651 KB  \USRDIR\PDIPFS_EXTRACTED\projects\gt5\gttop\gttop.adc      083996A44B530C3271444CDDAC39A034
+DLCUtil.adc      ADC      29.386 KB  \USRDIR\PDIPFS_EXTRACTED\scripts\gt5\util\DLCUtil.adc      132E2E68132FB69DFFCFFC8981502242
+gtmode_pack.adc  ADC     184.520 KB  \USRDIR\PDIPFS_EXTRACTED\scripts\gt5\util\gtmode_pack.adc  0AA711960F2B9EEFD806D888E010558F
+--------------------------------------------------------------------------------------------------------------------------------
+13 Files - 13.308 MB

@@ -1,0 +1,11 @@
+Name         Format        Size  Path                              MD5                             
+---------------------------------------------------------------------------------------------------
+ICON0.PNG    PNG      28.194 KB  \ICON0.PNG                        241689215A6E0CA5F769F5B39D9E9238
+PARAM.SFO    SFO       420 Byte  \PARAM.SFO                        34A531659D3EA73DDCD18E0F727BAC4A
+PS3LOGO.DAT  DAT       5.000 KB  \PS3LOGO.DAT                      0AAD59DBA6C06F041B8D1E579BDA2C32
+TROPHY.TRP   TRP       2.848 MB  \TROPDIR\NPWR00651_00\TROPHY.TRP  AC286666E7835B314454214EEBC240E1
+EBOOT.BIN    BIN       9.331 MB  \USRDIR\EBOOT.BIN                 FEC4DB2ADCFF49B7A2F1343ED68A102F
+KN                   689.593 KB  \USRDIR\PDIPFS\9\T1\KN            B2B3C11298400097ACFDA7293F96F263
+4D                     160 Byte  \USRDIR\PDIPFS\K\4D               E9E3BFAF26888EA8404E476969C2B617
+---------------------------------------------------------------------------------------------------
+7 Files - 12.885 MB
