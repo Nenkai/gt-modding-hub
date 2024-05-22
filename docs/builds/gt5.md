@@ -41,6 +41,9 @@ This was a PSN-only demo. Presumably no japanese release. [Official News](https:
 * America - [`NPUA-70087`](http://zeus.dl.playstation.net/cdn/HP9000/NPHA80080_00/Cv3LhAc1NNkdhDuA7qORMUWs28jtcCgOIEBJW4D630U0MPwnfCMMeUUcJyHcuqJAqRWRxCwtYywghrnU89vStJLk8OmOF0rjS5ySN.pkg)
 * Asia - [`NPHA-80080`](http://zeus.dl.playstation.net/cdn/UP9000/NPUA70087_00/fsJwHuEhkYFk1imhLuskX7AFRvhSbOtIOvNBD7igfxKhbdpfvAeei4d6NR3cNoeXtGi6tNvkk2t1nATKURdCO1J1JlqFhc98YO7I4.pkg)
 
+??? abstract "File List"
+    * NPEA-90052 [Install + PDIPFS](file_lists/NPEA90052-install.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `12`
     * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
