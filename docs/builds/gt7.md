@@ -131,6 +131,7 @@ The main build of Gran Turismo 7.
 Build date: 9/22/2022 8:07:21 AM
 
 <figure markdown>
-  ![Image title](https://cdn.discordapp.com/attachments/885625774193917952/1085136870901563412/20230314_164102.jpg){ width="600" }
+  ![20230314_164102](https://github.com/Nenkai/gt-modding-hub/assets/68824023/61281cf0-e773-4a74-aced-711b8650bb6f){ width="600" }
   <figcaption>Credits to FMecha</figcaption>
+
 </figure>
