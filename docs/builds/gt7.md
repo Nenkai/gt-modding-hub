@@ -116,12 +116,19 @@ The main build of Gran Turismo 7.
         * Volume Date: `05/16/2023 23:00:13`
 
     * 1.35 - 'Rome'
-    * 1.36 - 'Sevilla'
+    * 1.36 - 'Sevilla' (Has some mono dll files for C# interop test between adhoc & engine)
     * 1.37 - 'Sevilla-Fix'
     * 1.38 - 'Tahiti'
     * 1.39 - 'Tahiti-Fix'
-    * 1.40 - Spec II 'Utah'
+    * 1.40 - 'Utah' (Spec II)
         * Volume Date: `27/10/2023 02:27:00` (Serial: `720066420`)
+
+    * 1.42 - 'Venezia'
+        * Volume Date: `17/01/2024 21:23:00` (Serial: `727219380`)
+    
+    * 1.44 - 'Xian'
+        * Volume Date: `14/03/2024 21:59:00` (Serial: `732146340`)
+
 ---
 
 ## GT7 Kiosk Demo
