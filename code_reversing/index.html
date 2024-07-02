@@ -10,28 +10,24 @@
       
       
       
-        <link rel="canonical" href="https://nenkai.github.io/gt-modding-hub/builds/gt7/">
+        <link rel="canonical" href="https://nenkai.github.io/gt-modding-hub/code_reversing/">
       
       
-        <link rel="prev" href="../gt7sp/">
       
       
-        <link rel="next" href="../gtpsp/">
-      
-      
-      <link rel="icon" href="../../images/favicon.png">
+      <link rel="icon" href="../images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.28">
     
     
       
-        <title>Gran Turismo 7 - Gran Turismo Modding Hub</title>
+        <title>IDA/Ghidra Databases - Gran Turismo Modding Hub</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,9 +46,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -61,11 +57,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Gran Turismo 7 - Gran Turismo Modding Hub" >
+        <meta  property="og:title"  content="IDA/Ghidra Databases - Gran Turismo Modding Hub" >
       
         <meta  property="og:description"  content="Gran Turismo Modding Hub - The central source of information for GT Modding." >
       
-        <meta  property="og:image"  content="https://nenkai.github.io/gt-modding-hub/assets/images/social/builds/gt7.png" >
+        <meta  property="og:image"  content="https://nenkai.github.io/gt-modding-hub/assets/images/social/code_reversing.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -73,19 +69,19 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://nenkai.github.io/gt-modding-hub/builds/gt7/" >
+        <meta  property="og:url"  content="https://nenkai.github.io/gt-modding-hub/code_reversing/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Gran Turismo 7 - Gran Turismo Modding Hub" >
+        <meta  name="twitter:title"  content="IDA/Ghidra Databases - Gran Turismo Modding Hub" >
       
         <meta  name="twitter:description"  content="Gran Turismo Modding Hub - The central source of information for GT Modding." >
       
-        <meta  name="twitter:image"  content="https://nenkai.github.io/gt-modding-hub/assets/images/social/builds/gt7.png" >
+        <meta  name="twitter:image"  content="https://nenkai.github.io/gt-modding-hub/assets/images/social/code_reversing.png" >
       
     
     
-   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -94,7 +90,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -113,7 +109,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#chess" class="md-skip">
+        <a href="#idaghidra-databases" class="md-skip">
           Skip to content
         </a>
       
@@ -127,9 +123,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Gran Turismo Modding Hub" class="md-header__button md-logo" aria-label="Gran Turismo Modding Hub" data-md-component="logo">
+    <a href=".." title="Gran Turismo Modding Hub" class="md-header__button md-logo" aria-label="Gran Turismo Modding Hub" data-md-component="logo">
       
-  <img src="../../images/logo.png" alt="logo">
+  <img src="../images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -146,7 +142,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Gran Turismo 7
+              IDA/Ghidra Databases
             
           </span>
         </div>
@@ -255,7 +251,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -272,7 +268,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../blog" class="md-tabs__link">
+      <a href="../blog" class="md-tabs__link">
         
   
     
@@ -291,7 +287,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../ps1/" class="md-tabs__link">
+        <a href="../ps1/" class="md-tabs__link">
           
   
   PS1 (GT1/GT2)
@@ -309,7 +305,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../ps2/" class="md-tabs__link">
+        <a href="../ps2/" class="md-tabs__link">
           
   
   PS2 (GT3/GT4/TT)
@@ -327,7 +323,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../ps3/getting_started/" class="md-tabs__link">
+        <a href="../ps3/getting_started/" class="md-tabs__link">
           
   
   PS3 (GT5/GT6)
@@ -345,7 +341,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../ps4/" class="md-tabs__link">
+        <a href="../ps4/" class="md-tabs__link">
           
   
   PS4 (GTS/GT7)
@@ -363,7 +359,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../concepts/" class="md-tabs__link">
+        <a href="../concepts/" class="md-tabs__link">
           
   
   General Concepts
@@ -381,7 +377,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../formats/abstract/" class="md-tabs__link">
+        <a href="../formats/abstract/" class="md-tabs__link">
           
   
   Formats
@@ -395,13 +391,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../game_builds/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../builds/game_builds/" class="md-tabs__link">
           
   
   Game Builds
@@ -419,7 +413,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../mod_showcase/" class="md-tabs__link">
+        <a href="../mod_showcase/" class="md-tabs__link">
           
   
   Mod Showcase
@@ -437,7 +431,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../discord/" class="md-tabs__link">
+        <a href="../discord/" class="md-tabs__link">
           
   
   Discord
@@ -455,7 +449,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../credits/" class="md-tabs__link">
+        <a href="../credits/" class="md-tabs__link">
           
   
   Credits
@@ -477,6 +471,8 @@
           
             
               
+                
+              
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -490,9 +486,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Gran Turismo Modding Hub" class="md-nav__button md-logo" aria-label="Gran Turismo Modding Hub" data-md-component="logo">
+    <a href=".." title="Gran Turismo Modding Hub" class="md-nav__button md-logo" aria-label="Gran Turismo Modding Hub" data-md-component="logo">
       
-  <img src="../../images/logo.png" alt="logo">
+  <img src="../images/logo.png" alt="logo">
 
     </a>
     Gran Turismo Modding Hub
@@ -519,7 +515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -539,7 +535,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog" class="md-nav__link">
+      <a href="../blog" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -599,7 +595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps1/" class="md-nav__link">
+      <a href="../ps1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -660,7 +656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps1/gt1/tools/" class="md-nav__link">
+      <a href="../ps1/gt1/tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -729,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps1/gt2/tools/" class="md-nav__link">
+      <a href="../ps1/gt2/tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -805,7 +801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/" class="md-nav__link">
+      <a href="../ps2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -826,7 +822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/models/" class="md-nav__link">
+      <a href="../ps2/models/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -927,7 +923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/gt3/volume/" class="md-nav__link">
+      <a href="../ps2/gt3/volume/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -956,7 +952,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/gt3/patches/" class="md-nav__link">
+      <a href="../ps2/gt3/patches/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -977,7 +973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/gt3/tools/" class="md-nav__link">
+      <a href="../ps2/gt3/tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -998,7 +994,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/gt3/model_car_list/" class="md-nav__link">
+      <a href="../ps2/gt3/model_car_list/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1107,7 +1103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/gt4/volume/" class="md-nav__link">
+      <a href="../ps2/gt4/volume/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1128,7 +1124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/gt4/file_structure/" class="md-nav__link">
+      <a href="../ps2/gt4/file_structure/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1157,7 +1153,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/gt4/specdb/" class="md-nav__link">
+      <a href="../ps2/gt4/specdb/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1178,7 +1174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/textures/" class="md-nav__link">
+      <a href="../ps2/textures/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1199,7 +1195,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/gt4/tools/" class="md-nav__link">
+      <a href="../ps2/gt4/tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1220,7 +1216,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/gt4/patches/" class="md-nav__link">
+      <a href="../ps2/gt4/patches/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1281,7 +1277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/gt4/misc/loading_clock_colors/" class="md-nav__link">
+      <a href="../ps2/gt4/misc/loading_clock_colors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1358,7 +1354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/executables/" class="md-nav__link">
+      <a href="../ps2/executables/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1379,7 +1375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/reverse_engineering_notes/" class="md-nav__link">
+      <a href="../ps2/reverse_engineering_notes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1400,7 +1396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps2/model_render_commands/" class="md-nav__link">
+      <a href="../ps2/model_render_commands/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1476,7 +1472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/getting_started/" class="md-nav__link">
+      <a href="../ps3/getting_started/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1537,7 +1533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/basics/volume_system/" class="md-nav__link">
+      <a href="../ps3/basics/volume_system/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1558,7 +1554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/basics/file_structure/" class="md-nav__link">
+      <a href="../ps3/basics/file_structure/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1579,7 +1575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/basics/easier_ways_to_mod/" class="md-nav__link">
+      <a href="../ps3/basics/easier_ways_to_mod/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1648,7 +1644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/text_editing/" class="md-nav__link">
+      <a href="../ps3/text_editing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1669,7 +1665,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/textures/" class="md-nav__link">
+      <a href="../ps3/textures/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1690,7 +1686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/music_tracks/" class="md-nav__link">
+      <a href="../ps3/music_tracks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1711,7 +1707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/car_sound_editing/" class="md-nav__link">
+      <a href="../ps3/car_sound_editing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1732,7 +1728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/specdb/" class="md-nav__link">
+      <a href="../ps3/specdb/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1753,7 +1749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/events/" class="md-nav__link">
+      <a href="../ps3/events/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1774,7 +1770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/adhoc/" class="md-nav__link">
+      <a href="../ps3/adhoc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1795,7 +1791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/movies/" class="md-nav__link">
+      <a href="../ps3/movies/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1816,7 +1812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/models/" class="md-nav__link">
+      <a href="../ps3/models/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1837,7 +1833,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/fonts/" class="md-nav__link">
+      <a href="../ps3/fonts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1858,7 +1854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/textdata/" class="md-nav__link">
+      <a href="../ps3/textdata/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1927,7 +1923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/other/optimal_setup/" class="md-nav__link">
+      <a href="../ps3/other/optimal_setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1948,7 +1944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/other/command_line_args/" class="md-nav__link">
+      <a href="../ps3/other/command_line_args/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1969,7 +1965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/other/fsroot/" class="md-nav__link">
+      <a href="../ps3/other/fsroot/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1990,7 +1986,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/other/updates/" class="md-nav__link">
+      <a href="../ps3/other/updates/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2011,7 +2007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/other/custom_server/" class="md-nav__link">
+      <a href="../ps3/other/custom_server/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2032,7 +2028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/other/rpcs3_setup/" class="md-nav__link">
+      <a href="../ps3/other/rpcs3_setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2053,7 +2049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps3/tools/" class="md-nav__link">
+      <a href="../ps3/tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2129,7 +2125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps4/" class="md-nav__link">
+      <a href="../ps4/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2150,7 +2146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ps4/tools/" class="md-nav__link">
+      <a href="../ps4/tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2218,7 +2214,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../concepts/" class="md-nav__link">
+      <a href="../concepts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2239,7 +2235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../concepts/volume/" class="md-nav__link">
+      <a href="../concepts/volume/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2260,7 +2256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../concepts/specdb/" class="md-nav__link">
+      <a href="../concepts/specdb/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2321,7 +2317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../concepts/adhoc/adhoc/" class="md-nav__link">
+      <a href="../concepts/adhoc/adhoc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2342,7 +2338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../concepts/adhoc/tinyweb/" class="md-nav__link">
+      <a href="../concepts/adhoc/tinyweb/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2411,7 +2407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../concepts/courses/basics/" class="md-nav__link">
+      <a href="../concepts/courses/basics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2480,7 +2476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../concepts/online/grim/" class="md-nav__link">
+      <a href="../concepts/online/grim/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2501,7 +2497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../concepts/online/vegas/" class="md-nav__link">
+      <a href="../concepts/online/vegas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2577,7 +2573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/abstract/" class="md-nav__link">
+      <a href="../formats/abstract/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2638,7 +2634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/database/dbt_database_table/" class="md-nav__link">
+      <a href="../formats/database/dbt_database_table/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2659,7 +2655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/database/idi_label_information/" class="md-nav__link">
+      <a href="../formats/database/idi_label_information/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2680,7 +2676,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/database/sdb_string_database/" class="md-nav__link">
+      <a href="../formats/database/sdb_string_database/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2749,7 +2745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/texture/img_tex1_textureset/" class="md-nav__link">
+      <a href="../formats/texture/img_tex1_textureset/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2770,7 +2766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/texture/img_txs3_textureset3/" class="md-nav__link">
+      <a href="../formats/texture/img_txs3_textureset3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2839,7 +2835,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/audio/bgml_bgm_library/" class="md-nav__link">
+      <a href="../formats/audio/bgml_bgm_library/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2860,7 +2856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/audio/esgx_engine_sgx/" class="md-nav__link">
+      <a href="../formats/audio/esgx_engine_sgx/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2881,7 +2877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/audio/sgd_sgh_sgx_data/" class="md-nav__link">
+      <a href="../formats/audio/sgd_sgh_sgx_data/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2950,7 +2946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/adhoc/adch_adhoc_compiled/" class="md-nav__link">
+      <a href="../formats/adhoc/adch_adhoc_compiled/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2971,7 +2967,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/adhoc/gpb_gpbdata/" class="md-nav__link">
+      <a href="../formats/adhoc/gpb_gpbdata/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3040,7 +3036,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/models/pat0_colorpatch/" class="md-nav__link">
+      <a href="../formats/models/pat0_colorpatch/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3061,7 +3057,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/models/mdl3_modelset3/" class="md-nav__link">
+      <a href="../formats/models/mdl3_modelset3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3130,7 +3126,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/courses/gt4_coursedata/" class="md-nav__link">
+      <a href="../formats/courses/gt4_coursedata/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3199,7 +3195,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/fonts/vec_nvec/" class="md-nav__link">
+      <a href="../formats/fonts/vec_nvec/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3268,7 +3264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/volume/ps2_gt4_volume/" class="md-nav__link">
+      <a href="../formats/volume/ps2_gt4_volume/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3289,7 +3285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/volume/ps3_volume/" class="md-nav__link">
+      <a href="../formats/volume/ps3_volume/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3358,7 +3354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/rt2_localization/" class="md-nav__link">
+      <a href="../formats/rt2_localization/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3379,7 +3375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/ps2_core/" class="md-nav__link">
+      <a href="../formats/ps2_core/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3448,7 +3444,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../formats/compression/compression_formats/" class="md-nav__link">
+      <a href="../formats/compression/compression_formats/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3481,30 +3477,25 @@
       
   
   
-    
   
   
-  
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3515,7 +3506,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             Game Builds
@@ -3529,7 +3520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../game_builds/" class="md-nav__link">
+      <a href="../builds/game_builds/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3555,20 +3546,17 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
         
           
-          <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3593,7 +3581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gt1/" class="md-nav__link">
+      <a href="../builds/gt1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3614,7 +3602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gt2/" class="md-nav__link">
+      <a href="../builds/gt2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3648,20 +3636,17 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3" >
         
           
-          <label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3686,7 +3671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gt3/" class="md-nav__link">
+      <a href="../builds/gt3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3707,7 +3692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gt3concept/" class="md-nav__link">
+      <a href="../builds/gt3concept/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3728,7 +3713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gt4p/" class="md-nav__link">
+      <a href="../builds/gt4p/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3749,7 +3734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gt4/" class="md-nav__link">
+      <a href="../builds/gt4/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3770,7 +3755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tt/" class="md-nav__link">
+      <a href="../builds/tt/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3804,20 +3789,17 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
         
           
-          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3842,7 +3824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gthd/" class="md-nav__link">
+      <a href="../builds/gthd/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3863,7 +3845,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gt5p/" class="md-nav__link">
+      <a href="../builds/gt5p/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3884,7 +3866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gt5/" class="md-nav__link">
+      <a href="../builds/gt5/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3905,7 +3887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gt6/" class="md-nav__link">
+      <a href="../builds/gt6/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3931,30 +3913,25 @@
                 
   
   
-    
   
   
-  
     
     
     
       
       
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5" >
         
           
-          
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3965,7 +3942,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_9_5">
             <span class="md-nav__icon md-icon"></span>
             PS4/PS5
@@ -3979,7 +3956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gt7sp/" class="md-nav__link">
+      <a href="../builds/gt7sp/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3997,28 +3974,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Gran Turismo 7
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../builds/gt7/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4027,51 +3986,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#chess" class="md-nav__link">
-    <span class="md-ellipsis">
-      Chess
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gt7" class="md-nav__link">
-    <span class="md-ellipsis">
-      GT7
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gt7-kiosk-demo" class="md-nav__link">
-    <span class="md-ellipsis">
-      GT7 Kiosk Demo
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -4097,20 +4011,17 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
         
           
-          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -4135,7 +4046,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gtpsp/" class="md-nav__link">
+      <a href="../builds/gtpsp/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4211,7 +4122,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mod_showcase/" class="md-nav__link">
+      <a href="../mod_showcase/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4279,7 +4190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../discord/" class="md-nav__link">
+      <a href="../discord/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4340,7 +4251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../discord/gt7_shuffle/" class="md-nav__link">
+      <a href="../discord/gt7_shuffle/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4416,7 +4327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../credits/" class="md-nav__link">
+      <a href="../credits/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4452,7 +4363,7 @@
                   
 
   
-    <a href="https://github.com/Nenkai/gt-modding-hub/edit/master/docs/builds/gt7.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/Nenkai/gt-modding-hub/edit/master/docs/code_reversing.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -4460,207 +4371,37 @@
   
 
 
-  <h1>Gran Turismo 7</h1>
-
-<p>GT7 is the first cross-platform GT, being available on PS4 and PS5. It is also the first Gran Turismo to partly move away from using <a href="../../concepts/adhoc/adhoc/">Adhoc</a>, having moved to Swift for its logic and UI code instead. Furthermore it no longer uses <a href="../../concepts/online/grim/">Grim3</a>, instead uses a new server solution named <a href="../../concepts/online/vegas/">Vegas</a>.</p>
-<p>The entire engine interface for adhoc has been rebuilt with reflection in mind, now allowing to directly expose many C++ fields, allowing further control through scripting. </p>
-<p>The <a href="../../concepts/volume/">volume</a> has seen a complete revision aswell, being based on <a href="https://en.wikipedia.org/wiki/Perfect_hash_function">MPH (Minimal Perfect Hash)</a> for file lookup and introducing support for multiple compression algorithms - ZSTD for PS4, Oodle for PS5.</p>
-<p>Most of the formats on the PS4 version are identical, if not directly compatible with GT Sport.</p>
-<hr />
-<h2 id="chess">Chess<a class="headerlink" href="#chess" title="Permanent link">&para;</a></h2>
-<p><a class="glightbox" href="../../images/covers/GT7_chess.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="aa" src="../../images/covers/GT7_chess.png" width="300" /></a></p>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15.1 1.81-2.83 2.83c-.77.78-.77 2.05 0 2.83l1.41 1.41-4.55 4.55-2.82-2.83L4.89 12c-4.95 5-1.39 8.5-1.39 8.5S7 24 12 19.09l1.41-1.41-2.8-2.8 4.54-4.54 1.39 1.39c.78.77 2.05.77 2.83 0L22.2 8.9l-7.1-7.09m2.83 8.47L16.55 8.9l-1.44-1.44-1.4-1.4 1.41-1.41 4.23 4.23-1.42 1.4Z"/></svg></span> <em>Dumped</em>: <img alt="❌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/274c.svg" title=":x:" /> <mark class="critic">No</mark></p>
-<p>An internal demo/beta build of GT7 for PS5, with a chess icon. Initially spotted on October 29, 2021.</p>
-<ul>
-<li>Europe: <a href="https://prosperopatches.com/PPSA05485">PPSA-05485</a></li>
-<li>America: <a href="https://prosperopatches.com/PPSA05484">PPSA-05484</a></li>
-<li>Japan: <a href="https://prosperopatches.com/PPSA05483">PPSA-05483</a></li>
-</ul>
-<hr />
-<h2 id="gt7">GT7<a class="headerlink" href="#gt7" title="Permanent link">&para;</a></h2>
-<p><a class="glightbox" href="https://www.gran-turismo.com/images/c/i1dZJVVWujMwTz.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="aa" src="https://www.gran-turismo.com/images/c/i1dZJVVWujMwTz.png" width="200" /></a></p>
-<p>The main build of Gran Turismo 7.</p>
-<ul>
-<li>Europe (PS4) - <a href="https://orbispatches.com/CUSA24767"><code>CUSA-24767</code></a></li>
-<li>America (PS4) - <a href="https://orbispatches.com/CUSA24769"><code>CUSA-24769</code></a></li>
-<li>Japan (PS4) - <a href="https://orbispatches.com/CUSA24765"><code>CUSA-24765</code></a></li>
-<li>Asia (PS4) -  <a href="https://orbispatches.com/CUSA24771"><code>CUSA-24771</code></a></li>
-<li>Europe (PS5) - <a href="https://prosperopatches.com/PPSA01316"><code>PPSA-01316</code></a></li>
-<li>America (PS5) - <a href="https://prosperopatches.com/PPSA01317"><code>PPSA-01317</code></a></li>
-<li>Japan (PS5) -  <a href="https://prosperopatches.com/PPSA01315"><code>PPSA-01315</code></a></li>
-<li>Asia (PS5) - <a href="https://prosperopatches.com/PPSA01318"><code>PPSA-01318</code></a></li>
-</ul>
-<details class="note">
-<summary>Build Info</summary>
-<ul>
-<li>Adhoc Version: <code>14</code> (<code>15</code> starting <code>1.29</code>)</li>
-<li>BuildID: <code>525_988daa0a2a13ccb8b7e93f332fd7f2253119fda9</code></li>
-<li>VersionBranch: <code>gt7</code></li>
-<li>VersionEnvironment: <code>product</code></li>
-<li>VersionBuild: <code>release</code></li>
-<li>VegasAppName: <code>gt</code></li>
-<li>VegasAppVersion: <code>0.1.0</code></li>
-<li>VersionApplication: <code>1.00</code></li>
-<li>RuntimePlatform: <code>ps4</code></li>
-<li>DMS: <code>ce6c67d68d47a18438d745cc7a63847f86e8a2e74b9777d40b70944535ddf6af</code></li>
-</ul>
-</details>
-<details class="note">
-<summary>Updates</summary>
+<h1 id="idaghidra-databases">IDA/Ghidra Databases<a class="headerlink" href="#idaghidra-databases" title="Permanent link">&para;</a></h1>
+<p>IDA/Ghidra databases are available <a href="https://www.mediafire.com/file/l6hdjyuhcjbo5tr/GT_RE.zip/file">here</a> for most games between PS2-PS4 (last updated - July 2nd 2024).</p>
+<p>You may need:</p>
 <ul>
 <li>
-<p>1.07</p>
+<p>PS4:</p>
 <ul>
-<li>Volume Date: <code>03/16/2022 00:15:38 +00:00</code></li>
+<li><a href="https://github.com/SocraticBliss/ps4_module_loader">PS4 Module Loader</a></li>
 </ul>
 </li>
 <li>
-<p>1.08</p>
+<p>PS3:</p>
 <ul>
-<li>Volume Date: <code>03/18/2022 02:54:08 +00:00</code></li>
+<li><a href="https://github.com/clienthax/Ps3GhidraScripts">Ps3GhidraScripts</a></li>
+<li>For GT6's IDB: CELL_PPU_PROC from <a href="../tools/ps3_ghidra-master.zip"><code>ps3_ghidra</code></a> - not sure about the author, this file was almost lost to time. You might have to manually upgrade it for newer ghidra versions to accept it</li>
 </ul>
 </li>
 <li>
-<p>1.09 - 'Berlin'</p>
+<p>PS2 (Note: CORE files built with <a href="https://github.com/Nenkai/PDTools">GT4ElfBuilderTool</a>):</p>
 <ul>
-<li>MISSING</li>
+<li><a href="https://github.com/chaoticgd/ghidra-emotionengine-reloaded">Ghidra Emotion Engine: Reloaded</a></li>
+<li>IRX Files: <a href="https://github.com/Ziemas/ghidra_irx">Ghidra IRX</a></li>
 </ul>
 </li>
 <li>
-<p>1.11</p>
+<p>PSP:</p>
 <ul>
-<li>Volume Date: <code>04/05/2022 20:58:26 +00:00</code></li>
-</ul>
-</li>
-<li>
-<p>1.12</p>
-<ul>
-<li>Volume Date: <code>04/10/2022 00:50:52 +00:00</code></li>
-</ul>
-</li>
-<li>
-<p>1.13</p>
-<ul>
-<li>Volume Date: <code>04/19/2022 23:41:58 +00:00</code></li>
-</ul>
-</li>
-<li>
-<p>1.15</p>
-<ul>
-<li>Volume Date: <code>05/24/2022 01:20:28</code></li>
-</ul>
-</li>
-<li>
-<p>1.17</p>
-<ul>
-<li>Volume Date: <code>06/22/2022 00:09:52</code></li>
-</ul>
-</li>
-<li>
-<p>1.18</p>
-<ul>
-<li>Volume Date: <code>06/30/2022 00:14:32</code></li>
-</ul>
-</li>
-<li>
-<p>1.19</p>
-<ul>
-<li>Volume Date: <code>07/25/2022 21:57:17</code></li>
-</ul>
-</li>
-<li>
-<p>1.20</p>
-<ul>
-<li>Volume Date: <code>08/22/2022 21:31:20</code></li>
-</ul>
-</li>
-<li>
-<p>1.23</p>
-<ul>
-<li>Volume Date: <code>9/25/2022 9:52:09 PM</code></li>
-</ul>
-</li>
-<li>
-<p>1.25 - 'Jakarta'</p>
-<ul>
-<li>Volume Date: <code>10/17/2022 06:29:50</code></li>
-</ul>
-</li>
-<li>
-<p>1.26 - 'Kumamoto'</p>
-<ul>
-<li>Volume Date: <code>11/17/2022 22:13:14</code></li>
-</ul>
-</li>
-<li>
-<p>1.27 - 'Lisbon'</p>
-<ul>
-<li>Volume Date: <code>12/7/2022 10:04:15</code></li>
-</ul>
-</li>
-<li>
-<p>1.29 - 'New York'</p>
-<ul>
-<li>Volume Date: <code>2/14/2023 12:26:11 AM</code></li>
-</ul>
-</li>
-<li>
-<p>1.31 - 'Oregon'</p>
-<ul>
-<li>Volume Date: <code>03/17/2023 17:39:04</code></li>
-</ul>
-</li>
-<li>
-<p>1.32 - 'Paris'</p>
-<ul>
-<li>Volume Date: <code>04/15/2023 9:48:03 PM</code></li>
-</ul>
-</li>
-<li>
-<p>1.33 - 'Paris-Fix'</p>
-</li>
-<li>
-<p>1.34 - 'Quebec'</p>
-<ul>
-<li>Volume Date: <code>05/16/2023 23:00:13</code></li>
-</ul>
-</li>
-<li>
-<p>1.35 - 'Rome'</p>
-</li>
-<li>1.36 - 'Sevilla' (Has some mono dll files for C# interop test between adhoc &amp; engine)</li>
-<li>1.37 - 'Sevilla-Fix'</li>
-<li>1.38 - 'Tahiti'</li>
-<li>1.39 - 'Tahiti-Fix'</li>
-<li>
-<p>1.40 - 'Utah' (Spec II)</p>
-<ul>
-<li>Volume Date: <code>27/10/2023 02:27:00</code> (Serial: <code>720066420</code>)</li>
-</ul>
-</li>
-<li>
-<p>1.42 - 'Venezia'</p>
-<ul>
-<li>Volume Date: <code>17/01/2024 21:23:00</code> (Serial: <code>727219380</code>)</li>
-</ul>
-</li>
-<li>
-<p>1.44 - 'Xian'</p>
-<ul>
-<li>Volume Date: <code>14/03/2024 21:59:00</code> (Serial: <code>732146340</code>)</li>
+<li><a href="https://github.com/kotcrab/ghidra-allegrex">Ghidra Allegrex</a></li>
 </ul>
 </li>
 </ul>
-</details>
-<hr />
-<h2 id="gt7-kiosk-demo">GT7 Kiosk Demo<a class="headerlink" href="#gt7-kiosk-demo" title="Permanent link">&para;</a></h2>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15.1 1.81-2.83 2.83c-.77.78-.77 2.05 0 2.83l1.41 1.41-4.55 4.55-2.82-2.83L4.89 12c-4.95 5-1.39 8.5-1.39 8.5S7 24 12 19.09l1.41-1.41-2.8-2.8 4.54-4.54 1.39 1.39c.78.77 2.05.77 2.83 0L22.2 8.9l-7.1-7.09m2.83 8.47L16.55 8.9l-1.44-1.44-1.4-1.4 1.41-1.41 4.23 4.23-1.42 1.4Z"/></svg></span> <em>Dumped</em>: <img alt="❌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/274c.svg" title=":x:" /> <mark class="critic">No</mark></p>
-<p>Build date: 9/22/2022 8:07:21 AM</p>
-<figure>
-<p><a class="glightbox" href="https://github.com/Nenkai/gt-modding-hub/assets/68824023/61281cf0-e773-4a74-aced-711b8650bb6f" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="20230314_164102" src="https://github.com/Nenkai/gt-modding-hub/assets/68824023/61281cf0-e773-4a74-aced-711b8650bb6f" width="600" /></a>
-  </p>
-<figcaption>Credits to FMecha</figcaption>
-</figure>
 
 
 
@@ -4683,7 +4424,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 28, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 2, 2024</span>
   </span>
 
     
@@ -4693,7 +4434,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 12, 2023</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 2, 2024</span>
   </span>
 
     
@@ -4716,11 +4457,6 @@
           <img src="https://avatars.githubusercontent.com/u/13786175?v=4&size=72" alt="Nenkai">
         </a>
       
-        <a href="https://github.com/FMecha" class="md-author" title="@FMecha">
-          
-          <img src="https://avatars.githubusercontent.com/u/68824023?v=4&size=72" alt="FMecha">
-        </a>
-      
       
       
     </nav>
@@ -4730,6 +4466,8 @@
   </aside>
 
 
+
+  
 
 
 
@@ -4753,44 +4491,6 @@
       
         <footer class="md-footer">
   
-    
-      
-      <nav class="md-footer__inner md-grid" aria-label="Footer" >
-        
-          
-          <a href="../gt7sp/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Gran Turismo SPORT">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              <div class="md-ellipsis">
-                Gran Turismo SPORT
-              </div>
-            </div>
-          </a>
-        
-        
-          
-          <a href="../gtpsp/" class="md-footer__link md-footer__link--next" aria-label="Next: Gran Turismo PSP">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Gran Turismo PSP
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -4869,10 +4569,10 @@
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.footer", "navigation.top", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "toc.integrate", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "content.action.edit", "content.code.annotate", "header.autohide"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.footer", "navigation.top", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "toc.integrate", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "content.action.edit", "content.code.annotate", "header.autohide"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
