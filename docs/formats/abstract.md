@@ -6,6 +6,8 @@ Most file formats in Gran Turismo are proprietary and if not, will use platform 
 
 The following pages are essentially a human readable mirror of [the 010 templates for 010 Editor](https://github.com/Nenkai/GT-File-Specifications-Documentation/tree/master/Formats) for each format described - which is still recommended to easily visualize game files.
 
+**If you intend to reverse formats you should probably grab IDB/Ghidra databases [here](../code_reversing.md).**
+
 ---
 
 ## Similarities between formats

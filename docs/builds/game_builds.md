@@ -17,3 +17,7 @@ Begin by browsing a game on the left-side of this screen.
 Across the many builds on all platforms, no executable debug symbols were ever found (starting from PS3 it is mandatory for them to be stripped to get past the certification process).
 
 However debug symbols have been found for a prototype version of GTHD - presumably from a prototype PS3 devkit - origins unknown. They are available on [archive](https://archive.org/details/gthd-ps3-debug-binaries) and is close enough to GT4.
+
+---
+
+Additionally, IDB/Ghidra databases are available [here](../code_reversing.md).
