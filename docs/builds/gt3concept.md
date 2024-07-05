@@ -275,9 +275,19 @@ Game Code: `PAPX-90509`
 
 ![aa](../images/covers/gtc_subaru.png){ width="250" }
 
-:material-shovel: *Dumped*: :x: {==No==} · :material-disc: [Redump Info](http://redump.org/disc/98890/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-subaru-driving-simulator) · [Redump Info](http://redump.org/disc/98890/)
 
 Game Code: `PCPX-96634`
 
+??? abstract "File List"
+    * [ISO + VOL](file_lists/PCPX-96634.txt)
 
+??? note "Build Info"
+    * Game Code: `PCPX-96634`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `3.50 GB`
+    * ISO CRC: `D288868F`
+    * Has HostFS implementation
+    * Config: `gameconf/concept-ride.gcf`
 
