@@ -50,7 +50,7 @@
     * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T5/9ed201b7cd8cf2f5/UP9000-BCUS98114_00-0000000000000000-A0102-V0100-PE.pkg) (pulled, can be skipped)
     * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T8/a73ce81749eb473a/UP9000-BCUS98114_00-0000000000000000-A0103-V0100-PE.pkg) (pulled, can be skipped)
 	* [1.05](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0105-V0100-PE.pkg)
-	* [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0106-V0101-PE.pkg)
+	* [1.06](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0106-V0100-PE.pkg)
 	* [1.07](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0107-V0100-PE.pkg)
 	* [1.08](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0108-V0100-PE.pkg)
 	* [1.09](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0109-V0100-PE.pkg)
