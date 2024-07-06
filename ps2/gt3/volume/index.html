@@ -4514,13 +4514,13 @@
 <li>Understanding how <a href="https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/">Command Prompt / <code>cmd</code></a> works and opening it in a folder.</li>
 <li>Windows</li>
 <li>Preferably <a href="https://pcsx2.net/">PCSX2</a></li>
-<li><a href="https://github.com/Nenkai/gt2tools/releases">GT3VOLExtractor</a></li>
+<li><a href="https://github.com/Nenkai/gt2tools/releases">GT3VOLExtractor</a> - <strong>make sure you use this version, it is a fork</strong></li>
 </ul>
 <hr />
 <h2 id="extracting-the-game">Extracting the game<a class="headerlink" href="#extracting-the-game" title="Permanent link">&para;</a></h2>
 <p>All PS2 GT titles use the <a href="../../../concepts/volume/">volume system</a>, which will need to be extracted in order to gain access to game contents.</p>
 <p>If you haven't already, extract the <code>.iso</code> file using <a href="https://www.7-zip.org/">7-Zip</a> or by any other means. You should be able to see a <code>GT3.VOL</code> file.</p>
-<p>Using <code>GT3VOLExtractor</code>, extract the volume file as such</p>
+<p>Using <code>GT3VOLExtractor</code> (forked version above), extract the volume file as such</p>
 <div class="highlight"><span class="filename">Extracting GT3.VOL</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GT3VOLExtractor -e GT3.VOL data --decompress-all
 </code></pre></div>
 <p>This may take a while, but when complete, you should be able to see a new <code>data</code> folder.</p>
@@ -4576,7 +4576,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 31, 2023</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 6, 2024</span>
   </span>
 
     
