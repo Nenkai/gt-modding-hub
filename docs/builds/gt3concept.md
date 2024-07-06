@@ -248,13 +248,26 @@ Game Code: `SCED-51352#2`
     * Has some symbols as `.gnu_linkonce` segments
 ---
 
-## Gran Turismo: LUPO CUP Training Version 1 (Apr ??, 2003)
+## Gran Turismo: LUPO CUP Training Version 1 (Apr 9, 2003)
 
 ![aa](../images/covers/gtc_lupo.jpg){ width="250" }
 
-:material-shovel: *Dumped*: :x: {==No==} · :material-disc: [Redump Info](http://redump.org/disc/99961/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-lupo-gti-vol-1) · :material-disc: [Redump Info](http://redump.org/disc/99961/)
 
 Game Code: `PAPX-90508`
+
+??? abstract "File List"
+    * [ISO + VOL](file_lists/PAPX-90508.txt)
+
+??? note "Build Info"
+    * Game Code: `PAPX-90508`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
+    * Unified executable
+    * ISO Size: `3.23 GB`
+    * ISO CRC: `538483F0`
+    * Has HostFS implementation
+    * Config: `gameconf/concept-wagen.gcf`
+    * Has some symbols as `.gnu_linkonce` segments
 
 ---
 
