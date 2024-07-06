@@ -5,7 +5,7 @@
 * Understanding how [Command Prompt / `cmd`](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) works and opening it in a folder.
 * Windows
 * Preferably [PCSX2](https://pcsx2.net/)
-* [GT3VOLExtractor](https://github.com/Nenkai/gt2tools/releases)
+* [GT3VOLExtractor](https://github.com/Nenkai/gt2tools/releases) - **make sure you use this version, it is a fork**
 
 ---
 
@@ -15,7 +15,7 @@ All PS2 GT titles use the [volume system](../../concepts/volume.md), which will 
 
 If you haven't already, extract the `.iso` file using [7-Zip](https://www.7-zip.org/) or by any other means. You should be able to see a `GT3.VOL` file.
 
-Using `GT3VOLExtractor`, extract the volume file as such
+Using `GT3VOLExtractor` (forked version above), extract the volume file as such
 
 ``` markdown title="Extracting GT3.VOL"
 GT3VOLExtractor -e GT3.VOL data --decompress-all
