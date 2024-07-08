@@ -272,6 +272,9 @@ Game Code: `PAPX-90508`
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/hlH77_hvtHY?si" title="Gran Turismo: LUPO CUP Training Version 1 | PAPX-90508 | Apr 09, 2003" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+??? youtube "Hidden/Beta Tracks"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/fsbB2FC_RPA?si" title="Hidden/Beta Tracks | Gran Turismo: LUPO CUP Training Version 1 | PAPX-90508" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 ## Gran Turismo: LUPO CUP Training Version 2 (Apr ??, 2003)
@@ -306,4 +309,11 @@ Game Code: `PCPX-96634`
     * ISO CRC: `D288868F`
     * Has HostFS implementation
     * Config: `gameconf/concept-ride.gcf`
+
+
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/zfwJnpMgy7U?si" title="Gran Turismo: Subaru Driving Simulator | PCPX-96634 | May 17, 2003" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+??? youtube "Hidden/Beta Tracks"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/oYzIUE9z1I4?si" title="Hidden/Beta Tracks | Gran Turismo: Subaru Driving Simulator | PCPX-96634" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
