@@ -269,6 +269,9 @@ Game Code: `PAPX-90508`
     * Config: `gameconf/concept-wagen.gcf`
     * Has some symbols as `.gnu_linkonce` segments
 
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/hlH77_hvtHY?si" title="Gran Turismo: LUPO CUP Training Version 1 | PAPX-90508 | Apr 09, 2003" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 ## Gran Turismo: LUPO CUP Training Version 2 (Apr ??, 2003)
