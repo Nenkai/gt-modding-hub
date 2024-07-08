@@ -73,7 +73,7 @@ Game Code: `PAPX-90207`
 
 ## GT3 Store Trial Disk Autobacs (Oct 3, 2000)
 
-![aa](../images/covers/gt3_autobacs.jpg){ width="250"}
+![aa](https://github.com/Paiky7/gt-modding-hub/blob/master/docs/images/covers/gt3_autobacs_trial_disc.png){ width="250"}
 
 :material-shovel: *Dumped*: :x: {==?==} · :material-disc:[Redump Info](http://redump.org/disc/75594/)
 
