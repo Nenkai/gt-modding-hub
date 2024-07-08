@@ -6,7 +6,7 @@ Gran Turismo 4 Prologue builds are the first versions to begin using [Adhoc](../
 
 ## GT4 Prologue Subaru Version (?)
 
-![aa](../images/covers/gt4p_subaru.png){ width="250"}
+![aa](https://github.com/Paiky7/gt-modding-hub/blob/master/docs/images/covers/gt4p_subaru_new.jpg){ width="250" }
 
 :material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info
 
