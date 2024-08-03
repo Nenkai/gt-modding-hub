@@ -107,6 +107,33 @@ Game Code: `PCPX-96649`
 
 ---
 
+## GT4 Pre-Production (Jan 18, 2005)
+
+![aa](../images/covers/gt4_eu_preprod.jpg){ width="200" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_4_(Jan_18,_2005_Prototype)) · :material-disc: [Redump Info](http://redump.org/disc/116967/)
+
+Game Code: `SCES-51719`
+
+European build 8 days before final. Does not have regional assets filtered, some bugs can be seen.
+
+??? abstract "File List"
+    * [ISO + VOL](file_lists/SCES-51719_preprod_18_01_2005.txt)
+
+??? note "Build Info"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `main`
+    * VersionString: `r0001`
+    * BuildNumber: `970`
+    * Game Code: `SCES-51719`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Bootstrap + Core executables
+    * ISO Size: `5.18 GB` (Dual Layer/DVD9)
+    * ISO CRC: `ECB174A4`
+
+---
+
 ## GT4
 
 ![aa](../images/covers/gt4.jpg){ width="200" }
