@@ -109,9 +109,11 @@ Usage: `EnableDestinationAlphaTest`
 
 Sets the fog color - GS `FOGCOL` register.
 
-Usage: `FogColor(color)`
+Usage: `FogColor(r, g, b)`
 
-- `color`: **UInt** - **Defaults to unspecified** - RGB only, A is ignored.
+- `r`: **Byte** - **Defaults to unspecified**
+- `g`: **Byte** - **Defaults to unspecified**
+- `b`: **Byte** - **Defaults to unspecified**
 
 ---
 

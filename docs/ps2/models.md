@@ -114,7 +114,7 @@ To create a model set, make a `.yaml` file in your model folder. These are the m
                 # The parameters will be reset (unless the next shape uses same ones)
                 # Preferably meshes should be in order of obj declaration if you are using many parameters (otherwise clogs command list & file size)
                 # Command List: https://nenkai.github.io/gt-modding-hub/ps2/model_render_commands/
-                CommandsBefore:
+                Commands:
                 # - AlphaFunction(ALWAYS, 0)
                 # - AlphaFail(ALWAYS)
 
@@ -274,10 +274,23 @@ Ensure that you have created the following files:
 * One tire file for the tires (can be reused from an existing car)
 * One car info (`.json`) file (can be reused from an existing car)
 
-Once you have all of the four components required for a car, you can build a car file as such:
+Once you have all of the four components required for a car, create a .yaml file as such
+
+```yaml
+CarInfo: car_info.bin
+CarModelSet: car_model_set.mdl
+Tire: tire.bin
+Wheel: wheel.bin
+```
+
+!!! note
+
+    You can also point to `.yaml` files for each of these components (model set, tire or wheel), and they will be recursively built.
+
+Of course, update the paths to their proper names.
 
 ``` markdown title="Creating a car file"
-GTPS2ModelTool make-car-model --model <path to car .mdl> --car-info <path to car info file> --tire <path to tire file> --wheel <path to wheel file> -o <output final car model file path>
+GTPS2ModelTool make-car-model -i <path_to_yaml> -o <output final car model file path>
 ```
 
 Like model set creation, pay attention to any warnings or errors.
