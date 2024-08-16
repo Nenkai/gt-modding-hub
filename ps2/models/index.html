@@ -4708,7 +4708,7 @@
 <a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">            </span><span class="c1"># The parameters will be reset (unless the next shape uses same ones)</span>
 <a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">            </span><span class="c1"># Preferably meshes should be in order of obj declaration if you are using many parameters (otherwise clogs command list &amp; file size)</span>
 <a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">            </span><span class="c1"># Command List: https://nenkai.github.io/gt-modding-hub/ps2/model_render_commands/</span>
-<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">            </span><span class="nt">CommandsBefore</span><span class="p">:</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">            </span><span class="nt">Commands</span><span class="p">:</span>
 <a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">            </span><span class="c1"># - AlphaFunction(ALWAYS, 0)</span>
 <a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="w">            </span><span class="c1"># - AlphaFail(ALWAYS)</span>
 <a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a>
@@ -4854,8 +4854,18 @@
 <li>One tire file for the tires (can be reused from an existing car)</li>
 <li>One car info (<code>.json</code>) file (can be reused from an existing car)</li>
 </ul>
-<p>Once you have all of the four components required for a car, you can build a car file as such:</p>
-<div class="highlight"><span class="filename">Creating a car file</span><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>GTPS2ModelTool make-car-model --model &lt;path to car .mdl&gt; --car-info &lt;path to car info file&gt; --tire &lt;path to tire file&gt; --wheel &lt;path to wheel file&gt; -o &lt;output final car model file path&gt;
+<p>Once you have all of the four components required for a car, create a .yaml file as such</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nt">CarInfo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">car_info.bin</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="nt">CarModelSet</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">car_model_set.mdl</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="nt">Tire</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tire.bin</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="nt">Wheel</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wheel.bin</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can also point to <code>.yaml</code> files for each of these components (model set, tire or wheel), and they will be recursively built.</p>
+</div>
+<p>Of course, update the paths to their proper names.</p>
+<div class="highlight"><span class="filename">Creating a car file</span><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>GTPS2ModelTool make-car-model -i &lt;path_to_yaml&gt; -o &lt;output final car model file path&gt;
 </code></pre></div>
 <p>Like model set creation, pay attention to any warnings or errors.</p>
 <p>If everything went well, starting from here, you can edit the SpecDB using <a href="https://github.com/Nenkai/GTDataSQLiteConverter">GTDataSQLiteConverter</a> to edit/add the car.</p>
@@ -4885,7 +4895,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 25, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 16, 2024</span>
   </span>
 
     
