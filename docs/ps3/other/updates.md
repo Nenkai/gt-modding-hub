@@ -244,6 +244,7 @@
     * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98296/BCUS98296_T355/5c1e4102b1da603b/UP9000-BCUS98296_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
 
 === ":flag_jp: BCJS-37016 (Disc)"
+    * [1.01](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T27/b4af367fc20472f7/JP9001-BCJS37016_00-0000000000000000-A0101-V0101-PE.pkg) (delisted update due to exploit, can be skipped)
     * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0102-V0101-PE.pkg)
     * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0103-V0100-PE.pkg)
     * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/BCJS37016/BCJS37016_T367/817e2fe0cbe9291c/JP9001-BCJS37016_00-0000000000000000-A0104-V0100-PE.pkg)
@@ -323,6 +324,7 @@
     * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/BCAS25018/BCAS25018_T362/9a0f7fa8fd07a9e1/HP9000-BCAS25018_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
 
 === ":flag_eu: NPEA-00502 (PSN)"
+    * [1.01](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T27/de0b8f1816f1c909/EP9001-NPEA00502_00-0000000000000000-A0101-V0100-PE.pkg) (delisted update due to exploit, can be skipped)
     * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0102-V0101-PE.pkg)
     * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0103-V0100-PE.pkg)
     * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0104-V0100-PE.pkg)
@@ -349,6 +351,7 @@
     * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA00502/NPEA00502_T351/a9a9033165937c63/EP9001-NPEA00502_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
 
 === ":flag_us: NPUA-81049 (PSN)"
+    * [1.01](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T27/fdbfb33282a4457f/UP9000-NPUA81049_00-0000000000000000-A0101-V0100-PE.pkg) (delisted update due to exploit, can be skipped)
     * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0102-V0101-PE.pkg)
     * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0103-V0100-PE.pkg)
     * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0104-V0100-PE.pkg)
@@ -375,6 +378,7 @@
     * [1.22](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA81049/NPUA81049_T346/11fa05b96d8e5705/UP9000-NPUA81049_00-0000000000000000-A0122-V0100-PE.pkg) (Latest)
 
 === ":flag_jp: NPJA-00113 (PSN)"
+    * [1.01](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T27/2293931c135bb2ec/JP9001-NPJA00113_00-0000000000000000-A0101-V0101-PE.pkg) (delisted update due to exploit, can be skipped)
     * [1.02](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0102-V0101-PE.pkg)
     * [1.03](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0103-V0100-PE.pkg)
     * [1.04](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA00113/NPJA00113_T351/7c137a7fed50beff/JP9001-NPJA00113_00-0000000000000000-A0104-V0100-PE.pkg)
