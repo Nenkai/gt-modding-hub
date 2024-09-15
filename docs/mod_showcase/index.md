@@ -1,11 +1,10 @@
+![fT](https://github.com/user-attachments/assets/53a043d5-4a5c-47fc-b5f9-f5d31966b5a4)
 # Mod Showcase
-
 This page displays mods that are known to be of high quality, reach out if you have one to display!
-
-## GT2
-
+Head ring 
+## GT2 See pierced people
 ### GT2 Plus by pez2k
-
+Circle at the firing point
 :octicons-book-16: [GTPlanet Thread](https://www.gtplanet.net/forum/threads/mod-gran-turismo-2-plus-bug-fixes-restored-content-and-new-content-beta-7-released.378282/)
 
 !!! quote "Mod Information"
@@ -136,5 +135,6 @@ This page displays mods that are known to be of high quality, reach out if you h
     * Xenn for the Easter Egg.
     * Paiky & Dezent for contributing and getting GT5 QA Build which allowed content to be ported over to GT5.
     * Gran Turismo Research Discord server.
-    * Gran Turismo Online/Modding Discord server (https://discord.io/gtonline) (Alt link: https://discord.gg/YbJjbYEKzB)
+    * Gran Turismo Online/Modding Discord server (https://discord.io/gtonline) (Alt link: ![screenshot](https://github.com/user-attachments/assets/fbe63f44-fa65-476c-8d64-66f693d4dfb5)
+https://discord.gg/YbJjbYEKzB)
     * Everyone using this mod
