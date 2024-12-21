@@ -23,6 +23,7 @@ An internal demo/beta build of GT7 for PS5, with a chess icon. Initially spotted
 * Europe: [PPSA-05485](https://prosperopatches.com/PPSA05485)
 * America: [PPSA-05484](https://prosperopatches.com/PPSA05484)
 * Japan: [PPSA-05483](https://prosperopatches.com/PPSA05483)
+* Asia: [PPSA-05486](https://prosperopatches.com/PPSA05486)
 
 ---
 
