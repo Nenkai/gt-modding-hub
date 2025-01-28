@@ -50,14 +50,14 @@ nav:
   - Main Page: index.md
   - Blog: blog
 
-  - PS1 (GT1/GT2):
+  - PS1 GTs:
     - Index: ps1/index.md
     - GT1:
         - Tools / Resources: ps1/gt1/tools.md
     - GT2:
         - Tools / Resources: ps1/gt2/tools.md 
 
-  - PS2 (GT3/GT4/TT):
+  - PS2 GTs:
     - Index: ps2/index.md
     - Models: ps2/models.md
     
@@ -85,7 +85,7 @@ nav:
       - Reverse-Engineering Notes: ps2/reverse_engineering_notes.md
       - Model Render Commands: ps2/model_render_commands.md
     
-  - PS3 (GT5/GT6):
+  - PS3 GTs:
     - Getting Started: ps3/getting_started.md
     - Basics: 
       - Volume & Making Edits: ps3/basics/volume_system.md
@@ -114,9 +114,12 @@ nav:
         - RPCS3 Settings: ps3/other/rpcs3_setup.md
         - Resources / Tools: ps3/tools.md
 
-  - PS4 (GTS/GT7):
+  - PS4 GTs:
     - Index: ps4/index.md
     - Resources / Tools: ps4/tools.md
+
+  - PSP:
+    - Getting Started: psp/getting_started.md
 
   - General Concepts: 
       Index: concepts/index.md
