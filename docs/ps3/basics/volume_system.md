@@ -87,7 +87,7 @@ If you wish to revert your mod simply transfer your backed up `K/4D` file into y
 
 Sometimes you might want to remove files from the game completely so that the game doesn't read them. GTToolsSharp supports this use case.
 
-In your mod's main folder next to GTToolsSharp, create a file named `files_to_remove.txt`. Each line has to be a path of a game path to remove. 
+In your mod's main folder next to GTToolsSharp, create a file named `files_to_remove.txt` (or any other name). Each line has to be a path of a game path to remove. 
 
 If you wanted to remove `textdata/gt5/aspec_event/r100.xml` from the game, you would just put it there as one line:
 
@@ -95,7 +95,7 @@ If you wanted to remove `textdata/gt5/aspec_event/r100.xml` from the game, you w
 textdata/gt5/aspec_event/r100.xml
 ```
 
-Then, add the additional `--remove-files` argument while packing.
+Then, add the additional `--remove-files <path_to_file>` argument while packing.
 
 ---
 
