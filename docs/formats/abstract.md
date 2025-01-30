@@ -8,6 +8,14 @@ The following pages are essentially a human readable mirror of [the 010 template
 
 **If you intend to reverse formats you should probably grab IDB/Ghidra databases [here](../code_reversing.md).**
 
+!!! warning
+
+    Not everything is ever documented on this site, but more may be available by looking at source code. Remember - sometimes documentation IS the source.
+
+    * [PDTools](https://github.com/Nenkai/PDTools)
+    * [GT2Tools](https://github.com/pez2k/gt2tools)
+    * [Nenkai's GT repositories](https://github.com/Nenkai?tab=repositories&q=turismo&type=&language=&sort=)
+
 ---
 
 ## Similarities between formats
