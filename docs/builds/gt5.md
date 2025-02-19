@@ -1027,3 +1027,23 @@ A demo/build of GT5 released for free on PSN to celebrate GT Academy 2012 releas
     * [EU 1.01 Update](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA90111/NPEA90111_T1/bd90c3e1ec014791/EP9001-NPEA90111_00-0000000000000000-A0101-V0100-PE.pkg)
     * [US 1.01 Update](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA70196/NPUA70196_T1/1c25f393a8066664/UP9000-NPUA70196_00-0000000000000000-A0101-V0100-PE.pkg)
     * [ASIA 1.01 Update](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80214/NPHA80214_T2/45be84d7da77aa97/HP9000-NPHA80214_00-0000000000000000-A0101-V0101-PE.pkg)
+
+---
+
+## Unknown/Other
+
+### NPJA90150 (GT5 体験版 2010)
+
+![aa](../images/covers/gt5_NPJA90150.png){ width="250" }
+
+* [PSN TMDB](https://tmdb.np.dl.playstation.net/tmdb/NPJA90150_00_B975D2BDC90ECA978CF407209287215630BD2C07/NPJA90150_00.xml)
+* [PSN TMDB Icon](http://tmdb.np.dl.playstation.net/tmdb/NPJA90150_00_B975D2BDC90ECA978CF407209287215630BD2C07/ICON0.PNG)
+
+---
+
+## NPJA60001 (Playview - Gran Turismo Magazine APEX2012)
+
+![aa](../images/covers/playview_NPJA60001.png){ width="250" }
+
+* [PSN TMDB](http://tmdb.np.dl.playstation.net/tmdb/NPJA60001_00_8473DF9F7C1A11066BF963637C9BE0F5643F06F2/NPJA60001_00.xml)
+* [PSN TMDB Icon](http://tmdb.np.dl.playstation.net/tmdb/NPJA60001_00_8473DF9F7C1A11066BF963637C9BE0F5643F06F2/ICON0.PNG)

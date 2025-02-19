@@ -420,4 +420,13 @@ Game Code: `BCJS-30017`
 ??? youtube "Video"
     <iframe width="885" height="664" src="https://www.youtube.com/embed/mC5sFD8aT58" title="Gran Turismo 5 : Prologue - Special Events Version" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
----
+--- 
+
+## Unknown/Other
+
+### BCJX96002 (GranTurismo 5 Prologue　フェラーリ版)
+
+![aa](../images/covers/gt5p_BCJX96002.png){ width="250" }
+
+* [PSN TMDB](http://tmdb.np.dl.playstation.net/tmdb/BCJX96002_00_190B62EB3D2A31B0744D4B36D61338D122B33101/BCJX96002_00.xml)
+* [PSN TMDB Icon](http://tmdb.np.dl.playstation.net/tmdb/BCJX96002_00_190B62EB3D2A31B0744D4B36D61338D122B33101/ICON0.PNG)
