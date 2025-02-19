@@ -1041,7 +1041,7 @@ A demo/build of GT5 released for free on PSN to celebrate GT Academy 2012 releas
 
 ---
 
-## NPJA60001 (Playview - Gran Turismo Magazine APEX2012)
+### NPJA60001 (Playview - Gran Turismo Magazine APEX2012)
 
 ![aa](../images/covers/playview_NPJA60001.png){ width="250" }
 
