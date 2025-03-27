@@ -77,10 +77,10 @@ Game Code: `PAPX-90207`
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/image0_20250327) · :material-disc:[Redump Info](http://redump.org/disc/75594/)
 
-Game Code: `PCPX-96312`
+Game Code: `PAPX-96312`
 
 ??? abstract "File List"
-    * [Contents + GT2K.VOL](file_lists/PCPX-96312.txt)
+    * [Contents + GT2K.VOL](file_lists/PAPX-96312.txt)
 
 ??? note "Build Info"
     * Has PDI-GL (rendering lib) asserts, which are removed in later builds/games (`"sub_1818D0("PDI-GL Ver.%u.%02u%c,%s,Oct  3 2000,20:27:15,", 1, 1, 100, "00111,16,2,2")`)
