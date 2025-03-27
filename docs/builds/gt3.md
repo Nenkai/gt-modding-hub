@@ -75,7 +75,7 @@ Game Code: `PAPX-90207`
 
 ![aa](../images/covers/gt3_autobacs.jpg){ width="250"}
 
-:material-shovel: *Dumped*: :x: {==?==} · :material-disc:[Redump Info](http://redump.org/disc/75594/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/image0_20250327) · :material-disc:[Redump Info](http://redump.org/disc/75594/)
 
 Game Code: `PCPX-96312`
 
