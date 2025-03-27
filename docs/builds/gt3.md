@@ -79,6 +79,12 @@ Game Code: `PAPX-90207`
 
 Game Code: `PCPX-96312`
 
+??? abstract "File List"
+    * [Contents + GT2K.VOL](file_lists/PCPX-96312.txt)
+
+??? note "Build Info"
+    * Has PDI-GL (rendering lib) asserts, which are removed in later builds/games (`"sub_1818D0("PDI-GL Ver.%u.%02u%c,%s,Oct  3 2000,20:27:15,", 1, 1, 100, "00111,16,2,2")`)
+
 ---
 
 ## GT3 Replay Theater (Oct 5, 2000)
