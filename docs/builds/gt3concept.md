@@ -317,3 +317,11 @@ Game Code: `PCPX-96634`
 ??? youtube "Hidden/Beta Tracks"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/oYzIUE9z1I4?si" title="Hidden/Beta Tracks | Gran Turismo: Subaru Driving Simulator | PCPX-96634" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## 24h Gran Turismo Le Mans 2003 Demo Version (June ??, 2003)
+
+:material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info
+
+??? youtube "Video"
+    <iframe width="1280" height="720" src="https://www.youtube.com/watch?v=3yMBG7tSUmg&t=4979s" title="Playstation 2 News Promotional DVD 2003" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
