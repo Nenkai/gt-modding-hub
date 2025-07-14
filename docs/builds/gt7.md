@@ -143,3 +143,23 @@ Build date: 9/22/2022 8:07:21 AM
   <figcaption>Credits to FMecha</figcaption>
 
 </figure>
+
+---
+
+## My First Gran Turismo
+
+![aa](https://www.gran-turismo.com/images/c/i1uxQr6iSpMSe8E.jpg){ width="200" }
+
+A demo based on GT7 version 1.57. Internally codenamed `gtl`.
+
+Known as はじめてのグランツーリスモ (Hajimete no Gran Turismo) in Japanese.
+
+* Europe (PS4) - [`CUSA-49698`](https://orbispatches.com/CUSA49698)
+* America (PS4) - [`CUSA-49697`](https://orbispatches.com/CUSA49697)
+* Japan (PS4) - [`CUSA-49695`](https://orbispatches.com/CUSA49695)
+* Asia (PS4) -  [`CUSA-49696`](https://orbispatches.com/CUSA49696)
+* Europe (PS5) - [`PPSA-24157`](https://prosperopatches.com/PPSA24157)
+* America (PS5) - [`PPSA-24158`](https://prosperopatches.com/PPSA24158)
+* Japan (PS5) -  [`PPSA-24155`](https://prosperopatches.com/PPSA24155)
+* Asia (PS5) - [`PPSA-24156`](https://prosperopatches.com/PPSA24156)
+
