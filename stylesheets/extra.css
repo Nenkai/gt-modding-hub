@@ -15,3 +15,7 @@
     -webkit-mask-image: var(--md-admonition-icon--youtube);
             mask-image: var(--md-admonition-icon--youtube);
   }
+
+.md-grid {
+  max-width: 1560px; 
+}
