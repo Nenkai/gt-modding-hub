@@ -1,4 +1,8 @@
-# TinyWeb
+---
+icon: material/network
+---
+
+# :material-network: TinyWeb
 
 TinyWeb is an API for building web apps/services through adhoc, similar to [ASP.NET](https://asp.net) or [Django](https://www.djangoproject.com/). It is available from Gran Turismo 6 onwards, and is primarily used by PDI for live events (especially since GT Sport).
 

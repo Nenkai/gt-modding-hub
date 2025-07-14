@@ -1,4 +1,8 @@
-# Grim
+---
+icon: material/web
+---
+
+# :material-web: Grim
 
 Grim is the name of the server infrastructure that Polyphony Digital has used for GT5 Prologue throughout GT Sport. It has been superseeded by [Vegas](vegas.md) in GT7.
 

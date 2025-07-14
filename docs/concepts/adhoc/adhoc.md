@@ -1,4 +1,8 @@
-# Adhoc
+---
+icon: material/script-text
+---
+
+# :material-script-text: Adhoc
 
 !!! warning
     This section requires intermediate programming knowledge, Javascript or Python helps the most.

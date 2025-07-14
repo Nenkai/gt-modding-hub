@@ -1,4 +1,8 @@
-# Basics
+---
+icon: material/go-kart-track
+---
+
+# :material-go-kart-track: Basics
 
 Tracks are known as Courses in internal GT terms.
 

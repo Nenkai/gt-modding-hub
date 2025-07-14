@@ -1,4 +1,8 @@
-# Vegas
+---
+icon: material/web
+---
+
+# :material-web: Vegas
 
 Vegas is the name of the new network infrastructure in place for Gran Turismo 7, deprecating [Grim](grim.md).
 

@@ -1,4 +1,8 @@
-# Volume
+---
+icon: material/harddisk
+---
+
+# :material-harddisk: Volume
 
 The volume is an important part of how Gran Turismo games function - it usually consists of a single file hosting all of the games' contents. It is usually compressed, but also encrypted and has been present in various forms since GT1.
 

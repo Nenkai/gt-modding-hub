@@ -1,4 +1,8 @@
-# SpecDB
+---
+icon: material/database
+---
+
+# :material-database: SpecDB
 
 The SpecDB is the name of the database that Polyphony Digital uses to store all car specifications, and other critical entities such as courses. Its structure is the same as an ordinary database.
 

@@ -131,6 +131,9 @@ nav:
         - Adhoc Explained: concepts/adhoc/adhoc.md
         - TinyWeb: concepts/adhoc/tinyweb.md
 
+      Cars:
+        - Master Car List/IDs: concepts/cars/master_car_list.md
+
       Courses (Tracks):
         - Basics / Glossary: concepts/courses/basics.md
 
@@ -261,6 +264,7 @@ plugins:
   - blog:
       draft: true
       blog_toc: true
+  - table-reader
 
 extra:
   social:

@@ -31,9 +31,10 @@ Ensure that in Debug Settings (XMB):
 - Boot Mode: `System Software Mode`
 - Network Settings for Debug: `Single Settings`
 
-## Setup Target Manager
-!!! note
-    Skip this if you are using RPCS3.
+## Setup Target Manager (PS3)
+
+!!! warning
+    For RPCS3, you do not need to do any of the following. Simply start RPCS3 using the command prompt and pass the arguments after the EBOOT path.
 
 * Start Target Manager.
 * Right click `My Targets`, click `Add Target`.
@@ -44,14 +45,20 @@ Ensure that in Debug Settings (XMB):
 * In `Target`->`TM Properties`, look for `File Serving`, and `File server directory`. here, you want to put the parent directory of the game.
   Preferably the `USRDIR` directory, i.e: "C:\Games\BCES01893\USRDIR" where `BCES01893` is the game folder from /dev_hdd0/game/.
 
+
 ## Arguments 
 Arguments are inserted by `<keyName>=<value>`, with a space between each additional argument.
+
+!!! note
+
+    This list is taken from GT6, not all may be available in GT5.
+
 
 ### General
 
 Argument| Type | Description
 ------------ | ------------- | -----------
-`fsroot` | `0/1` | Loads from a custom path remotely, volume-less.
+`fsroot` | `0/1` | Loads from a custom path remotely, volume-less. (GT6)
 `patchdemo` | `0/1` | ?
 `language` | `string (32 chars max)` | Sets the game language
 `player_name` | `string` | Sets the player name in events
@@ -84,7 +91,7 @@ Argument| Type | Description
 ### Internal
 Argument| Type | Description
 ------------ | ------------- | -----------
-`branch` | `string` | Sets the game branch, can be `gt6/runviewer/academy/behavior`
+`branch` | `string` | Sets the game branch, can be `gt6/runviewer/academy/behavior`. Note that if you use `runviewer` in GT6, it will boot into `dev_runviewer` - a `PREVIEW` specdb is required, copy `GT6` as `PREVIEW` in the `specdb` folder.
 `gt5` | `0/1` | Whether to load projects with the gt5 product name rather than gt6
 `project_prefix` | `string` | ?
 `adhoc_trace_object` | `0/1` | ? (Possibly debug only)
