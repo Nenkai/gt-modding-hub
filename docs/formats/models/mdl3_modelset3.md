@@ -9,9 +9,19 @@ ModelSet3 is a direct upgrade to [MDLS / ModelSet2](mdls_modelset2.md). It still
 
 It is a rather structured, yet complex format.
 
+<figure markdown>
+  ![Image title](mdl3_flowchart.png){ width="800" }
+  <figcaption>Overview of the GT6 ModelSet3. Note that many bits are excluded/missing as well as many unknowns not documented.</figcaption>
+</figure>
+
 ---
 
 ## Header
+
+!!! warning
+
+    A lot of this may be outdated, refer to the [010 Editor templates](https://github.com/Nenkai/GT-File-Specifications-Documentation/tree/master/Formats/PS3/Models)
+
 
 ??? abstract "Structure (click to expand)"
     Size: `0xE4` (Version 14)
@@ -25,8 +35,8 @@ It is a rather structured, yet complex format.
     Runtime Flags           |  `0x0E`        | `ushort`           | Flags assigned at runtime                                                           |
     Model Count             |  `0x10`        | `ushort`           | Number of models in the set. Note that one model is more like a mesh group.         |
     Model Key Count         |  `0x12`        | `ushort`           | Number of model keys in the set. Models link directly to this. This is optional.    |
-    Mesh Count              |  `0x14`        | `ushort`           | Number of meshes in the set.                                                        |
-    Mesh Key Count          |  `0x16`        | `ushort`           | Number of mesh keys in the set. Meshes link directly to this. This is optional.     |
+    Shape Count              |  `0x14`        | `ushort`           | Number of meshes in the set.                                                        |
+    Shape Key Count          |  `0x16`        | `ushort`           | Number of mesh keys in the set. Meshes link directly to this. This is optional.     |
     FVF Count               |  `0x18`        | `ushort`           | Number of flexible vertex definitions in the set. Meshes uses this.                 |
     Bones Count             |  `0x1A`        | `ushort`           | Number of bones in the set.                                                         |
     SizeFor0x68             |  `0x1C`        | `ushort`           | Unknown.                                                                            |
