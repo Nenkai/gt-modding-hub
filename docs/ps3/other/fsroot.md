@@ -53,4 +53,6 @@ Game should now boot.
     This will create a `PDEV88888` folder in `dev_hdd0`. Files downloaded from your PC will be stored there, and only replaced when the remote files are different.
     On RPCS3 however the same process will occur, effectively storing extracted files twice.
 
+    NOTE: Sometimes the game can be confused and still use files there rather than files in FSRoot. Delete files from there occasionally.
+    
     To boot back into XMB set Reset Mode to `System Software Mode`.
