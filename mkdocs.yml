@@ -141,6 +141,9 @@ nav:
         - Grim: concepts/online/grim.md
         - Vegas: concepts/online/vegas.md
 
+      Other:
+        - Third Party Libraries: concepts/other/third_party_libs.md
+
   - Formats:
     - Basic Information: formats/abstract.md
     - Database Formats:
