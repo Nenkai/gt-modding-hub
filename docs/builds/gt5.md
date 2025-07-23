@@ -47,6 +47,7 @@ This was a PSN-only demo. Presumably no japanese release. [Official News](https:
 ??? note "Build Info"
     * Adhoc Version: `12`
     * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+    * ModelSet3 Version: `2`
     * VersionBranch: `academy`
     * VersionTarget: `ps3`
     * VersionEnvironment: `product-edi-strong`

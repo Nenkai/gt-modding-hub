@@ -50,6 +50,7 @@ Main build of Gran Turismo PSP.
 ??? note "Build Info (from EU 1.01)"
     * Adhoc Version: `12`
     * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+    * ModelSet3 Version: `2`
     * VersionBranch: `gt5m`
     * VersionTarget: `psp`
     * VersionEnvironment: `product`

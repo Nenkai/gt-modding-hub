@@ -21,6 +21,7 @@ A free demo of GT6, hosting the GT Academy 2013 competition.
 
 ??? note "Build Info"
     * Adhoc Version: `12`
+    * ModelSet3 Version: `13`
     * VersionApplication: `gt`
     * VersionBranch: `academy`
     * VersionTarget: `ps3`
@@ -58,6 +59,7 @@ Game Code: `DEMO-32768`
 
 ??? note "Build Info"
     * Adhoc Version: `12`
+    * ModelSet3 Version: `13`
     * VersionApplication: `gt`
     * VersionBranch: `demo`
     * VersionTarget: `ps3`
@@ -104,6 +106,7 @@ The main build of Gran Turismo 6.
 
 ??? note "Build Info"
     * Adhoc Version: `12`
+    * ModelSet3 Version: `14`
     * VersionApplication: `gt`
     * VersionBranch: `gt6`
     * VersionTarget: `ps3`

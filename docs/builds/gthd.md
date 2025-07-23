@@ -76,6 +76,7 @@ Most likely never released to the public.
 
 ??? note "Build Info"
     * Adhoc Version: `10`
+    * ModelSet3 Version: `0`
     * Config: `trial`
     * Supports up to instruction: `46 - CALL_OLD`
     * BuildNumber: `22`

@@ -312,6 +312,7 @@ Game Code: `NPUA-00050`
 ??? note "Build Info"
     * Adhoc Version: `12`
     * Supports up to instruction: `60 - DOUBLE_CONST`
+    * ModelSet3 Version: `1`
     * VersionBranch: `gt5p`
     * VersionTarget: `ps3`
     * VersionEnvironment: `product-common-key`
