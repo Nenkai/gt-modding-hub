@@ -3,34 +3,89 @@ config:
   layout: dagre
 ---
 flowchart TB
-    n1["ModelSet"] -- Defines --> n2["ModelKey[]"] & n8["FlexibleVertexDefinition[]"] & n21["VMInstance (0x68)"] & n10["PackedMeshHeader (PMSH)"] & n6["VM Bytecode"] & n4["Shape (Mesh)"] & n25["Bone[]"] & n19["PackedMeshFlexVertKey[]"] & n7["ShapeKey[]"] & n9["MaterialSet"] & n30["PackedMeshFlexVertKey[]"] & n28["ShaderSet (SHDS)"] & n22["Data0x80[ModelCount]<br>(Version &gt;= 2 only)"] & n23["WingKey[]"]
-    n1 --> n11["TextureSetHeader (TXS3)"]
+ subgraph s2["Virtual Machine"]
+        n6["VM Bytecode"]
+        n21["VMInstance (0x68)"]
+  end
+ subgraph s3["Shaders"]
+        n28["ShaderSet (SHDS)"]
+        n31["ShaderProgram[]"]
+        n29["ShaderDefinition[]"]
+        n41["VertexSemantic[]"]
+  end
+ subgraph s4["Texture Set"]
+        n11["TextureSetHeader (TXS3)"]
+        n18["Texture[]"]
+  end
+ subgraph s5["Material Set"]
+        n9["MaterialSet"]
+        n12["MaterialDefinition[]"]
+        n20["TextureParameter[]<br>Addressed by texture ID"]
+        n13["MaterialData[]"]
+        n17["SamplerKey[]"]
+        n16["CellGcmParams[]"]
+        n44["ShaderRef"]
+        n45["Color / ConstantPool"]
+        n46["ColorKey[]"]
+        n47["ColorRef[] (Program 0)"]
+        n49["ColorRef[] (Program1)"]
+  end
+ subgraph s6["Pacekd Mesh (GT6)"]
+        n33["PackedMeshHeader (PMSH)"]
+        n35["PackedMesh[]"]
+        n36["PackedMeshFlexVertDeclaration[]"]
+        n37["ElementBitLayoutDefinition[]"]
+        n42["PacekdMeshFlexVertAttributeDef[]"]
+  end
+    n1["ModelSet"] -- Defines --> n2["ModelKey[]"] & n8["FlexibleVertexDefinition[]"] & n21 & n6 & n4["Shape (Mesh)"] & n25["Bone[]"] & n19["PackedMeshFlexVertKey[]"] & n7["ShapeKey[]"] & n9 & n28 & n22["Data0x80[ModelCount]<br>(Version &gt;= 2 only)"] & n23["WingKey[]"] & n11 & n33
+    n1 -- Defines (Packed Mesh required) --> n30["PackedMeshFlexVertShaderKey[]"]
+    n1 -- Defines, and may refer to by (hardcoded) name or ID lookup --> n32["Constant[]"]
     n2 -- References by Model ID --> n3["Model[]"]
     n3 -- Uses --> n5["PGL Render Commands"]
     n3 -- Jumps to VM instruction --> n6
-    n5 -- Calls --> n4
+    n5 -- Calls for render (pgluCallShape) --> n4
     n7 -- References by Shape ID --> n4
     n4 -- Uses Flex Vert by ID --> n8
-    n4 -- References material by ID --> n12["MaterialDefinition[]"]
+    n4 -- References material by ID --> n12
     n4 -- May be packed, references by Packed Mesh ID --> n14["PackedMesh[]"]
-    n9 -- Defines --> n12 & n20["TextureParameter[]<br>Addressed by texture ID"] & n13["MaterialData[]"]
-    n9 --> n16["CellGcmParams[]"]
+    n9 -- Defines --> n12 & n20 & n13
+    n9 --> n16
     n12 -- References by Data ID --> n13
-    n10 -- Defines packed meshes --> n14
-    n10 -- Defines --> n26["PackedMeshFlexVertDeclaration[]"]
-    n10 --> n27["ElementBitLayoutDefinition[]"]
     n12 -- References by ID --> n16
-    n12 --> n17["SamplerKey[]"]
-    n11 -- Defines --> n18["Texture[]"]
+    n12 --> n17
+    n11 -- Defines --> n18
     n17 -- References by Texture ID --> n18
     n21 -- Link is unclear --> n20
     n23 -- References by Wing ID --> n24["WingData[]<br>(May refer to others, parent/child/next)"]
     n24 -- References by Bone ID --> n25
     n3 -. May reverse lookup to fetch name .-> n2
-    n14 -- References by Flex Vert ID --> n26
-    n14 -- References by Bit Layout ID --> n27
-    n19 --> n26
-    n28 -- Defines --> n29["ShaderDefinition[]"] & n31["ShaderProgram[]"]
+    n14 -- References by Flex Vert ID --> n26["PackedMeshFlexVertDeclaration[]"]
+    n14 -- References by Bit Layout ID --> n27["ElementBitLayoutDefinition[]"]
+    n19 --> n26 & s5
+    n28 -- Defines --> n29 & n31
     n30 -- References by Shader ID (name also used) --> n29
     n29 -- References by Program ID --> n31
+    n33 -- Defines packed meshes --> n35
+    n33 -- Defines --> n36
+    n33 --> n37
+    n35 -- References by Flex Vert ID --> n36
+    n35 -- References by Bit Layout ID --> n37
+    n4 --> n38["PackedMeshRef (GT6)"]
+    n38 -- References by ID --> n35
+    n5 -- If regular shapes aren't present (PSP) --> n39["PSPShape"]
+    s5 --> n40["Untitled Node"]
+    n31 --> n41
+    n36 --> n42
+    n42 -- Match by name --> n41
+    n8 --> n43["VertexAttributeDef[]"]
+    n43 -- Match by name --> n41
+    n13 -- Defines --> n44 & n46 & n45
+    n44 --> n47 & n49
+    n47 -- References constant pool, assigns to shader program slot --> n45
+    n49 --> n45
+    n44 -. Keeps a reference to two programs .-> n31
+    n33@{ shape: rect}
+    n35@{ shape: rect}
+    n36@{ shape: rect}
+    n37@{ shape: rect}
     n1@{ shape: rounded}
