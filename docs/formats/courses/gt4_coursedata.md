@@ -1,8 +1,9 @@
 ---
 comments: true
+icon: material/go-kart-track
 ---
 
-# GT4 Course Data
+# :material-go-kart-track: GT4 Course Data
 
 :octicons-cpu-24: *Applies to: GT4, TT, GTHD* · :material-file-question: Extension: **None** :octicons-arrow-right-16: · Endian: Little
 

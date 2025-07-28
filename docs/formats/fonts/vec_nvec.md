@@ -1,8 +1,9 @@
 ---
 comments: true
+icon: material/text-shadow
 ---
 
-# NVEC
+# :material-text-shadow: NVEC
 :octicons-cpu-24: *Applies to: GT5, GT6* · :material-file-question: Extension: `.vec` · :octicons-arrow-left-16: Endian: Big
 
 NVEC is a font format converted from `.ttf`, friendly for the PS3 and rendered through SPUs. It uses `UTF-16`.

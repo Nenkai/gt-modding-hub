@@ -1,8 +1,9 @@
 ---
 comments: true
+icon: material/engine
 ---
 
-# ESGX - Engine SGX
+# :material-engine: ESGX - Engine SGX
 
 :octicons-cpu-24: *Applies to: GT5, GTPSP, GT6* · :material-file-question: Extension: `.esgx` / none · :octicons-arrow-right-16: Endian: Big (GT5/GT6), Little (GTPSP)
 

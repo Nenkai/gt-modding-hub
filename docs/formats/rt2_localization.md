@@ -1,9 +1,9 @@
 ---
 comments: true
+icon: material/text
 ---
 
-
-# RT2 - RText Localization File
+# :material-text: RT2 - RText Localization File
 :octicons-cpu-24: *Applies to: GT4, GT5, GTPSP, GT6, GT7* · :material-file-question: Extension: `.rt2`
 
 RT2 Stands for RText 2 (Region Text 2?). 

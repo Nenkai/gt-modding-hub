@@ -1,8 +1,9 @@
 ---
 comments: true
+icon: material/script
 ---
 
-# Adhoc Compiled/Header
+# :material-script: Adhoc Compiled/Header
 
 :octicons-cpu-24: *Applies to GT4, GT5, GTPSP, GT6, GT Sport, GT7* · :material-file-question: Extension: `.adc` · :octicons-arrow-right-16: Endian: Little
 

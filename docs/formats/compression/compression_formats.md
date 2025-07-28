@@ -1,8 +1,9 @@
 ---
 comments: true
+icon: material/zip-box
 ---
 
-# Basics
+# :material-zip-box: Basics
 
 There are various, standard compression types used across PDI games, most often using their own headers with a magic starting with `FF F7`. PS2ZIP is the most common.
 

@@ -1,8 +1,9 @@
 ---
 comments: true
+icon: material/texture
 ---
 
-# TXS3 - TextureSet3
+# :material-texture: TXS3 - TextureSet3
 
 :octicons-cpu-24: *Applies to: GT5, GTPSP, GT6, GT Sport, GT7* · :material-file-question: Extension: `.img`, `.txs`, `.tex`, none :octicons-arrow-right-16: · Endian: Platform Dependent
 
