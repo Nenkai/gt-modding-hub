@@ -16,8 +16,8 @@ Links for the aforementioned tools can be accessed [here](https://www.reddit.com
 
 !!! tip "010 Editor Templates"
 
-    :material-arrow-right: [Strobe Template](https://github.com/Nenkai/GT-File-Specifications-Documentation/blob/master/Formats/Shared/STRB_Strobe.bt)
-    :material-arrow-right: [Adobe Flash SWF](https://www.sweetscape.com/010editor/repository/templates/file_info.php?file=SWF.bt) (this one is included with 010 Editor)
+    * :material-arrow-right: [Strobe Template](https://github.com/Nenkai/GT-File-Specifications-Documentation/blob/master/Formats/Shared/STRB_Strobe.bt)
+    * :material-arrow-right: [Adobe Flash SWF](https://www.sweetscape.com/010editor/repository/templates/file_info.php?file=SWF.bt) (this one is included with 010 Editor)
 
 !!! warning
 
@@ -29,4 +29,4 @@ Links for the aforementioned tools can be accessed [here](https://www.reddit.com
 
 While no direct `.swf` to `.strb` converter exists yet, here is a list of templates that aims to replicate some of the original flash project files.
 
-* [gt4_gtmode_american.fla](resources/gt4_gtmode_american.fla) ([SWF](resources/gt4_gtmode_american.swf), use with Ruffin or [flash emulator](https://flashplayer.fullstacks.net/?kind=Flash_Emulator)) - Replicates `american.swf` from GT4's `gtmode/US/RaceAmerican.gpb`, which transitions between two backgrounds multiple times across 10 seconds. Requires Adobe Flash Professional CS3.
+* [gt4_gtmode_american.fla](resources/gt4_gtmode_american.fla) ([SWF](resources/gt4_gtmode_american.swf), use with Ruffle or [flash emulator](https://flashplayer.fullstacks.net/?kind=Flash_Emulator)) - Replicates `american.swf` from GT4's `gtmode/US/RaceAmerican.gpb`, which transitions between two backgrounds multiple times across 10 seconds. Requires Adobe Flash Professional CS3.
