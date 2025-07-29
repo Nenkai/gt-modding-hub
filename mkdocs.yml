@@ -180,7 +180,7 @@ nav:
 
     - Other Formats:
       - .rt2 - RText (Localization): formats/rt2_localization.md
-      - .strb - Strobe/Flash Animation: formats/strb_strobe.md
+      - .strb - Strobe/Flash Animation: formats/animation/strb_strobe.md
       - CORE - PS2 Executables: formats/ps2_core.md
       
     - Compression:

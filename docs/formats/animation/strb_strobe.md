@@ -14,4 +14,19 @@ Strobe files were likely authored using ActionScript 2.0 with Flash MX 2004 duri
 
 Links for the aforementioned tools can be accessed [here](https://www.reddit.com/r/flash/comments/1i77raq/official_direct_download_links_for_flash_cs3_to/). Adobe takes extensive measures to take down installers hosted on archive.org, despite being total abandonware (and without serials even).
 
-:material-arrow-right: [010 Editor Template](https://github.com/Nenkai/GT-File-Specifications-Documentation/blob/master/Formats/Shared/STRB_Strobe.bt)
+!!! tip "010 Editor Templates"
+
+    :material-arrow-right: [Strobe Template](https://github.com/Nenkai/GT-File-Specifications-Documentation/blob/master/Formats/Shared/STRB_Strobe.bt)
+    :material-arrow-right: [Adobe Flash SWF](https://www.sweetscape.com/010editor/repository/templates/file_info.php?file=SWF.bt) (this one is included with 010 Editor)
+
+!!! warning
+
+    Macromedia Flash 8 and earlier do not play very well with (at least) Windows 11. Even Adobe Flash CS3 may glitch slightly with multiple monitors.
+
+    If you target GT4, make sure to use software that can output to period accurate **Adobe Flash 7** (~2003) and **ActionScript 2.0**.
+
+## Templates
+
+While no direct `.swf` to `.strb` converter exists yet, here is a list of templates that aims to replicate some of the original flash project files.
+
+* [gt4_gtmode_american.fla](resources/gt4_gtmode_american.fla) ([SWF](resources/gt4_gtmode_american.swf), use with Ruffin or [flash emulator](https://flashplayer.fullstacks.net/?kind=Flash_Emulator)) - Replicates `american.swf` from GT4's `gtmode/US/RaceAmerican.gpb`, which transitions between two backgrounds multiple times across 10 seconds. Requires Adobe Flash Professional CS3.
