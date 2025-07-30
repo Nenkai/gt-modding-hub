@@ -8,6 +8,15 @@ icon: material/database-search
 
 The PS3 Volume is made with patching/updates in mind. It has also fast lookup times as it uses [b-trees](https://en.wikipedia.org/wiki/B-tree) where names and extensions are split. The TOC is tightly bit-packed and ordered for [binary searching](https://en.wikipedia.org/wiki/Binary_search_algorithm), while also reusing the index pages for quick searching that the GT4 volume introduced.
 
+The file system *may* be split into two PFS components - the **volume**, which houses all the game base data into one big PFS container, and PDIPFS which can act as an overlay on top of the volume. **One or the other may exist**.
+
+!!! example
+	
+	* GT5 1.00 only has a volume container, as it does not have update content.
+	* GT5 >1.00 has a volume container, and PDIPFS which contains update content. The PDIPFS overrides the volume's ToC, but may use file data out of the volume still.
+	* GT6 PSN only has a PDIPFS. A volume is not necessary in this case.
+
+
 ---
 
 ## PDIPFS Path Scrambling
@@ -245,9 +254,9 @@ function GetSubPathName(seed, subpathLength, oldStyle)
 
 ## Header
 
-The header is encrypted. It is decrypted using an index, and the volume keyset (seed/key) which is normally located in the executable boot parameters. [Encryption Routine](https://github.com/Nenkai/GTToolsSharp/blob/9000ed0815650e98a7959a6028565aefc66a2aeb/GTToolsSharp/Volumes/GTVolumePFS.cs#L205)
+The header is expected to be encrypted. It is decrypted using an index, and the volume keyset (seed/key) which is normally located in the executable boot parameters. [Encryption Routine](https://github.com/Nenkai/GTToolsSharp/blob/9000ed0815650e98a7959a6028565aefc66a2aeb/GTToolsSharp/Volumes/GTVolumePFS.cs#L205)
 
-The index is always `1`, which translates to `K/4D`, if reading from PDIPFS and not a volume. Otherwise it is at the very beginning of `GT.VOL`.
+The index for the header is always `1`, which translates to `K/4D`, if reading from PDIPFS and not a volume. Otherwise it is at the very beginning of `GT.VOL`.
 
 Size: `0x20`
 
@@ -265,9 +274,9 @@ TitleID/Description  |  `0x20`        | `char[0x80]`| Description, not used     
 
 ## Table of Contents
 
-Once the header has been decrypted, the TOC Node index is then used to decrypt the TOC contents. The TOC is also compressed (inflate).
+Once the header has been decrypted, the ToC (table of contents) is expected to be encrypted (if the game has registered a keyset, which by default the games do). Node index is then used to decrypt the ToC contents. The TOC is also expected to be compressed (inflate) after that.
 
-The TOC is read from the first sector of the volume (`0x800`) or a path derived from the index from the header (if PDIPFS). The TOC is encrypted using the TOC's node index.
+The TOC is read from the first sector of the volume (`0x800`) or a path derived from the index from the header (if PDIPFS).
 
 Field                      | Offset         | Type                    | Description                                          |
 ----------------           | ------------   | ----------              | --------------------------------------               |
@@ -294,7 +303,7 @@ Field                      | Offset         | Type                | Description 
 ----------------           | ------------   | ----------          | --------------------------------------                |
 Index Page Count           |  `0x00`        | `byte`              | Number of pages used to index pages containing entries|
 Name BTree Pointer         |  `0x01`        | `Int24`             | Offset to the index block. If there is no index block, this will just point to the start of the entries for this page, which should be `0x06` |
-Page Count                 |  `0x04`        | `short*`            | Number of pages containing nodes                      |
+Page Count                 |  `0x04`        | `short`             | Number of pages containing nodes                      |
 First Page data            |  `0x06`        | `...`               | Contents of the first page                            |
 
 ### BTree Page
