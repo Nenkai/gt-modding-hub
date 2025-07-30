@@ -5217,6 +5217,15 @@
 <h1 id="ps3-volumepdipfs"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.68 12.32a4.49 4.49 0 0 0-6.36.01 4.49 4.49 0 0 0 0 6.36 4.51 4.51 0 0 0 5.57.63L21 22.39 22.39 21l-3.09-3.11c1.13-1.77.87-4.09-.62-5.57m-1.41 4.95c-.98.98-2.56.97-3.54 0-.97-.98-.97-2.56.01-3.54.97-.97 2.55-.97 3.53 0 .97.98.97 2.56 0 3.54M10.9 20.1a6.5 6.5 0 0 1-1.48-2.32C6.27 17.25 4 15.76 4 14v3c0 2.21 3.58 4 8 4-.4-.26-.77-.56-1.1-.9M4 9v3c0 1.68 2.07 3.12 5 3.7v-.2c0-.93.2-1.85.58-2.69C6.34 12.3 4 10.79 4 9m8-6C7.58 3 4 4.79 4 7c0 2 3 3.68 6.85 4h.05c1.2-1.26 2.86-2 4.6-2 .91 0 1.81.19 2.64.56A3.22 3.22 0 0 0 20 7c0-2.21-3.58-4-8-4"/></svg></span> PS3 Volume/PDIPFS<a class="headerlink" href="#ps3-volumepdipfs" title="Permanent link">&para;</a></h1>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.75 8h6.5a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-.75.75h-6.5a.75.75 0 0 1-.75-.75v-6.5A.75.75 0 0 1 8.75 8m.75 6.5h5v-5h-5Z"/><path d="M15.25 1a.75.75 0 0 1 .75.75V4h2.25c.966 0 1.75.784 1.75 1.75V8h2.25a.75.75 0 0 1 0 1.5H20v5h2.25a.75.75 0 0 1 0 1.5H20v2.25A1.75 1.75 0 0 1 18.25 20H16v2.25a.75.75 0 0 1-1.5 0V20h-5v2.25a.75.75 0 0 1-1.5 0V20H5.75A1.75 1.75 0 0 1 4 18.25V16H1.75a.75.75 0 0 1 0-1.5H4v-5H1.75a.75.75 0 0 1 0-1.5H4V5.75C4 4.784 4.784 4 5.75 4H8V1.75a.75.75 0 0 1 1.5 0V4h5V1.75a.75.75 0 0 1 .75-.75m3 17.5a.25.25 0 0 0 .25-.25V5.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25Z"/></svg></span> <em>Applies to: GT5, GT6</em> · <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm7 1.5L18.5 9H13zM12 11a3 3 0 0 1 3 3c0 1.88-2.25 2.06-2.25 3.75h-1.5c0-2.44 2.25-2.25 2.25-3.75a1.5 1.5 0 0 0-1.5-1.5 1.5 1.5 0 0 0-1.5 1.5H9a3 3 0 0 1 3-3m-.75 7.5h1.5V20h-1.5z"/></svg></span> Extension: <code>.VOL</code> · <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.042.018.75.75 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06"/></svg></span> Endian: Big</p>
 <p>The PS3 Volume is made with patching/updates in mind. It has also fast lookup times as it uses <a href="https://en.wikipedia.org/wiki/B-tree">b-trees</a> where names and extensions are split. The TOC is tightly bit-packed and ordered for <a href="https://en.wikipedia.org/wiki/Binary_search_algorithm">binary searching</a>, while also reusing the index pages for quick searching that the GT4 volume introduced.</p>
+<p>The file system <em>may</em> be split into two PFS components - the <strong>volume</strong>, which houses all the game base data into one big PFS container, and PDIPFS which can act as an overlay on top of the volume. <strong>One or the other may exist</strong>.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<ul>
+<li>GT5 1.00 only has a volume container, as it does not have update content.</li>
+<li>GT5 &gt;1.00 has a volume container, and PDIPFS which contains update content. The PDIPFS overrides the volume's ToC, but may use file data out of the volume still.</li>
+<li>GT6 PSN only has a PDIPFS. A volume is not necessary in this case.</li>
+</ul>
+</div>
 <hr />
 <h2 id="pdipfs-path-scrambling">PDIPFS Path Scrambling<a class="headerlink" href="#pdipfs-path-scrambling" title="Permanent link">&para;</a></h2>
 <p>PDIPFS scrambled path names are generated using an unique number, an index.</p>
@@ -5449,8 +5458,8 @@ function GetSubPathName(seed, subpathLength, oldStyle)
 </details>
 <hr />
 <h2 id="header">Header<a class="headerlink" href="#header" title="Permanent link">&para;</a></h2>
-<p>The header is encrypted. It is decrypted using an index, and the volume keyset (seed/key) which is normally located in the executable boot parameters. <a href="https://github.com/Nenkai/GTToolsSharp/blob/9000ed0815650e98a7959a6028565aefc66a2aeb/GTToolsSharp/Volumes/GTVolumePFS.cs#L205">Encryption Routine</a></p>
-<p>The index is always <code>1</code>, which translates to <code>K/4D</code>, if reading from PDIPFS and not a volume. Otherwise it is at the very beginning of <code>GT.VOL</code>.</p>
+<p>The header is expected to be encrypted. It is decrypted using an index, and the volume keyset (seed/key) which is normally located in the executable boot parameters. <a href="https://github.com/Nenkai/GTToolsSharp/blob/9000ed0815650e98a7959a6028565aefc66a2aeb/GTToolsSharp/Volumes/GTVolumePFS.cs#L205">Encryption Routine</a></p>
+<p>The index for the header is always <code>1</code>, which translates to <code>K/4D</code>, if reading from PDIPFS and not a volume. Otherwise it is at the very beginning of <code>GT.VOL</code>.</p>
 <p>Size: <code>0x20</code></p>
 <table>
 <thead>
@@ -5508,8 +5517,8 @@ function GetSubPathName(seed, subpathLength, oldStyle)
 </table>
 <hr />
 <h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
-<p>Once the header has been decrypted, the TOC Node index is then used to decrypt the TOC contents. The TOC is also compressed (inflate).</p>
-<p>The TOC is read from the first sector of the volume (<code>0x800</code>) or a path derived from the index from the header (if PDIPFS). The TOC is encrypted using the TOC's node index.</p>
+<p>Once the header has been decrypted, the ToC (table of contents) is expected to be encrypted (if the game has registered a keyset, which by default the games do). Node index is then used to decrypt the ToC contents. The TOC is also expected to be compressed (inflate) after that.</p>
+<p>The TOC is read from the first sector of the volume (<code>0x800</code>) or a path derived from the index from the header (if PDIPFS).</p>
 <table>
 <thead>
 <tr>
@@ -5589,7 +5598,7 @@ function GetSubPathName(seed, subpathLength, oldStyle)
 <tr>
 <td>Page Count</td>
 <td><code>0x04</code></td>
-<td><code>short*</code></td>
+<td><code>short</code></td>
 <td>Number of pages containing nodes</td>
 </tr>
 <tr>
@@ -5777,7 +5786,7 @@ function GetSubPathName(seed, subpathLength, oldStyle)
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 28, 2025 20:54:07 UTC">July 28, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 30, 2025 18:52:02 UTC">July 30, 2025</span>
   </span>
 
     
