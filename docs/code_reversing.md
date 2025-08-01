@@ -5,9 +5,13 @@ hide:
 
 # IDA/Ghidra Databases
 
-IDA/Ghidra databases are available [here](https://www.mediafire.com/file/l6hdjyuhcjbo5tr/GT_RE.zip/file) for most games between PS2-PS4 (last updated - July 2nd 2024).
+IDA/Ghidra databases are available [here](https://www.mediafire.com/file/00gn2azukfp7dwy/GT_RE.7z/file) for most games between PS2-PS4 (last updated - August 1st 2025).
 
 You may need:
+
+* IDA 9.1
+* Ghidra 11.4
+
 
 - PS4:
     * [PS4 Module Loader](https://github.com/SocraticBliss/ps4_module_loader)
