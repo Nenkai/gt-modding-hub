@@ -213,6 +213,8 @@ nav:
       - Other:
         - Gran Turismo PSP: builds/gtpsp.md
 
+  - Reverse Engineering: code_reversing.md
+
   - Mod Showcase:
       - Index: mod_showcase/index.md
 
