@@ -2,7 +2,7 @@
 
 Files written to `USRDIR` (aka `APP_DATA` for `USRDIR` or `APP_CACHE` aka `dev_hdd1` from the game/adhoc) are automatically encrypted using a variant of the volume encryption.
 
-!! note
+!!! note
 
     This does NOT apply to the `PDIPFS` folder or `eboot.bin`. Files written/read using the `APP_DATA_RAW` or `APP_CACHE_RAW` path are also NOT encrypted.
 
@@ -33,6 +33,6 @@ Along with the first two arguments, replace `game_code` with the game code of th
 
 So for instance, the GT5P EU Spec III version would be `BCES-00104`. If you use the PSN version (NPUA-00050), you **also** use `BCES-00104`.
 
-!!! example "Decrypting a movie from GT5P Spec II Korea"
+!!! example "Example: Decrypting a movie from GT5P EU Spec III"
 
     `crypt -g GT5P_DISC_EU -i grim\file\tv_de_15.xml --keyset-seed-override BCES-00104 --alternative`
