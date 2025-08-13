@@ -1,4 +1,4 @@
-# Reverse-Engineerign Notes
+# Reverse-Engineering Notes
 
 ## Encrypted VIF1 program
 

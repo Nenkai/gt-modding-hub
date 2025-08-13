@@ -110,6 +110,7 @@ nav:
         - Optimal Modding Setup: ps3/other/optimal_setup.md
         - Command Line Arguments: ps3/other/command_line_args.md
         - FSRoot: ps3/other/fsroot.md
+        - Decrypting USRDIR files: ps3/other/decrypting_usrdir_contents.md
         - Game Updates: ps3/other/updates.md
         - Custom Server: ps3/other/custom_server.md
         - RPCS3 Settings: ps3/other/rpcs3_setup.md
@@ -142,6 +143,7 @@ nav:
         - Vegas: concepts/online/vegas.md
 
       Other:
+        - Filesystem Mount Paths: concepts/other/fs_mount_paths.md
         - Third Party Libraries: concepts/other/third_party_libs.md
 
   - Formats:
