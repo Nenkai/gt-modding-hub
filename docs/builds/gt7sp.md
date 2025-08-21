@@ -43,7 +43,6 @@ Closest build to GT6. Some leftover [TinyWeb](../concepts/adhoc/tinyweb.md) adho
 * Asia: [`CUSA-03666`](https://orbispatches.com/CUSA03666)
 * Japan: [`CUSA-03639`](https://orbispatches.com/CUSA03639)
 
-
 ??? abstract "File List"
     * CUSA-07836 1.08 - [PKG + VOL](file_lists/CUSA-07836/1_08.txt)
 
@@ -77,6 +76,11 @@ Closest build to GT6. Some leftover [TinyWeb](../concepts/adhoc/tinyweb.md) adho
 :material-shovel: *Dumped*: {==Yes==} - available on [archive](https://archive.org/details/gtsport-beta-cusa10190) - Only the US version 
 
 * America: `CUSA-10190`
+* Asia: `CUSA-10192`
+* Europe: `CUSA-10194`
+
+??? abstract "File List"
+    * CUSA-10190 - [PKG + VOL](file_lists/CUSA-10190.txt)
 
 ??? note "Build Info"
     * Adhoc Version: `12`
@@ -93,8 +97,10 @@ Closest build to GT6. Some leftover [TinyWeb](../concepts/adhoc/tinyweb.md) adho
     * GrimSslCommonName: `gt7sp.ps4.online.gran-turismo.com`
     * Volume Seed: `KYZYLKUM-873068469`
     * Volume Key: `79764919, 79764919, 79764919, 79764919`
+    * Volume Serial: `528609774` (`02/10/2017 04:02:54`)
     * CompileDateTime: `2017/10/02 03:43:18`
     * CompileVMKVersion: `gt.beta.ps4.product.releaseL.build`
+    * sceSNDX Library build date: `Sep 15 2017 15:49:25`
 
 ---
 
