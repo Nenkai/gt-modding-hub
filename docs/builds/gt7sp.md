@@ -36,13 +36,20 @@ comments: true
 
 :material-shovel: *Dumped*: {==Barely==} - available on [archive](https://archive.org/details/CUSA07836-gt7sp-cb-1.08) - dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky) - Only Europe 1.04 & 1.08
 
+Closest build to GT6. Some leftover [TinyWeb](../concepts/adhoc/tinyweb.md) adhoc source scripts along with their compiled source are present in the `scripts/WWW/` folder.
+
 * Europe: [`CUSA-07836`](https://orbispatches.com/CUSA07836)
 * America: [`CUSA-03643`](https://orbispatches.com/CUSA03643)
 * Asia: [`CUSA-03666`](https://orbispatches.com/CUSA03666)
 * Japan: [`CUSA-03639`](https://orbispatches.com/CUSA03639)
 
+
+??? abstract "File List"
+    * CUSA-07836 1.08 - [PKG + VOL](file_lists/CUSA-07836/1_08.txt)
+
 ??? note "Build Info"
     * Adhoc Version: `12`
+    * Supports FSRoot with `fsroot` argument
     * Last instruction supported: `71 - LOGICAL_OPTIONAL`
     * BuildID: `525_988daa0a2a13ccb8b7e93f332fd7f2253119fda9`
     * VersionBranch: `beta`
@@ -57,8 +64,10 @@ comments: true
     * GrimSslCommonName: `gt7sp.ps4.online.gran-turismo.com`
     * Volume Seed: `KYZYLKUM-873068469`
     * Volume Key: `79764919, 79764919, 79764919, 79764919`
+    * Volume Serial: `520894605` (`04/07/2017 20:56:45`)
     * CompileDateTime (1.08 EU): `2017/07/04 20:56:31`
     * CompileVMKVersion: `gt.beta.ps4.product.release.build`
+    * sceSNDX Library build date: `May  2 2017 19:30:01`
 
 ---
 ## GT Sport - Open Beta
