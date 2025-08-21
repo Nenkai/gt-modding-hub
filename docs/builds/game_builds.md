@@ -12,6 +12,14 @@ Begin by browsing a game on the left-side of this screen.
 !!! tip
     If you own any build not currently on this list, please contact [Nenkai](https://twitter.com/Nenkaai) or [Paiky](https://www.gtplanet.net/forum/members/paiky.144636/)!
 
+## File Lists
+
+File lists are created using [FilelistCreator](https://www.sttmedia.com/filelistcreator) with the specific settings:
+
+* Date Created, should appear before Path
+* Path should be 'From Folder Level' so that the Path column should only display paths relative to the game folder
+* Checksum: MD5 enabled, ordered as last column in Order of Columns
+
 ## Regarding debug symbols
 
 Across the many builds on all platforms, no executable debug symbols were ever found (starting from PS3 it is mandatory for them to be stripped to get past the certification process).
