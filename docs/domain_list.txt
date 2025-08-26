@@ -1,9 +1,14 @@
 // https://dnsdumpster.com/
 // https://www.nmmapper.com/sys/tools/subdomainfinder/
 
+admin2.gran-turismo.com
+api.gtl.game.gran-turismo.com
 beta1-fqa.game.gran-turismo.com  
-beta1.game.gran-turismo.com  
-cdn2.gran-turismo.com  
+beta1.game.gran-turismo.com
+beta2.gran-turismo.com
+cdn2.gran-turismo.com
+https://channel.gt7.game.gran-turismo.com/
+asset.gt7.game.gran-turismo.com
 dev01.ps3.online.gran-turismo.com  
 dev02.ps3.online.gran-turismo.com  
 dev03.ps.online.gran-turismo.com  
@@ -12,12 +17,12 @@ dev04.ps.online.gran-turismo.com
 dev04.ps3.online.gran-turismo.com  
 dev07.ps3.online.gran-turismo.com  
 develop.gran-turismo.com  
+develop7.gran-turismo.com
 eu.admin.gran-turismo.com  
 eu.beta.gran-turismo.com  
 eu.gran-turismo.com  
 eu.preview.gran-turismo.com  
 gran-turismo.com 
-gran-turismo.com  
 gt5.ps3.online.gran-turismo.com  
 gt5.work.ps3.online.gran-turismo.com  
 gt5prologue.ps3.online.gran-turismo.com  
@@ -32,7 +37,9 @@ jp6tj.vw1.beta.gran-turismo.com
 loadtest.game.gran-turismo.com  
 loadtest.opensearch.game.gran-turismo.com  
 maker-cms.gran-turismo.com  
-ps3.gran-turismo.com  
+ps3.gran-turismo.com 
+https://portal.gtl.game.gran-turismo.com/
+preview2.gran-turismo.com
 qa01.ps.online.gran-turismo.com  
 qa01.ps3.online.gran-turismo.com  
 qa02.ps3.online.gran-turismo.com  
@@ -56,3 +63,16 @@ vegas-master-test.granturismo-online.net
 vegas-master.granturismo-online.net
 
 api.develop-stable.vegas.granturismo-online.net
+
+gtl-qa.granturismo-online.net
+master.reno.granturismo-online.net
+misaki.vegas.granturismo-online.net
+master.light.granturismo-online.net
+miuram.vegas.granturismo-online.net
+preview-test.vegas.granturismo-online.net
+preview2.vegas.granturismo-online.net
+master-test.reno.granturismo-online.net
+matsuo.vegas.granturismo-online.net
+master.vegas.granturismo-online.net
+vegas-master.granturismo-online.net
+vegas-master-test.granturismo-online.net

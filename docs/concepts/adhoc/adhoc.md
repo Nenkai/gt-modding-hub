@@ -6,6 +6,8 @@ icon: material/script-text
 
 !!! warning
     This section requires intermediate programming knowledge, Javascript or Python helps the most.
+
+    Refer to the [language page](language.md) if you need to get up to speed with Adhoc syntax.
     
 ## Introduction
 

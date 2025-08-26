@@ -130,6 +130,7 @@ nav:
 
       Adhoc: 
         - Adhoc Explained: concepts/adhoc/adhoc.md
+        - Language Features: concepts/adhoc/language.md
         - TinyWeb: concepts/adhoc/tinyweb.md
 
       Cars:
