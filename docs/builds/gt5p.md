@@ -76,7 +76,7 @@ Japan only release. Game Code: `NPJA-90061`
 
 ![aa](../images/covers/gt5p_jp.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on archive (playstation 3 - redump collection - needs ird decryption) · :material-disc: [Redump Info](http://redump.org/disc/34549/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation3_g_part2/Gran%20Turismo%205%20-%20Prologue%20%28Japan%29.iso), ird must be generated from redump metadata for decryption · :material-disc: [Redump Info](http://redump.org/disc/34549/)
 
 Game Code: `BCJS-30017`
 
@@ -109,7 +109,7 @@ Game Code: `BCJS-30017`
 
 ![aa](../images/covers/gt5p_eu.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on archive (playstation 3 - redump collection - ird must be generated from redump metadata) · :material-disc: [Redump Info](http://redump.org/disc/29340/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive as 'v01.00'](https://archive.org/download/sony_playstation3_g_part2)  - ird must be generated from redump metadata · :material-disc: [Redump Info](http://redump.org/disc/29340/)
 
 Game Code: `BCES-00104`
 
@@ -141,7 +141,7 @@ Game Code: `BCES-00104`
 
 ![aa](../images/covers/gt5p_s3.png){ width="300" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [PSN](http://zeus.dl.playstation.net/cdn/UP9000/NPUA80075_00/JvlRY2aTWbYYacobdJMWmuu4lYAWnV9e8KiWV9gLIG8fBiSd8LWqNRL1mGRD83qnOPOmhiSg05IdWNhYJorG7dJLi5R1kyE7jwW2R.pkg)
+:material-shovel: *Dumped*: {++Yes++} - available on [PSN](http://zeus.dl.playstation.net/cdn/UP9000/NPUA80075_00/JvlRY2aTWbYYacobdJMWmuu4lYAWnV9e8KiWV9gLIG8fBiSd8LWqNRL1mGRD83qnOPOmhiSg05IdWNhYJorG7dJLi5R1kyE7jwW2R.pkg) and [archive](https://archive.org/download/PS3_NOINTRO_USA_3/)
 
 Game Code: `NPUA-80075`
 
@@ -187,7 +187,7 @@ Game Code: `NPUA-80075`
 
 ![aa](../images/covers/gt5p_kr.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on archive (playstation 3 - redump collection - ird must be generated from redump metadata) · :material-disc: [Redump Info](http://redump.org/disc/101556/)
+:material-shovel: *Dumped*: {++Yes++} - [archive](https://archive.org/download/sony_playstation3_g_part2/), ird must be generated from redump metadata for decryption · :material-disc: [Redump Info](http://redump.org/disc/101556/)
 
 Game Code: `BCKS-10030` (based on NPHA-80045)
 
@@ -305,7 +305,7 @@ Game Code: `BCED-00393` / `PKJM00393`
 
 ![aa](../images/covers/gt5p_s3.png){ width="300" }
 
-:material-shovel: *Dumped*: {++Yes and No++} - RAP is missing. Keys to volume are known.
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/npea-00050_202508)
 
 Game Code: `NPUA-00050`
 
@@ -365,7 +365,7 @@ Game Code: `NPUA-00050`
 
 ![aa](../images/covers/gt5p_jp_s3.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on archive (playstation 3 - redump collection) · :material-disc: [Redump Info](http://redump.org/disc/34549/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation3_g_part2/), ird must be generated from redump metadata for decryption - :material-disc: [Redump Info](http://redump.org/disc/34549/)
 
 Game Code: `BCJS-30017`
 

@@ -945,7 +945,7 @@ The main build of Gran Turismo 5, released on November 24, 2010.
             * One executable (EBOOT)
             * BuildMode: `default-nodfe-nortime` (No DFE, No RTime)
 
-    ??? note "BCES-00569"
+    ??? abstract "BCES-00569"
 
         ??? tip "1.00"
             * Adhoc Version: `12`
