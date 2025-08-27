@@ -2702,9 +2702,51 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#drivetrain" class="md-nav__link">
+    <span class="md-ellipsis">
+      DRIVETRAIN
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DRIVETRAIN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#drivetrain-type-enumeration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Drivetrain Type Enumeration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4wd-drivetrain-type-enumeration" class="md-nav__link">
+    <span class="md-ellipsis">
+      4WD Drivetrain Type Enumeration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#engine" class="md-nav__link">
     <span class="md-ellipsis">
       ENGINE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enginebalance" class="md-nav__link">
+    <span class="md-ellipsis">
+      ENGINEBALANCE
     </span>
   </a>
   
@@ -2753,9 +2795,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#tuner_list" class="md-nav__link">
+  <a href="#natune" class="md-nav__link">
     <span class="md-ellipsis">
-      TUNER_LIST
+      NATUNE
     </span>
   </a>
   
@@ -2765,6 +2807,24 @@
   <a href="#tiresize" class="md-nav__link">
     <span class="md-ellipsis">
       TIRESIZE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#turbinekit" class="md-nav__link">
+    <span class="md-ellipsis">
+      TURBINEKIT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuner_list" class="md-nav__link">
+    <span class="md-ellipsis">
+      TUNER_LIST
     </span>
   </a>
   
@@ -5356,13 +5416,19 @@
 <ul>
 <li>Car codes are the car's row ID in <code>GENERIC_CAR</code>.</li>
 <li><code>label</code> is what the game uses to identify a car.</li>
-<li><code>category</code> column is the part's upgrade level. </li>
+<li><code>category</code> column is the part's upgrade level. It should (not mandatory) match the label suffix (<code>*_a</code>, <code>*_b</code>, etc).</li>
 </ul>
 <h3 id="torque-modifiers">Torque Modifiers<a class="headerlink" href="#torque-modifiers" title="Permanent link">&para;</a></h3>
 <p><code>torquemodifier</code>s determine how much a part increase the torque output of a car in %. 100/1000 is 100%, no changes.</p>
 <p>For each table that the game reads the multiplier is applied to the car's value as such <code>CurrentTorqueMultiplier = (CurrentTorqueMultiplier * TableTorqueMultiplier) / 100</code></p>
+<details class="note">
+<summary>Calculation/Conversion Factor (click to expand)</summary>
+<p>From <a href="https://github.com/MF42-DZH">Azullia</a>:</p>
+<p><em>"When calculating torque multipliers at a particular RPM, the reverse interpolation (which seems to be linear) is between the first torque point's RPM value and the smaller of the last torque point's RPM value or the rev limiter, naïvely applying just the RPM min/max of the points will create incorrect torque curves for cars whose limiters are lower than their max RPM point (e.g. the Fiat 500F)"</em></p>
+<p>"the conversion factor GT3/4 uses for <code>Power (PS) = (Torque (kgf.m) × RPM) ÷ Factor</code> seems to be <code>716.2</code>, but with GT4 (and maybe 3?) adding a +0.5 PS unconditionally to the displayed power (so the full formula for displayed is <code>Power (PS) = 0.5 + (Torque (kgf.m) × RPM) ÷ 716.2</code>, then rounded - either down or to nearest whole)"</p>
+</details>
 <details class="tip">
-<summary>Table row load order for setting up a car (for GT4, crossed tables do not have a torque modifier)</summary>
+<summary>Table row load order for setting up a car (for GT4, crossed tables do not have a torque modifier) (click to expand)</summary>
 <ul>
 <li><del><code>BRAKE</code></del></li>
 <li><del><code>BRAKECONTROLLER</code></del></li>
@@ -5506,7 +5572,7 @@
 <td>TODO</td>
 </tr>
 <tr>
-<td style="text-align: center;"><code>DRIVETRAIN</code></td>
+<td style="text-align: center;"><a href="#drivetrain"><code>DRIVETRAIN</code></a></td>
 <td>Defines all drivetrain parameters.</td>
 </tr>
 <tr>
@@ -5518,7 +5584,7 @@
 <td>Defines all engine display/simulation specfications and assigns sound IDs to engines for <code>carsound</code> entries.</td>
 </tr>
 <tr>
-<td style="text-align: center;"><code>ENGINEBALANCE</code></td>
+<td style="text-align: center;"><a href="#enginebalance"><code>ENGINEBALANCE</code></a></td>
 <td>Defines all engine balance parts. (for GT4)</td>
 </tr>
 <tr>
@@ -5574,7 +5640,7 @@
 <td>Defines all exhaust upgrade parts. Categories are used to determine which subfolder is searched in <code>carsound</code>.</td>
 </tr>
 <tr>
-<td style="text-align: center;"><code>NATUNE</code></td>
+<td style="text-align: center;"><a href="#natune"><code>NATUNE</code></a></td>
 <td>Defines all naturally aspirated tuning parts.</td>
 </tr>
 <tr>
@@ -5630,7 +5696,7 @@
 <td>Defines which tuner/dealer you can go to to upgrade a car in GT4.</td>
 </tr>
 <tr>
-<td style="text-align: center;"><code>TURBINEKIT</code></td>
+<td style="text-align: center;"><a href="#turbine_kit"><code>TURBINEKIT</code></a></td>
 <td>Defines all the turbos.</td>
 </tr>
 <tr>
@@ -5819,6 +5885,141 @@
 </table>
 </details>
 <hr />
+<h3 id="drivetrain">DRIVETRAIN<a class="headerlink" href="#drivetrain" title="Permanent link">&para;</a></h3>
+<p>DRIVETRAIN defines all the drivetrains.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Table is TODO.</p>
+</div>
+<h5 id="drivetrain-type-enumeration">Drivetrain Type Enumeration<a class="headerlink" href="#drivetrain-type-enumeration" title="Permanent link">&para;</a></h5>
+<details class="abstract">
+<summary>Drivetrain Type (click to expand)</summary>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Information based on GT7. Not all may be available in previous games.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td><code>FR</code></td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td><code>FF</code></td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td><code>_4WD</code></td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td><code>MR</code></td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td><code>RR</code></td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td><code>OTHER</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h5 id="4wd-drivetrain-type-enumeration">4WD Drivetrain Type Enumeration<a class="headerlink" href="#4wd-drivetrain-type-enumeration" title="Permanent link">&para;</a></h5>
+<details class="abstract">
+<summary>4WD Drivetrain Type (click to expand)</summary>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Information based on GT7. Not all may be available in previous games.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td><code>StandBy</code></td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td><code>Ferguson</code></td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td><code>DriverCtrl</code></td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td><code>AttesaETS</code></td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td><code>Mitsubishi</code></td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td><code>GEAR_TYHondaPE_TQ_CONV_AT</code></td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td><code>Haldex</code></td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td><code>Ideal</code></td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td><code>ACD</code></td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td><code>Nissan</code></td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td><code>E4WD_R_DUAL</code></td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td><code>E4WD_F_DUAL</code></td>
+</tr>
+<tr>
+<td><code>12</code></td>
+<td><code>_0WD</code></td>
+</tr>
+<tr>
+<td><code>13</code></td>
+<td><code>E4WD_R_SINGLE</code></td>
+</tr>
+<tr>
+<td><code>14</code></td>
+<td><code>E4WD_F_SINGLE</code></td>
+</tr>
+<tr>
+<td><code>15</code></td>
+<td><code>Inwheel</code></td>
+</tr>
+<tr>
+<td><code>254</code></td>
+<td><code>-</code> (None)</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr />
 <h3 id="engine">ENGINE<a class="headerlink" href="#engine" title="Permanent link">&para;</a></h3>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <em>Applicable to: GT4 and above</em></p>
 <p><strong>ENGINE</strong> defines all the car engines/parts.</p>
@@ -5909,9 +6110,9 @@
 <td>The RPM at which the engine hits the rev limiter and will not rev any further. Also multiplied by 100 in game, so <code>70</code> means the rev limiter is hit at 7000rpm.</td>
 </tr>
 <tr>
-<td><code>Unk</code></td>
+<td><code>idlerpm</code></td>
 <td>Byte</td>
-<td>Unknown. Possibly RPM related.</td>
+<td>Idling RPM (engine RPM in-game will not fall below this number, or else it will engage the clutch (e.g. when upshifting too early))</td>
 </tr>
 <tr>
 <td><code>clutchmeetrpm</code></td>
@@ -5941,12 +6142,64 @@
 <tr>
 <td><code>torquevol</code></td>
 <td>Byte</td>
-<td>Unknown. Possibly a multiplier related to the engine's torque curve.</td>
+<td>Multiplies the torque of all the torque points (in %)</td>
 </tr>
 <tr>
 <td><code>GasConsumptionRate</code></td>
 <td>Byte</td>
 <td>Unknown. As the name suggests this is related to fuel consumption, but every engine in GT4 has a value of <code>0</code> for this column, and the units/effects are unknown. Possibly unused.</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr />
+<h3 id="enginebalance">ENGINEBALANCE<a class="headerlink" href="#enginebalance" title="Permanent link">&para;</a></h3>
+<p>ENGINEBALANCE defines all the engine balance parts (GT4).</p>
+<details class="info">
+<summary>Table (click to expand)</summary>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Label</code></td>
+<td>String</td>
+<td>The internal name for the turbo part.</td>
+</tr>
+<tr>
+<td><code>Price</code></td>
+<td>Int</td>
+<td>Price for buying</td>
+</tr>
+<tr>
+<td><code>torquemodifier</code></td>
+<td>Short</td>
+<td></td>
+</tr>
+<tr>
+<td><code>torquemodifier2</code></td>
+<td>Short</td>
+<td></td>
+</tr>
+<tr>
+<td><code>category</code></td>
+<td>Byte</td>
+<td>Category or 'Rank' for the part. Should (suggestion) match the label's suffix, but category is the mandatory one.</td>
+</tr>
+<tr>
+<td><code>shiftlimit</code></td>
+<td>Byte</td>
+<td>How much the engine's RPM points and rev limiter are shifted upwards when they are applied (change to RPM of torque points is value × 100, applied to all torque points)</td>
+</tr>
+<tr>
+<td><code>revlimit</code></td>
+<td>Byte</td>
+<td>How much the engine's RPM points and rev limiter are shifted upwards when they are applied (change to RPM of torque points is value × 100, applied to all torque points)</td>
 </tr>
 </tbody>
 </table>
@@ -6009,7 +6262,7 @@
 <tr>
 <td><code>category</code></td>
 <td>Byte</td>
-<td>The upgrade level of a transmission part.</td>
+<td>Category/Rank/Upgrade Level for the part. Should (suggestion) match the label's suffix, but category is the mandatory one.</td>
 </tr>
 <tr>
 <td><code>geartype</code></td>
@@ -6066,7 +6319,7 @@
 </details>
 <h5 id="gear-type-enumeration">Gear Type Enumeration<a class="headerlink" href="#gear-type-enumeration" title="Permanent link">&para;</a></h5>
 <details class="abstract">
-<summary>Gear Type</summary>
+<summary>Gear Type (click to expand)</summary>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Information based on GT7. Not all may be available in previous games.</p>
@@ -6144,7 +6397,7 @@
 </details>
 <h5 id="gear-pattern-enumeration">Gear Pattern Enumeration<a class="headerlink" href="#gear-pattern-enumeration" title="Permanent link">&para;</a></h5>
 <details class="abstract">
-<summary>Gear Pattern</summary>
+<summary>Gear Pattern (click to expand)</summary>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Information based on GT7. Not all may be available in previous games.</p>
@@ -6298,7 +6551,227 @@
 </tbody>
 </table>
 </details>
+<details class="info">
+<summary>GenericFlag bits for &gt;= GT5 (click to expand)</summary>
+<p>This enum is available in Adhoc as an enum (<code>gtengine::GenericFlag</code>)
+| Bit | Behavior if toggled
+| ----| ---------|
+| <code>0</code>   | USE_PRESET_ENEMY
+| <code>1</code>   | USE_PRO_BEHAVIOR
+| <code>2</code>   | USE_PREMIUM_MODEL
+| <code>3</code>   | DONT_SELL
+| <code>4</code>   | CAN_CHANGE_DECKEN (Sticker)
+| <code>5</code>   | CAN_ALL_PAINT (Sticker)
+| <code>6</code>   | IS_F1_CAR
+| <code>7</code>   | CAN_PRESENT
+| <code>8</code>   | HAVE_DIRT_TIRE
+| <code>9</code>   | CAN_CHANGE_WING
+| <code>10</code>   | HAVE_CARBON_BONNET
+| <code>11</code>   | HAVE_LIGHT_WEIGHT_WINDOT
+| <code>12</code>   | IS_VOUCHER_CAR
+| <code>13</code>   | IS_RACING_KART
+| <code>14</code>   | IS_STRANGE_CAR
+| <code>15</code>   | ONE_MAKE_ONLY
+| <code>16</code>   | CAN_CAR_WASH
+| <code>17</code>   | NOUSE_17
+| <code>18</code>   | IS_DLC_CAR
+| <code>19</code>   | IS_DCTRL_IMPREZA</p>
 </details>
+</details>
+<hr />
+<h3 id="natune">NATUNE<a class="headerlink" href="#natune" title="Permanent link">&para;</a></h3>
+<p>NATUNE defines all the naturally aspirated parts.</p>
+<details class="info">
+<summary>Table (click to expand)</summary>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Label</code></td>
+<td>String</td>
+<td>The internal name for the turbo part.</td>
+</tr>
+<tr>
+<td><code>Price</code></td>
+<td>Int</td>
+<td>Price for buying</td>
+</tr>
+<tr>
+<td><code>torquemodifier</code></td>
+<td>Short</td>
+<td></td>
+</tr>
+<tr>
+<td><code>torquemodifier2</code></td>
+<td>Short</td>
+<td></td>
+</tr>
+<tr>
+<td><code>category</code></td>
+<td>Byte</td>
+<td>Category/Rank/Upgrade Level for the part. Should (suggestion) match the label's suffix, but category is the mandatory one.</td>
+</tr>
+<tr>
+<td><code>shiftlimit</code></td>
+<td>Byte</td>
+<td>How much the engine's RPM points and rev limiter are shifted upwards when they are applied (change to RPM of torque points is value × 100, applied to all torque points)</td>
+</tr>
+<tr>
+<td><code>revlimit</code></td>
+<td>Byte</td>
+<td>How much the engine's RPM points and rev limiter are shifted upwards when they are applied (change to RPM of torque points is value × 100, applied to all torque points)</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="tiresize">TIRESIZE<a class="headerlink" href="#tiresize" title="Permanent link">&para;</a></h3>
+<p>TireSize defines tire sizes.</p>
+<details class="info">
+<summary>Table (click to expand)</summary>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Label</code></td>
+<td>String</td>
+<td>The internal name for the color.</td>
+</tr>
+<tr>
+<td><code>flatness</code></td>
+<td>Byte</td>
+<td>Tire profile.</td>
+</tr>
+<tr>
+<td><code>unk</code></td>
+<td>Byte</td>
+<td>Unknown. Possibly category?</td>
+</tr>
+<tr>
+<td><code>diameter</code></td>
+<td>Byte</td>
+<td>Rim Diameter. Divide by 10 for inches.</td>
+</tr>
+<tr>
+<td><code>width</code></td>
+<td>Byte</td>
+<td>Tire Width. Multiply by 5 for millimeters.</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>So for example, <code>cougar_xr7_67</code>, which uses Tire Size ID <code>859</code> (Label: <code>sz209</code>) in GT4:</p>
+<ul>
+<li>Flatness: <code>12</code> (profile 60)</li>
+<li>Diameter: <code>150</code> (15 in.)</li>
+<li>Width: <code>51</code> (255mm)</li>
+</ul>
+<p><strong>Tire Size = 255/60R15.</strong></p>
+<hr />
+<h3 id="turbinekit">TURBINEKIT<a class="headerlink" href="#turbinekit" title="Permanent link">&para;</a></h3>
+<p>TurbineKit defines all the turbo parts.</p>
+<details class="info">
+<summary>Table (click to expand)</summary>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Label</code></td>
+<td>String</td>
+<td>The internal name for the turbo part.</td>
+</tr>
+<tr>
+<td><code>Price</code></td>
+<td>Int</td>
+<td>Price for buying</td>
+</tr>
+<tr>
+<td><code>torquemodifier</code></td>
+<td>Short</td>
+<td></td>
+</tr>
+<tr>
+<td><code>torquemodifier2</code></td>
+<td>Short</td>
+<td></td>
+</tr>
+<tr>
+<td><code>category</code></td>
+<td>Byte</td>
+<td>Category/Rank/Upgrade Level for the part. Should (suggestion) match the label's suffix, but category is the mandatory one.</td>
+</tr>
+<tr>
+<td><code>wastegate</code></td>
+<td>Byte</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>boost1</code></td>
+<td>Byte</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>peakrpm1</code></td>
+<td>Byte</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>response1</code></td>
+<td>Byte</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>boost2</code></td>
+<td>Byte</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>peakrpm2</code></td>
+<td>Byte</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>response2</code></td>
+<td>Byte</td>
+<td>?</td>
+</tr>
+<tr>
+<td><code>shiftlimit</code></td>
+<td>Byte</td>
+<td>Not used/read in GT4.</td>
+</tr>
+<tr>
+<td><code>revlimit</code></td>
+<td>Byte</td>
+<td>Not used/read in GT4.</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>So for example, <code>cougar_xr7_67</code>, which uses Tire Size ID <code>859</code> (Label: <code>sz209</code>) in GT4:</p>
+<ul>
+<li>Flatness: <code>12</code> (profile 60)</li>
+<li>Diameter: <code>150</code> (15 in.)</li>
+<li>Width: <code>51</code> (255mm)</li>
+</ul>
+<p><strong>Tire Size = 255/60R15.</strong></p>
 <hr />
 <h3 id="tuner_list">TUNER_LIST<a class="headerlink" href="#tuner_list" title="Permanent link">&para;</a></h3>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <em>Applicable to: TT, GT4</em></p>
@@ -6426,55 +6899,6 @@
 </code></pre></div>
 </details>
 <hr />
-<h3 id="tiresize">TIRESIZE<a class="headerlink" href="#tiresize" title="Permanent link">&para;</a></h3>
-<p>TireSize defines tire sizes.</p>
-<details class="info">
-<summary>Table (click to expand)</summary>
-<table>
-<thead>
-<tr>
-<th>Column</th>
-<th>Data Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Label</code></td>
-<td>String</td>
-<td>The internal name for the color.</td>
-</tr>
-<tr>
-<td><code>flatness</code></td>
-<td>Byte</td>
-<td>Tire profile.</td>
-</tr>
-<tr>
-<td><code>unk</code></td>
-<td>Byte</td>
-<td>Unknown. Possibly category?</td>
-</tr>
-<tr>
-<td><code>diameter</code></td>
-<td>Byte</td>
-<td>Rim Diameter. Divide by 10 for inches.</td>
-</tr>
-<tr>
-<td><code>width</code></td>
-<td>Byte</td>
-<td>Tire Width. Multiply by 5 for millimeters.</td>
-</tr>
-</tbody>
-</table>
-</details>
-<p>So for example, <code>cougar_xr7_67</code>, which uses Tire Size ID <code>859</code> (Label: <code>sz209</code>) in GT4:</p>
-<ul>
-<li>Flatness: <code>12</code> (profile 60)</li>
-<li>Diameter: <code>150</code> (15 in.)</li>
-<li>Width: <code>51</code> (255mm)</li>
-</ul>
-<p><strong>Tire Size = 255/60R15.</strong></p>
-<hr />
 <h3 id="variation">VARIATION<a class="headerlink" href="#variation" title="Permanent link">&para;</a></h3>
 <p>Variation defines all the colors available for the cars. In GT4, it is also responsible for linking to the model and the color patch. In later games, it has moved to <a href="#model_info">MODEL_INFO</a>.</p>
 <p>In GT4, in order to get variation rows you would first need to obtain it from <a href="#car_variation">CAR_VARIATION</a>.</p>
@@ -6569,7 +6993,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 14, 2025 19:51:17 UTC">July 14, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 27, 2025 15:33:59 UTC">August 27, 2025</span>
   </span>
 
     
