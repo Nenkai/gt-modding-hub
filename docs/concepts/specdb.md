@@ -11,7 +11,7 @@ Most tables represent a distinct car part. Some other tables such as `COURSE` de
 ## Important Information
 * Car codes are the car's row ID in `GENERIC_CAR`.
 * `label` is what the game uses to identify a car.
-* `category` column is the part's upgrade level. 
+* `category` column is the part's upgrade level. It should (not mandatory) match the label suffix (`*_a`, `*_b`, etc).
 
 
 ### Torque Modifiers
@@ -19,7 +19,16 @@ Most tables represent a distinct car part. Some other tables such as `COURSE` de
 
 For each table that the game reads the multiplier is applied to the car's value as such `CurrentTorqueMultiplier = (CurrentTorqueMultiplier * TableTorqueMultiplier) / 100`
 
-??? tip "Table row load order for setting up a car (for GT4, crossed tables do not have a torque modifier)"
+??? note "Calculation/Conversion Factor (click to expand)"
+
+    From [Azullia](https://github.com/MF42-DZH):
+
+    *"When calculating torque multipliers at a particular RPM, the reverse interpolation (which seems to be linear) is between the first torque point's RPM value and the smaller of the last torque point's RPM value or the rev limiter, naïvely applying just the RPM min/max of the points will create incorrect torque curves for cars whose limiters are lower than their max RPM point (e.g. the Fiat 500F)"*
+
+    "the conversion factor GT3/4 uses for `Power (PS) = (Torque (kgf.m) × RPM) ÷ Factor` seems to be `716.2`, but with GT4 (and maybe 3?) adding a +0.5 PS unconditionally to the displayed power (so the full formula for displayed is `Power (PS) = 0.5 + (Torque (kgf.m) × RPM) ÷ 716.2`, then rounded - either down or to nearest whole)"
+
+
+??? tip "Table row load order for setting up a car (for GT4, crossed tables do not have a torque modifier) (click to expand)"
     * ~~`BRAKE`~~
     * ~~`BRAKECONTROLLER`~~
     * ~~`STEER`~~
@@ -101,10 +110,10 @@ The most important tables are [`GENERIC_CAR`](#generic_car) and `DEFAULT_PARTS`.
 `DEFAULT_PARAM`        | Defines all the default part settings for each car.
 `DEFAULT_PARTS`        | This is the second most important table. Defines all the pre-installed parts for a car. Each column will point to a part table's row ID.
 `DISPLACEMENT`         | TODO
-`DRIVETRAIN`           | Defines all drivetrain parameters.
+[`DRIVETRAIN`](#drivetrain) | Defines all drivetrain parameters.
 `ENEMY_CARS`           | Defines all enemy/AI cars, **this can be used in place of GENERIC_CAR for defining cars**. (a GENERIC_CAR row is still needed to use this. for GT4 only).
 [`ENGINE`](#engine)    | Defines all engine display/simulation specfications and assigns sound IDs to engines for `carsound` entries.
-`ENGINEBALANCE`        | Defines all engine balance parts. (for GT4)
+[`ENGINEBALANCE`](#enginebalance) | Defines all engine balance parts. (for GT4)
 `EXHAUST_MANIFOLD`     | Defines all exhaust manifold parts.
 `FLYWHEEL`             | Defines all flywheel parts.
 `FRONTTIRE`            | Defines all front tire parts.
@@ -118,7 +127,7 @@ The most important tables are [`GENERIC_CAR`](#generic_car) and `DEFAULT_PARTS`.
 `LSD`                  | Defines all differential parts.
 `MODEL_INFO`           | Defines all the available models for each car. Row ID's are directly linked to the car's row in `GENERIC_CAR`. (for >=GT5)
 `MUFFLER`              | Defines all exhaust upgrade parts. Categories are used to determine which subfolder is searched in `carsound`.
-`NATUNE`               | Defines all naturally aspirated tuning parts.
+[`NATUNE`](#natune)   | Defines all naturally aspirated tuning parts.
 `NOS`                  | Defines all nitrous parts.
 `PORTPOLISH`           | Defines all port polishing parts. (for GT4)
 `PROPELLERSHAFT`       | Defines all propeller shaft parts.
@@ -130,9 +139,9 @@ The most important tables are [`GENERIC_CAR`](#generic_car) and `DEFAULT_PARTS`.
 `TCSC`                 | Defines traction control parts.
 `TIRECOMPOUND`         | Defines tire compounds. Used by FRONTTIRE and REARTIRE.
 `TIREFORCEVOL`         | Defines tire force volumes.
-[`TIRESIZE`](#tiresize)             | Defines tire sizes. Used by FRONTTIRE and REARTIRE.
-[`TUNER_LIST`](#tuner_list)           | Defines which tuner/dealer you can go to to upgrade a car in GT4.
-`TURBINEKIT`           | Defines all the turbos.
+[`TIRESIZE`](#tiresize)       | Defines tire sizes. Used by FRONTTIRE and REARTIRE.
+[`TUNER_LIST`](#tuner_list)   | Defines which tuner/dealer you can go to to upgrade a car in GT4.
+[`TURBINEKIT`](#turbine_kit)  | Defines all the turbos.
 [`VARIATION`](#variation) | Defines all the car paint colors (and models, for GT4).
 `WHEEL`                | Defines all the wheels.
 `WING`                 | Defines all the wings. (for GT4, maybe GT5P)
@@ -188,6 +197,58 @@ Links a car to a [VARIATION](#variation) row.
 
 ---
 
+### DRIVETRAIN
+
+DRIVETRAIN defines all the drivetrains.
+
+!!! warning
+    
+    Table is TODO.
+
+##### Drivetrain Type Enumeration
+??? abstract "Drivetrain Type (click to expand)"
+
+    !!! note
+        Information based on GT7. Not all may be available in previous games.
+
+    | Value | Name                   |
+    |-------|------------------------|
+    | `0`     | `FR`
+    | `1`     | `FF`
+    | `2`     | `_4WD`
+    | `3`     | `MR`
+    | `4`     | `RR`
+    | `5`     | `OTHER`
+
+##### 4WD Drivetrain Type Enumeration
+??? abstract "4WD Drivetrain Type (click to expand)"
+
+    !!! note
+        Information based on GT7. Not all may be available in previous games.
+
+    | Value | Name                   |
+    |-------|------------------------|
+    | `0`     | `StandBy`
+    | `1`     | `Ferguson`
+    | `2`     | `DriverCtrl`
+    | `3`     | `AttesaETS`
+    | `4`     | `Mitsubishi`
+    | `5`     | `GEAR_TYHondaPE_TQ_CONV_AT`
+    | `6`     | `Haldex`
+    | `7`     | `Ideal`
+    | `8`     | `ACD`
+    | `9`     | `Nissan`
+    | `10`    | `E4WD_R_DUAL`
+    | `11`    | `E4WD_F_DUAL`
+    | `12`    | `_0WD`
+    | `13`    | `E4WD_R_SINGLE`
+    | `14`    | `E4WD_F_SINGLE`
+    | `15`    | `Inwheel`
+    | `254`   | `-` (None)
+
+
+---
+
 ### ENGINE
 :material-check: *Applicable to: GT4 and above*
 
@@ -211,14 +272,31 @@ Links a car to a [VARIATION](#variation) row.
     `dpsflag`             | Byte   | Unknown. Possibly related to downshift protection.
     `shiftlimit`          | Byte   | The RPM at which the automatic transmission assist will shift up under full throttle. Values for this and all other RPM-related sim values are multiplied by 100 in game, so a `shiftlimit` of `65` means the redline starts at 6500rpm.
     `revlimit`            | Byte   | The RPM at which the engine hits the rev limiter and will not rev any further. Also multiplied by 100 in game, so `70` means the rev limiter is hit at 7000rpm.
-    `Unk`                 | Byte   | Unknown. Possibly RPM related.
+    `idlerpm`             | Byte   | Idling RPM (engine RPM in-game will not fall below this number, or else it will engage the clutch (e.g. when upshifting too early))
     `clutchmeetrpm`       | Byte   | Not fully known. Seems to be `250` for almost every car except for some historic cars and the Tank Car.
     `torquepoint`         | Byte   | How many `rpm/torque` points are used to build the torque curve. Maximum of 24 as each only goes from A to X.
     `rpm(A through X)`    | Byte   | RPM values divided by 100 corresponding to `torque(A through X)` values. Can start from any value and jump up in any (or even inconsistent) intervals, but base game cars typically start at 10 or 15 (1000rpm and 1500rpm) and increase in intervals of 5 (500rpm).
     `RedLine`             | Byte   | The RPM at which UI redline starts.
     `MeterScale`          | Byte   | Unknown. All values are set to `0` in GT4.
-    `torquevol`           | Byte   | Unknown. Possibly a multiplier related to the engine's torque curve.
+    `torquevol`           | Byte   | Multiplies the torque of all the torque points (in %)
     `GasConsumptionRate`  | Byte   | Unknown. As the name suggests this is related to fuel consumption, but every engine in GT4 has a value of `0` for this column, and the units/effects are unknown. Possibly unused.
+
+---
+
+### ENGINEBALANCE
+
+ENGINEBALANCE defines all the engine balance parts (GT4).
+
+??? info "Table (click to expand)"
+    |     Column                    |  Data Type    | Description
+    | ------------------------------| ------------- | ----------- | 
+    | `Label`                       | String        | The internal name for the turbo part. 
+    | `Price`                       | Int           | Price for buying
+    | `torquemodifier`              | Short         |
+    | `torquemodifier2`             | Short         |
+    | `category`                    | Byte          | Category or 'Rank' for the part. Should (suggestion) match the label's suffix, but category is the mandatory one.
+    | `shiftlimit`                  | Byte          | How much the engine's RPM points and rev limiter are shifted upwards when they are applied (change to RPM of torque points is value × 100, applied to all torque points)
+    | `revlimit`                    | Byte          | How much the engine's RPM points and rev limiter are shifted upwards when they are applied (change to RPM of torque points is value × 100, applied to all torque points)
 
 ---
 
@@ -238,7 +316,7 @@ Links a car to a [VARIATION](#variation) row.
     `finalgearDF`                 | Short         | The default value for the final drive ratio when tuning gear ratios.
     `ExtraFinalGearRatio`         | Short         | Specifies an alternative final drive ratio where applicable (for cars with two output shafts such as the 2005   Volkswagen Golf GTI).
     `Price`                       | Short         | How much the part costs to buy if not stock.
-    `category`                    | Byte          | The upgrade level of a transmission part.
+    `category`                    | Byte          | Category/Rank/Upgrade Level for the part. Should (suggestion) match the label's suffix, but category is the mandatory one.
     `geartype`                    | Byte          | Which type of gearbox behaviour to use. Refer to [Gear Type Enum](#gear-type-enumeration)
     `Nshift`                      | Byte          | Number of gears (forward). This also reflects how the driver shifting animations operate.
     `gearflag`                    | Byte          | Determines whether or not to calculate the gear ratios automatically. `0` is used for road cars with specified  real-world ratios, `1` is used for most race cars and upgraded gearboxes. `2` is unknown and only used on the 1954 Chevrolet Corvette which has two gears and    real-world defined ratios. `AutoGearRatio_Generate` is called if the flag is not `0`.
@@ -251,7 +329,7 @@ Links a car to a [VARIATION](#variation) row.
     `GearPattern`                 | Byte          | Used for rendering the driver animations. Refer to [Gear Pattern Enum](#gear-pattern-enumeration)
 
 ##### Gear Type Enumeration
-??? abstract "Gear Type"
+??? abstract "Gear Type (click to expand)"
 
     !!! note
         Information based on GT7. Not all may be available in previous games.
@@ -275,7 +353,7 @@ Links a car to a [VARIATION](#variation) row.
     | `14`    | `GEAR_TYPE_NON_SYNCHRO_MT`
 
 ##### Gear Pattern Enumeration
-??? abstract "Gear Pattern"
+??? abstract "Gear Pattern (click to expand)"
 
     !!! note
         Information based on GT7. Not all may be available in previous games.
@@ -314,12 +392,108 @@ Links a car to a [VARIATION](#variation) row.
     ??? info "GenericFlags bits (click to expand)"
         | Bit | Behavior if toggled
         | ----| ---------|
-        `0`   | Makes a car unbuyable (`NotForSell`).
-        `1`   | Hides the last `VARIATION` (colour) entry. Used for special colour cars and the black race cars.
-        `2`   | Makes a car unable to enter races (`RaceForbidden`).
-        `3`   | Hides a car's specs (`HideRealSpec`).
-        `4`   | Marks a car as open top-only, meaning it has no closed roof variant and cannot enter typical races (`OpenCar`).
-        `5`   | Marks a car as a test car, meaning it can only drive on the Nürburgring Nordschleife, Test Course, and Las Vegas drag strip (`TestCar`).
+        | `0`   | Makes a car unbuyable (`NotForSell`).
+        | `1`   | Hides the last `VARIATION` (colour) entry. Used for special colour cars and the black race cars.
+        | `2`   | Makes a car unable to enter races (`RaceForbidden`).
+        | `3`   | Hides a car's specs (`HideRealSpec`).
+        | `4`   | Marks a car as open top-only, meaning it has no closed roof variant and cannot enter typical races (`OpenCar`).
+        | `5`   | Marks a car as a test car, meaning it can only drive on the Nürburgring Nordschleife, Test Course, and Las Vegas drag strip (`TestCar`).
+
+    ??? info "GenericFlag bits for >= GT5 (click to expand)"
+
+        This enum is available in Adhoc as an enum (`gtengine::GenericFlag`)
+        | Bit | Behavior if toggled
+        | ----| ---------|
+        | `0`   | USE_PRESET_ENEMY
+        | `1`   | USE_PRO_BEHAVIOR
+        | `2`   | USE_PREMIUM_MODEL
+        | `3`   | DONT_SELL
+        | `4`   | CAN_CHANGE_DECKEN (Sticker)
+        | `5`   | CAN_ALL_PAINT (Sticker)
+        | `6`   | IS_F1_CAR
+        | `7`   | CAN_PRESENT
+        | `8`   | HAVE_DIRT_TIRE
+        | `9`   | CAN_CHANGE_WING
+        | `10`   | HAVE_CARBON_BONNET
+        | `11`   | HAVE_LIGHT_WEIGHT_WINDOT
+        | `12`   | IS_VOUCHER_CAR
+        | `13`   | IS_RACING_KART
+        | `14`   | IS_STRANGE_CAR
+        | `15`   | ONE_MAKE_ONLY
+        | `16`   | CAN_CAR_WASH
+        | `17`   | NOUSE_17
+        | `18`   | IS_DLC_CAR
+        | `19`   | IS_DCTRL_IMPREZA
+
+---
+
+### NATUNE
+
+NATUNE defines all the naturally aspirated parts.
+
+??? info "Table (click to expand)"
+    |     Column                    |  Data Type    | Description
+    | ------------------------------| ------------- | ----------- | 
+    | `Label`                       | String        | The internal name for the turbo part. 
+    | `Price`                       | Int           | Price for buying
+    | `torquemodifier`              | Short         |
+    | `torquemodifier2`             | Short         |
+    | `category`                    | Byte          | Category/Rank/Upgrade Level for the part. Should (suggestion) match the label's suffix, but category is the mandatory one.
+    | `shiftlimit`                  | Byte          | How much the engine's RPM points and rev limiter are shifted upwards when they are applied (change to RPM of torque points is value × 100, applied to all torque points)
+    | `revlimit`                    | Byte          | How much the engine's RPM points and rev limiter are shifted upwards when they are applied (change to RPM of torque points is value × 100, applied to all torque points)
+
+### TIRESIZE
+
+TireSize defines tire sizes.
+
+??? info "Table (click to expand)"
+    |     Column                  |  Data Type    | Description
+    | ----------------------------| ------------- | ----------- | 
+    | `Label`                     | String        | The internal name for the color. 
+    | `flatness`                  | Byte          | Tire profile.
+    | `unk`                       | Byte          | Unknown. Possibly category?
+    | `diameter`                  | Byte          | Rim Diameter. Divide by 10 for inches.
+    | `width`                     | Byte          | Tire Width. Multiply by 5 for millimeters.
+
+So for example, `cougar_xr7_67`, which uses Tire Size ID `859` (Label: `sz209`) in GT4:
+
+- Flatness: `12` (profile 60)
+- Diameter: `150` (15 in.)
+- Width: `51` (255mm)
+
+**Tire Size = 255/60R15.**
+
+---
+
+### TURBINEKIT
+
+TurbineKit defines all the turbo parts.
+
+??? info "Table (click to expand)"
+    |     Column                    |  Data Type    | Description
+    | ------------------------------| ------------- | ----------- | 
+    | `Label`                       | String        | The internal name for the turbo part. 
+    | `Price`                       | Int           | Price for buying
+    | `torquemodifier`              | Short         |
+    | `torquemodifier2`             | Short         |
+    | `category`                    | Byte          | Category/Rank/Upgrade Level for the part. Should (suggestion) match the label's suffix, but category is the mandatory one.
+    | `wastegate`                   | Byte          | ?
+    | `boost1`                      | Byte          | ?
+    | `peakrpm1`                    | Byte          | ?
+    | `response1`                   | Byte          | ?
+    | `boost2`                      | Byte          | ?
+    | `peakrpm2`                    | Byte          | ?
+    | `response2`                   | Byte          | ?
+    | `shiftlimit`                  | Byte          | Not used/read in GT4.
+    | `revlimit`                    | Byte          | Not used/read in GT4.
+
+So for example, `cougar_xr7_67`, which uses Tire Size ID `859` (Label: `sz209`) in GT4:
+
+- Flatness: `12` (profile 60)
+- Diameter: `150` (15 in.)
+- Width: `51` (255mm)
+
+**Tire Size = 255/60R15.**
 
 ---
 
@@ -432,28 +606,6 @@ This table links a car to a list of tuners - tuners can tune the car.
     ysp_presto  |  91
     trickstar   |  92
     ```
----
-
-### TIRESIZE
-
-TireSize defines tire sizes.
-
-??? info "Table (click to expand)"
-    |     Column                  |  Data Type    | Description
-    | ----------------------------| ------------- | ----------- | 
-    `Label`                       | String        | The internal name for the color. 
-    `flatness`                    | Byte          | Tire profile.
-    `unk`                         | Byte          | Unknown. Possibly category?
-    `diameter`                    | Byte          | Rim Diameter. Divide by 10 for inches.
-    `width`                       | Byte          | Tire Width. Multiply by 5 for millimeters.
-
-So for example, `cougar_xr7_67`, which uses Tire Size ID `859` (Label: `sz209`) in GT4:
-
-- Flatness: `12` (profile 60)
-- Diameter: `150` (15 in.)
-- Width: `51` (255mm)
-
-**Tire Size = 255/60R15.**
 
 ---
 
@@ -466,14 +618,14 @@ In GT4, in order to get variation rows you would first need to obtain it from [C
 ??? info "GT4 Table (click to expand)"
     |     Column                  |  Data Type    | Description
     | ----------------------------| ------------- | ----------- | 
-    `Label`                       | String        | The internal name for the color. 
-    `ModelCode`                   | String        | Code for the model to be used with the `car/` folder.
-    `VarOrder`                    | UInt          | The display order of this paint color.
-    `ColorPatchFileName`          | String        | Color patch file name to be used with the `car/`. Ends with a `.pat` extension.
-    `Name`                        | String        | Paint color name.
-    `ModelWidth`                  | Float         | Model Width.
-    `ModelHeight`                 | Float         | Model Height.
-    `ModelFront`                  | Float         | Model Front.
-    `ModelRear`                   | Float         | Model Rear.
-    `ModelProjection`             | Float         | Model Projection.
-    `ColorChip(0 through 4)`      | UInt          | Color of the chip for the car (the color display rectangle for menus).
+    | `Label`                     | String        | The internal name for the color. 
+    | `ModelCode`                 | String        | Code for the model to be used with the `car/` folder.
+    | `VarOrder`                  | UInt          | The display order of this paint color.
+    | `ColorPatchFileName`        | String        | Color patch file name to be used with the `car/`. Ends with a `.pat` extension.
+    | `Name`                      | String        | Paint color name.
+    | `ModelWidth`                | Float         | Model Width.
+    | `ModelHeight`               | Float         | Model Height.
+    | `ModelFront`                | Float         | Model Front.
+    | `ModelRear`                 | Float         | Model Rear.
+    | `ModelProjection`           | Float         | Model Projection.
+    | `ColorChip(0 through 4)`    | UInt          | Color of the chip for the car (the color display rectangle for menus).
