@@ -305,7 +305,7 @@ Game Code: `BCED-00393` / `PKJM00393`
 
 ![aa](../images/covers/gt5p_s3.png){ width="300" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/npea-00050_202508)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/NPEA-00050)
 
 Game Code: `NPUA-00050`
 
