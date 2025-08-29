@@ -148,7 +148,7 @@ Build date: 9/22/2022 8:07:21 AM
 
 ## My First Gran Turismo
 
-![aa](https://www.gran-turismo.com/images/c/i1uxQr6iSpMSe8E.jpg){ width="200" }
+![i1uxQr6iSpMSe8E](https://github.com/user-attachments/assets/0fa48edb-3d4b-49b5-a47f-d362beca787c)
 
 A demo based on GT7 version 1.57. Internally codenamed `gtl`.
 
