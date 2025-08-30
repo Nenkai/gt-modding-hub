@@ -1,4 +1,8 @@
-# Easier ways to mod
+---
+icon: material/plus
+---
+
+# :material-plus: Easier ways to mod
 
 Ways to avoid PDIPFS exist to allow modding game files more easily.
 

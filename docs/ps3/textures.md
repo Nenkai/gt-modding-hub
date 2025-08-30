@@ -1,4 +1,8 @@
-# Image Editing
+---
+icon: material/texture
+---
+
+# :material-texture: Image Editing
 
 PS3-era and even GTPSP uses [TXS3](../formats/texture/img_txs3_textureset3.md) for its image format, which is pretty much just DDS.
 

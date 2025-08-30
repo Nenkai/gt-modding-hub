@@ -20,7 +20,6 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
-    - toc.integrate
     - toc.follow
     - search.suggest
     - search.highlight
@@ -55,6 +54,11 @@ nav:
     - GT1:
         - Tools / Resources: ps1/gt1/tools.md
     - GT2:
+        - File Structure: ps1/gt2/file_structure.md
+        - Editing/Viewing Textures: ps1/gt2/model_viewing_editing.md
+        - Textures Editing/Viewing: ps1/gt2/textures_viewing_editing.md
+        
+        - CarParam (Specs) Editing: ps1/gt2/carparam_viewing_editing.md
         - Tools / Resources: ps1/gt2/tools.md 
 
   - PS2 GTs:

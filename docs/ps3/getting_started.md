@@ -1,4 +1,8 @@
-# Getting Started
+---
+icon: material/home
+---
+
+# :material-home: Getting Started
 
 These pages currently cover **GT5**, and **GT6**.
 

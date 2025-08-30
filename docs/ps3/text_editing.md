@@ -1,4 +1,8 @@
-# String/Text Editing
+---
+icon: material/text-box-edit
+---
+
+# :material-text-box-edit: String/Text Editing
 
 ##  Understanding the RT2 Localization System
 Like any AAA game, localization eventually comes in to play; it is what lets developers have text available in multiple languages. Gran Turismo 5/6 is no exception.

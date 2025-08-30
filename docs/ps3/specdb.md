@@ -1,4 +1,8 @@
-# SpecDB - Car Specification Database
+---
+icon: material/database
+---
+
+# :material-database: SpecDB - Car Specification Database
 
 !!! tip
     Refer to the [SpecDB](../concepts/specdb.md) concept documentation first.

@@ -1,4 +1,8 @@
-# Textdata Editing (GT5)
+---
+icon: material/file-cog
+---
+
+# :material-file-cog: Textdata Editing (GT5)
 
 Textdata refers to the `textdata` folder described on the [File Structure](./basics/file_structure.md) page. It is mostly a database for UI defined events, cars, items and more.
 

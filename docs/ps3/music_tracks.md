@@ -1,8 +1,9 @@
 ---
+icon: material/music
 comments: true
 ---
 
-# Music Tracks
+# :material-music: Music Tracks
 
 Gran Turismo 5 and 6 store track streams in Sony [SGXD](../formats/audio/sgd_sgh_sgx_data.md) containers.
 

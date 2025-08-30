@@ -1,8 +1,9 @@
 ---
+icon: simple/hackthebox
 comments: true
 ---
 
-# Models
+# :simple-hackthebox: Models
 
 ## Current Status
 

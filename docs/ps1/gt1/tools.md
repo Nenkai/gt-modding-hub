@@ -1,4 +1,8 @@
-# Resources/Tools for GT1
+---
+icon: material/tools
+---
+
+# :material-tools: Resources/Tools for GT1
 
 ## Tools
 

@@ -1,4 +1,8 @@
-# Creating Event Categories (Folders) & Events
+---
+icon: material/flag-checkered
+---
+
+# :material-flag-checkered: Creating Event Categories (Folders) & Events
 
 Gran Turismo 5 & 6 uses very simple [XML](https://en.wikipedia.org/wiki/XML) to represent game events (and in the case of GT6, also whole event folders).
 

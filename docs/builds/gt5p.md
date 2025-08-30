@@ -149,7 +149,7 @@ Game Code: `NPUA-80075`
     * [Game Dir](file_lists/NPUA80075_install.txt)
 
 ??? note "Build Info"
-    * Adhoc Version: `?`
+    * Adhoc Version: `10`
     * Supports up to instruction: `48 - SYMBOL_CONST`
     * VersionBranch: `gt5p`
     * VersionTarget: `ps3`
@@ -165,6 +165,8 @@ Game Code: `NPUA-80075`
     * CompileSVNRevision: `28055`
     * Volume Seed: `SONORA-550937027`
     * Volume Key: `1258979325, 3441419117, 1347072437, 910825263`
+    * Volume Title ID: `GT5P-US-SONORA-550937027`
+    * Volume Serial: `227901480` (`22/03/2008 17:58:00`)
     * KeyLicensee: `0xc7400aa3ba633e223a5cb94f7af25ffb`
     * GrimURL: `https://gt5prologue.ps3.online.us.gran-turismo.com`
     * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
@@ -189,7 +191,7 @@ Game Code: `NPUA-80075`
 
 :material-shovel: *Dumped*: {++Yes++} - [archive](https://archive.org/download/sony_playstation3_g_part2/), ird must be generated from redump metadata for decryption · :material-disc: [Redump Info](http://redump.org/disc/101556/)
 
-Game Code: `BCKS-10030` (based on NPHA-80045)
+Game Code: `BCKS-10030` (based on `NPHA-80045`)
 
 ??? abstract "File List"
     * [Disc + GT.VOL](file_lists/BCKS10030_disc.txt)
@@ -211,7 +213,8 @@ Game Code: `BCKS-10030` (based on NPHA-80045)
     * CompileSVNRevision: `28405`
     * Volume Seed: `CHONSANDO-565545051`
     * Volume Key: `3609930371, 3569941981, 60292733, 396373479`
-    * Volume Serial: `232919852`
+    * Volume Serial: `232919852` (`19/05/2008 19:57:32`)
+    * Volume Title ID: `GT5P-KR-CHONSANDO-565545051`
     * KeyLicensee: `0xdde755fedc0727e5cc055e3c502f5a38`
     * Grim URL: `https://gt5prologue.ps3.online.kr.gran-turismo.com`
     * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
@@ -232,7 +235,9 @@ Game Code: `BCKS-10030` (based on NPHA-80045)
     ```
 
 ??? note "Video Keys"
+
     Decrypt the grim files individually first, then use `cryptmovie` with the keys below
+
     * tv_8_280528187.pam key: `IgCub2PBagBN7bi5SxsXXbvWWBvOejk1/Ng+qVWTArY=` (デイトナ・インターナショナル・スピードウェイ)
     * tv_9_759604186.pam key: `VD7GwRdpX1HzTHIq1gx3OzFJNgQwbx+BlKIpWs1CQ7I=` (アイガー北壁コース)
     * tv_10_759604186.pam key: `nEhnJFlE/Mablm/yMvjqSabq3+BGyglN86LSCvyikt4=` (富士スピードウェイ)

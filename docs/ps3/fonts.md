@@ -1,4 +1,8 @@
-# Fonts
+---
+icon: material/format-font
+---
+
+# :material-format-font: Fonts
 
 Fonts use a custom vectored format that needs to be converted from to be usable.
 
