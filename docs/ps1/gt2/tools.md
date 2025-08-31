@@ -27,6 +27,8 @@ icon: material/tools
 [PSound](https://www.romhacking.net/utilities/679/)| snailrush | Plays various PSX and PS2 sound files. |
 
 ## Useful Resources
+* [010 Editor Templates/Docs for some formats](https://github.com/Nenkai/GT-File-Specifications-Documentation/tree/master/Formats/PS1)
+* [SUBMANIAC's Research document](../gt2/documents/Gran_Turismo_2_files_full_documentation.pdf)
 * [TCRF Page](https://tcrf.net/Gran_Turismo_2)
 * [GT2 Savegame](https://cdn.discordapp.com/attachments/615245340773187602/625258622796169226/GT2_PAL_-_All_licenses_gold_prize_cars_50M_Cr.mcs) - All licenses, all prize cars, 50m credits
 * [GT2 Game Shark codes](http://kabmotorsports.50megs.com/custom.html)
