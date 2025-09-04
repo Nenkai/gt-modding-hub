@@ -376,6 +376,29 @@ The main build of Gran Turismo 6.
             * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
             * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
             * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.12"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.12`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2014/09/03 20:40:37`
+            * CompileSVNRevision: `61475`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '431469971' (03/09/2014 20:46:11)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
 ---
 
 ## GT6 Toyota S-FR Build (~Sep ??, 2013)
