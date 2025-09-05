@@ -1,0 +1,80 @@
+Name                 Format        Size  Created              Path                                                                       MD5                             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EBOOT.BIN            BIN     161.828 KB  05/09/2025 17:32:48  \EBOOT.BIN                                                                 4B5189B427D4871EA85983267A94002B
+EMAIN.SELF           SELF      8.639 MB  05/09/2025 17:32:48  \FIXEDELF114\EMAIN.SELF                                                    25FDE147D24810CF8F40F9274DCC46DB
+EMAIN.SELF           SELF      8.782 MB  05/09/2025 17:32:48  \TPPS-01.22\EMAIN.SELF                                                     F9F0757DA527691C0D79A111B1972DC4
+1T                             1.677 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\4Z\1T                                                 DE10382DE1B481EF4B667124C1DC4B71
+Q3                             2.186 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\53\Q3                                                 DA66E7A42DBCB077D6E4EE6EABC41112
+M8                             241 Byte  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\75\M8                                                 90912273AD7CD640605E776790E7D8E6
+90                             457 Byte  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\7L\90                                                 460297F43073C8A97F86DAC64FBF21B0
+RN                             2.081 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\7R\RN                                                 DCB4A4739BD75AA953BD31900AA6E2CD
+IW                             2.104 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\84\IW                                                 7BFD8F1B5C8A237B83D1A991BCA8C16D
+Y0                             2.109 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\8Y\Y0                                                 BFDB6D2A348B43B10D206A3A44228234
+SL                             2.141 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\AO\SL                                                 8628E8E0A90DD50EDC007D14F94F983E
+2N                             2.162 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\BQ\2N                                                 3B0832EC5709831C3670A0707BF0DF78
+1H                             1.622 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\DH\1H                                                 7499CF76BD593AAFE47057067266DA0E
+0R                             2.103 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\DN\0R                                                 0D4CAEE5C2C7579DB4813699DBDDBD46
+EX                             9.192 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\EJ\EX                                                 04647AC6A3C658745B6558D90AB620D3
+MY                             2.055 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\EN\MY                                                 2D46D5DFDF9517F814CC0D3B6DC3439C
+MS                           560.426 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\H4\MS                                                 DA974CED71D1C65BE2EB0819DF7FF4F7
+93                             2.022 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\HD\93                                                 6422C17DF0E5F4ED4F653E0BB243569F
+PG                           224.000 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\J3\PG                                                 567748B4D5710BD2F3D36BE7796B305A
+R8                             2.080 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\J9\R8                                                 041FD9DE9A5F738369A564596A0FD648
+E1                             2.229 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\KU\E1                                                 67CE7D35FF8D41C6A3D69F7B7E2F33E8
+OG                             2.313 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\MH\OG                                                 A11A32F5418EAF29A1FB7FC36F11976D
+DK                             1.986 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\MN\DK                                                 01C3DAD369129F50701027F8CF840457
+KR                             2.182 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\O5\KR                                                 5719D975F9D2351BF32896EA95977C01
+XM                            13.329 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\O8\XM                                                 66D9A936C8D600619DE3062A826A3112
+MF                             1.980 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\PR\MF                                                 D9324682E20F8408F7F02434A17314F2
+0B                            15.833 MB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\QE\0B                                                 0291AE9126B0B689EFD56AB1E239E126
+Q0                             1.943 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\R2\Q0                                                 4BAC9991B6DA859D8FDAC88B55C650B7
+X1                             2.082 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\SZ\X1                                                 6C8C54D9AA8B882A764F44592F7840DE
+ES                             1.216 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\T8\ES                                                 4D074AD616A259A6F4350A65AADB81EA
+FI                             2.143 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\UQ\FI                                                 10E82C80F6082403A279C6FF8F56D23F
+XP                            24.895 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\VD\XP                                                 62893470CBF15B343C17C3304947B951
+M9                             1.704 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\9\WJ\M9                                                 C2DF540B6AA7104BD223B12087979EA5
+4D                             160 Byte  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\K\4D                                                    C41736378D0E3D3F653B8DB9B82A1FC0
+PATCHSEQUENCE                   10 Byte  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\PATCHSEQUENCE                                           A3ECD74879A44D5EBD118689FBC482CA
+UPDATENODEINFO                 2.461 KB  05/09/2025 17:32:48  \TPPS-01.22\PDIPFS\UPDATENODEINFO                                          25BD6621F8AC81DCD9C775EE38632C1F
+menudb.dat           DAT     224.000 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\database\gt6\menudb.dat                       83D32FD7A7F16BA3485B23D03BBB276F
+event_setting.adc    ADC     298.641 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\projects\gt6\event_setting\event_setting.adc  4B315F3FC58409AFF3104F9FC4642D43
+race.adc             ADC     562.501 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\projects\gt6\race\race.adc                    E90757C3869DACA797ED4A4E1615C35E
+BP.rt2               RT2     557.676 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\rtext\common\BP.rt2                           90451973EFC81EF1C40FE986DD1C0ABD
+CZ.rt2               RT2     545.922 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\rtext\common\CZ.rt2                           A35477CE0EB5E90D55C790B182C394F7
+DE.rt2               RT2     567.133 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\rtext\common\DE.rt2                           02E4742348FFC2874AD4298585C7E0C6
+DK.rt2               RT2     341.445 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\rtext\common\DK.rt2                           7A8D17893E68367CED359FAF70E3CF13
+EL.rt2               RT2     823.125 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\rtext\common\EL.rt2                           0196C29EC2CAF1F623CDF39F97DBD37E
+ES.rt2               RT2     557.191 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\rtext\common\ES.rt2                           865E505D270C73F5E1CA11746239D734
+FI.rt2               RT2     341.445 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\rtext\common\FI.rt2                           7A8D17893E68367CED359FAF70E3CF13
+FR.rt2               RT2     557.191 KB  05/09/2025 17:32:55  \TPPS-01.22\PDIPFS_extracted\rtext\common\FR.rt2                           D83292E47E3490BC86B698E426856E0F
+GB.rt2               RT2     525.555 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\GB.rt2                           74EC163EA1256551B24D2E7EC13F247D
+HU.rt2               RT2     556.852 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\HU.rt2                           27ED3E6F6E4F265377E8D5A9F2B4BAE0
+IT.rt2               RT2     553.207 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\IT.rt2                           241E5850596F6EB51913F69E44175256
+JP.rt2               RT2     599.773 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\JP.rt2                           03A707CDA852418C7637C77ACE2DDF10
+KR.rt2               RT2     556.410 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\KR.rt2                           C9DB023615F1914D19EC8D85CF800486
+MS.rt2               RT2     569.754 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\MS.rt2                           E7A9B4263CBC522D5556B995587F2FFF
+NL.rt2               RT2     532.055 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\NL.rt2                           662F8FA23039DCD60910EEBE9280C689
+NO.rt2               RT2     341.445 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\NO.rt2                           7A8D17893E68367CED359FAF70E3CF13
+PL.rt2               RT2     556.348 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\PL.rt2                           B90424ECD2758FA59A14E9E2E32BAECA
+PT.rt2               RT2     559.227 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\PT.rt2                           65585C647E8A8833577A2D32C6D3CA29
+RU.rt2               RT2     727.234 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\RU.rt2                           B8B0A2B77BFA43580B9F343DD9DDD973
+SE.rt2               RT2     341.445 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\SE.rt2                           7A8D17893E68367CED359FAF70E3CF13
+TR.rt2               RT2     547.309 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\TR.rt2                           B3600784E6C4AEA3EFA126E301B811F1
+TW.rt2               RT2     485.957 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\TW.rt2                           54030E8DE1D9315B65F397288C397F6A
+US.rt2               RT2     523.184 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\rtext\common\US.rt2                           7239A587719386DDF1A2D3122EED4A43
+main.adc             ADC     965.144 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\scripts\gt6\main.adc                          EC31B328754F136888311B016F0B23D5
+DB0106.dat           DAT      15.833 MB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\specdb\GT6\DB0106.dat                         C8B9FAD43C8AB980B74279FB8981FED5
+CarName.dat          DAT     117.500 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\specdb\GT6\JP\CarName.dat                     9C8D7D6F8B044523201258A8D971D23F
+CarName.dat          DAT     100.594 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\specdb\GT6\US\CarName.dat                     33A2C9F3ACD44E7F2784DAC17E027617
+m0397                        133.375 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\tire\hq\m0397                                 119DB3D1E5F8242504057406AC461EE0
+m0397                         43.250 KB  05/09/2025 17:32:56  \TPPS-01.22\PDIPFS_extracted\tire\race\m0397                               FD4A0692295830F7BF3C34D7AC73093E
+update.txt           TXT        11 Byte  05/09/2025 17:32:48  \TPPS-01.22\update.txt                                                     F6AD7974BF4E5C8A5F21FF3E31514167
+update.txt           TXT         5 Byte  05/09/2025 17:32:48  \update.txt                                                                46003D48DA6F6D4666A15EC7EFD98D71
+UPDATENODEINFO.0106  0106     93.434 KB  05/09/2025 17:32:48  \UPDATENODEINFO\UPDATENODEINFO.0106                                        BF04F0E2DEB6E3FD741EB2BBAC1E7E88
+UPDATENODEINFO.0107  0107     37.078 KB  05/09/2025 17:32:48  \UPDATENODEINFO\UPDATENODEINFO.0107                                        8EE376453CEB33F8ACC1F4784ABBDA39
+UPDATENODEINFO.0108  0108     70.711 KB  05/09/2025 17:32:48  \UPDATENODEINFO\UPDATENODEINFO.0108                                        5DD648D9469F1446EA33061AC9C3C3DC
+UPDATENODEINFO.0109  0109     47.578 KB  05/09/2025 17:32:48  \UPDATENODEINFO\UPDATENODEINFO.0109                                        9CCEE7DAFFE0F97392BE590903D08D6A
+UPDATENODEINFO.0110  0110    122.637 KB  05/09/2025 17:32:48  \UPDATENODEINFO\UPDATENODEINFO.0110                                        14717566226CA70F5D1658088003164A
+UPDATENODEINFO.0111  0111      1.477 KB  05/09/2025 17:32:48  \UPDATENODEINFO\UPDATENODEINFO.0111                                        B510121F788F25B77A37E0E99444AF87
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+76 Files - 64.836 MB

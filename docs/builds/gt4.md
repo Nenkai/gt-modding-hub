@@ -144,7 +144,7 @@ European build 8 days before final. Does not have regional assets filtered, some
 The main build of Gran Turismo 4.
 
 - :earth_asia: `SCAJ-30007` (Dec 15, 2004)
-- :flag_jp: `SCPS-17001` (Dec 17, 2004)
+- :flag_jp: `SCPS-17001` or `PBPX-95601` (Racing Pack Bundle) (Dec 17, 2004)
 - :flag_eu: `SCES-51719` (Jan 26, 2005)
 - :flag_us: `SCUS-97328` (1.01) (Jan 26, 2005)
 - :flag_kr: `SCKA-30001` (Jan 30, 2005)
@@ -152,7 +152,7 @@ The main build of Gran Turismo 4.
 
 ??? abstract "File List"
     * SCAJ-30007 - [ISO + VOL](file_lists/SCAJ-30007.txt)
-    * SCPS-17001 - [ISO + VOL](file_lists/SCPS-17001.txt)
+    * SCPS-17001 - [ISO + VOL](file_lists/SCPS-17001.txt) (PBPX-95601 is identical, besides executable/CORE.GT4)
     * SCES-51719 - [ISO + VOL](file_lists/SCES-51719.txt)
     * SCUS-97328 1.01 - [ISO + VOL](file_lists/SCUS-97328_1.01.txt)
     * SCKA-30001 - [ISO + VOL](file_lists/SCKA-30001.txt)

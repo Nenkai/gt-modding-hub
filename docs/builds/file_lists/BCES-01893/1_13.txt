@@ -1,0 +1,28 @@
+Name                Format          Size  Created              Path                                                              MD5                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+EBOOT.BIN           BIN        66.750 KB  05/09/2025 15:40:28  \EBOOT.BIN                                                        A6CEBD6BE873B21DF3D4821112ACE77D
+EMAIN.SELF          SELF        8.680 MB  05/09/2025 15:40:28  \TPPS-01.13\EMAIN.SELF                                            BEF65354896044790295C87B002BAE2D
+1U                             24.445 KB  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\9\45\1U                                        9C98ECEFDC2D416044A90A5132D9A865
+3E                              284 Byte  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\9\5S\3E                                        6324355A5FB293D0FBCFCB7D5D855170
+X2                              1.827 KB  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\9\83\X2                                        BB5DC81795B9B37B053789DDEB4DDA6C
+Z1                             36.357 KB  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\9\A6\Z1                                        1F4C15434C13F558FFBD1FC3BCC71D46
+HV                              4.359 KB  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\9\M4\HV                                        04DFFD2D8F59FC71294D41D762BA0040
+BA                              158 Byte  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\9\PM\BA                                        862FDF20065E727F1C5457DDB7D5A4FC
+4D                              3.324 KB  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\9\SB\4D                                        3D9183F3F22134513483337C594DE95F
+R9                              7.095 KB  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\9\TI\R9                                        2F475E0BFD7A4FBE767C0FF35A35CD3E
+PZ                            543.854 KB  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\9\VX\PZ                                        2160DF4D4F4C59D6BD98092A92A7974A
+4D                              160 Byte  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\K\4D                                           84C411328604307ADC05EFBABEA71772
+PATCHSEQUENCE                    10 Byte  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\PATCHSEQUENCE                                  CEB72C74D0ADE6AE37B0D4F2CD67F584
+UPDATENODEINFO                  756 Byte  05/09/2025 15:40:28  \TPPS-01.13\PDIPFS\UPDATENODEINFO                                 45D92D426379E4280D188286DF7FD581
+boot.adc            ADC       150.463 KB  05/09/2025 15:42:59  \TPPS-01.13\PDIPFS_extracted\projects\gt6\boot\boot.adc           3BF3AFE121875B722DEFB2A15A91F5D5
+gtmode.adc          ADC         1.210 MB  05/09/2025 15:42:59  \TPPS-01.13\PDIPFS_extracted\projects\gt6\gtmode\gtmode.adc       4A8AEC52CEAFAD57A4C462AF08E06FBC
+gtmode.mpackage     MPACKAGE  597.980 KB  05/09/2025 15:42:59  \TPPS-01.13\PDIPFS_extracted\projects\gt6\gtmode\gtmode.mpackage  7464B5042D4046CE6CB2A30461CEE45E
+race.adc            ADC       540.171 KB  05/09/2025 15:42:59  \TPPS-01.13\PDIPFS_extracted\projects\gt6\race\race.adc           45399FEF87E759156594A68FC0E46B11
+main.adc            ADC       831.478 KB  05/09/2025 15:42:59  \TPPS-01.13\PDIPFS_extracted\scripts\gt6\main.adc                 73002786829D03B86C265E7060FF5532
+OnlineUtil.adc      ADC        73.489 KB  05/09/2025 15:42:59  \TPPS-01.13\PDIPFS_extracted\scripts\gt6\util\OnlineUtil.adc      4C05F4EA8B59276687E94E8DA4BAF816
+online_pack.adc     ADC       101.353 KB  05/09/2025 15:42:59  \TPPS-01.13\PDIPFS_extracted\scripts\gt6\util\online_pack.adc     3B87C1F14F046BFCFC0CD2DCFACCA57A
+QuickMatchUtil.adc  ADC         8.826 KB  05/09/2025 15:42:59  \TPPS-01.13\PDIPFS_extracted\scripts\gt6\util\QuickMatchUtil.adc  3AAD3B65A6DC97273E65DBB6EA242DD5
+update.txt          TXT          11 Byte  05/09/2025 15:40:28  \TPPS-01.13\update.txt                                            F6AD7974BF4E5C8A5F21FF3E31514167
+update.txt          TXT           5 Byte  05/09/2025 15:40:28  \update.txt                                                       46003D48DA6F6D4666A15EC7EFD98D71
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+24 Files - 12.813 MB

@@ -119,6 +119,17 @@ The main build of Gran Turismo 6.
         * [1.09](file_lists/BCES-01893/1_09.txt)
         * [1.10](file_lists/BCES-01893/1_10.txt)
         * [1.11](file_lists/BCES-01893/1_11.txt)
+        * [1.12](file_lists/BCES-01893/1_12.txt)
+        * [1.13](file_lists/BCES-01893/1_13.txt)
+        * [1.14](file_lists/BCES-01893/1_14.txt)
+        * [1.15](file_lists/BCES-01893/1_15.txt)
+        * [1.16](file_lists/BCES-01893/1_16.txt)
+        * [1.17](file_lists/BCES-01893/1_17.txt)
+        * [1.18](file_lists/BCES-01893/1_18.txt)
+        * [1.19](file_lists/BCES-01893/1_19.txt)
+        * [1.20](file_lists/BCES-01893/1_20.txt)
+        * [1.21](file_lists/BCES-01893/1_21.txt)
+        * [1.22](file_lists/BCES-01893/1_22.txt)
 
 ??? note "Build Info"
 
@@ -395,6 +406,236 @@ The main build of Gran Turismo 6.
             * Volume Seed: `PISCINAS-323419048`
             * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
             * Volume Serial: '431469971' (03/09/2014 20:46:11)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.13"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.13`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2014/09/19 15:04:24`
+            * CompileSVNRevision: `61637`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '433078491' (22/09/2014 11:34:51)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.14"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.14`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2014/11/11 19:56:48`
+            * CompileSVNRevision: `N/A`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '437482543' (12/11/2014 10:55:43)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.15"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.15`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2014/12/08 16:27:09`
+            * CompileSVNRevision: `N/A`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '439831308' (09/12/2014 15:21:48)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.16"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.16`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2015/02/14 15:26:43`
+            * CompileSVNRevision: `N/A`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '445620800' (14/02/2015 15:33:20)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.17"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.17`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2015/03/07 06:07:37`
+            * CompileSVNRevision: `N/A`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '447401670' (07/03/2015 06:14:30)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.18"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.18`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2015/04/03 12:47:43`
+            * CompileSVNRevision: `N/A`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '449758481' (03/04/2015 12:54:41)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.19"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.19`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2015/05/20 12:20:56`
+            * CompileSVNRevision: `N/A`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '453817670' (20/05/2015 12:27:50)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.20"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.20`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2015/06/15 13:12:52`
+            * CompileSVNRevision: `N/A`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '456067192' (15/06/2015 13:19:52)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.21"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.21`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2015/09/15 12:08:42`
+            * CompileSVNRevision: `N/A`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '464012109' (15/09/2015 12:15:09)
+            * Volume Title ID: `GT6-PISCINAS-323419048`
+            * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
+            * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
+            * Two executables (EBOOT (bootstrap) + EMAIN (main))
+
+        ??? tip "1.22"
+            * Adhoc Version: `12`
+            * Supports up to instruction: `66 - MODULE_CONSTRUCTOR`
+            * ModelSet3 Version: `14`
+            * VersionBranch: `gt6`
+            * VersionTarget: `ps3`
+            * VersionEnvironment: `product-strong`
+            * VersionBuild: `release`
+            * VersionUser: `build`
+            * ProductVersion: `1.22`
+            * PDIVersion: `1.00`
+            * CompileDateTime: `2015/11/13 17:16:15`
+            * CompileSVNRevision: `N/A`
+            * KeyLicensee: `0x9ff234b190b48afe5ad0d89bbc864724`
+            * SpecDB Version: `DB0106`
+            * Volume Seed: `PISCINAS-323419048`
+            * Volume Key: `2853923417, 3876286387, 1658609813, 1784236581`
+            * Volume Serial: '469128998' (13/11/2015 17:36:38)
             * Volume Title ID: `GT6-PISCINAS-323419048`
             * Grim URL: `https://gt6.ps3.online.sce%c.gran-turismo.com`
             * GT5P_TVBASEKEY: `z+GpfENhXfpTo/CJ9UjbgX0H9siurJ8PAe0/mm1MOBc=`
