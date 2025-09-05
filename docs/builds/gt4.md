@@ -156,7 +156,7 @@ The main build of Gran Turismo 4.
     * SCES-51719 - [ISO + VOL](file_lists/SCES-51719.txt)
     * SCUS-97328 1.01 - [ISO + VOL](file_lists/SCUS-97328_1.01.txt)
     * SCKA-30001 - [ISO + VOL](file_lists/SCKA-30001.txt)
-    * SCUS-97328 2.00 - [ISO + VOL](file_lists/SCUS-97328_2.00.txt)
+    * SCUS-97328 2.00 - [ISO + VOL](file_lists/SCUS-97328_2.00.txt) (identical to 1.01 except a few course files)
 
 ??? note "Build Info ( :earth_asia: SCAJ-30007)"
     * Adhoc Version: `5`
@@ -289,7 +289,7 @@ Game Code: `PAPX-90523`
 All around improved version of GT4. Runs on a newer version of Adhoc, has proper widescreen support and Online functionality. It does not bundle videos; but is relatively small in size.
 
 ??? abstract "File List"
-    * [ISO + VOL](file_lists/SCUS-97436.txt)
+    * [ISO + VOL](file_lists/PAPX-90523.txt)
 
 ??? note "Build Info"
     * Adhoc Version: `7`
