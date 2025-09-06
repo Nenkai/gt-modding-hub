@@ -2996,6 +2996,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#labeled-loop-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Labeled Loop Statements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#foreach" class="md-nav__link">
     <span class="md-ellipsis">
       Foreach
@@ -5853,6 +5862,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#labeled-loop-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Labeled Loop Statements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#foreach" class="md-nav__link">
     <span class="md-ellipsis">
       Foreach
@@ -6339,39 +6357,54 @@ They allow defining a constructor for any object that will run once the UI syste
 </code></pre></div>
 <code>a</code> and <code>b</code> will be defined as variables of the function and can be used right away.<p></p>
 <p>Note that the rest syntax <code>...</code> is still supported here.</p>
+<h2 id="labeled-loop-statements">Labeled Loop Statements<a class="headerlink" href="#labeled-loop-statements" title="Permanent link">¶</a></h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label">Like Javascript</a>, Adhoc supports labeled statements. It is only supported on loop statements: <code>for</code>, <code>foreach</code>, <code>while</code> and <code>do..while</code>.</p>
+<p>It is used as a better replacement to the <a href="https://en.wikipedia.org/wiki/Goto">goto</a> keyword in C.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="nx">main_loop</span><span class="o">:</span><span class="w"> </span><span class="k">for</span><span class="p">(;;)</span>
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="p">{</span>
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">var</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mf">5</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span>
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="w">    </span><span class="p">{</span>
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">shouldExitCompletely</span><span class="p">)</span>
+<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a><span class="w">            </span><span class="k">break</span><span class="w"> </span><span class="nx">main_loop</span><span class="p">;</span>
+<a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a>
+<a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">shouldContinueMainLoop</span><span class="p">)</span>
+<a id="__codelineno-17-9" name="__codelineno-17-9" href="#__codelineno-17-9"></a><span class="w">            </span><span class="k">continue</span><span class="w"> </span><span class="nx">main_loop</span><span class="p">;</span>
+<a id="__codelineno-17-10" name="__codelineno-17-10" href="#__codelineno-17-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-17-11" name="__codelineno-17-11" href="#__codelineno-17-11"></a><span class="p">}</span>
+</code></pre></div>
 <h2 id="foreach">Foreach<a class="headerlink" href="#foreach" title="Permanent link">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Adhoc version 11 and above.</p>
 </div>
 <p>Adhoc supports <code>foreach</code> clauses.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="kt">var</span><span class="w"> </span><span class="n">arr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s">"one"</span><span class="p">,</span><span class="w"> </span><span class="s">"two"</span><span class="p">,</span><span class="w"> </span><span class="s">"three"</span><span class="p">];</span>
-<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="kt">var</span><span class="w"> </span><span class="n">combined</span><span class="p">;</span>
-<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="k">foreach</span><span class="w"> </span><span class="p">(</span><span class="kt">var</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">arr</span><span class="p">)</span>
-<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="w">  </span><span class="n">combined</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">" "</span><span class="p">;</span>
-<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>
-<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a><span class="c1">// combined = "one two three "</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="kt">var</span><span class="w"> </span><span class="n">arr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s">"one"</span><span class="p">,</span><span class="w"> </span><span class="s">"two"</span><span class="p">,</span><span class="w"> </span><span class="s">"three"</span><span class="p">];</span>
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="kt">var</span><span class="w"> </span><span class="n">combined</span><span class="p">;</span>
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="k">foreach</span><span class="w"> </span><span class="p">(</span><span class="kt">var</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">arr</span><span class="p">)</span>
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="w">  </span><span class="n">combined</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">" "</span><span class="p">;</span>
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>
+<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a><span class="c1">// combined = "one two three "</span>
 </code></pre></div><p></p>
 <p>You can also deconstruct arrays/maps in a foreach using the previously mentioned list assignment:
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s2">"Name"</span><span class="o">:</span><span class="w"> </span><span class="s2">"Bob"</span><span class="p">,</span><span class="w"> </span><span class="s2">"Age"</span><span class="o">:</span><span class="w"> </span><span class="mf">18</span><span class="p">];</span>
-<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="nx">foreach</span><span class="w"> </span><span class="p">(</span><span class="o">|</span><span class="kd">var</span><span class="w"> </span><span class="nx">key</span><span class="p">,</span><span class="w"> </span><span class="kd">var</span><span class="w"> </span><span class="nx">value</span><span class="o">|</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="nx">map</span><span class="p">)</span><span class="w"> </span><span class="c1">// list assignment/deconstruction</span>
-<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="p">{</span>
-<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="w">    </span><span class="c1">// ...</span>
-<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a><span class="p">}</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s2">"Name"</span><span class="o">:</span><span class="w"> </span><span class="s2">"Bob"</span><span class="p">,</span><span class="w"> </span><span class="s2">"Age"</span><span class="o">:</span><span class="w"> </span><span class="mf">18</span><span class="p">];</span>
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="nx">foreach</span><span class="w"> </span><span class="p">(</span><span class="o">|</span><span class="kd">var</span><span class="w"> </span><span class="nx">key</span><span class="p">,</span><span class="w"> </span><span class="kd">var</span><span class="w"> </span><span class="nx">value</span><span class="o">|</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="nx">map</span><span class="p">)</span><span class="w"> </span><span class="c1">// list assignment/deconstruction</span>
+<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="p">{</span>
+<a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="w">    </span><span class="c1">// ...</span>
+<a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a><span class="p">}</span>
 </code></pre></div><p></p>
 <h2 id="native-number-types">Native Number Types<a class="headerlink" href="#native-number-types" title="Permanent link">¶</a></h2>
 <p>By default, number literals are integers, aka <code>Int</code>.</p>
 <p>You can define various different types of number literals:
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myInt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="p">;</span><span class="w"> </span><span class="c1">// or Int(1);</span>
-<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myUint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="nx">u</span><span class="p">;</span><span class="w"> </span><span class="c1">// or UInt(1), 1U</span>
-<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myLong</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="nx">l</span><span class="p">;</span><span class="w"> </span><span class="c1">// or Long(1), 1L</span>
-<a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myULong</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="nx">ul</span><span class="p">;</span><span class="w"> </span><span class="c1">// or ULong(1), 1UL</span>
-<a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myFloat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span><span class="p">;</span><span class="w"> </span><span class="c1">// or Float(1)</span>
-<a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myDouble</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span><span class="nx">d</span><span class="p">;</span><span class="w"> </span><span class="c1">// or Double(1), 1.0D</span>
-<a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myByte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Byte</span><span class="p">(</span><span class="mf">1</span><span class="p">);</span><span class="w"> </span><span class="c1">// signed byte</span>
-<a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myUByte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">UByte</span><span class="p">(</span><span class="mf">1</span><span class="p">);</span>
-<a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myShort</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Short</span><span class="p">(</span><span class="mf">1</span><span class="p">);</span>
-<a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myUShort</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">UShort</span><span class="p">(</span><span class="mf">1</span><span class="p">);</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myInt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="p">;</span><span class="w"> </span><span class="c1">// or Int(1);</span>
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myUint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="nx">u</span><span class="p">;</span><span class="w"> </span><span class="c1">// or UInt(1), 1U</span>
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myLong</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="nx">l</span><span class="p">;</span><span class="w"> </span><span class="c1">// or Long(1), 1L</span>
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myULong</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="nx">ul</span><span class="p">;</span><span class="w"> </span><span class="c1">// or ULong(1), 1UL</span>
+<a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myFloat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span><span class="p">;</span><span class="w"> </span><span class="c1">// or Float(1)</span>
+<a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myDouble</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span><span class="nx">d</span><span class="p">;</span><span class="w"> </span><span class="c1">// or Double(1), 1.0D</span>
+<a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myByte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Byte</span><span class="p">(</span><span class="mf">1</span><span class="p">);</span><span class="w"> </span><span class="c1">// signed byte</span>
+<a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myUByte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">UByte</span><span class="p">(</span><span class="mf">1</span><span class="p">);</span>
+<a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myShort</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Short</span><span class="p">(</span><span class="mf">1</span><span class="p">);</span>
+<a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myUShort</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">UShort</span><span class="p">(</span><span class="mf">1</span><span class="p">);</span>
 </code></pre></div><p></p>
 <p><code>UInt</code>, <code>Long</code>, <code>ULong</code>, <code>Double</code> respectively are all natively built-in types starting from GT PSP Adhoc ontop of <code>Bool</code>, <code>Int</code>, <code>Float</code>.</p>
 <div class="admonition tip">
@@ -6380,27 +6413,27 @@ They allow defining a constructor for any object that will run once the UI syste
 </div>
 <h2 id="imports">Imports<a class="headerlink" href="#imports" title="Permanent link">¶</a></h2>
 <p>Imports are mostly used python-like.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">main</span><span class="p">::</span><span class="o">*</span><span class="p">;</span><span class="w"> </span><span class="c1">// Imports/copies all modules from the specified module into the current one.</span>
-<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">myModule</span><span class="p">::</span><span class="n">myFunction</span><span class="p">;</span><span class="w"> </span><span class="c1">// Imports/copies a static/function into the current one.</span>
-<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">myModule</span><span class="p">::</span><span class="n">myStatic</span><span class="w"> </span><span class="n">as</span><span class="w"> </span><span class="n">obj</span><span class="p">;</span><span class="w"> </span><span class="c1">// Imports a static into an object.</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">main</span><span class="p">::</span><span class="o">*</span><span class="p">;</span><span class="w"> </span><span class="c1">// Imports/copies all modules from the specified module into the current one.</span>
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">myModule</span><span class="p">::</span><span class="n">myFunction</span><span class="p">;</span><span class="w"> </span><span class="c1">// Imports/copies a static/function into the current one.</span>
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">myModule</span><span class="p">::</span><span class="n">myStatic</span><span class="w"> </span><span class="n">as</span><span class="w"> </span><span class="n">obj</span><span class="p">;</span><span class="w"> </span><span class="c1">// Imports a static into an object.</span>
 </code></pre></div><p></p>
 <h2 id="preprocessor">Preprocessor<a class="headerlink" href="#preprocessor" title="Permanent link">¶</a></h2>
 <p>Adhoc is closer to C in that regard, as it supports a preprocessor out of the box.</p>
 <h3 id="includes">Includes<a class="headerlink" href="#includes" title="Permanent link">¶</a></h3>
 <p>C-type includes are supported.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">"projects/gt6/my_project/myinclude.ad"</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">"projects/gt6/my_project/myinclude.ad"</span>
 </code></pre></div><p></p>
 <h3 id="definesmacros">Defines/Macros<a class="headerlink" href="#definesmacros" title="Permanent link">¶</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="c1">// Trivial define</span>
-<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a><span class="cp">#define PI 3.14</span>
-<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>
-<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a><span class="c1">// Macro</span>
-<a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a><span class="cp">#define ADD(x,y) (x+y)</span>
-<a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a><span class="n">var</span><span class="w"> </span><span class="n">val</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ADD</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">)</span>
-<a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a>
-<a id="__codelineno-22-8" name="__codelineno-22-8" href="#__codelineno-22-8"></a><span class="c1">// Multi-line macro</span>
-<a id="__codelineno-22-9" name="__codelineno-22-9" href="#__codelineno-22-9"></a><span class="cp">#define HELLO_WORLD() "hello" \</span>
-<a id="__codelineno-22-10" name="__codelineno-22-10" href="#__codelineno-22-10"></a><span class="cp">                      "world";</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="c1">// Trivial define</span>
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="cp">#define PI 3.14</span>
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>
+<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a><span class="c1">// Macro</span>
+<a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a><span class="cp">#define ADD(x,y) (x+y)</span>
+<a id="__codelineno-23-6" name="__codelineno-23-6" href="#__codelineno-23-6"></a><span class="n">var</span><span class="w"> </span><span class="n">val</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ADD</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">)</span>
+<a id="__codelineno-23-7" name="__codelineno-23-7" href="#__codelineno-23-7"></a>
+<a id="__codelineno-23-8" name="__codelineno-23-8" href="#__codelineno-23-8"></a><span class="c1">// Multi-line macro</span>
+<a id="__codelineno-23-9" name="__codelineno-23-9" href="#__codelineno-23-9"></a><span class="cp">#define HELLO_WORLD() "hello" \</span>
+<a id="__codelineno-23-10" name="__codelineno-23-10" href="#__codelineno-23-10"></a><span class="cp">                      "world";</span>
 </code></pre></div>
 <p>NOTE: Token concatenation <code>##</code> is not supported on this toolchain's preprocessor yet.</p>
 <div class="admonition note">
@@ -6409,9 +6442,9 @@ They allow defining a constructor for any object that will run once the UI syste
 </div>
 <h3 id="conditions">Conditions<a class="headerlink" href="#conditions" title="Permanent link">¶</a></h3>
 <p><code>#if</code>, <code>#ifdef</code>, <code>#elseif</code>, <code>#else</code>, <code>#endif</code> are supported.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="n">#ifdef</span><span class="w"> </span><span class="nx">DEBUG</span>
-<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="w">  </span><span class="p">...</span>
-<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="n">#endif</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="n">#ifdef</span><span class="w"> </span><span class="nx">DEBUG</span>
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="w">  </span><span class="p">...</span>
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="n">#endif</span>
 </code></pre></div><p></p>
 <h2 id="function-gotchas">Function Gotchas<a class="headerlink" href="#function-gotchas" title="Permanent link">¶</a></h2>
 <h3 id="default-function-values">Default function values<a class="headerlink" href="#default-function-values" title="Permanent link">¶</a></h3>
@@ -6419,17 +6452,17 @@ They allow defining a constructor for any object that will run once the UI syste
 <p class="admonition-title">Note</p>
 <p>Adhoc version 7 and above.</p>
 </div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">myFunction</span><span class="p">(</span><span class="nx">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">5</span><span class="p">)</span><span class="w"> </span>
-<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="p">{</span>
-<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>
-<a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">myFunction</span><span class="p">(</span><span class="nx">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">5</span><span class="p">)</span><span class="w"> </span>
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a><span class="p">{</span>
+<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>
+<a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a><span class="p">}</span>
 </code></pre></div>
 <h3 id="captured-variables">Captured Variables<a class="headerlink" href="#captured-variables" title="Permanent link">¶</a></h3>
 <p>Variables outside function expressions are captured.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myVariable</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span>
-<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myFunc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(){</span>
-<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">myVariable</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">100</span><span class="p">;</span>
-<a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a><span class="p">}</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myVariable</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span>
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myFunc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(){</span>
+<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">myVariable</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">100</span><span class="p">;</span>
+<a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a><span class="p">}</span>
 </code></pre></div><p></p>
 <h3 id="arrow-functions">Arrow Functions<a class="headerlink" href="#arrow-functions" title="Permanent link">¶</a></h3>
 <div class="admonition warning">
@@ -6442,57 +6475,57 @@ They allow defining a constructor for any object that will run once the UI syste
 <p>Adhoc version 7 and above.</p>
 </div>
 <p>Identical to javascript except the syntax is swapped around.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">myFunction</span><span class="p">(</span><span class="nx">args</span><span class="p">...)</span><span class="w"> </span><span class="c1">// Not ...args!</span>
-<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a><span class="p">{</span>
-<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a><span class="w">    </span><span class="p">...</span>
-<a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a><span class="p">}</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">myFunction</span><span class="p">(</span><span class="nx">args</span><span class="p">...)</span><span class="w"> </span><span class="c1">// Not ...args!</span>
+<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a><span class="p">{</span>
+<a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a><span class="w">    </span><span class="p">...</span>
+<a id="__codelineno-27-4" name="__codelineno-27-4" href="#__codelineno-27-4"></a><span class="p">}</span>
 </code></pre></div><p></p>
 <h2 id="code-allowed-everywhere">Code allowed everywhere<a class="headerlink" href="#code-allowed-everywhere" title="Permanent link">¶</a></h2>
 <p>Top level, in module or class bodies, code is allowed everywhere.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="nx">module</span><span class="w"> </span><span class="nx">MyModule</span>
-<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a><span class="p">{</span>
-<a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a><span class="w">    </span><span class="k">static</span><span class="w"> </span><span class="nx">myStaticArray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[];</span>
-<a id="__codelineno-27-4" name="__codelineno-27-4" href="#__codelineno-27-4"></a><span class="w">    </span><span class="nx">myStaticArray</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s2">"hello world"</span><span class="p">);</span>
-<a id="__codelineno-27-5" name="__codelineno-27-5" href="#__codelineno-27-5"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="nx">module</span><span class="w"> </span><span class="nx">MyModule</span>
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="p">{</span>
+<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a><span class="w">    </span><span class="k">static</span><span class="w"> </span><span class="nx">myStaticArray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[];</span>
+<a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a><span class="w">    </span><span class="nx">myStaticArray</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s2">"hello world"</span><span class="p">);</span>
+<a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a><span class="p">}</span>
 </code></pre></div>
 <p>Module extensions are also allowed within function themselves.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">myFunction</span><span class="p">()</span>
-<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="p">{</span>
-<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a><span class="w">    </span><span class="nx">module</span><span class="w"> </span><span class="nx">main</span>
-<a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a><span class="w">    </span><span class="p">{</span>
-<a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a><span class="w">        </span><span class="c1">// Anything put here will be part of the "main" module.</span>
-<a id="__codelineno-28-6" name="__codelineno-28-6" href="#__codelineno-28-6"></a><span class="w">        </span><span class="c1">// Declaring a static variable will make it belong to the "main" module.</span>
-<a id="__codelineno-28-7" name="__codelineno-28-7" href="#__codelineno-28-7"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-28-8" name="__codelineno-28-8" href="#__codelineno-28-8"></a><span class="p">}</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">myFunction</span><span class="p">()</span>
+<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="p">{</span>
+<a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a><span class="w">    </span><span class="nx">module</span><span class="w"> </span><span class="nx">main</span>
+<a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a><span class="w">    </span><span class="p">{</span>
+<a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a><span class="w">        </span><span class="c1">// Anything put here will be part of the "main" module.</span>
+<a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a><span class="w">        </span><span class="c1">// Declaring a static variable will make it belong to the "main" module.</span>
+<a id="__codelineno-29-7" name="__codelineno-29-7" href="#__codelineno-29-7"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-29-8" name="__codelineno-29-8" href="#__codelineno-29-8"></a><span class="p">}</span>
 </code></pre></div><p></p>
 <h2 id="undefs">Undefs<a class="headerlink" href="#undefs" title="Permanent link">¶</a></h2>
 <p>Undefs let you undefine functions or static symbols. Very rarely used.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">myFunction</span><span class="p">()</span>
-<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="p">{</span>
-<a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a><span class="w">   </span><span class="p">...</span>
-<a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a><span class="p">}</span>
-<a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a>
-<a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a><span class="nx">undef</span><span class="w"> </span><span class="nx">myFunction</span><span class="p">;</span><span class="w"> </span><span class="c1">// "myFunction" is undefined, now nil if called.</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">myFunction</span><span class="p">()</span>
+<a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a><span class="p">{</span>
+<a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a><span class="w">   </span><span class="p">...</span>
+<a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a><span class="p">}</span>
+<a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a>
+<a id="__codelineno-30-6" name="__codelineno-30-6" href="#__codelineno-30-6"></a><span class="nx">undef</span><span class="w"> </span><span class="nx">myFunction</span><span class="p">;</span><span class="w"> </span><span class="c1">// "myFunction" is undefined, now nil if called.</span>
 </code></pre></div>
 <h2 id="operator-overloading">Operator Overloading<a class="headerlink" href="#operator-overloading" title="Permanent link">¶</a></h2>
 <p>Adhoc supports fully overloading operators. Very rarely used, but supported.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="kd">class</span> <span class="nc">OperatorOverloadClassTest</span>
-<a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a><span class="p">{</span>
-<a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a><span class="w">    </span><span class="n">attribute</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">""</span><span class="p">;</span>
-<a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a>
-<a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a><span class="w">    </span><span class="n">method</span><span class="w"> </span><span class="nf">__init__</span><span class="p">(</span><span class="n">val</span><span class="p">)</span>
-<a id="__codelineno-30-6" name="__codelineno-30-6" href="#__codelineno-30-6"></a><span class="w">    </span><span class="p">{</span>
-<a id="__codelineno-30-7" name="__codelineno-30-7" href="#__codelineno-30-7"></a><span class="w">        </span><span class="n">self</span><span class="p">.</span><span class="na">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">val</span><span class="p">;</span>
-<a id="__codelineno-30-8" name="__codelineno-30-8" href="#__codelineno-30-8"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-30-9" name="__codelineno-30-9" href="#__codelineno-30-9"></a>
-<a id="__codelineno-30-10" name="__codelineno-30-10" href="#__codelineno-30-10"></a><span class="w">    </span><span class="n">method</span><span class="w"> </span><span class="nf">__add__</span><span class="p">(</span><span class="n">val</span><span class="p">)</span><span class="w"> </span><span class="c1">// Needs to be the internal label for a designated operator, in this case, __add__ = +</span>
-<a id="__codelineno-30-11" name="__codelineno-30-11" href="#__codelineno-30-11"></a><span class="w">    </span><span class="p">{</span>
-<a id="__codelineno-30-12" name="__codelineno-30-12" href="#__codelineno-30-12"></a><span class="w">       </span><span class="k">return</span><span class="w"> </span><span class="n">OperatorOverloadClassTest</span><span class="p">(</span><span class="n">value</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">val</span><span class="p">);</span>
-<a id="__codelineno-30-13" name="__codelineno-30-13" href="#__codelineno-30-13"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-30-14" name="__codelineno-30-14" href="#__codelineno-30-14"></a><span class="p">}</span>
-<a id="__codelineno-30-15" name="__codelineno-30-15" href="#__codelineno-30-15"></a><span class="kd">var</span><span class="w"> </span><span class="n">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MyOperatorOverloadingClass</span><span class="p">();</span>
-<a id="__codelineno-30-16" name="__codelineno-30-16" href="#__codelineno-30-16"></a><span class="n">obj</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s">"hello world!"</span><span class="p">;</span>
-<a id="__codelineno-30-17" name="__codelineno-30-17" href="#__codelineno-30-17"></a><span class="c1">// obj.value is now "hello world!"</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="kd">class</span> <span class="nc">OperatorOverloadClassTest</span>
+<a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a><span class="p">{</span>
+<a id="__codelineno-31-3" name="__codelineno-31-3" href="#__codelineno-31-3"></a><span class="w">    </span><span class="n">attribute</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">""</span><span class="p">;</span>
+<a id="__codelineno-31-4" name="__codelineno-31-4" href="#__codelineno-31-4"></a>
+<a id="__codelineno-31-5" name="__codelineno-31-5" href="#__codelineno-31-5"></a><span class="w">    </span><span class="n">method</span><span class="w"> </span><span class="nf">__init__</span><span class="p">(</span><span class="n">val</span><span class="p">)</span>
+<a id="__codelineno-31-6" name="__codelineno-31-6" href="#__codelineno-31-6"></a><span class="w">    </span><span class="p">{</span>
+<a id="__codelineno-31-7" name="__codelineno-31-7" href="#__codelineno-31-7"></a><span class="w">        </span><span class="n">self</span><span class="p">.</span><span class="na">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">val</span><span class="p">;</span>
+<a id="__codelineno-31-8" name="__codelineno-31-8" href="#__codelineno-31-8"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-31-9" name="__codelineno-31-9" href="#__codelineno-31-9"></a>
+<a id="__codelineno-31-10" name="__codelineno-31-10" href="#__codelineno-31-10"></a><span class="w">    </span><span class="n">method</span><span class="w"> </span><span class="nf">__add__</span><span class="p">(</span><span class="n">val</span><span class="p">)</span><span class="w"> </span><span class="c1">// Needs to be the internal label for a designated operator, in this case, __add__ = +</span>
+<a id="__codelineno-31-11" name="__codelineno-31-11" href="#__codelineno-31-11"></a><span class="w">    </span><span class="p">{</span>
+<a id="__codelineno-31-12" name="__codelineno-31-12" href="#__codelineno-31-12"></a><span class="w">       </span><span class="k">return</span><span class="w"> </span><span class="n">OperatorOverloadClassTest</span><span class="p">(</span><span class="n">value</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">val</span><span class="p">);</span>
+<a id="__codelineno-31-13" name="__codelineno-31-13" href="#__codelineno-31-13"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-31-14" name="__codelineno-31-14" href="#__codelineno-31-14"></a><span class="p">}</span>
+<a id="__codelineno-31-15" name="__codelineno-31-15" href="#__codelineno-31-15"></a><span class="kd">var</span><span class="w"> </span><span class="n">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MyOperatorOverloadingClass</span><span class="p">();</span>
+<a id="__codelineno-31-16" name="__codelineno-31-16" href="#__codelineno-31-16"></a><span class="n">obj</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s">"hello world!"</span><span class="p">;</span>
+<a id="__codelineno-31-17" name="__codelineno-31-17" href="#__codelineno-31-17"></a><span class="c1">// obj.value is now "hello world!"</span>
 </code></pre></div>
 <p>List of operators &amp; their names for overriding:</p>
 <table>
@@ -6632,108 +6665,108 @@ They allow defining a constructor for any object that will run once the UI syste
 <p>Maybe <code>__prototype__</code>, <code>__module__</code>, <code>__method__</code> based on GT7?</p>
 <h2 id="static-scopes">Static Scopes<a class="headerlink" href="#static-scopes" title="Permanent link">¶</a></h2>
 <p>Static fields can be accessed from any module or class depth.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="nx">module</span><span class="w"> </span><span class="nx">RootModule</span>
-<a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a><span class="p">{</span>
-<a id="__codelineno-31-3" name="__codelineno-31-3" href="#__codelineno-31-3"></a><span class="w">  </span><span class="k">static</span><span class="w"> </span><span class="nx">sStaticField</span><span class="p">;</span>
-<a id="__codelineno-31-4" name="__codelineno-31-4" href="#__codelineno-31-4"></a>
-<a id="__codelineno-31-5" name="__codelineno-31-5" href="#__codelineno-31-5"></a><span class="w">  </span><span class="nx">module</span><span class="w"> </span><span class="nx">ChildModule</span>
-<a id="__codelineno-31-6" name="__codelineno-31-6" href="#__codelineno-31-6"></a><span class="w">  </span><span class="p">{</span>
-<a id="__codelineno-31-7" name="__codelineno-31-7" href="#__codelineno-31-7"></a><span class="w">    </span><span class="kd">function</span><span class="w"> </span><span class="nx">setParentField</span><span class="p">()</span>
-<a id="__codelineno-31-8" name="__codelineno-31-8" href="#__codelineno-31-8"></a><span class="w">    </span><span class="p">{</span>
-<a id="__codelineno-31-9" name="__codelineno-31-9" href="#__codelineno-31-9"></a><span class="w">      </span><span class="nx">sStaticfield</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"hello world!"</span><span class="p">;</span>
-<a id="__codelineno-31-10" name="__codelineno-31-10" href="#__codelineno-31-10"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-31-11" name="__codelineno-31-11" href="#__codelineno-31-11"></a><span class="w">  </span><span class="p">}</span>
-<a id="__codelineno-31-12" name="__codelineno-31-12" href="#__codelineno-31-12"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="nx">module</span><span class="w"> </span><span class="nx">RootModule</span>
+<a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a><span class="p">{</span>
+<a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a><span class="w">  </span><span class="k">static</span><span class="w"> </span><span class="nx">sStaticField</span><span class="p">;</span>
+<a id="__codelineno-32-4" name="__codelineno-32-4" href="#__codelineno-32-4"></a>
+<a id="__codelineno-32-5" name="__codelineno-32-5" href="#__codelineno-32-5"></a><span class="w">  </span><span class="nx">module</span><span class="w"> </span><span class="nx">ChildModule</span>
+<a id="__codelineno-32-6" name="__codelineno-32-6" href="#__codelineno-32-6"></a><span class="w">  </span><span class="p">{</span>
+<a id="__codelineno-32-7" name="__codelineno-32-7" href="#__codelineno-32-7"></a><span class="w">    </span><span class="kd">function</span><span class="w"> </span><span class="nx">setParentField</span><span class="p">()</span>
+<a id="__codelineno-32-8" name="__codelineno-32-8" href="#__codelineno-32-8"></a><span class="w">    </span><span class="p">{</span>
+<a id="__codelineno-32-9" name="__codelineno-32-9" href="#__codelineno-32-9"></a><span class="w">      </span><span class="nx">sStaticfield</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"hello world!"</span><span class="p">;</span>
+<a id="__codelineno-32-10" name="__codelineno-32-10" href="#__codelineno-32-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-32-11" name="__codelineno-32-11" href="#__codelineno-32-11"></a><span class="w">  </span><span class="p">}</span>
+<a id="__codelineno-32-12" name="__codelineno-32-12" href="#__codelineno-32-12"></a><span class="p">}</span>
 </code></pre></div>
 <h2 id="asyncawait">Async/Await<a class="headerlink" href="#asyncawait" title="Permanent link">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>GT6 and above.</p>
 </div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="k">async</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="nx">myAsyncFunction</span><span class="p">()</span><span class="w"> </span><span class="c1">// Must mark as async</span>
-<a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a><span class="p">{</span>
-<a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">getObject</span><span class="p">();</span>
-<a id="__codelineno-32-4" name="__codelineno-32-4" href="#__codelineno-32-4"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="k">async</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="nx">myAsyncFunction</span><span class="p">()</span><span class="w"> </span><span class="c1">// Must mark as async</span>
+<a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a><span class="p">{</span>
+<a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">getObject</span><span class="p">();</span>
+<a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a><span class="p">}</span>
 </code></pre></div>
 <h2 id="finalizer-statements">Finalizer Statements<a class="headerlink" href="#finalizer-statements" title="Permanent link">¶</a></h2>
 <p>Finalizer statements allows running code once the current module is finalized/cleaned up. Rarely used.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">func</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span>
-<a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a><span class="p">{</span>
-<a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a><span class="w">  </span><span class="nx">CursorUtil</span><span class="o">::</span><span class="nx">setCursor</span><span class="p">(</span><span class="nx">context</span><span class="p">,</span><span class="w"> </span><span class="s2">"wait"</span><span class="p">);</span><span class="w"> </span><span class="c1">// Set cursor to waiting mode</span>
-<a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a><span class="w">  </span><span class="k">finally</span>
-<a id="__codelineno-33-5" name="__codelineno-33-5" href="#__codelineno-33-5"></a><span class="w">  </span><span class="p">{</span>
-<a id="__codelineno-33-6" name="__codelineno-33-6" href="#__codelineno-33-6"></a><span class="w">      </span><span class="c1">// This will be executed once the module is finalized.</span>
-<a id="__codelineno-33-7" name="__codelineno-33-7" href="#__codelineno-33-7"></a><span class="w">      </span><span class="c1">// It will not execute immediately.</span>
-<a id="__codelineno-33-8" name="__codelineno-33-8" href="#__codelineno-33-8"></a><span class="w">      </span><span class="nx">CursorUtil</span><span class="o">::</span><span class="nx">setCursor</span><span class="p">(</span><span class="nx">context</span><span class="p">,</span><span class="w"> </span><span class="s2">"cursor_chrome"</span><span class="p">);</span>
-<a id="__codelineno-33-9" name="__codelineno-33-9" href="#__codelineno-33-9"></a><span class="w">  </span><span class="p">}</span><span class="w"> </span>
-<a id="__codelineno-33-10" name="__codelineno-33-10" href="#__codelineno-33-10"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">func</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span>
+<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a><span class="p">{</span>
+<a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a><span class="w">  </span><span class="nx">CursorUtil</span><span class="o">::</span><span class="nx">setCursor</span><span class="p">(</span><span class="nx">context</span><span class="p">,</span><span class="w"> </span><span class="s2">"wait"</span><span class="p">);</span><span class="w"> </span><span class="c1">// Set cursor to waiting mode</span>
+<a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a><span class="w">  </span><span class="k">finally</span>
+<a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a><span class="w">  </span><span class="p">{</span>
+<a id="__codelineno-34-6" name="__codelineno-34-6" href="#__codelineno-34-6"></a><span class="w">      </span><span class="c1">// This will be executed once the module is finalized.</span>
+<a id="__codelineno-34-7" name="__codelineno-34-7" href="#__codelineno-34-7"></a><span class="w">      </span><span class="c1">// It will not execute immediately.</span>
+<a id="__codelineno-34-8" name="__codelineno-34-8" href="#__codelineno-34-8"></a><span class="w">      </span><span class="nx">CursorUtil</span><span class="o">::</span><span class="nx">setCursor</span><span class="p">(</span><span class="nx">context</span><span class="p">,</span><span class="w"> </span><span class="s2">"cursor_chrome"</span><span class="p">);</span>
+<a id="__codelineno-34-9" name="__codelineno-34-9" href="#__codelineno-34-9"></a><span class="w">  </span><span class="p">}</span><span class="w"> </span>
+<a id="__codelineno-34-10" name="__codelineno-34-10" href="#__codelineno-34-10"></a><span class="p">}</span>
 </code></pre></div>
 <h2 id="yield-statements">Yield Statements<a class="headerlink" href="#yield-statements" title="Permanent link">¶</a></h2>
 <p>Mostly unknown, may be similar to unity's yield statement where the runtime waits for the next frame.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">func</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span>
-<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a><span class="p">{</span>
-<a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a><span class="w">  </span><span class="k">yield</span><span class="p">;</span>
-<a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">func</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span>
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a><span class="p">{</span>
+<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a><span class="w">  </span><span class="k">yield</span><span class="p">;</span>
+<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a><span class="p">}</span>
 </code></pre></div>
 <p>A value can also be passed to it (though purpose unknown):
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">func</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span>
-<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a><span class="p">{</span>
-<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a><span class="w">  </span><span class="k">yield</span><span class="w"> </span><span class="mf">1</span><span class="p">;</span>
-<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a><span class="p">}</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">func</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span>
+<a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a><span class="p">{</span>
+<a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a><span class="w">  </span><span class="k">yield</span><span class="w"> </span><span class="mf">1</span><span class="p">;</span>
+<a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a><span class="p">}</span>
 </code></pre></div><p></p>
 <h2 id="requires">Requires<a class="headerlink" href="#requires" title="Permanent link">¶</a></h2>
 <p>Requires allows importing all contents of a script onto the current one.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="nx">require</span><span class="w"> </span><span class="s2">"MyScript.adc"</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a><span class="nx">require</span><span class="w"> </span><span class="s2">"MyScript.adc"</span>
 </code></pre></div><p></p>
 <h2 id="symbols">Symbols<a class="headerlink" href="#symbols" title="Permanent link">¶</a></h2>
 <p>Similar to <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol">Javascript's Symbols</a>, they are defined with single quotes.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">symbol</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'my cool symbol'</span><span class="p">;</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">symbol</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'my cool symbol'</span><span class="p">;</span>
 </code></pre></div><p></p>
 <h2 id="variadic-function-calls">Variadic Function calls<a class="headerlink" href="#variadic-function-calls" title="Permanent link">¶</a></h2>
 <p>Calling functions with their arguments being represented by an array can be called using the <code>call()</code> keyword:
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">sum</span><span class="p">(</span><span class="nx">arg1</span><span class="p">,</span><span class="w"> </span><span class="nx">arg2</span><span class="p">)</span>
-<a id="__codelineno-38-2" name="__codelineno-38-2" href="#__codelineno-38-2"></a><span class="p">{</span>
-<a id="__codelineno-38-3" name="__codelineno-38-3" href="#__codelineno-38-3"></a><span class="w">   </span><span class="k">return</span><span class="w"> </span><span class="nx">arg1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">arg2</span><span class="p">;</span>
-<a id="__codelineno-38-4" name="__codelineno-38-4" href="#__codelineno-38-4"></a><span class="p">}</span>
-<a id="__codelineno-38-5" name="__codelineno-38-5" href="#__codelineno-38-5"></a>
-<a id="__codelineno-38-6" name="__codelineno-38-6" href="#__codelineno-38-6"></a><span class="c1">// call(func, argument array) - NOTE: function or method must be script defined.</span>
-<a id="__codelineno-38-7" name="__codelineno-38-7" href="#__codelineno-38-7"></a><span class="nx">call</span><span class="p">(</span><span class="nx">sum</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="mf">9</span><span class="p">,</span><span class="w"> </span><span class="mf">10</span><span class="p">]);</span><span class="w"> </span><span class="c1">// 21</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">sum</span><span class="p">(</span><span class="nx">arg1</span><span class="p">,</span><span class="w"> </span><span class="nx">arg2</span><span class="p">)</span>
+<a id="__codelineno-39-2" name="__codelineno-39-2" href="#__codelineno-39-2"></a><span class="p">{</span>
+<a id="__codelineno-39-3" name="__codelineno-39-3" href="#__codelineno-39-3"></a><span class="w">   </span><span class="k">return</span><span class="w"> </span><span class="nx">arg1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">arg2</span><span class="p">;</span>
+<a id="__codelineno-39-4" name="__codelineno-39-4" href="#__codelineno-39-4"></a><span class="p">}</span>
+<a id="__codelineno-39-5" name="__codelineno-39-5" href="#__codelineno-39-5"></a>
+<a id="__codelineno-39-6" name="__codelineno-39-6" href="#__codelineno-39-6"></a><span class="c1">// call(func, argument array) - NOTE: function or method must be script defined.</span>
+<a id="__codelineno-39-7" name="__codelineno-39-7" href="#__codelineno-39-7"></a><span class="nx">call</span><span class="p">(</span><span class="nx">sum</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="mf">9</span><span class="p">,</span><span class="w"> </span><span class="mf">10</span><span class="p">]);</span><span class="w"> </span><span class="c1">// 21</span>
 </code></pre></div><p></p>
 <h2 id="identifier-literals">Identifier Literals<a class="headerlink" href="#identifier-literals" title="Permanent link">¶</a></h2>
 <p>Identifier literals allow defining identifiers with normally illegal characters incase you have to.</p>
 <p>Mostly used for generated code. GT7's <code>DumpBuiltinModule</code> function uses this for instance.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a><span class="kd">var</span><span class="w"> </span><span class="sb">`my totally valid identifier`</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"hello world"</span><span class="p">;</span>
-<a id="__codelineno-39-2" name="__codelineno-39-2" href="#__codelineno-39-2"></a>
-<a id="__codelineno-39-3" name="__codelineno-39-3" href="#__codelineno-39-3"></a><span class="nx">module</span><span class="w"> </span><span class="sb">`my module`</span>
-<a id="__codelineno-39-4" name="__codelineno-39-4" href="#__codelineno-39-4"></a><span class="p">{</span>
-<a id="__codelineno-39-5" name="__codelineno-39-5" href="#__codelineno-39-5"></a>
-<a id="__codelineno-39-6" name="__codelineno-39-6" href="#__codelineno-39-6"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a><span class="kd">var</span><span class="w"> </span><span class="sb">`my totally valid identifier`</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"hello world"</span><span class="p">;</span>
+<a id="__codelineno-40-2" name="__codelineno-40-2" href="#__codelineno-40-2"></a>
+<a id="__codelineno-40-3" name="__codelineno-40-3" href="#__codelineno-40-3"></a><span class="nx">module</span><span class="w"> </span><span class="sb">`my module`</span>
+<a id="__codelineno-40-4" name="__codelineno-40-4" href="#__codelineno-40-4"></a><span class="p">{</span>
+<a id="__codelineno-40-5" name="__codelineno-40-5" href="#__codelineno-40-5"></a>
+<a id="__codelineno-40-6" name="__codelineno-40-6" href="#__codelineno-40-6"></a><span class="p">}</span>
 </code></pre></div>
 <h2 id="delegates">Delegates<a class="headerlink" href="#delegates" title="Permanent link">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>GT Sport and above.</p>
 </div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a><span class="n">function</span><span class="w"> </span><span class="nf">myFunc</span><span class="p">()</span>
-<a id="__codelineno-40-2" name="__codelineno-40-2" href="#__codelineno-40-2"></a><span class="p">{</span>
-<a id="__codelineno-40-3" name="__codelineno-40-3" href="#__codelineno-40-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="s">"hello world"</span><span class="p">;</span>
-<a id="__codelineno-40-4" name="__codelineno-40-4" href="#__codelineno-40-4"></a><span class="p">}</span>
-<a id="__codelineno-40-5" name="__codelineno-40-5" href="#__codelineno-40-5"></a>
-<a id="__codelineno-40-6" name="__codelineno-40-6" href="#__codelineno-40-6"></a><span class="k">delegate</span><span class="w"> </span><span class="n">myDelegate</span><span class="p">;</span><span class="w"> </span><span class="c1">// It is not possible to directly assign a function to a delegate</span>
-<a id="__codelineno-40-7" name="__codelineno-40-7" href="#__codelineno-40-7"></a><span class="n">myDelegate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">myFunc</span><span class="p">;</span><span class="w"> </span><span class="c1">// This will not override myDelegate with a function, rather assign a function to the delegate</span>
-<a id="__codelineno-40-8" name="__codelineno-40-8" href="#__codelineno-40-8"></a><span class="k">return</span><span class="w"> </span><span class="nf">myDelegate</span><span class="p">();</span><span class="w"> </span><span class="c1">// "hello world"</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a><span class="n">function</span><span class="w"> </span><span class="nf">myFunc</span><span class="p">()</span>
+<a id="__codelineno-41-2" name="__codelineno-41-2" href="#__codelineno-41-2"></a><span class="p">{</span>
+<a id="__codelineno-41-3" name="__codelineno-41-3" href="#__codelineno-41-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="s">"hello world"</span><span class="p">;</span>
+<a id="__codelineno-41-4" name="__codelineno-41-4" href="#__codelineno-41-4"></a><span class="p">}</span>
+<a id="__codelineno-41-5" name="__codelineno-41-5" href="#__codelineno-41-5"></a>
+<a id="__codelineno-41-6" name="__codelineno-41-6" href="#__codelineno-41-6"></a><span class="k">delegate</span><span class="w"> </span><span class="n">myDelegate</span><span class="p">;</span><span class="w"> </span><span class="c1">// It is not possible to directly assign a function to a delegate</span>
+<a id="__codelineno-41-7" name="__codelineno-41-7" href="#__codelineno-41-7"></a><span class="n">myDelegate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">myFunc</span><span class="p">;</span><span class="w"> </span><span class="c1">// This will not override myDelegate with a function, rather assign a function to the delegate</span>
+<a id="__codelineno-41-8" name="__codelineno-41-8" href="#__codelineno-41-8"></a><span class="k">return</span><span class="w"> </span><span class="nf">myDelegate</span><span class="p">();</span><span class="w"> </span><span class="c1">// "hello world"</span>
 </code></pre></div>
 <h2 id="pass-by-reference">Pass by reference<a class="headerlink" href="#pass-by-reference" title="Permanent link">¶</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a><span class="n">function</span><span class="w"> </span><span class="nf">getXY</span><span class="p">(</span><span class="n">x_ref</span><span class="p">,</span><span class="w"> </span><span class="n">y_ref</span><span class="p">)</span><span class="w"> </span><span class="c1">// Common practice is to add the `_ref` suffix OR (less common) `ref_` prefix.</span>
-<a id="__codelineno-41-2" name="__codelineno-41-2" href="#__codelineno-41-2"></a><span class="p">{</span>
-<a id="__codelineno-41-3" name="__codelineno-41-3" href="#__codelineno-41-3"></a><span class="w">   </span><span class="o">*</span><span class="n">x_ref</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
-<a id="__codelineno-41-4" name="__codelineno-41-4" href="#__codelineno-41-4"></a><span class="w">   </span><span class="o">*</span><span class="n">y_ref</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
-<a id="__codelineno-41-5" name="__codelineno-41-5" href="#__codelineno-41-5"></a><span class="p">}</span>
-<a id="__codelineno-41-6" name="__codelineno-41-6" href="#__codelineno-41-6"></a>
-<a id="__codelineno-41-7" name="__codelineno-41-7" href="#__codelineno-41-7"></a><span class="n">var</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">;</span>
-<a id="__codelineno-41-8" name="__codelineno-41-8" href="#__codelineno-41-8"></a><span class="n">getXY</span><span class="p">(</span><span class="o">&amp;</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">y</span><span class="p">);</span>
-<a id="__codelineno-41-9" name="__codelineno-41-9" href="#__codelineno-41-9"></a>
-<a id="__codelineno-41-10" name="__codelineno-41-10" href="#__codelineno-41-10"></a><span class="c1">// x = 1, y = 1</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a><span class="n">function</span><span class="w"> </span><span class="nf">getXY</span><span class="p">(</span><span class="n">x_ref</span><span class="p">,</span><span class="w"> </span><span class="n">y_ref</span><span class="p">)</span><span class="w"> </span><span class="c1">// Common practice is to add the `_ref` suffix OR (less common) `ref_` prefix.</span>
+<a id="__codelineno-42-2" name="__codelineno-42-2" href="#__codelineno-42-2"></a><span class="p">{</span>
+<a id="__codelineno-42-3" name="__codelineno-42-3" href="#__codelineno-42-3"></a><span class="w">   </span><span class="o">*</span><span class="n">x_ref</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-42-4" name="__codelineno-42-4" href="#__codelineno-42-4"></a><span class="w">   </span><span class="o">*</span><span class="n">y_ref</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-42-5" name="__codelineno-42-5" href="#__codelineno-42-5"></a><span class="p">}</span>
+<a id="__codelineno-42-6" name="__codelineno-42-6" href="#__codelineno-42-6"></a>
+<a id="__codelineno-42-7" name="__codelineno-42-7" href="#__codelineno-42-7"></a><span class="n">var</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">;</span>
+<a id="__codelineno-42-8" name="__codelineno-42-8" href="#__codelineno-42-8"></a><span class="n">getXY</span><span class="p">(</span><span class="o">&amp;</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">y</span><span class="p">);</span>
+<a id="__codelineno-42-9" name="__codelineno-42-9" href="#__codelineno-42-9"></a>
+<a id="__codelineno-42-10" name="__codelineno-42-10" href="#__codelineno-42-10"></a><span class="c1">// x = 1, y = 1</span>
 </code></pre></div>
 <p>Note that you can also pass attributes/statics i.e <code>&amp;myobject.myattr</code> or even array elements i.e <code>&amp;MyArray[0]</code>.</p>
 <h2 id="object-selectors">Object Selectors<a class="headerlink" href="#object-selectors" title="Permanent link">¶</a></h2>
@@ -6743,23 +6776,23 @@ They allow defining a constructor for any object that will run once the UI syste
 </div>
 <p>This feature seems to allow calling grabbing method/attribute references using the <code>.*</code> operator.</p>
 <p><code>scripts/gt5/UsedCarList.ad</code></p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a><span class="nx">method</span><span class="w"> </span><span class="nx">__get_elem__</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
-<a id="__codelineno-42-2" name="__codelineno-42-2" href="#__codelineno-42-2"></a><span class="p">{</span>
-<a id="__codelineno-42-3" name="__codelineno-42-3" href="#__codelineno-42-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">self</span><span class="p">.</span><span class="o">*</span><span class="nx">attr_map</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
-<a id="__codelineno-42-4" name="__codelineno-42-4" href="#__codelineno-42-4"></a><span class="p">}</span>
-<a id="__codelineno-42-5" name="__codelineno-42-5" href="#__codelineno-42-5"></a>
-<a id="__codelineno-42-6" name="__codelineno-42-6" href="#__codelineno-42-6"></a><span class="nx">method</span><span class="w"> </span><span class="nx">__set_elem__</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="nx">val</span><span class="p">)</span>
-<a id="__codelineno-42-7" name="__codelineno-42-7" href="#__codelineno-42-7"></a><span class="p">{</span>
-<a id="__codelineno-42-8" name="__codelineno-42-8" href="#__codelineno-42-8"></a><span class="w">    </span><span class="nx">self</span><span class="p">.</span><span class="o">*</span><span class="nx">attr_map</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">val</span><span class="p">;</span>
-<a id="__codelineno-42-9" name="__codelineno-42-9" href="#__codelineno-42-9"></a><span class="p">}</span>
-</code></pre></div>
-<p><code>projects/gt5/arcade/CarRoot.ad</code>
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">delay_load_complete</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">method</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a><span class="nx">method</span><span class="w"> </span><span class="nx">__get_elem__</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
 <a id="__codelineno-43-2" name="__codelineno-43-2" href="#__codelineno-43-2"></a><span class="p">{</span>
-<a id="__codelineno-43-3" name="__codelineno-43-3" href="#__codelineno-43-3"></a><span class="w">    </span><span class="nx">self</span><span class="p">.</span><span class="nx">Info</span><span class="o">::</span><span class="nx">FadeEffect</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+<a id="__codelineno-43-3" name="__codelineno-43-3" href="#__codelineno-43-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">self</span><span class="p">.</span><span class="o">*</span><span class="nx">attr_map</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
 <a id="__codelineno-43-4" name="__codelineno-43-4" href="#__codelineno-43-4"></a><span class="p">}</span>
 <a id="__codelineno-43-5" name="__codelineno-43-5" href="#__codelineno-43-5"></a>
-<a id="__codelineno-43-6" name="__codelineno-43-6" href="#__codelineno-43-6"></a><span class="nx">self</span><span class="p">.</span><span class="nx">Info</span><span class="o">::</span><span class="nx">tuner_logo</span><span class="p">.</span><span class="nx">on_delay_load_complete</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="nx">self</span><span class="p">.</span><span class="o">*</span><span class="nx">delay_load_complete</span><span class="p">;</span>
+<a id="__codelineno-43-6" name="__codelineno-43-6" href="#__codelineno-43-6"></a><span class="nx">method</span><span class="w"> </span><span class="nx">__set_elem__</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="nx">val</span><span class="p">)</span>
+<a id="__codelineno-43-7" name="__codelineno-43-7" href="#__codelineno-43-7"></a><span class="p">{</span>
+<a id="__codelineno-43-8" name="__codelineno-43-8" href="#__codelineno-43-8"></a><span class="w">    </span><span class="nx">self</span><span class="p">.</span><span class="o">*</span><span class="nx">attr_map</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">val</span><span class="p">;</span>
+<a id="__codelineno-43-9" name="__codelineno-43-9" href="#__codelineno-43-9"></a><span class="p">}</span>
+</code></pre></div>
+<p><code>projects/gt5/arcade/CarRoot.ad</code>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-44-1" name="__codelineno-44-1" href="#__codelineno-44-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">delay_load_complete</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">method</span><span class="p">(</span><span class="nx">context</span><span class="p">)</span>
+<a id="__codelineno-44-2" name="__codelineno-44-2" href="#__codelineno-44-2"></a><span class="p">{</span>
+<a id="__codelineno-44-3" name="__codelineno-44-3" href="#__codelineno-44-3"></a><span class="w">    </span><span class="nx">self</span><span class="p">.</span><span class="nx">Info</span><span class="o">::</span><span class="nx">FadeEffect</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+<a id="__codelineno-44-4" name="__codelineno-44-4" href="#__codelineno-44-4"></a><span class="p">}</span>
+<a id="__codelineno-44-5" name="__codelineno-44-5" href="#__codelineno-44-5"></a>
+<a id="__codelineno-44-6" name="__codelineno-44-6" href="#__codelineno-44-6"></a><span class="nx">self</span><span class="p">.</span><span class="nx">Info</span><span class="o">::</span><span class="nx">tuner_logo</span><span class="p">.</span><span class="nx">on_delay_load_complete</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="nx">self</span><span class="p">.</span><span class="o">*</span><span class="nx">delay_load_complete</span><span class="p">;</span>
 </code></pre></div><p></p>
 <h2 id="optional-syntax">Optional Syntax<a class="headerlink" href="#optional-syntax" title="Permanent link">¶</a></h2>
 <div class="admonition note">
@@ -6767,16 +6800,16 @@ They allow defining a constructor for any object that will run once the UI syste
 <p>GT Sport and above.</p>
 </div>
 <p>GT Sport introduced the <code>JUMP_IF_NIL</code> and <code>LOGICAL_OPTIONAL</code> instructions, which implements the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining">Optional Chaining</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing">Nullish Coalescing</a> features in adhoc.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-44-1" name="__codelineno-44-1" href="#__codelineno-44-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myAttributeValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">myObject</span><span class="o">?</span><span class="p">.</span><span class="nx">myAttribute</span><span class="p">;</span>
-<a id="__codelineno-44-2" name="__codelineno-44-2" href="#__codelineno-44-2"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">myAttributeValue</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nx">nil</span><span class="p">)</span>
-<a id="__codelineno-44-3" name="__codelineno-44-3" href="#__codelineno-44-3"></a><span class="w">    </span><span class="k">return</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myAttributeValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">myObject</span><span class="o">?</span><span class="p">.</span><span class="nx">myAttribute</span><span class="p">;</span>
+<a id="__codelineno-45-2" name="__codelineno-45-2" href="#__codelineno-45-2"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">myAttributeValue</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nx">nil</span><span class="p">)</span>
+<a id="__codelineno-45-3" name="__codelineno-45-3" href="#__codelineno-45-3"></a><span class="w">    </span><span class="k">return</span><span class="p">;</span>
 </code></pre></div>
 <p>Also works with arrays and object selectors:
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a>var myValue = myObject?.*myVariable;
-<a id="__codelineno-45-2" name="__codelineno-45-2" href="#__codelineno-45-2"></a>var myValue2 = myObject?["myAttributeName"];
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-46-1" name="__codelineno-46-1" href="#__codelineno-46-1"></a>var myValue = myObject?.*myVariable;
+<a id="__codelineno-46-2" name="__codelineno-46-2" href="#__codelineno-46-2"></a>var myValue2 = myObject?["myAttributeName"];
 </code></pre></div><p></p>
 <p>Nullish coalescing works the same.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-46-1" name="__codelineno-46-1" href="#__codelineno-46-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">myString</span><span class="w"> </span><span class="o">??</span><span class="w"> </span><span class="s2">"default"</span><span class="p">;</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-47-1" name="__codelineno-47-1" href="#__codelineno-47-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">myString</span><span class="w"> </span><span class="o">??</span><span class="w"> </span><span class="s2">"default"</span><span class="p">;</span>
 </code></pre></div><p></p>
 <h2 id="not-supported-from-javascript">Not supported from javascript<a class="headerlink" href="#not-supported-from-javascript" title="Permanent link">¶</a></h2>
 <ul>
@@ -6809,7 +6842,7 @@ They allow defining a constructor for any object that will run once the UI syste
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 26, 2025 19:33:16 UTC">August 26, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 6, 2025 23:31:31 UTC">September 6, 2025</span>
   </span>
 
     
