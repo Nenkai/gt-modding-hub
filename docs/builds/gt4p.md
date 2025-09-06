@@ -34,6 +34,8 @@ Undumped build.
 
 :material-shovel: *Dumped*: {++Yes++} - dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky), available on [hiddenpalace](https://hiddenpalace.org/Gran_Turismo_4:_Prologue_(Sep_25,_2003_prototype)) · :material-disc: [Redump Info](http://redump.org/disc/38970/)
 
+Some model files contain debug strings data for as file building tests.
+
 Game Code: `PAPX-90512`
 
 ??? note "Build Info"

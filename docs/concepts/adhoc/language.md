@@ -249,6 +249,26 @@ myFunction([1, 2]);
 
 Note that the rest syntax `...` is still supported here.
 
+## Labeled Loop Statements
+
+[Like Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label), Adhoc supports labeled statements. It is only supported on loop statements: `for`, `foreach`, `while` and `do..while`.
+
+It is used as a better replacement to the [goto](https://en.wikipedia.org/wiki/Goto) keyword in C.
+
+```js
+main_loop: for(;;)
+{
+    for (var i = 0; i < 5; i++)
+    {
+        if (shouldExitCompletely)
+            break main_loop;
+
+        if (shouldContinueMainLoop)
+            continue main_loop;
+    }
+}
+```
+
 ## Foreach
 
 !!! note
