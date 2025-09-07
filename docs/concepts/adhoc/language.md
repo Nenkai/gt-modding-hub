@@ -181,6 +181,19 @@ var interpolatedWith = "hello"
                        "My name is %{name}!";
 ```
 
+### Raw Strings
+
+Adhoc supports C's [Raw String Literals](https://en.cppreference.com/w/cpp/language/string_literal.html).
+
+
+!!! warn
+
+    The toolchain does not support these yet.
+
+```cpp
+// equivalent to "\\n\\n\\n\\n"
+var str = R"(\n\n\n\n)";
+
 ## Maps
 
 !!! note
@@ -553,6 +566,12 @@ function func(context)
 }
 ```
 
+It is also possible to clear an object's finalizer using the following syntax:
+
+```js
+finally my_object;
+```
+
 ## Yield Statements
 Mostly unknown, may be similar to unity's yield statement where the runtime waits for the next frame.
 
@@ -643,10 +662,6 @@ Note that you can also pass attributes/statics i.e `&myobject.myattr` or even ar
 
 ## Object Selectors
 
-!!! warning
-
-    This one is still sort of unclear.
-
 This feature seems to allow calling grabbing method/attribute references using the `.*` operator.
 
 `scripts/gt5/UsedCarList.ad`
@@ -672,6 +687,87 @@ var delay_load_complete = method(context)
 
 self.Info::tuner_logo.on_delay_load_complete = *self.*delay_load_complete;
 ```
+
+## Pragmas
+
+!!! warn
+
+    The toolchain does not support these yet.
+
+### `@include "<file_name>"`
+
+Includes and compiles a specified source file into the current body.
+
+```c
+@include "test.ad";
+// contents of test.ad is compiled into the current body
+// test.ad is the root of the game volume contents (unless /APP_DATA or other mount points are used)
+```
+
+### `@exec { <code> }`
+
+Executes adhoc code at compile time.
+```c
+@exec {
+  // .. code that will be compiled at compile time
+};
+```
+
+### `@use_strict`/`@no_strict`
+
+Whether to use strict mode.
+
+### `@push_strict <int/bool>`
+
+Pushes a strict mode (mainly variable redeclaration checking)
+
+### `@pop_strict`
+
+Pops the current strict mode
+```c
+@pop_strict;
+```
+
+### `@undef <variable>`
+
+Undefines any variable (compile-time)
+```c
+var i = 5;
+@undef i
+// i is now undefined, no extra instructions emitted
+```
+
+### `@import <module_path/*> [as <alias>];`
+
+Compile time import.
+
+### `@current_module <module_path>`
+
+Sets the current module from the specified module path.
+
+### `@dump <variable>`
+
+Dumps/evaluates a variable and compiles it into the current body.
+
+Compatible with just about any variable type including functions. Only exception is builtins modules.
+
+```c
+var i = 5;
+@dump i
+// Compiled script will evaluate i.
+```
+ 
+### `@<variable_type> <name>`
+
+Defines a new variable. Valid types are:
+
+* `@attribute`
+* `@static`
+* `@delegate`
+* `@function`
+* `@method`
+* `@module`
+* `@class`
 
 ## Optional Syntax
 
