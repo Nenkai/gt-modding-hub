@@ -3276,6 +3276,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#link-file_name-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      @link "&lt;file_name&gt;" { &lt;code &gt; }
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#exec-code" class="md-nav__link">
     <span class="md-ellipsis">
       @exec { &lt;code&gt; }
@@ -6253,6 +6262,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#link-file_name-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      @link "&lt;file_name&gt;" { &lt;code &gt; }
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#exec-code" class="md-nav__link">
     <span class="md-ellipsis">
       @exec { &lt;code&gt; }
@@ -7038,11 +7056,17 @@ They allow defining a constructor for any object that will run once the UI syste
 <a id="__codelineno-46-2" name="__codelineno-46-2" href="#__codelineno-46-2"></a><span class="c1">// contents of test.ad is compiled into the current body</span>
 <a id="__codelineno-46-3" name="__codelineno-46-3" href="#__codelineno-46-3"></a><span class="c1">// test.ad is the root of the game volume contents (unless /APP_DATA or other mount points are used)</span>
 </code></pre></div>
+<h3 id="link-file_name-code"><code>@link "&lt;file_name&gt;" { &lt;code &gt; }</code><a class="headerlink" href="#link-file_name-code" title="Permanent link">¶</a></h3>
+<p>Links specified code into the current compile unit with the specified file name.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-47-1" name="__codelineno-47-1" href="#__codelineno-47-1"></a><span class="err">@</span><span class="n">link</span><span class="w"> </span><span class="s">"dummy.ad"</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-47-2" name="__codelineno-47-2" href="#__codelineno-47-2"></a><span class="w">    </span><span class="c1">// code</span>
+<a id="__codelineno-47-3" name="__codelineno-47-3" href="#__codelineno-47-3"></a><span class="p">};</span>
+</code></pre></div>
 <h3 id="exec-code"><code>@exec { &lt;code&gt; }</code><a class="headerlink" href="#exec-code" title="Permanent link">¶</a></h3>
 <p>Executes adhoc code at compile time.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-47-1" name="__codelineno-47-1" href="#__codelineno-47-1"></a><span class="err">@</span><span class="n">exec</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-47-2" name="__codelineno-47-2" href="#__codelineno-47-2"></a><span class="w">  </span><span class="c1">// .. code that will be compiled at compile time</span>
-<a id="__codelineno-47-3" name="__codelineno-47-3" href="#__codelineno-47-3"></a><span class="p">};</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-48-1" name="__codelineno-48-1" href="#__codelineno-48-1"></a><span class="err">@</span><span class="n">exec</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-48-2" name="__codelineno-48-2" href="#__codelineno-48-2"></a><span class="w">  </span><span class="c1">// .. code that will be compiled at compile time</span>
+<a id="__codelineno-48-3" name="__codelineno-48-3" href="#__codelineno-48-3"></a><span class="p">};</span>
 </code></pre></div><p></p>
 <h3 id="use_strictno_strict"><code>@use_strict</code>/<code>@no_strict</code><a class="headerlink" href="#use_strictno_strict" title="Permanent link">¶</a></h3>
 <p>Whether to use strict mode.</p>
@@ -7050,13 +7074,13 @@ They allow defining a constructor for any object that will run once the UI syste
 <p>Pushes a strict mode (mainly variable redeclaration checking)</p>
 <h3 id="pop_strict"><code>@pop_strict</code><a class="headerlink" href="#pop_strict" title="Permanent link">¶</a></h3>
 <p>Pops the current strict mode
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-48-1" name="__codelineno-48-1" href="#__codelineno-48-1"></a><span class="err">@</span><span class="n">pop_strict</span><span class="p">;</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-49-1" name="__codelineno-49-1" href="#__codelineno-49-1"></a><span class="err">@</span><span class="n">pop_strict</span><span class="p">;</span>
 </code></pre></div><p></p>
 <h3 id="undef-variable"><code>@undef &lt;variable&gt;</code><a class="headerlink" href="#undef-variable" title="Permanent link">¶</a></h3>
 <p>Undefines any variable (compile-time)
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-49-1" name="__codelineno-49-1" href="#__codelineno-49-1"></a><span class="n">var</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span>
-<a id="__codelineno-49-2" name="__codelineno-49-2" href="#__codelineno-49-2"></a><span class="err">@</span><span class="n">undef</span><span class="w"> </span><span class="n">i</span>
-<a id="__codelineno-49-3" name="__codelineno-49-3" href="#__codelineno-49-3"></a><span class="c1">// i is now undefined, no extra instructions emitted</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-50-1" name="__codelineno-50-1" href="#__codelineno-50-1"></a><span class="n">var</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span>
+<a id="__codelineno-50-2" name="__codelineno-50-2" href="#__codelineno-50-2"></a><span class="err">@</span><span class="n">undef</span><span class="w"> </span><span class="n">i</span>
+<a id="__codelineno-50-3" name="__codelineno-50-3" href="#__codelineno-50-3"></a><span class="c1">// i is now undefined, no extra instructions emitted</span>
 </code></pre></div><p></p>
 <h3 id="import-module_path-as-alias"><code>@import &lt;module_path/*&gt; [as &lt;alias&gt;];</code><a class="headerlink" href="#import-module_path-as-alias" title="Permanent link">¶</a></h3>
 <p>Compile time import.</p>
@@ -7065,9 +7089,9 @@ They allow defining a constructor for any object that will run once the UI syste
 <h3 id="dump-variable"><code>@dump &lt;variable&gt;</code><a class="headerlink" href="#dump-variable" title="Permanent link">¶</a></h3>
 <p>Dumps/evaluates a variable and compiles it into the current body.</p>
 <p>Compatible with just about any variable type including functions. Only exception is builtins modules.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-50-1" name="__codelineno-50-1" href="#__codelineno-50-1"></a><span class="n">var</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span>
-<a id="__codelineno-50-2" name="__codelineno-50-2" href="#__codelineno-50-2"></a><span class="err">@</span><span class="n">dump</span><span class="w"> </span><span class="n">i</span>
-<a id="__codelineno-50-3" name="__codelineno-50-3" href="#__codelineno-50-3"></a><span class="c1">// Compiled script will evaluate i.</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-51-1" name="__codelineno-51-1" href="#__codelineno-51-1"></a><span class="n">var</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span>
+<a id="__codelineno-51-2" name="__codelineno-51-2" href="#__codelineno-51-2"></a><span class="err">@</span><span class="n">dump</span><span class="w"> </span><span class="n">i</span>
+<a id="__codelineno-51-3" name="__codelineno-51-3" href="#__codelineno-51-3"></a><span class="c1">// Compiled script will evaluate i.</span>
 </code></pre></div>
 <h3 id="variable_type-name"><code>@&lt;variable_type&gt; &lt;name&gt;</code><a class="headerlink" href="#variable_type-name" title="Permanent link">¶</a></h3>
 <p>Defines a new variable. Valid types are:</p>
@@ -7086,16 +7110,16 @@ They allow defining a constructor for any object that will run once the UI syste
 <p>GT Sport and above.</p>
 </div>
 <p>GT Sport introduced the <code>JUMP_IF_NIL</code> and <code>LOGICAL_OPTIONAL</code> instructions, which implements the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining">Optional Chaining</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing">Nullish Coalescing</a> features in adhoc.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-51-1" name="__codelineno-51-1" href="#__codelineno-51-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myAttributeValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">myObject</span><span class="o">?</span><span class="p">.</span><span class="nx">myAttribute</span><span class="p">;</span>
-<a id="__codelineno-51-2" name="__codelineno-51-2" href="#__codelineno-51-2"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">myAttributeValue</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nx">nil</span><span class="p">)</span>
-<a id="__codelineno-51-3" name="__codelineno-51-3" href="#__codelineno-51-3"></a><span class="w">    </span><span class="k">return</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-52-1" name="__codelineno-52-1" href="#__codelineno-52-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myAttributeValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">myObject</span><span class="o">?</span><span class="p">.</span><span class="nx">myAttribute</span><span class="p">;</span>
+<a id="__codelineno-52-2" name="__codelineno-52-2" href="#__codelineno-52-2"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">myAttributeValue</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nx">nil</span><span class="p">)</span>
+<a id="__codelineno-52-3" name="__codelineno-52-3" href="#__codelineno-52-3"></a><span class="w">    </span><span class="k">return</span><span class="p">;</span>
 </code></pre></div>
 <p>Also works with arrays and object selectors:
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-52-1" name="__codelineno-52-1" href="#__codelineno-52-1"></a>var myValue = myObject?.*myVariable;
-<a id="__codelineno-52-2" name="__codelineno-52-2" href="#__codelineno-52-2"></a>var myValue2 = myObject?["myAttributeName"];
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-53-1" name="__codelineno-53-1" href="#__codelineno-53-1"></a>var myValue = myObject?.*myVariable;
+<a id="__codelineno-53-2" name="__codelineno-53-2" href="#__codelineno-53-2"></a>var myValue2 = myObject?["myAttributeName"];
 </code></pre></div><p></p>
 <p>Nullish coalescing works the same.
-</p><div class="highlight"><pre><span></span><code><a id="__codelineno-53-1" name="__codelineno-53-1" href="#__codelineno-53-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">myString</span><span class="w"> </span><span class="o">??</span><span class="w"> </span><span class="s2">"default"</span><span class="p">;</span>
+</p><div class="highlight"><pre><span></span><code><a id="__codelineno-54-1" name="__codelineno-54-1" href="#__codelineno-54-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">myString</span><span class="w"> </span><span class="o">??</span><span class="w"> </span><span class="s2">"default"</span><span class="p">;</span>
 </code></pre></div><p></p>
 <h2 id="not-supported-from-javascript">Not supported from javascript<a class="headerlink" href="#not-supported-from-javascript" title="Permanent link">¶</a></h2>
 <ul>
@@ -7128,7 +7152,7 @@ They allow defining a constructor for any object that will run once the UI syste
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 7, 2025 23:58:25 UTC">September 7, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 8, 2025 13:18:52 UTC">September 8, 2025</span>
   </span>
 
     
@@ -7143,29 +7167,6 @@ They allow defining a constructor for any object that will run once the UI syste
 
     
     
-    
-      
-  <span class="md-source-file__fact">
-    
-      
-  <span class="md-icon" title="Contributors">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"></path></svg>
-  </span>
-  <span>GitHub</span>
-
-    
-    <nav>
-      
-        <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
-          
-          <img src="https://avatars.githubusercontent.com/u/13786175?v=4&amp;size=72" alt="Nenkai">
-        </a>
-      
-      
-      
-    </nav>
-  </span>
-
     
   </aside>
 
