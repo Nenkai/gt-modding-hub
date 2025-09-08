@@ -704,6 +704,16 @@ Includes and compiles a specified source file into the current body.
 // test.ad is the root of the game volume contents (unless /APP_DATA or other mount points are used)
 ```
 
+### `@link "<file_name>" { <code > }`
+
+Links specified code into the current compile unit with the specified file name.
+
+```c
+@link "dummy.ad" {
+    // code
+};
+```
+
 ### `@exec { <code> }`
 
 Executes adhoc code at compile time.
