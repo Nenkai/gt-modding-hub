@@ -101,11 +101,13 @@ Or if you also have installed the VS Code extension provided:
 
 ## Catching Exceptions
 
-Catching exceptions/debugging error may be troublesome, here are some tips that can help debugging:
+When an exception occurs, the current adhoc project will attempt to be restarted (except before GT5, where exception handling is stripped). It will not cause an engine crash.
+
+Catching exceptions/debugging errors may be troublesome, here are some tips that can help debugging:
 
 ### GT4
 
-Unfortunately error handling is completely stripped in GT4. Throws do not do anything, meaning any adhoc exceptions will immediately crash the game. The best way to debug this is to spam around a bunch of `openConfirmDialog` calls in various parts of code to keep track of the code that's being run.
+Unfortunately error handling is completely stripped in GT4. Throws do not do anything, meaning any adhoc exceptions will immediately crash the game & engine. The best way to debug this is to spam around a bunch of `openConfirmDialog` calls in various parts of code to keep track of the code that's being run.
 
 ### GT5 and above
 
@@ -143,12 +145,23 @@ When an exception is caught, exceptions will be written to `/APP_DATA_RAW/except
 
 ---
 
-#### Method 3 - Memory addresses
+#### Method 3 - Exception Breakpoint/Addresses
 
-Here are some memory addresses you can put a breakpoint to see exception messages (using ProDG, or RPCS3) 
+Here are some addresses you can place a breakpoint on to see exception messages (using ProDG, or RPCS3) 
 
 * `0xA1FEE8` (GT6 EU 1.22) - `r3` register
 * `0x9C2FF8` (GT5 EU 2.11) - `r3` register
+
+!!! tip "RPCS3 Guide"
+
+    If you're using RPCS3, make sure to use PPU Interpreter. It also helps to disable **Automatically start games after boot** in the Debug tab so that you can place it before actually starting the game.
+
+    Once you've done that, place the breakpoint, and hit Play (or Run in the Debugger).
+
+    When the game Adhoc crashes, head to the debugger, and go through each thread. One may be on the address mentioned earlier. The thread name may be `n3FKY`.
+
+    Check the register and copy the address. Open the **Memory Viewer**, paste the address there, and you should be able to see the exception string.
+
 
 ---
 

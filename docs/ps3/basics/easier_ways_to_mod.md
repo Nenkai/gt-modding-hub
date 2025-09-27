@@ -15,31 +15,58 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
     * :flag_eu: EU: `PPU-7a5ee7bc2fef9566dd80e35893fe2c5571197726`
     * :flag_us: US: `PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce`
 
-    ```yaml
-    "Raw Reading Patch":
-      Games:
-        "Gran Turismo 5":
-          BCES00569: [ 02.11 ]
-      Author: "Nenkai"
-      Patch Version: 1.0
-      Group: ""
-      Notes: ""
-      Patch:
-        - [ be32, 0x000120a0, 0x386004A0 ] # Adjust sizeof(PDIPS3::FileDevicePFSGameData) to sizeof(PDIPS3::FileDeviceCellFS) for new
-        - [ be32, 0x000120d8, 0x3888E308 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, param1, param2, param3)
-        - [ be32, 0x000120dc, 0x38A8E330 ] # Change pointer to a vtable name
-        - [ be32, 0x000120e0, 0x7D064378 ] # Change pointer to a vtable name
-        - [ be32, 0x00a73160, 0x48004ED5 ] # Rectify pointer offset to device list field
-        - [ be32, 0x00a7316c, 0x941D0498 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceCellFS
-        - [ utf8, 0x013dde10, /dev_hdd0\0 ] # param_1
-        - [ be16, 0x013dde19, 0x0000 ] # Null terminate
-        - [ utf8, 0x013dde38, /game/BCES00569/USRDIR/direct ] # <-- Change BCES00569 accordingly!
-        - [ be16, 0x013dde55, 0x0000 ] # Null terminate
-    ```
+    ??? abstract "BCES00569"
+
+        ```yaml
+        "Raw Reading Patch":
+          Games:
+            "Gran Turismo 5":
+              BCES00569: [ 02.11 ]
+          Author: "Nenkai"
+          Patch Version: 1.0
+          Group: ""
+          Notes: ""
+          Patch:
+            - [ be32, 0x000120a0, 0x386004A0 ] # Adjust sizeof(PDIPS3::FileDevicePFSGameData) to sizeof(PDIPS3::FileDeviceCellFS) for new
+            - [ be32, 0x000120d8, 0x3888E308 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, param1, param2, param3)
+            - [ be32, 0x000120dc, 0x38A8E330 ] # Change pointer to a vtable name
+            - [ be32, 0x000120e0, 0x7D064378 ] # Change pointer to a vtable name
+            - [ be32, 0x00a73160, 0x48004ED5 ] # Rectify pointer offset to device list field
+            - [ be32, 0x00a7316c, 0x941D0498 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceCellFS
+            - [ utf8, 0x013dde10, /dev_hdd0\0 ] # param_1
+            - [ be16, 0x013dde19, 0x0000 ] # Null terminate
+            - [ utf8, 0x013dde38, /game/BCES00569/USRDIR/direct ] # <-- Change BCES00569 accordingly!
+            - [ be16, 0x013dde55, 0x0000 ] # Null terminate
+        ```
+
+    ??? abstract "BCUS98114"
+
+        ```yaml
+        "Raw Reading Patch":
+        Games:
+          "Gran Turismo 5":
+            BCUS98114: [ 02.11 ]
+        Author: "Nenkai"
+        Patch Version: 1.0
+        Group: ""
+        Notes: ""
+        Patch:
+          - [ be32, 0x000120a0, 0x386004A0 ] # Adjust sizeof(PDIPS3::FileDevicePFSGameData) to sizeof(PDIPS3::FileDeviceCellFS) for new
+          - [ be32, 0x000120d8, 0x3888E308 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, param1, param2, param3)
+          - [ be32, 0x000120dc, 0x38A8E330 ] # Change pointer to a vtable name
+          - [ be32, 0x000120e0, 0x7D064378 ] # Change pointer to a vtable name
+          - [ be32, 0x00a73160, 0x48004ED5 ] # Rectify pointer offset to device list field
+          - [ be32, 0x00a7316c, 0x941D0498 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceCellFS
+          - [ utf8, 0x013dde70, /dev_hdd0 ] # param_1
+          - [ be16, 0x013dde79, 0x0000 ] # Null terminate
+          - [ utf8, 0x013dde98, /game/BCUS98114/USRDIR/direct ]
+          - [ be16, 0x013ddeb5, 0x0000 ] # Null terminate
+        ```
         
+
     Enable the patch in the game patches menu by right clicking on the game and clicking on `Manage Game Patches`.
 
-=== "EBOOT Patch"
+=== "EBOOT Patch (BCES00569)"
 
     TrueAncestorSELFResigner is required. decrypt `EBOOT.BIN` with `1. Decrypt EBOOT.BIN Only`.
 
@@ -59,7 +86,7 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
 
     Then resign it using the `2. Resign to NON-DRM EBOOT` option.
 
-=== "Raw Patch"
+=== "Raw Patch (BCES00569)"
 
     ```
     Original
