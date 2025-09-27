@@ -66,49 +66,93 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
 
     Enable the patch in the game patches menu by right clicking on the game and clicking on `Manage Game Patches`.
 
-=== "EBOOT Patch (BCES00569)"
+=== "EBOOT Patch"
 
     TrueAncestorSELFResigner is required. decrypt `EBOOT.BIN` with `1. Decrypt EBOOT.BIN Only`.
 
     With a hex editor, edit `EBOOT.ELF` and place bytes at the following offsets:
-    ```
-    000020a0 - 38 60 04 a0
-    000020d8 - 38 88 E3 08
-    000020dc - 38 A8 E3 30
-    000020e0 - 7D 06 43 78
-    00a6316c - 48 00 4E D5
-    00a63160 - 94 1D 04 98
-    013dde10 - /dev_hdd0
-    013dde19 - 00
-    013dde38 - /game/BCES00569/USRDIR/direct
-    013dde55 - 00 00
-    ```
+
+    ??? abstract "BCES00569"
+
+        ```
+        000020a0 - 38 60 04 a0
+        000020d8 - 38 88 E3 08
+        000020dc - 38 A8 E3 30
+        000020e0 - 7D 06 43 78
+        00a6316c - 48 00 4E D5
+        00a63160 - 94 1D 04 98
+        013dde10 - /dev_hdd0
+        013dde19 - 00
+        013dde38 - /game/BCES00569/USRDIR/direct
+        013dde55 - 00 00
+        ```
+
+    ??? abstract "BCUS98114"
+    
+        ```
+        000020a0 - 38 60 04 a0
+        000020d8 - 38 88 E3 08
+        000020dc - 38 A8 E3 30
+        000020e0 - 7D 06 43 78
+        00a6316c - 48 00 4E D5
+        00a63160 - 94 1D 04 98
+        013dde70 - /dev_hdd0
+        013dde79 - 00
+        013dde98 - /game/BCES00569/USRDIR/direct
+        013ddeb5 - 00 00
+        ```
 
     Then resign it using the `2. Resign to NON-DRM EBOOT` option.
 
-=== "Raw Patch (BCES00569)"
+=== "Raw Patch"
 
-    ```
-    Original
-    000120a0 38 60 02 40     li         param_1,0x240
-    000120d8 7f 44 d3 78     or         param_2=>PTR_s_KALAHARI-37863889_017cc738,r26,r26
-    000120dc 7f 85 e3 78     or         param_3=>s_BCES-00569_013dee60,r28,r28
-    000120e0 7f 26 cb 78     or         param_4=>s_PDIPFS_013dfb00,r25,r25
-    00a7316c 94 1d 02 38     stwu       r0,0x238(r29)
-    00a73160 4b ff fe ed     bl         FUN_00a7304c 
+    ??? abstract "BCES00569"
 
-    Edited:
-    000120a0 38 60 04 a0     li         param_1,0x4a0
-    000120d8 38 88 e3 08     subi       param_2,param_6,0x1cf8
-    000120dc 38 a8 e3 30     subi       param_3,param_6,0x1cd0
-    000120e0 7d 06 43 78     or         param_4,param_6,param_6
+        ```
+        Original
+        000120a0 38 60 02 40     li         param_1,0x240
+        000120d8 7f 44 d3 78     or         param_2=>PTR_s_KALAHARI-37863889_017cc738,r26,r26
+        000120dc 7f 85 e3 78     or         param_3=>s_BCES-00569_013dee60,r28,r28
+        000120e0 7f 26 cb 78     or         param_4=>s_PDIPFS_013dfb00,r25,r25
+        00a7316c 94 1d 02 38     stwu       r0,0x238(r29)
+        00a73160 4b ff fe ed     bl         FUN_00a7304c 
 
-    00a73160 48 00 4e d5     bl         PDIPS3::FileDeviceCellFS::FileDeviceCellFS
-    00a7316c 94 1d 04 98     stwu       r0,0x498(r29)
+        Edited:
+        000120a0 38 60 04 a0     li         param_1,0x4a0
+        000120d8 38 88 e3 08     subi       param_2,param_6,0x1cf8
+        000120dc 38 a8 e3 30     subi       param_3,param_6,0x1cd0
+        000120e0 7d 06 43 78     or         param_4,param_6,param_6
 
-    13dde10 - "/dev_hdd0" (null terminated)
-    13dde38 - "/PS3_GAME/USRDIR/direct" (null terminated)
-    ```
+        00a73160 48 00 4e d5     bl         PDIPS3::FileDeviceCellFS::FileDeviceCellFS
+        00a7316c 94 1d 04 98     stwu       r0,0x498(r29)
+
+        13dde10 - "/dev_hdd0" (null terminated)
+        13dde38 - "/PS3_GAME/USRDIR/direct" (null terminated)
+        ```
+
+    ??? abstract "BCUS98114"
+    
+        ```
+        Original
+        000120a0 38 60 02 40     li         param_1,0x240
+        000120d8 7f 44 d3 78     or         param_2=>PTR_s_KALAHARI-37863889_017cc738,r26,r26
+        000120dc 7f 85 e3 78     or         param_3=>s_BCES-00569_013dee60,r28,r28
+        000120e0 7f 26 cb 78     or         param_4=>s_PDIPFS_013dfb00,r25,r25
+        00a7316c 94 1d 02 38     stwu       r0,0x238(r29)
+        00a73160 4b ff fe ed     bl         FUN_00a7304c 
+
+        Edited:
+        000120a0 38 60 04 a0     li         param_1,0x4a0
+        000120d8 38 88 e3 08     subi       param_2,param_6,0x1cf8
+        000120dc 38 a8 e3 30     subi       param_3,param_6,0x1cd0
+        000120e0 7d 06 43 78     or         param_4,param_6,param_6
+
+        00a73160 48 00 4e d5     bl         PDIPS3::FileDeviceCellFS::FileDeviceCellFS
+        00a7316c 94 1d 04 98     stwu       r0,0x498(r29)
+
+        13dde70 - "/dev_hdd0" (null terminated)
+        13dde98 - "/PS3_GAME/USRDIR/direct" (null terminated)
+        ```
 
 Extracted game files go under `USRDIR` as such that `/dev_hdd0/game/BCES00569/USRDIR/font/vec/fontset_US.txt` is valid. Base game contents must be extracted (GT.VOL), then update contents (PDIPFS) extracted ontop of it. 
 
