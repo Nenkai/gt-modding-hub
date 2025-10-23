@@ -967,6 +967,8 @@ CarID,CarLabel,Name,ModelPath
 1568,`xkr_coupe_10`,Jaguar XKR Coupe '10,0008/0011
 1569,`eneos_sc430_08`,Lexus ENEOS SC430 '08,0074/0019
 1570,`insight_ls_09`,Honda INSIGHT LS '09,0005/0100
+1571,`_370z_08_eu`,Nissan 370Z (GT Academy 2012),0003/0150
+1572,`_370z_08_t_eu`,Nissan 370Z Tuned Car (GT Academy 2010),0003/0151
 1574,`woodone_advan_clarion_gtr_08`,Nissan WOODONE ADVAN Clarion GT-R '08,0003/0149
 1575,`gt_by_citroen_race_xx`,GT by Citroën Race Car,0042/0012
 1578,`_8c_competizione_08`,Alfa Romeo 8C Competizione '08,0010/0003
@@ -1002,6 +1004,7 @@ CarID,CarLabel,Name,ModelPath
 1659,`nascar_camry_11_10`,2010 Denny Hamlin #11 FedEx TOYOTA CAMRY,0004/0085
 1660,`nascar_camry_18_10`,2010 Kyle Busch #18 M&M'S® TOYOTA CAMRY,0004/0086
 1661,`nascar_camry_20_10`,2010 Joey Logano #20 The Home Depot TOYOTA CAMRY,0004/0087
+1662,`nascar_camry_20_gamestop_10`,2010 Joey Logano #20 GameStop TOYOTA CAMRY (Fantasy),0004/0088
 1663,`nascar_camry_83_10`,2010 Brian Vickers #83 Red Bull TOYOTA CAMRY,0004/0089
 1664,`nascar_fusion_43_10`,2010 AJ Allmendinger #43 Best Buy FORD FUSION,0002/0022
 1665,`nascar_fusion_99_10`,2010 Carl Edwards #99 Aflac FORD FUSION,0002/0021
@@ -1018,12 +1021,16 @@ CarID,CarLabel,Name,ModelPath
 1689,`civic_r_97_rm`,Honda CIVIC TYPE R (EK) Touring Car '97,0005/0105
 1690,`cr_z_a_10_rm`,Honda CR-Z Touring Car,0005/0107
 1691,`integra_r_04_rm`,Honda INTEGRA TYPE R (DC5) Touring Car '04,0005/0106
+1692,`nsx_r_02_rm`,Honda NSX Type R Racing Modify,0005/0098
 1694,`is_f_07_rm`,Lexus IS F Touring Car '07,0074/0022
+1695,`lfa_10_rm`,Lexus LFA Racing Modify,0074/0023
 1696,`elise_96_rm`,Lotus Elise Race Car '96,0009/0022
 1697,`elise_111r_04_rm`,Lotus Elise 111R Race Car '04,0009/0021
+1698,`eagle_type122_09_rm`,Lotus Evora Touring Car,0009/0023
 1701,`rx7_spiritr_a_02_rm`,Mazda RX-7 Touring Car,0001/0110
 1703,`lancer_evo9_gsr_05_rm`,Mitsubishi Lancer Evolution IX    GSR Touring Car '05,0012/0082
 1704,`lancer_evo10_gsr_premium_07_rm`,Mitsubishi Lancer Evolution X    Rally Car,0012/0083
+1706,`gtr_07_rm`,Nissan GT-R Racing Modify,0003/0165
 1707,`gtr_specv_09_rm`,Nissan GT-R R35 Touring Car,0003/0166
 1708,`s15_silvia_specr_aero_02_rm`,Nissan SILVIA spec-R AERO (S15) Touring Car '02,0003/0160
 1709,`r33_gtr_v_97_rm`,Nissan SKYLINE GT-R R33 Touring Car,0003/0163
@@ -1031,6 +1038,7 @@ CarID,CarLabel,Name,ModelPath
 1711,`r34_gtr_v2_nur_02_rm`,Nissan SKYLINE GT-R R34 Touring Car,0003/0164
 1712,`impreza_wrx_sti_c_ra_05_rm`,Subaru IMPREZA Sedan WRX STI Rally Car '05,0020/0036
 1714,`cappuccino_95_rm`,Suzuki Cappuccino (EA21R) Race Car '95,0006/0020
+1715,`swift_sports_07_rm`,Suzuki SWIFT Sport Racing Modify,0006/0020
 1716,`prius_g_09_rm`,Toyota PRIUS Touring Car,0004/0090
 1718,`tuscan_speed6_00_rm`,TVR Tuscan Speed 6 Touring Car '00,0015/0012
 1719,`golf_gti_5dr_01_rm`,Volkswagen Golf IV GTI Touring Car '01,0037/0022
@@ -1043,10 +1051,14 @@ CarID,CarLabel,Name,ModelPath
 1729,`mustang_mach1_71`,Ford Mustang Mach 1 '71,0002/0020
 1732,`x1_f_10`,Gran Turismo Red Bull X2010 Prototype,0188/0012
 1733,`x1_10`,Gran Turismo Red Bull X2010 S.Vettel,0188/0014
+1736,`car_color_sample`,Car Color Sample,0188/0016
+1737,`wheel_color_sample`,Wheel Color Sample,0188/0017
 1738,`impreza_wrx_sti_c_18_09`,Subaru IMPREZA WRX STI spec C '09,0020/0037
 1739,`corvette_z06_06_rm`,Chevrolet Corvette Z06 (C6) LM Race Car '06,0022/0036
 1740,`x1_p_10`,Gran Turismo Red Bull X2010,0188/0013
+1743,`camaro_ss_10_edge`,Chevrolet Camaro SS "Edge Special",0022/0038
 1744,`gtr_specv_09_ac_sp`,Nissan GT-R SpecV (GT Academy SPECIAL),0003/0167
+1745,`x1_c_10`,Gran Turismo Red Bull X2010 JP Flag Color,0188/0018
 1746,`roadster_89_rm`,Mazda Roadster Touring Car,0001/0109
 1747,`impreza_sedan_wrx_sti_10_rm`,Subaru IMPREZA Touring Car,0020/0038
 1749,`nascar_impala_14_11`,2011 Tony Stewart #14 Office Depot CHEVROLET IMPALA,0022/0039
@@ -1077,6 +1089,17 @@ CarID,CarLabel,Name,ModelPath
 1775,`racing_kart_125_sp_xx`,Gran Turismo RACING KART 125 SPL.,0188/0023
 1776,`fr_s_12`,Scion FR-S '12,0187/0003
 1778,`volkswagen_1200_66`,Volkswagen 1200 '66,0037/0025
+1779,`toyota_86_12_tms`,Toyota 86 '12,0004/0097
+1780,`nsx_concept_12`,Acura NSX CONCEPT '12,0040/0034
+1781,`leaf_g_11_ac`,Nissan Leaf G (GT Academy 2012),0003/0172
+1782,`gtr_black_12_ac`,Nissan GT-R Black edition (GT Academy 2012),0003/0170
+1783,`gtr_black_12_t_ac`,Nissan GT-R Black edition Tuned Car (GT Academy 2012),0003/0171
+1785,`gtr_n_12_testcar`,GTR_N_12TestCar,0003/0173
+1786,`v36_skyline_coupe_370gt_sp_07_ac`,Nissan SKYLINE Coupe 370GT (GT Academy Version) '07,0003/0174
+1787,`r32_gtr_v2_94_ac`,Nissan SKYLINE GT-R V・spec II (GT Academy 2012),0003/0175
+1788,`r34_gtr_v2_nur_02_ac`,Nissan SKYLINE GT-R V・spec II Nür (GT Academy 2012),0003/0176
+1789,`s15_silvia_specr_aero_02_ac`,Nissan SILVIA spec-R AERO (GT Academy 2012),0003/0177
+1790,`_370z_08_t_eu_ac_12`,Nissan 370Z Tuned Car (GT Academy 2012),0003/0178
 1792,`quattro_s1_86`,Audi Sport quattro S1 Rally Car '86,0057/0030
 1793,`r8_gt3_oreca_10`,Audi R8 LMS - Team Oreca '10,0057/0031
 1794,`cizeta_v16t_94_prm`,Cizeta V16T '94,0059/0002
@@ -1087,8 +1110,11 @@ CarID,CarLabel,Name,ModelPath
 1800,`brz_s_12`,Subaru BRZ S '12,0020/0039
 1801,`weider_hsv_010_11`,Honda weider HSV-010 '11,0005/0108
 1802,`gtr_n24_gta_12`,Nissan GT-R N24 GT Academy '12,0003/0179
+1803,`x2010_5g_12`,Gran Turismo Red Bull X2010 5G,0188/0026
 1804,`corvette_c7_proto_13_bm_un`,XXXXXXX,0022/0045
 1805,`corvette_c7_proto_13_bm`,Chevrolet Corvette C7 Test Prototype,0022/0046
+1807,`x2010_5g_12_dl`,Gran Turismo Red Bull X2010 5G,0188/0027
+1808,`x2010_5g_12_fin`,Gran Turismo Red Bull X2010 5G,0188/0028
 1809,`corvette_c7_proto_13`,Chevrolet 2014 Corvette Stingray Final Prototype,0022/0047
 1810,`nsx_concept2_13`,Honda NSX CONCEPT '13,0005/0109
 1811,`acura_nsx_concept2_13`,Acura NSX CONCEPT '13,0040/0035
@@ -1109,6 +1135,8 @@ CarID,CarLabel,Name,ModelPath
 1907,`x_bow_r_12`,KTM X-BOW R '12,0239/0001
 1908,`xkr_s_11`,Jaguar XKR-S '11,0008/0014
 1909,`rocket_07`,Light Car Company Rocket '07,0243/0001
+1910,`march_12sr_07_ac13`,Nissan March 12SR (GT Academy Version) '07,0003/0184
+1911,`s15_silvia_specr_aero_02_ac13`,Nissan SILVIA spec-R AERO (GT Academy Version) '02,0003/0183
 1912,`_370z_08_eu_ac13`,Nissan 370Z (GT Academy 2013),0003/0182
 1913,`gtr_black_12_ac13`,Nissan GT-R Black edition (GT Academy 2013),0003/0181
 1914,`leaf_g_11_ac13`,Nissan Leaf G (GT Academy 2013),0003/0186
@@ -1118,6 +1146,7 @@ CarID,CarLabel,Name,ModelPath
 1918,`sauber_mercedes_c9_89_prm`,Mercedes-Benz Sauber Mercedes C9 '89,0053/0029
 1919,`lancer_evo6_tommi_gsr_00_prm`,Mitsubishi Lancer Evolution VI    GSR T.M. EDITION '00,0012/0084
 1920,`lancer_evo6_tommi_rs_00_prm`,Mitsubishi Lancer Evolution VI    RS T.M. EDITION '00,0012/0085
+1921,`impreza_22b_98_prm`,Subaru IMPREZA Coupe 22B-STi Version '98,0020/0040
 1922,`_2000_gt_67_prm`,Toyota 2000GT '67,0004/0100
 1923,`cts_v_coupe_11`,Cadillac CTS-V Coupe '11,0056/0002
 1924,`jayleno_olds_tornado_xx`,Jay Leno 1966 Oldsmobile Toronado,0171/0002
@@ -1139,11 +1168,14 @@ CarID,CarLabel,Name,ModelPath
 1940,`focus_st_13`,Ford Focus ST '13,0086/0010
 1941,`stratos_73_prm`,Lancia STRATOS '73,0043/0007
 1942,`cizeta_v16t_94_prm_15anv`,Cizeta V16T 15th Anniversary Edition '94,0059/0003
+1943,`v12_vantage_10_15anv`,Aston Martin V12 Vantage '10 GT6 Pre-Order,0062/0010
 1944,`r8_lms_ultra_12_15anv`,Audi R8 LMS ultra 15th Anniversary Edition '12,0057/0034
+1945,`z4_gt3_11_15anv`,BMW Z4 GT3 '11 GT6 Pre-Order,0007/0029
 1946,`corvette_c7_14_15anv`,Chevrolet Corvette Stingray (C7) 15th Anniversary Edition '14,0022/0051
 1947,`mustang_shelby_gt500_13_15anv`,Ford Shelby GT500 15th Anniversary Edition '13,0002/0028
 1948,`weider_hsv_010_11_15anv`,Honda HSV-010 GT 15th Anniversary Edition '11,0005/0111
 1949,`x_bow_r_12_15anv`,KTM X-BOW R 15th Anniversary Edition '12,0239/0002
+1950,`aventador_lp700_4_11_15anv`,Lamborghini Aventador LP 700-4 '11 GT6 Pre-Order,0228/0015
 1951,`is_f_racing_concept_08_15anv`,Lexus IS F Racing Concept 15th Anniversary Edition '08,0074/0024
 1952,`sls_amg_gt3_11_15anv`,Mercedes-Benz SLS AMG GT3 15th Anniversary Edition '11,0053/0030
 1953,`gtr_nismo_gt3_13_15anv`,Nissan GT-R NISMO GT3 15th Anniversary Edition '13,0003/0188
