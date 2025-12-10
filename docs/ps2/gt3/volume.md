@@ -5,7 +5,7 @@
 * Understanding how [Command Prompt / `cmd`](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) works and opening it in a folder.
 * Windows
 * Preferably [PCSX2](https://pcsx2.net/)
-* [GT3VOLExtractor](https://github.com/Nenkai/gt2tools/releases) - **make sure you use this version, it is a fork**
+* [GT3VOLExtractor](https://github.com/Nenkai/gt2tools/releases/tag/GT3VOLExtractor) - **make sure you use this version, it is a fork**
 
 ---
 
