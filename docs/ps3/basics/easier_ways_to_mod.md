@@ -18,49 +18,51 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
     ??? abstract "BCES00569"
 
         ```yaml
-        "Raw Reading Patch":
-          Games:
-            "Gran Turismo 5":
-              BCES00569: [ 02.11 ]
-          Author: "Nenkai"
-          Patch Version: 1.0
-          Group: ""
-          Notes: ""
-          Patch:
-            - [ be32, 0x000120a0, 0x386004A0 ] # Adjust sizeof(PDIPS3::FileDevicePFSGameData) to sizeof(PDIPS3::FileDeviceCellFS) for new
-            - [ be32, 0x000120d8, 0x3888E308 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, param1, param2, param3)
-            - [ be32, 0x000120dc, 0x38A8E330 ] # Change pointer to a vtable name
-            - [ be32, 0x000120e0, 0x7D064378 ] # Change pointer to a vtable name
-            - [ be32, 0x00a73160, 0x48004ED5 ] # Rectify pointer offset to device list field
-            - [ be32, 0x00a7316c, 0x941D0498 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceCellFS
-            - [ utf8, 0x013dde10, /dev_hdd0\0 ] # param_1
-            - [ be16, 0x013dde19, 0x0000 ] # Null terminate
-            - [ utf8, 0x013dde38, /game/BCES00569/USRDIR/direct ] # <-- Change BCES00569 accordingly!
-            - [ be16, 0x013dde55, 0x0000 ] # Null terminate
+        PPU-7a5ee7bc2fef9566dd80e35893fe2c5571197726:
+          "Raw Reading Patch":
+            Games:
+              "Gran Turismo 5":
+                BCES00569: [ 02.11 ]
+            Author: "Nenkai"
+            Patch Version: 1.0
+            Group: ""
+            Notes: ""
+            Patch:
+              - [ be32, 0x000120a0, 0x386004A0 ] # Adjust sizeof(PDIPS3::FileDevicePFSGameData) to sizeof(PDIPS3::FileDeviceCellFS) for new
+              - [ be32, 0x000120d8, 0x3888E308 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, param1, param2, param3)
+              - [ be32, 0x000120dc, 0x38A8E330 ] # Change pointer to a vtable name
+              - [ be32, 0x000120e0, 0x7D064378 ] # Change pointer to a vtable name
+              - [ be32, 0x00a73160, 0x48004ED5 ] # Rectify pointer offset to device list field
+              - [ be32, 0x00a7316c, 0x941D0498 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceCellFS
+              - [ utf8, 0x013dde10, /dev_hdd0\0 ] # param_1
+              - [ be16, 0x013dde19, 0x0000 ] # Null terminate
+              - [ utf8, 0x013dde38, /game/BCES00569/USRDIR/direct ] # <-- Change BCES00569 accordingly!
+              - [ be16, 0x013dde55, 0x0000 ] # Null terminate
         ```
 
     ??? abstract "BCUS98114"
 
         ```yaml
-        "Raw Reading Patch":
-        Games:
-          "Gran Turismo 5":
-            BCUS98114: [ 02.11 ]
-        Author: "Nenkai"
-        Patch Version: 1.0
-        Group: ""
-        Notes: ""
-        Patch:
-          - [ be32, 0x000120a0, 0x386004A0 ] # Adjust sizeof(PDIPS3::FileDevicePFSGameData) to sizeof(PDIPS3::FileDeviceCellFS) for new
-          - [ be32, 0x000120d8, 0x3888E308 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, param1, param2, param3)
-          - [ be32, 0x000120dc, 0x38A8E330 ] # Change pointer to a vtable name
-          - [ be32, 0x000120e0, 0x7D064378 ] # Change pointer to a vtable name
-          - [ be32, 0x00a73160, 0x48004ED5 ] # Rectify pointer offset to device list field
-          - [ be32, 0x00a7316c, 0x941D0498 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceCellFS
-          - [ utf8, 0x013dde70, /dev_hdd0 ] # param_1
-          - [ be16, 0x013dde79, 0x0000 ] # Null terminate
-          - [ utf8, 0x013dde98, /game/BCUS98114/USRDIR/direct ]
-          - [ be16, 0x013ddeb5, 0x0000 ] # Null terminate
+        PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce:
+          "Raw Reading Patch":
+            Games:
+              "Gran Turismo 5":
+                BCUS98114: [ 02.11 ]
+            Author: "Nenkai"
+            Patch Version: 1.0
+            Group: ""
+            Notes: ""
+            Patch:
+              - [ be32, 0x000120a0, 0x386004A0 ] # Adjust sizeof(PDIPS3::FileDevicePFSGameData) to sizeof(PDIPS3::FileDeviceCellFS) for new
+              - [ be32, 0x000120d8, 0x3888E308 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, param1, param2, param3)
+              - [ be32, 0x000120dc, 0x38A8E330 ] # Change pointer to a vtable name
+              - [ be32, 0x000120e0, 0x7D064378 ] # Change pointer to a vtable name
+              - [ be32, 0x00a73160, 0x48004ED5 ] # Rectify pointer offset to device list field
+              - [ be32, 0x00a7316c, 0x941D0498 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceCellFS
+              - [ utf8, 0x013dde70, /dev_hdd0 ] # param_1
+              - [ be16, 0x013dde79, 0x0000 ] # Null terminate
+              - [ utf8, 0x013dde98, /game/BCUS98114/USRDIR/direct ]
+              - [ be16, 0x013ddeb5, 0x0000 ] # Null terminate
         ```
         
     ??? abstract "BCJS30001"
@@ -104,10 +106,10 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         000020e0 - 7D 06 43 78
         00a6316c - 48 00 4E D5
         00a63160 - 94 1D 04 98
-        013dde10 - /dev_hdd0
-        013dde19 - 00
-        013dde38 - /game/BCES00569/USRDIR/direct
-        013dde55 - 00 00
+        013cde10 - /dev_hdd0
+        013cde19 - 00
+        013cde38 - /game/BCES00569/USRDIR/direct
+        013cde55 - 00 00
         ```
 
     ??? abstract "BCUS98114"
@@ -152,8 +154,10 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         000120d8 7f 44 d3 78     or         param_2=>PTR_s_KALAHARI-37863889_017cc738,r26,r26
         000120dc 7f 85 e3 78     or         param_3=>s_BCES-00569_013dee60,r28,r28
         000120e0 7f 26 cb 78     or         param_4=>s_PDIPFS_013dfb00,r25,r25
+        00a73160 4b ff fe ed     bl         FUN_00a7304c
         00a7316c 94 1d 02 38     stwu       r0,0x238(r29)
-        00a73160 4b ff fe ed     bl         FUN_00a7304c 
+        13dde10 - "N6PDISTD24RuntimeResourceInstanceTIPvEE" (null terminated)
+        13dde38 - "N6PDISTD21RuntimeResourceValueTIPvEE" (null terminated)
 
         Edited:
         000120a0 38 60 04 a0     li         param_1,0x4a0
@@ -165,7 +169,7 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         00a7316c 94 1d 04 98     stwu       r0,0x498(r29)
 
         13dde10 - "/dev_hdd0" (null terminated)
-        13dde38 - "/PS3_GAME/USRDIR/direct" (null terminated)
+        13dde38 - "/game/BCES00569/USRDIR/direct" (null terminated)
         ```
 
     ??? abstract "BCUS98114"
@@ -176,8 +180,8 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         000120d8 7f 44 d3 78     or         param_2=>PTR_s_KALAHARI-37863889_017cc738,r26,r26
         000120dc 7f 85 e3 78     or         param_3=>s_BCES-00569_013dee60,r28,r28
         000120e0 7f 26 cb 78     or         param_4=>s_PDIPFS_013dfb00,r25,r25
+        00a73160 4b ff fe ed     bl         FUN_00a7304c
         00a7316c 94 1d 02 38     stwu       r0,0x238(r29)
-        00a73160 4b ff fe ed     bl         FUN_00a7304c 
 
         Edited:
         000120a0 38 60 04 a0     li         param_1,0x4a0
@@ -189,7 +193,7 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         00a7316c 94 1d 04 98     stwu       r0,0x498(r29)
 
         13dde70 - "/dev_hdd0" (null terminated)
-        13dde98 - "/PS3_GAME/USRDIR/direct" (null terminated)
+        13dde98 - "/game/BCES00569/USRDIR/direct" (null terminated)
         ```
 
     ??? abstract "BCJS30001"
@@ -200,23 +204,25 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         000120d4 7f 44 d3 78     or         param_2=>PTR_s_KALAHARI-37863889_017cc738,r26,r26
         000120d8 7f 85 e3 78     or         param_3=>s_BCES-00569_013dee60,r28,r28
         000120dc 7f 26 cb 78     or         param_4=>s_PDIPFS_013dfb00,r25,r25
-        00a73160 4b ff fe ed     bl         FUN_00a7304c 
+        00a73160 4b ff fe ed     bl         FUN_00a7304c
         00a7316c 94 1d 02 38     stwu       r0,0x238(r29)
+        13dde10 - "N6PDISTD24RuntimeResourceInstanceTIPvEE" (null terminated)
+        13dde38 - "N6PDISTD21RuntimeResourceValueTIPvEE" (null terminated)
 
         Edited:
         0001209c 38 60 04 a0     li         param_1,0x4a0
-        000120d4 38 88 e3 38     subi       param_2,param_6,0x1cc8 // param_6 stores 0x13dfad8h on BCJS30001
-        000120d8 38 A8 e3 60     subi       param_3,param_6,0x1ca0 // param_6 stores 0x13dfad8h on BCJS30001
+        000120d4 38 88 e3 38     subi       param_2,param_6,0x1cc8 // param_6 stores 0x13dfad8h
+        000120d8 38 A8 e3 60     subi       param_3,param_6,0x1ca0 // param_6 stores 0x13dfad8h
         000120dc 7d 06 43 78     or         param_4,param_6,param_6
 
         00a73160 48 00 4e d5     bl         PDIPS3::FileDeviceCellFS::FileDeviceCellFS
         00a7316c 94 1d 04 98     stwu       r0,0x498(r29)
 
         13dde10 - "/dev_hdd0" (null terminated)
-        13dde38 - "/PS3_GAME/USRDIR/direct" (null terminated)
+        13dde38 - "/game/BCJS30001/USRDIR/direct" (null terminated)
         ```
 
-Extracted game files go under `USRDIR` as such that `/dev_hdd0/game/BCES00569/USRDIR/font/vec/fontset_US.txt` is valid. Base game contents must be extracted (GT.VOL), then update contents (PDIPFS) extracted ontop of it. 
+Extracted game files go under `USRDIR` as such that `/dev_hdd0/game/BCES00569/USRDIR/direct/font/vec/fontset_US.txt` is valid. Base game contents must be extracted (GT.VOL), then update contents (PDIPFS) extracted ontop of it. 
 
 !!! warning
     You may need to move some files from `specdb/GT5_JP3009` to `specdb/GT5_JP3010` if you get a crash.
