@@ -104,8 +104,8 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         000020d8 - 38 88 E3 08
         000020dc - 38 A8 E3 30
         000020e0 - 7D 06 43 78
-        00a6316c - 48 00 4E D5
-        00a63160 - 94 1D 04 98
+        00a63160 - 48 00 4E D5
+        00a6316c - 94 1D 04 98
         013cde10 - /dev_hdd0
         013cde19 - 00
         013cde38 - /game/BCES00569/USRDIR/direct
