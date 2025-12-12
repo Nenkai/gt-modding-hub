@@ -18,7 +18,7 @@ icon: material/tools
 [GT2CarViewer](../tools/GT2CarViewerEdit_v024a.7z)| Leo2236/pez2k/TheAdmiester | View GT2 and its demos' cars models and colors, export to obj - edited version with a few fixes |
 [GT2SolodataEditor](https://github.com/pez2k/gt2tools/releases/tag/GT2SolodataEditor10)| pez2k | GT2 solodata.dat file editing (car descriptions and special menu page IDs) |
 [TimViewer](https://www.romhacking.net/utilities/486/)| rveach | Viewing TIM texture files, extracting their data |
-[TIMformatE.8BI](../tools/TIMformatE.8BI)| 야가미 | Photoshop plugin for editing TIM image files |
+[timplug.zip](../tools/timplug.zip)| 야가미 | Photoshop plugin for editing TIM image files |
 [GT2UsedCarEditor](https://github.com/pez2k/gt2tools/releases/tag/GT2UsedCarEditor10)| pez2k | Tool to edit the available stock in the Used Car Dealerships in Gran Turismo 2 |
 [GT2CarIDConverter](https://github.com/pez2k/gt2tools/releases/tag/GT2CarIDConverter10)| pez2k | Convert GT2 car IDs to and from their hex hashes used in files and memory |
 [GT2CarInfoEditorCSV](https://github.com/pez2k/gt2tools/releases/tag/GT2CarInfoEditorCSV01)| pez2k | Convert the carinfo files in Gran Turismo 2 to and from CSV (replay names, car colour information, and more) |
