@@ -119,12 +119,12 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         000020d8 - 38 88 E3 08
         000020dc - 38 A8 E3 30
         000020e0 - 7D 06 43 78
-        00a6316c - 48 00 4E D5
-        00a63160 - 94 1D 04 98
-        013dde70 - /dev_hdd0
-        013dde79 - 00
-        013dde98 - /game/BCES00569/USRDIR/direct
-        013ddeb5 - 00 00
+        00a63160 - 48 00 4E D5
+        00a6316c - 94 1D 04 98
+        013cde70 - /dev_hdd0
+        013cde79 - 00
+        013cde98 - /game/BCUS98114/USRDIR/direct
+        013cdeb5 - 00 00
         ```
 
     ??? abstract "BCJS30001"
@@ -193,7 +193,7 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         00a7316c 94 1d 04 98     stwu       r0,0x498(r29)
 
         13dde70 - "/dev_hdd0" (null terminated)
-        13dde98 - "/game/BCES00569/USRDIR/direct" (null terminated)
+        13dde98 - "/game/BCUS98114/USRDIR/direct" (null terminated)
         ```
 
     ??? abstract "BCJS30001"
