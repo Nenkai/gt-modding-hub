@@ -14,6 +14,7 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
     
     * :flag_eu: EU: `PPU-7a5ee7bc2fef9566dd80e35893fe2c5571197726`
     * :flag_us: US: `PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce`
+    * :flag_jp: JP: `PPU-26c56a42dbc303893506c4b76b496780f204d329`
 
     ??? abstract "BCES00569"
 
@@ -48,21 +49,21 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
             Games:
               "Gran Turismo 5":
                 BCUS98114: [ 02.11 ]
-            Author: "Nenkai"
-            Patch Version: 1.0
+            Author: "Nenkai, chmcl95"
+            Patch Version: 1.1
             Group: ""
             Notes: ""
             Patch:
               - [ be32, 0x000120a0, 0x386004A0 ] # Adjust sizeof(PDIPS3::FileDevicePFSGameData) to sizeof(PDIPS3::FileDeviceCellFS) for new
-              - [ be32, 0x000120d8, 0x3888E308 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, param1, param2, param3)
-              - [ be32, 0x000120dc, 0x38A8E330 ] # Change pointer to a vtable name
+              - [ be32, 0x000120d8, 0x3888E328 ] # Adjust parameters PDIPS3::FileDeviceGameData(device, param1, param2, param3)
+              - [ be32, 0x000120dc, 0x38A8E350 ] # Change pointer to a vtable name
               - [ be32, 0x000120e0, 0x7D064378 ] # Change pointer to a vtable name
               - [ be32, 0x00a73160, 0x48004ED5 ] # Rectify pointer offset to device list field
               - [ be32, 0x00a7316c, 0x941D0498 ] # Change PDIPS3::FileDevicePFSGameData device to PDIPS3::FileDeviceCellFS
-              - [ utf8, 0x013dde70, /dev_hdd0 ] # param_1
-              - [ be16, 0x013dde79, 0x0000 ] # Null terminate
-              - [ utf8, 0x013dde98, /game/BCUS98114/USRDIR/direct ]
-              - [ be16, 0x013ddeb5, 0x0000 ] # Null terminate
+              - [ utf8, 0x013dde90, /dev_hdd0 ] # param_1
+              - [ be16, 0x013dde99, 0x0000 ] # Null terminate
+              - [ utf8, 0x013ddeb8, /game/BCUS98114/USRDIR/direct ]
+              - [ be16, 0x013dded5, 0x0000 ] # Null terminate
         ```
         
     ??? abstract "BCJS30001"
@@ -116,15 +117,15 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
     
         ```
         000020a0 - 38 60 04 a0
-        000020d8 - 38 88 E3 08
-        000020dc - 38 A8 E3 30
+        000020d8 - 38 88 E3 28
+        000020dc - 38 A8 E3 50
         000020e0 - 7D 06 43 78
         00a63160 - 48 00 4E D5
         00a6316c - 94 1D 04 98
-        013cde70 - /dev_hdd0
-        013cde79 - 00
-        013cde98 - /game/BCUS98114/USRDIR/direct
-        013cdeb5 - 00 00
+        013cde90 - /dev_hdd0
+        013cde99 - 00
+        013cdeb8 - /game/BCUS98114/USRDIR/direct
+        013cded5 - 00 00
         ```
 
     ??? abstract "BCJS30001"
@@ -182,18 +183,20 @@ GT5 can be patched to read files loose to help testing mods faster. To publish m
         000120e0 7f 26 cb 78     or         param_4=>s_PDIPFS_013dfb00,r25,r25
         00a73160 4b ff fe ed     bl         FUN_00a7304c
         00a7316c 94 1d 02 38     stwu       r0,0x238(r29)
+        13dde90 - "N6PDISTD24RuntimeResourceInstanceTIPvEE" (null terminated)
+        13ddeb8 - "N6PDISTD21RuntimeResourceValueTIPvEE" (null terminated)
 
         Edited:
         000120a0 38 60 04 a0     li         param_1,0x4a0
-        000120d8 38 88 e3 08     subi       param_2,param_6,0x1cf8
-        000120dc 38 a8 e3 30     subi       param_3,param_6,0x1cd0
+        000120d8 38 88 e3 28     subi       param_2,param_6,0x1cd8 // param_6 stores 0x13dfb68h
+        000120dc 38 a8 e3 50     subi       param_3,param_6,0x1cb0 // param_6 stores 0x13dfb68h
         000120e0 7d 06 43 78     or         param_4,param_6,param_6
 
         00a73160 48 00 4e d5     bl         PDIPS3::FileDeviceCellFS::FileDeviceCellFS
         00a7316c 94 1d 04 98     stwu       r0,0x498(r29)
 
-        13dde70 - "/dev_hdd0" (null terminated)
-        13dde98 - "/game/BCUS98114/USRDIR/direct" (null terminated)
+        13dde90 - "/dev_hdd0" (null terminated)
+        13ddeb8 - "/game/BCUS98114/USRDIR/direct" (null terminated)
         ```
 
     ??? abstract "BCJS30001"
