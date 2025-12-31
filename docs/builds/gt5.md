@@ -1615,7 +1615,7 @@ The main build of Gran Turismo 5, released on November 24, 2010.
 
 ![aa](../images/covers/gt_academy_2012.png){ width="200"}
 
-:material-shovel: *Dumped*: {==Barely==} - Japanese & Asian version is missing. Only have the update.
+:material-shovel: *Dumped*: {==Mostly==} - Asian version is missing. Only have the update.
 
 A demo/build of GT5 released for free on PSN to celebrate GT Academy 2012 released on May 1, 2012.
 
