@@ -33,12 +33,13 @@ comments: true
 
 ![aa](../images/covers/gt5_ttc.png){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++}
+:material-shovel: *Dumped*: {==Mostly==}
 
-This was a PSN-only demo. Presumably no japanese release. [Official News](https://www.gran-turismo.com/us/news/02_0005142.html)
+This was a PSN-only demo. [Official News](https://www.gran-turismo.com/us/news/02_0005142.html)
 
 * Europe - [`NPEA-90052`](http://zeus.dl.playstation.net/cdn/EP9001/NPEA90052_00/X5JwAF2fVR431tLGeeg5CUjiEk5FolIPpnJPp0JASokUYeFFEwLfAYC5iYcMWeQqrmrOrL4QMF41JhDFvPjShshse6H6HbvpQ5APU.pkg)
 * America - [`NPUA-70087`](http://zeus.dl.playstation.net/cdn/HP9000/NPHA80080_00/Cv3LhAc1NNkdhDuA7qORMUWs28jtcCgOIEBJW4D630U0MPwnfCMMeUUcJyHcuqJAqRWRxCwtYywghrnU89vStJLk8OmOF0rjS5ySN.pkg)
+* Japan - [`NPJA-90121`](http://zeus.dl.playstation.net/cdn/JP9001/NPJA90121_00/ojM9n9D4YES9o1VcNJVrlH80j7v7uvu21OHWnsIAs1Ur652AMemgLINDtdgTh3ho50YLiPbIh28tFVV9WKnqXQHoVL8NI15kp8yFI.pkg) - **REGION REQUIRES A RAP (for some reason) WHICH IS MISSING!**
 * Asia - [`NPHA-80080`](http://zeus.dl.playstation.net/cdn/UP9000/NPUA70087_00/fsJwHuEhkYFk1imhLuskX7AFRvhSbOtIOvNBD7igfxKhbdpfvAeei4d6NR3cNoeXtGi6tNvkk2t1nATKURdCO1J1JlqFhc98YO7I4.pkg)
 
 ??? abstract "File List"
@@ -1620,7 +1621,7 @@ A demo/build of GT5 released for free on PSN to celebrate GT Academy 2012 releas
 
 * [Europe](http://ares.dl.playstation.net/cdn/EP9001/NPEA90111_00/oWYRppYevRtasDuWPCAXuknCIiBJMyjiPFiGUpOdRZcMSsdUyRPmlcJlRQvMUrkK.pkg) - `NPEA-90111` [(1.01)](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA90111/NPEA90111_T1/bd90c3e1ec014791/EP9001-NPEA90111_00-0000000000000000-A0101-V0100-PE.pkg)
 * [America](http://ares.dl.playstation.net/cdn/UP9000/NPUA70196_00/ttWOHHLLrBRuzPzqhyutZPZAPiwRblYKZqlmzZfDxTBkdenMprICkJbrYnMgQNlBaFoeQWkigmbDgpnlJUjQbcBlcsOVDjKNzFHcJ.pkg) - `NPUA-70196` [(1.01)](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA70196/NPUA70196_T1/1c25f393a8066664/UP9000-NPUA70196_00-0000000000000000-A0101-V0100-PE.pkg)
-* JP - `NPJA-90225`
+* [Japan](http://ares.dl.playstation.net/cdn/JP9001/NPJA90225_00/hmgTliQpmQRHBgOgPGyvansgVnDOZbytpukSvRSjMUKYIShTFKeXFcEwEnogMiTLCibIWPytKJWrvSUhkctENkOEVtjDLNvqsZbuR.pkg) - `NPJA-90225` [(1.01)](http://b0.ww.np.dl.playstation.net/tppkg/np/NPJA90225/NPJA90225_T3/38c1c018a127b79d/JP9001-NPJA90225_00-0000000000000000-A0101-V0101-PE.pkg)
 * Asia - `NPHA-80214` [(1.01)](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80214/NPHA80214_T2/45be84d7da77aa97/HP9000-NPHA80214_00-0000000000000000-A0101-V0101-PE.pkg)
 
 ??? note "Build Info"
@@ -1631,9 +1632,9 @@ A demo/build of GT5 released for free on PSN to celebrate GT Academy 2012 releas
     * VersionBuild: `release`
     * VersionUser: `build`
     * SpecDB Version: `GT5_JP3010`
-    * CompileDateTime: `2012/04/12 2:27:23` (EU)
-    * CompileSVNRevision: `49302` (EU)
-    * EU Volume Serial: `355890627` (1.00)
+    * CompileDateTime: `2012/04/12 02:26:21` (JP) - `2012/04/12 2:27:23` (EU)
+    * CompileSVNRevision: `49302`
+    * EU Volume Serial: `355890627` (1.00 EU)
     * EU Volume Seed: `GREATBASIN-579805832`
     * EU Volume Key: `3862027301, 2193791375, 1334269555, 3177455411`
     * US Volume Seed: `CHIHUAHUAN-638729911`
@@ -1649,10 +1650,11 @@ A demo/build of GT5 released for free on PSN to celebrate GT Academy 2012 releas
     * EU KLicensee: `0x2e79b8d0bfb58323baaa872228fa7b5a`
     * US KLicensee: `0xae387f29911a4b9ef4b316a30aeff3ff`
     * ASIA KLicensee: `0xb7479f5f6e7de8b468eaf676064e4adf`
-    * JP KLicensee: `TODO`
-    * [EU 1.01 Update](http://b0.ww.np.dl.playstation.net/tppkg/np/NPEA90111/NPEA90111_T1/bd90c3e1ec014791/EP9001-NPEA90111_00-0000000000000000-A0101-V0100-PE.pkg)
-    * [US 1.01 Update](http://b0.ww.np.dl.playstation.net/tppkg/np/NPUA70196/NPUA70196_T1/1c25f393a8066664/UP9000-NPUA70196_00-0000000000000000-A0101-V0100-PE.pkg)
-    * [ASIA 1.01 Update](http://b0.ww.np.dl.playstation.net/tppkg/np/NPHA80214/NPHA80214_T2/45be84d7da77aa97/HP9000-NPHA80214_00-0000000000000000-A0101-V0101-PE.pkg)
+    * JP KLicensee: `0x644162d1a4637831f0cbff4aa2bff236`
+
+??? abstract "File Lists"
+
+    * NPJA-90225 [(Install + PDIPFS)](file_lists/NPJA-90225.txt)
 
 ---
 
