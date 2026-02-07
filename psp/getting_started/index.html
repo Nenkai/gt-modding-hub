@@ -6233,7 +6233,7 @@
 <hr>
 <h2 id="extracting-the-game">Extracting the game<a class="headerlink" href="#extracting-the-game" title="Permanent link">¶</a></h2>
 <p>GT PSP uses the <a href="../../concepts/volume/">volume system</a>, which will need to be extracted in order to gain access to game contents.</p>
-<p>If you haven't already, extract the <code>.iso</code> file using <a href="https://www.7-zip.org/">7-Zip</a> or by any other means. You should be able to see a <code>GT3.VOL</code> file.</p>
+<p>If you haven't already, extract the <code>.iso</code> file using <a href="https://www.7-zip.org/">7-Zip</a> or by any other means. You should be able to see a <code>GT.VOL</code> file.</p>
 <p>Using <code>GTPSPVolTools</code>, unpack the volume file as such</p>
 <div class="highlight"><span class="filename">Extracting GT.VOL</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GTPSPVolTools unpack -i &lt;path to GT.VOL&gt;
 </code></pre></div>
@@ -6252,14 +6252,25 @@
 <p>You can also run the game unpacked which may help for modding faster. <strong>NOTE: This method may make memory stick file operations fail</strong>.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>This is currently limited to GTPSP EU 2.00. Feel free to port the patch to other regions.</p>
+<p>This is currently limited to listed version of GTPSP. Feel free to port the patch to other regions.</p>
 </div>
 <p>Requirements:</p>
 <ul>
 <li>Game is registered as a folder game rather than iso.</li>
 <li>Proper file structure as shown below. Volume contents must be extracted directly at the root.</li>
-<li><a href="../patches/UCES01245.ini">Patch</a> (currently GTPSP EU 2.00 only). <strong>Right-click save to</strong></li>
 </ul>
+<div class="admonition abstract">
+<p class="admonition-title">Patch</p>
+<p><strong>Right-click save to</strong></p>
+<details class="abstract">
+<summary>UCES01245</summary>
+<p><a href="../patches/UCES01245.ini">Patch EU(2.00)</a></p>
+</details>
+<details class="abstract">
+<summary>UCJS10100</summary>
+<p><a href="../patches/UCJS10100.ini">Patch JP(1.01)</a></p>
+</details>
+</div>
 <p>Once that is done:</p>
 <ol>
 <li>Save the file to <code>&lt;ppsspp folder&gt;/memstick/PSP/Cheats</code>.</li>
@@ -6273,14 +6284,31 @@
 <p>Make sure you copy the <code>PRX</code> from <code>PSP_GAME/USRDIR</code> folder to the root.</p>
 <div class="no-copy highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>.
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>├─<span class="w"> </span>GTPSP/<span class="w">  </span><span class="c1"># This is the game folder.</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">   </span>├─<span class="w"> </span>PRX/<span class="w"> </span><span class="c1"># &lt; Copy the folder from PSP_GAME/USRDIR/PRX!</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">   </span>├─<span class="w"> </span>advertise/
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">   </span>├─<span class="w"> </span>car/
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">   </span>├─<span class="w"> </span>...
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">   </span>├─<span class="w"> </span>PSP_GAME/
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">   </span><span class="p">|</span><span class="w">  </span>└─<span class="w"> </span>...
-<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">   </span>└─<span class="w"> </span>UMD_DATA.BIN
-<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>...
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">   </span>├─<span class="w"> </span>advertise/
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">   </span>├─<span class="w"> </span>car/
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">   </span>├─<span class="w"> </span>carsound/
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">   </span>├─<span class="w"> </span>character/
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">   </span>├─<span class="w"> </span>crs/
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">   </span>├─<span class="w"> </span>description/
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">   </span>├─<span class="w"> </span>font/
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">   </span>├─<span class="w"> </span>icon/
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">   </span>├─<span class="w"> </span>movie/
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">   </span>├─<span class="w"> </span>piece_gt5m/
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">   </span>├─<span class="w"> </span>products/
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">   </span>├─<span class="w"> </span>projects/
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">   </span>├─<span class="w"> </span>PRX/<span class="w"> </span><span class="c1"># &lt; Copy "PSP_GAME/USRDIR/MODULE" from GTPSP ISO.</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">   </span><span class="p">|</span><span class="w">   </span>├─LIBFONT.PRX
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">   </span><span class="p">|</span><span class="w">   </span>├─LIBSUPPREACC.PRX
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">   </span><span class="p">|</span><span class="w">   </span>└─PSMF.PRX
+<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">   </span>├─<span class="w"> </span>PSP_GAME/
+<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="w">   </span><span class="p">|</span><span class="w">  </span>└─<span class="w"> </span>...
+<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="w">   </span>├─<span class="w"> </span>replay/
+<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="w">   </span>├─<span class="w"> </span>scripts/
+<a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="w">   </span>├─<span class="w"> </span>sound_gt/
+<a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="w">   </span>├─<span class="w"> </span>specdb/
+<a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a><span class="w">   </span>├─<span class="w"> </span>textdata/
+<a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="w">   </span>├─<span class="w"> </span>wheel/
+<a id="__codelineno-2-27" name="__codelineno-2-27" href="#__codelineno-2-27"></a><span class="w">   </span>└─<span class="w"> </span>UMD_DATA.BIN
 </code></pre></div>
 </div>
 <div class="admonition abstract">
@@ -6317,7 +6345,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="January 29, 2025 04:13:51 UTC">January 29, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 7, 2026 08:33:16 UTC">February 7, 2026</span>
   </span>
 
     
@@ -6332,29 +6360,6 @@
 
     
     
-    
-      
-  <span class="md-source-file__fact">
-    
-      
-  <span class="md-icon" title="Contributors">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"></path></svg>
-  </span>
-  <span>GitHub</span>
-
-    
-    <nav>
-      
-        <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
-          
-          <img src="https://avatars.githubusercontent.com/u/13786175?v=4&amp;size=72" alt="Nenkai">
-        </a>
-      
-      
-      
-    </nav>
-  </span>
-
     
   </aside>
 
