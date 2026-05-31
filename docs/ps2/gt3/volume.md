@@ -1,3 +1,7 @@
+---
+icon: material/database
+---
+
 # Getting Started
 
 ## Requirements
@@ -8,6 +12,10 @@
 * [GT3VOLExtractor](https://github.com/Nenkai/gt2tools/releases/tag/GT3VOLExtractor) - **make sure you use this version, it is a fork**
 
 ---
+
+## Extracting ISO
+
+Refer to the [ISO Extraction/Building](../iso_extraction_building.md) guide first.
 
 ## Extracting the game
 

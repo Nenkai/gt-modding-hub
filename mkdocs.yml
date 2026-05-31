@@ -63,6 +63,7 @@ nav:
 
   - PS2 GTs:
     - Index: ps2/index.md
+    - ISO Extraction/Building: ps2/iso_extraction_building.md
     - Models: ps2/models.md
     
     - GT3 / GTC:
