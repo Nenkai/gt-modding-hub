@@ -124,7 +124,7 @@ The build was recovered off a DECHA00A by sneakersdiep. Nothing else was install
     * ModelSet3 Version: `0`
     * Branch/Config: `audi`
     * Supports up to instruction: `48 - SYMBOL_CONST`
-    * PDIVersion: `1.16`
+    * PDIVersion: `undefined`
     * GetVersionString: `r0001`
     * GetMenuProductVersion: `trial`
     * GetScriptProductVersion: `gt5`
