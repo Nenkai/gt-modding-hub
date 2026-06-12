@@ -33,16 +33,6 @@ Most of it still uses GT4 formats.
 
 ---
 
-## GT HD Le Mans 2007 (June ??, 2007)
-
-:material-shovel: *Dumped*: :x: {==No==}
-
-??? youtube "Video"
-    <iframe width="1280" height="712" src="https://www.youtube.com/embed/RDXhoPGWXgI" title="gt hd le mans" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
-
-
 ## GT HD Nissan Xanavi Nismo Z Build (?? ??, 200?)
 
 :material-shovel: *Dumped*: :x: {==No==}
@@ -96,3 +86,52 @@ Most likely never released to the public.
 :material-shovel: *Dumped*: {++Yes++} - available on archive (redump collection) · :material-disc: [Redump Info](http://redump.org/disc/56219/)
 
 This disc installs `NPJA00010`.
+
+---
+
+## Gran Turismo Shell-Audi/Le Mans 2007 Demo (June 11, 2007)
+
+![aa](../images/covers/gthd_audi.png){ width="200" }
+![aa](../images/covers/gthd_audi_2.png){ width="200" }
+
+:material-shovel: *Dumped*: {++Yes++}
+
+Game Code: `PDEV-00400`
+
+A build of Gran Turismo HD Concept demoed during Le Mans 2007 featuring two cars: the Audi R8 '07 and the Audi TT Coupe 3.2 quattro '07, aswell as two tracks: Circuit de la Sarthe and Eiger Short.
+It presumably was the result of a partnership with Shell, as the logo is also displayed in-game. This build is the last one that resembles and uses the GT4/GTHD UIs as the GT5P Free Trial Version was released to the public 4 months later. 
+
+This build is heavily based on the retail version of GTHD, but strays further away from GT4 as a whole. For instance, the `script` folder has been renamed to `scripts` and `scripts/gt5` is now in use.
+
+Internally, no other cars are present. Courses contain `c042` (`r_eiger_short`), `c049` (`sarthe2005_old`) and interestingly, `c056`, which would later on become `sarthe2009` in GT5.
+
+Some odd `keylog` files are also present in the `projects/trial/trial` folder, never seen in any other builds, not files actually used by the game.
+
+The build was recovered off a DECHA00A by sneakersdiep. Nothing else was installed on the hard drive, leading to the assumption that this devkit was only used for this very event.
+
+??? youtube "Video (during live-event)"
+    <iframe width="1280" height="712" src="https://www.youtube.com/embed/RDXhoPGWXgI" title="gt hd le mans" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+??? abstract "File List"
+    * [Install + VOL](file_lists/PDEV-00400-audi.txt)
+
+??? abstract "Secret Commands"
+    * Unlocking main menu options: Hold L1+R1+L2+R2 and press Right Right Left Left Right Right Left Left and then Start
+    * Unlocking settings menu options: Hold L1+R1+L2+R2 and press Down Right Right Down Right Right Down Right Right and then Start
+
+??? note "Build Info"
+    * Adhoc Version: `10`
+    * ModelSet3 Version: `0`
+    * Branch/Config: `audi`
+    * Supports up to instruction: `48 - SYMBOL_CONST`
+    * PDIVersion: `1.16`
+    * GetVersionString: `r0001`
+    * GetMenuProductVersion: `trial`
+    * GetScriptProductVersion: `gt5`
+    * GetBuildNumber: `11`
+    * GetContainmentVersion: `GT4`
+    * Game Code: `PDEV-00400`
+    * Compile Time: `June 11th, 2007` (Based on volume file dates), otherwise `June 3rd, 2007` based on `rt` library compile dates.
+    * SpecDB Version: `GT5_LEMANS_07_2710`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * One executable `EBOOT.BIN`
