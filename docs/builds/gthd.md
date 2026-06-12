@@ -89,16 +89,17 @@ This disc installs `NPJA00010`.
 
 ---
 
-## Gran Turismo Shell-Audi/Le Mans 2007 Demo (June 11, 2007)
+## Gran Turismo HD Audi-Shell/Le Mans 2007 Demo (June 11, 2007)
 
 ![aa](../images/covers/gthd_audi.png){ width="200" }
 ![aa](../images/covers/gthd_audi_2.png){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++}
+:material-shovel: *Dumped*: {++Yes++} - [available on archive](https://archive.org/details/gthd-concept-audi-pdev00400)
 
 Game Code: `PDEV-00400`
 
-A build of Gran Turismo HD Concept demoed during Le Mans 2007 featuring two cars: the Audi R8 '07 and the Audi TT Coupe 3.2 quattro '07, aswell as two tracks: Circuit de la Sarthe and Eiger Short.
+A build of Gran Turismo HD Concept demoed during Le Mans 2007 featuring two cars: the Audi R8 '07 and the Audi TT Coupe 3.2 quattro '07, aswell as two tracks: Circuit de la Sarthe and Eiger Short. [News Article](https://web.archive.org/web/20071213132030/http://www.gran-turismo.com/jp/news/d823.html)
+
 It presumably was the result of a partnership with Shell, as the logo is also displayed in-game. This build is the last one that resembles and uses the GT4/GTHD UIs as the GT5P Free Trial Version was released to the public 4 months later. 
 
 This build is heavily based on the retail version of GTHD, but strays further away from GT4 as a whole. For instance, the `script` folder has been renamed to `scripts` and `scripts/gt5` is now in use.
@@ -111,6 +112,9 @@ The build was recovered off a DECHA00A by sneakersdiep. Nothing else was install
 
 ??? youtube "Video (during live-event)"
     <iframe width="1280" height="712" src="https://www.youtube.com/embed/RDXhoPGWXgI" title="gt hd le mans" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1401" height="788" src="https://www.youtube.com/embed/2v9vKasHWAY" title="Gran Turismo HD Le Mans 2007 Demo | PDEV-00400 | Jun 11, 2007" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ??? abstract "File List"
     * [Install + VOL](file_lists/PDEV-00400-audi.txt)
