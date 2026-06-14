@@ -12,7 +12,7 @@ icon: material/database
 * [GT4FS](https://github.com/Razer2015/GT4FS)
 
 !!! warning
-    It is recommend to mod [Gran Turismo 4 Online Public Beta](../../builds/gt4.md#gt4-online-public-beta-june-6th-2006) as opposed to retail, as retail uses dual-layer discs which cannot be built easily.
+    It is recommend to mod [Gran Turismo 4 Online Public Beta](../../builds/gt4.md#gt4-online-public-beta-june-6th-2006) as opposed to retail, as you can edit files without rebuilding a volume and iso file.
 
 ---
 
@@ -53,8 +53,9 @@ As of 30/09/2023 it is possible to patch GT4 to implement and use HostFS thanks 
 * [PS2 Plugin Injector](https://github.com/ermaccer/ps2plugininjector/releases)
 * [PDTools.GT4ElfBuilderTool](https://github.com/Nenkai/PDTools/releases)
 
-!!! tip
-    Ensure that you have the volume extracted into a `VOL_extract` folder, next to the ISO file before starting this section.
+### Game Contents
+
+**Ensure that you have the volume extracted into a `VOL_extract` folder, next to the ISO file before starting this section.**
 
 ### Creating a patched executable
 First, use PDTools.GT4ElfBuilderTool to decrypt and decompress [CORE.GT4](../executables.md) into its own game executable.

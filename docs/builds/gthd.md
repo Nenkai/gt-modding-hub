@@ -121,7 +121,7 @@ The build was recovered off a DECHA00A by sneakersdiep. Nothing else was install
 
 ??? abstract "Secret Commands"
     * Unlocking main menu options: Hold L1+R1+L2+R2 and press Right Right Left Left Right Right Left Left and then Start
-    * Unlocking settings menu options: Hold L1+R1+L2+R2 and press Down Right Right Down Right Right Down Right Right and then Start
+    * Unlocking settings menu options: Hold L1+R1+L2+R2 and press Down Right Right (repeat 4 times) and then Start
 
 ??? note "Build Info"
     * Adhoc Version: `10`

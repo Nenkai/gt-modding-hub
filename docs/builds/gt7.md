@@ -130,6 +130,11 @@ The main build of Gran Turismo 7.
     * 1.44 - 'Xian'
         * Volume Date: `14/03/2024 21:59:00` (Serial: `732146340`)
 
+    * 1.68 - 'Okinawa'
+        * Volume Date: `09/03/2026 20:03:00` (Serial: `794779380` - PS5)
+
+    * 1.70 - 'Quito'
+
 ---
 
 ## GT7 Kiosk Demo
