@@ -10,7 +10,24 @@ However, most of the files are only read **once**. The files are used to build a
 
 When the game boots for the first time or after an update, you may've seen the `Creating system files...` - this is when XML files are converted and inserted into an SQLite database at `USRDIR/db/system.db`. 
 
-In order to update specific database tables, their version inside each respective [Adhoc](../concepts/adhoc/adhoc.md) scripts under `scripts/gt5/global_status/` must be updated. Otherwise, `system.db` can also be forcefully deleted to trigger GT5 to recreate a database.
+In order to update specific database tables, their version inside each respective [Adhoc](../concepts/adhoc/adhoc.md) scripts under `scripts/gt5/global_status/` must be updated. Otherwise, `system.db` can also be forcefully deleted to trigger GT5 to recreate a database. **DELETING IT MAY DELETE REPLAYS AND OTHER FILES.**
+
+!!! tip
+
+    In other words, if you are editing any of these files:
+    * `textdata/gt5/bspec_driver_list.xml`
+    * `textdata/gt5/carlist.xml`
+    * `textdata/gt5/courselist.xml`
+    * `textdata/gt5/lnames.txt` 
+    * `textdata/gt5/gameitem_type.xml`
+    * `textdata/gt5/gameitem_category.xml`
+    * `textdata/gt5/gameitem_data.xml`
+    * `textdata/gt5/presentcar.xml`
+    * `textdata/gt5/gpsdatalist.xml`
+    * `textdata/gt5/usedcar.xml`
+
+    Edit [this adhoc script](https://github.com/Nenkai/OpenAdhoc/blob/master/src/scripts/gt5/DATABASE_METADATA.ad), bump the relevant table versions, and recompile     [`packed_main_loop.ad`](https://github.com/Nenkai/OpenAdhoc/blob/master/src/scripts/gt5/packed_main_loop.ad) and place it to `scripts/gt5`.
+
 
 ---
 
