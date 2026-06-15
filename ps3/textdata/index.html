@@ -6623,21 +6623,24 @@
 <p>Textdata refers to the <code>textdata</code> folder described on the <a href="../basics/file_structure/">File Structure</a> page. It is mostly a database for UI defined events, cars, items and more.</p>
 <p>However, most of the files are only read <strong>once</strong>. The files are used to build a temporary SQLite database for performance. </p>
 <p>When the game boots for the first time or after an update, you may've seen the <code>Creating system files...</code> - this is when XML files are converted and inserted into an SQLite database at <code>USRDIR/db/system.db</code>. </p>
-<p>In order to update specific database tables, their version inside each respective <a href="../../concepts/adhoc/adhoc/">Adhoc</a> scripts under <code>scripts/gt5/global_status/</code> must be updated. Otherwise, <code>system.db</code> can also be forcefully deleted to trigger GT5 to recreate a database. <strong>DELETING IT MAY DELETE REPLAYS AND OTHER FILES.</strong></p>
+<p>In order to update specific database tables, their version inside each respective <a href="../../concepts/adhoc/adhoc/">Adhoc</a> scripts under <code>scripts/gt5</code> must be updated. Otherwise, <code>system.db</code> can also be forcefully deleted to trigger GT5 to recreate a database. </p>
+<p><strong>DELETING IT MAY DELETE REPLAYS AND OTHER FILES.</strong></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>In other words, if you are editing any of these files:
-* <code>textdata/gt5/bspec_driver_list.xml</code>
-* <code>textdata/gt5/carlist.xml</code>
-* <code>textdata/gt5/courselist.xml</code>
-* <code>textdata/gt5/lnames.txt</code> 
-* <code>textdata/gt5/gameitem_type.xml</code>
-* <code>textdata/gt5/gameitem_category.xml</code>
-* <code>textdata/gt5/gameitem_data.xml</code>
-* <code>textdata/gt5/presentcar.xml</code>
-* <code>textdata/gt5/gpsdatalist.xml</code>
-* <code>textdata/gt5/usedcar.xml</code></p>
-<p>Edit <a href="https://github.com/Nenkai/OpenAdhoc/blob/master/src/scripts/gt5/DATABASE_METADATA.ad">this adhoc script</a>, bump the relevant table versions, and recompile     <a href="https://github.com/Nenkai/OpenAdhoc/blob/master/src/scripts/gt5/packed_main_loop.ad"><code>packed_main_loop.ad</code></a> and place it to <code>scripts/gt5</code>.</p>
+<p>In other words, to do this properly if you are editing any of these files:</p>
+<ul>
+<li><code>textdata/gt5/bspec_driver_list.xml</code></li>
+<li><code>textdata/gt5/carlist.xml</code></li>
+<li><code>textdata/gt5/courselist.xml</code></li>
+<li><code>textdata/gt5/lnames.txt</code> </li>
+<li><code>textdata/gt5/gameitem_type.xml</code></li>
+<li><code>textdata/gt5/gameitem_category.xml</code></li>
+<li><code>textdata/gt5/gameitem_data.xml</code></li>
+<li><code>textdata/gt5/presentcar.xml</code></li>
+<li><code>textdata/gt5/gpsdatalist.xml</code></li>
+<li><code>textdata/gt5/usedcar.xml</code></li>
+</ul>
+<p>Edit <a href="https://github.com/Nenkai/OpenAdhoc/blob/master/src/scripts/gt5/DATABASE_METADATA.ad">this adhoc script</a>, bump the relevant table versions, and recompile <a href="https://github.com/Nenkai/OpenAdhoc/blob/master/src/scripts/gt5/packed_main_loop.ad"><code>packed_main_loop.ad</code></a> and place the adc script to <code>scripts/gt5</code>.</p>
 </div>
 <hr>
 <h2 id="arcade-car-list-arcade_carlistxml">Arcade Car List (arcade_carlist.xml)<a class="headerlink" href="#arcade-car-list-arcade_carlistxml" title="Permanent link">¶</a></h2>
@@ -7231,7 +7234,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 15, 2026 22:56:03 UTC">June 15, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 15, 2026 22:59:37 UTC">June 15, 2026</span>
   </span>
 
     
