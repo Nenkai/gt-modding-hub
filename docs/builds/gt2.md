@@ -26,7 +26,7 @@ Note that a lot of Playstation demos share the same GT2 contents.
 
 ![aa](../images/covers/gt2_opsm27.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/chd_psx) · :material-disc: [Redump Info](http://redump.org/disc/11257/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/chd_psx) · :material-disc: [Redump Info](https://redump.info/disc/11257/)
 
 Game Code: `SCUS-94435`
 
@@ -53,7 +53,7 @@ TODO
 ![aa](../images/covers/gt2_bbhdd_vol1_cov.jpg){ width="250" }
 ![aa](../images/covers/gt2_bbhdd_vol1.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/chd_psx) · :material-disc: [Redump Info](http://redump.org/disc/57321/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/chd_psx) · :material-disc: [Redump Info](https://redump.info/disc/57321/)
 
 Game Code: `SCUS-94668`
 
@@ -84,7 +84,7 @@ Mentioned as playable in ign article: https://www.ign.com/articles/1999/09/17/tg
 
 ![aa](../images/covers/gt2_eu_demo_53.png){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/chd_psx_eur) · :material-disc: [Redump Info](http://redump.org/disc/310/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/chd_psx_eur) · :material-disc: [Redump Info](https://redump.info/disc/310/)
 
 Game Code: `SCED-01827`
 
@@ -99,7 +99,7 @@ Game Code: `SCED-01827`
 
 ![aa](../images/covers/gt2_testdrive.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/redump.psx.p2) · :material-disc: [Redump Info](http://redump.org/disc/34160/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/redump.psx.p2) · :material-disc: [Redump Info](https://redump.info/disc/34160/)
 
 Game Code: `PAPX-90054`
 
@@ -110,7 +110,7 @@ Game Code: `PAPX-90054`
 ![aa](../images/covers/gt2_ntsc_prev_arcade.jpg){ width="250" }
 ![aa](../images/covers/gt2_ntsc_prev_gtmode.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt-2-ntsc-preview-version-gt-mode) :material-disc: Redump Info [Arcade](http://redump.org/disc/105858/) - [GT Mode](http://redump.org/disc/105860/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt-2-ntsc-preview-version-gt-mode) :material-disc: Redump Info [Arcade](https://redump.info/disc/105858/) - [GT Mode](https://redump.info/disc/105860/)
 
 Game Code: `SCPS-10117` (same as release)
 

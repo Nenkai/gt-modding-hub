@@ -83,7 +83,7 @@ Most likely never released to the public.
 
 ![aa](../images/covers/gthd_jp_disc.jpg){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on archive (redump collection) · :material-disc: [Redump Info](http://redump.org/disc/56219/)
+:material-shovel: *Dumped*: {++Yes++} - available on archive (redump collection) · :material-disc: [Redump Info](https://redump.info/disc/56219/)
 
 This disc installs `NPJA00010`.
 

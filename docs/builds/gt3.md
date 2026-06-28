@@ -15,7 +15,7 @@ comments: true
 
 ![aa](../images/covers/gt2000.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_2000_(Feb_13,_2000_demo)) · :material-disc: [Redump Info](http://redump.org/disc/26639/)
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_2000_(Feb_13,_2000_demo)) · :material-disc: [Redump Info](https://redump.info/disc/26639/)
 
 Game Code: `PAPX-90203`
 
@@ -54,7 +54,7 @@ Deep Forest & Seattle are shown. Time limited build.
 
 ![aa](../images/covers/gt3_autobacs_seven.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/75434/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/75434/)
 
 Game Code: `PAPX-90207`
 
@@ -69,13 +69,37 @@ Game Code: `PAPX-90207`
 
 ??? youtube "Hidden/Beta Tracks"
     <iframe width="919" height="721" src="https://www.youtube.com/embed/5QGMapRW5hA" title="Hidden/Beta Tracks | Gran Turismo 3 Replay Theater Autobacs Seven | PAPX-90207 (On real Hardware)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT3 Internal (Sep 10, 2000 / Sep 28, 2000)
+
+![aa](../images/covers/gt3_internal_2000_disc_front.png){ width="250"}
+
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_3_A-Spec_(Sep_28,_2000_prototype))
+
+Game Code: `SCPS-99999` (none assigned)
+
+This marks the start of the GT2K->GT3 transition. A demo build from late 2000.
+
+Has a time limit, the old UI remains, uses a mix of GT2K and GT3 file formats.
+
+??? abstract "File List"
+    * [Contents + GT2K.VOL](file_lists/SCPS-99999-gt3-internal-10_09_00.txt)
+
+??? note "Build Info"
+    * Has PDI-GL (rendering lib) asserts, which are removed in later builds/games (`PDI-GL Ver.1.01d,00111,16,2,2,Sep 29 2000,02:22:26`)
+    * ParamDB Version: `2025`
+    * Time limit @ 0x100590 (180s)
+    * Replay Time limit @ 0x1006C0 (200s)
+
 ---
 
 ## GT3 Store Trial Disk Autobacs (Oct 3, 2000)
 
 ![aa](../images/covers/gt3_autobacs.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/image0_20250327) · :material-disc:[Redump Info](http://redump.org/disc/75594/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/image0_20250327) · :material-disc:[Redump Info](https://redump.info/disc/75594/)
 
 Game Code: `PAPX-96312`
 
@@ -91,7 +115,7 @@ Game Code: `PAPX-96312`
 
 ![aa](../images/covers/gt3_replay_art.png){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/38277/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/38277/)
 
 Game Code: `PAPX-90208`
 
@@ -107,7 +131,7 @@ Game Code: `PAPX-90208`
 
 ![aa](../images/covers/gt3_netz.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/75435/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/75435/)
 
 Game Code: `PAPX-90209`
 
@@ -130,7 +154,7 @@ Volume contents is identical to `PAPX-90209`
 
 ![aa](../images/covers/gt3_trial_disc_vol1.png){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-3-trial-disk-pcpx-96311) · :material-disc: [Redump Info](http://redump.org/disc/75593/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-3-trial-disk-pcpx-96311) · :material-disc: [Redump Info](https://redump.info/disc/75593/)
 
 Game Code: `PCPX-96311`
 
@@ -150,7 +174,7 @@ Game Code: `PCPX-96311`
 
 ![aa](../images/covers/gt3_aspec_demo.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/45090/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/45090/)
 
 Game Code: `SCUS-97115`
 
@@ -158,7 +182,7 @@ Game Code: `SCUS-97115`
 
 ## PurePure 2 Volume 0: 2001 February (Nov. 19, 2000)
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/purepure2volume0) · :material-disc: [Redump Info](http://redump.org/disc/33533/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/purepure2volume0) · :material-disc: [Redump Info](https://redump.info/disc/33533/)
 
 Game Code: `PCPX-96606`
 
@@ -168,7 +192,7 @@ Game Code: `PCPX-96606`
 
 ![aa](../images/covers/gt3_opsm5.png){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_o_part1) · :material-disc: [Redump Info](http://redump.org/disc/4594/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_o_part1) · :material-disc: [Redump Info](https://redump.info/disc/4594/)
 
 Game Code: `SCED-50140`
 
@@ -180,7 +204,7 @@ Volume contents is identical to `PCPX-96606`.
 
 ![aa](../images/covers/gt3_store_vol2.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/GranTurismo3-Demo-Archive) · :material-disc: [Redump Info](http://redump.org/disc/80183/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/GranTurismo3-Demo-Archive) · :material-disc: [Redump Info](https://redump.info/disc/80183/)
 
 Game Code: `PCPX-96609`
 
@@ -190,6 +214,7 @@ Game Code: `PCPX-96609`
 ??? note "Build Info"
     * ISO Size: `834 MB`
     * ISO CRC: `2B6AA922`
+    * Game Config: `gameconf/demoplay.gcf`
     * Has some code for HostFS
 
 ??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
@@ -197,6 +222,25 @@ Game Code: `PCPX-96609`
 
 ??? youtube "Hidden/Beta Content"
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/NaUuc1GUAh8" title="Hidden/Beta Content | Gran Turismo 3 Store Demo Vol. 2 | PCPX-96609 (On real Hardware) [60FPS]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## GT3 Internal (Mar. 30, 2001)
+
+![aa](../images/covers/gt3_internal_2001_09_04_disc_front.png){ width="250"}
+
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_3_A-Spec_(Mar_30,_2001_prototype)) · :material-disc: No Redump Info
+
+Game Code: `SCPS-99999` (not assigned)
+
+??? abstract "File List"
+    * [ISO + GT3.VOL](file_lists/SCPS-99999-gt3-internal-30_03_01.txt)
+
+??? note "Build Info"
+    * ISO Size: `1.75 GB`
+    * ISO CRC: `E742523C`
+    * Game Config: `gameconf/product.gcf`
+    * Has some code for HostFS
 
 ---
 
@@ -234,7 +278,7 @@ The main build of Gran Turismo 3.
 
 ??? note ":flag_us: SCES-50294"
     * ISO Size: `3.61 GB`
-    * ISO CRC: `AE611D2EAE611D2E`
+    * ISO CRC: `AE611D2E`
     * Has some code for HostFS
 
 ??? note ":flag_jp: SCPS-15009"

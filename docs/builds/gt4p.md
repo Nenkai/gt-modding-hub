@@ -32,7 +32,7 @@ Undumped build.
 
 ![aa](https://cdn.thegamesdb.net/images/original/boxart/front/96450-1.jpg)
 
-:material-shovel: *Dumped*: {++Yes++} - dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky), available on [hiddenpalace](https://hiddenpalace.org/Gran_Turismo_4:_Prologue_(Sep_25,_2003_prototype)) · :material-disc: [Redump Info](http://redump.org/disc/38970/)
+:material-shovel: *Dumped*: {++Yes++} - dumped by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky), available on [hiddenpalace](https://hiddenpalace.org/Gran_Turismo_4:_Prologue_(Sep_25,_2003_prototype)) · :material-disc: [Redump Info](https://redump.info/disc/38970/)
 
 Some model files contain debug strings data for as file building tests.
 
@@ -65,7 +65,7 @@ Game Code: `PAPX-90512`
 
 ![aa](https://ia803005.us.archive.org/13/items/GranTurismoSpecialEdition2004GENEVAVersion/00-Gran_Turismo-Special_Edition-2004_GENEVA_Version-Disc-Front.jpg){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/GranTurismoSpecialEdition2004GENEVAVersion) · :material-disc: [Redump Info](http://redump.org/disc/62063/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/GranTurismoSpecialEdition2004GENEVAVersion) · :material-disc: [Redump Info](https://redump.info/disc/62063/)
 
 Game Code: `SCED-52455`
 
@@ -156,7 +156,7 @@ Game Code: `SCED-52455`
 
 ![aa](../images/covers/gt4p_toyota_demo.jpg){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/20528/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/20528/)
 
 Game Code: `SCUS-97384`
 

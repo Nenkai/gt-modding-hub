@@ -18,7 +18,7 @@ After many iterations and demos of Gran Turismo 4 Prologue, GT4 was finally rele
 
 ![aa](../images/covers/gt4_bmw.png){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/70043/)
 
 Game Code: `SCED-52681`
 
@@ -45,7 +45,7 @@ Game Code: `SCED-52681`
 
 ![aa](../images/covers/gt4_bmw_dealership.jpg){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/70043/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/70043/)
 
 Game Code: `SCED-52578`
 
@@ -79,11 +79,39 @@ Same build as above, with a time limit.
 
 ---
 
+## GT4 (Internal) Event Code (Sep 20, 2004)
+
+![aa](../images/covers/gt4_event_code.png){ width="200" }
+
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_4_(prototype)) · :material-disc: No redump info
+
+Game Code: `PCPX-96649`
+
+Built same day as GT4 First Preview. Disc says november, presumably for display or approved on november.
+
+??? abstract "File List"
+    * [ISO + VOL](file_lists/PCPX-96649_event_code.txt)
+
+??? note "Build Info"
+    * Adhoc Version: `5`
+    * Supports up to instruction: `36 - VARIABLE_PUSH`
+    * VersionBranch: `august`
+    * VersionString: `r0001`
+    * BuildNumber: `672`
+    * Game Code: `PCPX-96649`
+    * SpecDB: `GT4_AUGUST2120`
+    * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
+    * Unified executable
+    * ISO Size: `1.22 GB`
+    * ISO CRC: `A1C39F9A`
+
+---
+
 ## GT4 First Preview (Sep 20, 2004)
 
 ![aa](../images/covers/gt4_fp.png){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt4firstpreview) · :material-disc: [Redump Info](http://redump.org/disc/41243/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gt4firstpreview) · :material-disc: [Redump Info](https://redump.info/disc/41243/)
 
 Game Code: `PCPX-96649`
 
@@ -97,6 +125,7 @@ Game Code: `PCPX-96649`
     * VersionString: `r0001`
     * BuildNumber: `674`
     * Game Code: `PCPX-96649`
+    * SpecDB: `GT4_AUGUST2120`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Unified executable
     * ISO Size: `1.22 GB`
@@ -111,7 +140,7 @@ Game Code: `PCPX-96649`
 
 ![aa](../images/covers/gt4_eu_preprod.jpg){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_4_(Jan_18,_2005_Prototype)) · :material-disc: [Redump Info](http://redump.org/disc/116967/)
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_4_(Jan_18,_2005_Prototype)) · :material-disc: [Redump Info](https://redump.info/disc/116967/)
 
 Game Code: `SCES-51719`
 
@@ -127,6 +156,7 @@ European build 8 days before final. Does not have regional assets filtered, some
     * VersionString: `r0001`
     * BuildNumber: `970`
     * Game Code: `SCES-51719`
+    * SpecDB: `GT4_EU2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `5.18 GB` (Dual Layer/DVD9)
@@ -164,6 +194,7 @@ The main build of Gran Turismo 4.
     * VersionBranch: `main`
     * VersionString: `r0001`
     * BuildNumber: `358`
+    * SpecDB: `GT4_JP2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `5.70 GB` (Dual Layer/DVD9)
@@ -175,6 +206,7 @@ The main build of Gran Turismo 4.
     * VersionBranch: `main`
     * VersionString: `r0001`
     * BuildNumber: `366`
+    * SpecDB: `GT4_JP2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `6.16 GB` (Dual Layer/DVD9)
@@ -186,6 +218,7 @@ The main build of Gran Turismo 4.
     * VersionBranch: `main`
     * VersionString: `r0001`
     * BuildNumber: `1010`
+    * SpecDB: `GT4_EU2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `5.27 GB` (Dual Layer/DVD9)
@@ -197,6 +230,7 @@ The main build of Gran Turismo 4.
     * VersionBranch: `main`
     * VersionString: `r0001`
     * BuildNumber: `415`
+    * SpecDB: `GT4_US2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `4.94 GB` (Dual Layer/DVD9)
@@ -208,6 +242,7 @@ The main build of Gran Turismo 4.
     * VersionBranch: `main`
     * VersionString: `r0001`
     * BuildNumber: `1016`
+    * SpecDB: `GT4_KR2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `5.00 GB` (Dual Layer/DVD9)
@@ -219,6 +254,7 @@ The main build of Gran Turismo 4.
     * VersionBranch: `main`
     * VersionString: `r0001`
     * BuildNumber: `415`
+    * SpecDB: `GT4_US2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `4.94 GB` (Dual Layer/DVD9)
@@ -230,7 +266,7 @@ The main build of Gran Turismo 4.
 
 ![aa](../images/covers/gt4_mazda.png){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/56788/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/56788/)
 
 Game Code: `SCUS-97483`
 
@@ -246,6 +282,7 @@ Despite being rather large in size, it only allows access to three tracks: Tsuku
     * VersionString: `r0001`
     * BuildNumber: `3513`
     * Game Code: `SCUS-97483`
+    * SpecDB: `GT4_US2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Unified executable
     * ISO Size: `2.71 GB`
@@ -255,7 +292,7 @@ Despite being rather large in size, it only allows access to three tracks: Tsuku
 
 ## GT4 - China Press Copy (May 20th, 2005)
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/granturismo4china) · :material-disc: [Redump Info](http://redump.org/disc/36703/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/granturismo4china) · :material-disc: [Redump Info](https://redump.info/disc/36703/)
 
 Game Code: `SCCS-60062`
 
@@ -272,6 +309,7 @@ Game Code: `SCCS-60062`
     * VersionString: `r0001`
     * BuildNumber: `50`
     * Game Code: `SCCS-60002`
+    * SpecDB: `GT4_CN2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `5.33 GB` (Dual Layer/DVD9)
@@ -282,7 +320,7 @@ Game Code: `SCCS-60062`
 
 ![aa](../images/covers/gt4o_jp.jpg){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/62270/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/download/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/62270/)
 
 Game Code: `PAPX-90523`
 
@@ -298,6 +336,7 @@ All around improved version of GT4. Runs on a newer version of Adhoc, has proper
     * VersionString: `r0001`
     * BuildNumber: `50`
     * Game Code: `PAPX-90523`
+    * SpecDB: `GT4_PREMIUM_JP2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `3.30 GB`
@@ -325,6 +364,7 @@ US version of the Online Test Version, released a month later.
     * VersionString: `r0001`
     * BuildNumber: `76`
     * Game Code: `SCUS-97436`
+    * SpecDB: `GT4_PREMIUM_US2560`
     * Uses V3.1 [Volume](../concepts/volume.md) TOC (GT4-type volume)
     * Bootstrap + Core executables
     * ISO Size: `2.47 GB`

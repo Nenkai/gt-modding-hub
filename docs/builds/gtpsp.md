@@ -39,7 +39,7 @@ There is next to no leftover debug functionalities in this game.
 
 ![aa](../images/covers/gtpsp.png){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} available on archive (redump collection) · :material-disc: [Redump Info](http://redump.org/discs/quicksearch/gran-turismo/)
+:material-shovel: *Dumped*: {++Yes++} available on archive (redump collection) · :material-disc: [Redump Info](https://redump.info/discs/quicksearch/gran-turismo/)
 
 Main build of Gran Turismo PSP.
 

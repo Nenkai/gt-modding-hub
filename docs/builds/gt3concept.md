@@ -38,7 +38,7 @@ Mentioned in [Notable Gran Turismo Collaborations](../images/covers/gt3c_notable
 
 ![aa](../images/covers/gtc_tokyo2001.png){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/pcpx-96624) · :material-disc: [Redump Info](http://redump.org/disc/23177/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/pcpx-96624) · :material-disc: [Redump Info](https://redump.info/disc/23177/)
 
 Game Code: `PCPX-96624`
 
@@ -50,7 +50,7 @@ Contents identical to retail.
 
 ![aa](../images/covers/gtc_2002_tokyo_seoul.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/80596/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/80596/)
 
 Game Code: `SCPS-56005` (1.02, 2.00)
 
@@ -71,7 +71,7 @@ Game Code: `SCPS-56005` (1.02, 2.00)
 
 ![aa](../images/covers/gtc_copen.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/GTC_Concept_Copen_Special) · :material-disc: [Redump Info](http://redump.org/disc/48486/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/GTC_Concept_Copen_Special) · :material-disc: [Redump Info](https://redump.info/disc/48486/)
 
 Game Code: `SCPM-85301`
 
@@ -94,7 +94,7 @@ Game Code: `SCPM-85301`
 
 ![aa](../images/covers/gtc_nissan350z.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/80593/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/80593/)
 
 Game Code: `SCUS-97219`
 
@@ -117,7 +117,7 @@ Game Code: `SCUS-97219`
 
 ![aa](../images/covers/gtc_airtrek.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gtcairtrektrial) · :material-disc: [Redump Info](http://redump.org/disc/75449/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gtcairtrektrial) · :material-disc: [Redump Info](https://redump.info/disc/75449/)
 
 Game Code: `PAPX-90504`
 
@@ -169,7 +169,7 @@ Volume is updated with in-progress content such as GT4 cars in GT3 format.
 
 ![aa](../images/covers/gtc_2002_tokyo_geneva.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](http://redump.org/disc/62229/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/sony_playstation2_g) · :material-disc: [Redump Info](https://redump.info/disc/62229/)
 
 * :flag_jp: `SCPS-55902`
 * :flag_eu: `SCES-50858`
@@ -252,7 +252,7 @@ Game Code: `SCED-51352#2`
 
 ![aa](../images/covers/gtc_lupo.jpg){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-lupo-gti-vol-1) · :material-disc: [Redump Info](http://redump.org/disc/99961/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-lupo-gti-vol-1) · :material-disc: [Redump Info](https://redump.info/disc/99961/)
 
 Game Code: `PAPX-90508`
 
@@ -294,7 +294,7 @@ Game Code: `PAPX-90509`
 
 ![aa](../images/covers/gtc_subaru.png){ width="250" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-subaru-driving-simulator) · [Redump Info](http://redump.org/disc/98890/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-subaru-driving-simulator) · [Redump Info](https://redump.info/disc/98890/)
 
 Game Code: `PCPX-96634`
 

@@ -15,7 +15,7 @@ comments: true
 ![aa](../images/covers/gt1_testdrive_cov.jpg){ width="250"}
 ![aa](../images/covers/gt1_testdrive_96085.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_(Aug_2,_1997_prototype)) · :material-disc: [Redump Info](http://redump.org/disc/34159/)
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_(Aug_2,_1997_prototype)) · :material-disc: [Redump Info](https://redump.info/disc/34159/)
 
 Game Code: `PCPX-96085`
 
@@ -40,7 +40,7 @@ Game Code: `PCPX-96085`
 
 ![aa](../images/covers/gt1_trialver.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_(Oct_27,_1997_prototype)) · :material-disc: [Redump Info](http://redump.org/disc/7772/)
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_(Oct_27,_1997_prototype)) · :material-disc: [Redump Info](https://redump.info/disc/7772/)
 
 Game Code: `PAPX-90026`
 
@@ -53,7 +53,7 @@ Game Code: `PAPX-90026`
 
 ![aa](../images/covers/gt1_store_demo.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/Gran-Turismo-Store-Demo-PCPX-96096) · :material-disc: [Redump Info](http://redump.org/disc/75592/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/Gran-Turismo-Store-Demo-PCPX-96096) · :material-disc: [Redump Info](https://redump.info/75592/)
 
 Game Code: `PCPX-96096`
 
@@ -64,7 +64,7 @@ Game Code: `PCPX-96096`
 
 ## GRAN TURISMO ACCESS ALL MODES V2 Preview Version NTSC (Nov. 13, 1997)
 
-:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_(Nov_13,_1997_prototype)) · :material-disc: [Redump Info](http://redump.org/disc/7772/)
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_(Nov_13,_1997_prototype)) · :material-disc: [Redump Info](https://redump.info/disc/7772/)
 
 ??? youtube "Video"
     <iframe width="1180" height="664" src="https://www.youtube.com/embed/muxe-N_mPn4" title="Gran Turismo Beta Build: Reactions / First Impressions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -75,7 +75,7 @@ Game Code: `PCPX-96096`
 
 ![aa](../images/covers/gt1_us_demo_disc.jpg){ width="250"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/redump.psx.p2) · :material-disc: [Redump Info](http://redump.org/disc/12307/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/redump.psx.p2) · :material-disc: [Redump Info](https://redump.info/disc/12307/)
 
 Game Code: `SCUS-94257`
 

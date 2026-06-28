@@ -31,7 +31,7 @@ Tourist Trophy is quite simply GT4 in disguise, most of its internal code and fi
 
 ![aa](https://www.gran-turismo.com/images/c/i15iATegJ5Fbr.jpg){ width="200"}
 
-:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/tourist-trophy-demo-ntsc-j-pcpx-96660) · :material-disc: [Redump Info](http://redump.org/disc/944/)
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/tourist-trophy-demo-ntsc-j-pcpx-96660) · :material-disc: [Redump Info](https://redump.info/disc/944/)
 
 * Europe: `SCES-53372` (April 13th, 2006)
 
