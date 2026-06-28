@@ -242,6 +242,9 @@ Game Code: `SCPS-99999` (not assigned)
     * Game Config: `gameconf/product.gcf`
     * Has some code for HostFS
 
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1331" height="749" src="https://www.youtube.com/embed/nI3s7ZGFr9I" title="Gran Turismo 3 &quot;Internal Version&quot; | Mar 30, 2001 (Short Gameplay)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 ## Preview Version NTSC GT3 A-Spec (Apr. 18, 2001)
