@@ -83,7 +83,7 @@ Same build as above, with a time limit.
 
 ![aa](../images/covers/gt4_event_code.png){ width="200" }
 
-:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_4_(prototype)) · :material-disc: No redump info
+:material-shovel: *Dumped*: {++Yes++} - available on [Hidden Palace](https://hiddenpalace.org/Gran_Turismo_4_(Nov_2004_prototype)) · :material-disc: No redump info
 
 Game Code: `PCPX-96649`
 

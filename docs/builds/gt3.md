@@ -93,6 +93,9 @@ Has a time limit, the old UI remains, uses a mix of GT2K and GT3 file formats.
     * Time limit @ 0x100590 (180s)
     * Replay Time limit @ 0x1006C0 (200s)
 
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1051" height="788" src="https://www.youtube.com/embed/GkPN4J-6Pkk" title="Gran Turismo 3 &quot;Internal Version&quot; | SCPS-99999 | Sep 28, 2000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 ## GT3 Store Trial Disk Autobacs (Oct 3, 2000)
@@ -101,7 +104,7 @@ Has a time limit, the old UI remains, uses a mix of GT2K and GT3 file formats.
 
 :material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/image0_20250327) · :material-disc:[Redump Info](https://redump.info/disc/75594/)
 
-Game Code: `PAPX-96312`
+Game Code: `PCPX-96312`
 
 ??? abstract "File List"
     * [Contents + GT2K.VOL](file_lists/PAPX-96312.txt)

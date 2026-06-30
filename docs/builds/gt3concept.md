@@ -277,16 +277,34 @@ Game Code: `PAPX-90508`
 
 ---
 
-## Gran Turismo: LUPO CUP Training Version 2 (Apr ??, 2003)
+## Gran Turismo: LUPO CUP Training Version 2 (Aug 4, 2003)
 
-![aa](../images/covers/gtc_lupo_v2.png){ width="250" }
+![aa](../images/covers/gtc_lupo_ver2/i-img1200x900-17803594018615ion7ip144399.jpg){ width="250" }
+![aa](../images/covers/gtc_lupo_ver2/i-img1200x900-17803594019490vimpzs55449.jpg){ width="250" }
 
-:material-shovel: *Dumped*: :x: {==No==} · :material-disc: No Redump Info
+:material-shovel: *Dumped*: {++Yes++} - available on [archive](https://archive.org/details/gran-turismo-lupo-gti-vol-2) · :material-disc: No redump info
 
 Game Code: `PAPX-90509`
 
-??? youtube "Video"
-    <iframe width="1180" height="664" src="https://www.youtube.com/embed/WEsWukxZDQg" title="Gran Turismo Concept Lupo Cup Ver2 Play(Replay)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+??? abstract "File List"
+    * [ISO + VOL](file_lists/PAPX-90509.txt)
+
+??? note "Build Info"
+    * Game Code: `PAPX-90509`
+    * Uses V2.2 [Volume](../concepts/volume.md) TOC (GT3-type volume)
+    * Unified executable
+    * ISO Size: `3.12 GB`
+    * ISO CRC: `B2DF03B2`
+    * Has HostFS implementation
+    * Config: `gameconf/concept-ride.gcf`
+    * ParamDB Version: `2095`
+    * Has some symbols as `.gnu_linkonce` segments
+
+??? youtube "Video by [Paiky/GT Archive](https://www.youtube.com/@GTArchivePaiky)"
+    <iframe width="1331" height="749" src="https://www.youtube.com/embed/IRPY1mGeF5M" title="Hidden/Beta Tracks | Gran Turismo: LUPO CUP Training Version 2 | PAPX-90509" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe>
+
+??? youtube "Hidden/Beta Tracks"
+    <iframe width="1331" height="749" src="https://www.youtube.com/embed/IRPY1mGeF5M" title="Hidden/Beta Tracks | Gran Turismo: LUPO CUP Training Version 2 | PAPX-90509" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
