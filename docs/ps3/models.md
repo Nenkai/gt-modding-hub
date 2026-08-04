@@ -14,7 +14,7 @@ comments: true
 
 GT5 does not have a tool to extract models from.
 
-GT6 meshes within models can be somewhat extracted using [this tool](https://forum.xentax.com/viewtopic.php?t=19919). However not all models are supported. 
+GT6 meshes within models can be somewhat extracted using [this id-daemon's tool](https://reshax.com/files/file/1138-gt6rar). However not all models are supported.
 
 ##### Creation
 

@@ -20,7 +20,7 @@ It is a rather structured, yet complex format.
 
 !!! warning
 
-    A lot of this may be outdated, refer to the [010 Editor templates](https://github.com/Nenkai/GT-File-Specifications-Documentation/tree/master/Formats/PS3/Models)
+    A lot of this may be outdated, refer to the [010 Editor templates](https://github.com/Nenkai/GT-File-Specifications-Documentation/tree/master/Formats/Shared/Models)
 
 
 ??? abstract "Structure (click to expand)"
@@ -126,7 +126,7 @@ Unknown                 |  `0x2E`        | `ushort`           | Unknown. Maybe f
 
     While PSP and PS3 GTs supports most opcodes, they also have their own (assigned with their unique opcode).
 
-    Refer to [PDTools.Files](https://github.com/Nenkai/PDTools/tree/master/PDTools.Files/Models/ModelSet3/Commands) for the commands.
+    Refer to [PDTools.Files](https://github.com/Nenkai/PDTools/tree/master/PDTools.Files/Models/PS3/PGLCommands) for the commands.
 
 ---
 
