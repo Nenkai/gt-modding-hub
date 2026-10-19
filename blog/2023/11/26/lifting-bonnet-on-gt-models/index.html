@@ -6408,7 +6408,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"></path></svg>
                           <span class="md-ellipsis">
                             
-                              10 min read
+                              9 min read
                             
                           </span>
                         </div>
@@ -6533,7 +6533,7 @@
 <p>When new model files are open for reading, they are <a href="../../../../../formats/abstract/#mapping">re-mapped</a> - the file itself is the structure that stays in memory and is then used to operate on. There is no <em>parsing</em> involved, therefore much faster to process if they are ready to go.</p>
 <p>Each model set header follows the same general pattern - a table of counts and a table of offsets, each pointing to a specific distinct component of a model set. </p>
 <figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../lifting-bonnet-on-gt-models/GTM1.png" data-desc-position="bottom"><img alt="Image title" src="../../../../lifting-bonnet-on-gt-models/GTM1.png" width="520"></a>
+<p>
   <em>The ModelSet1/GTM1 Header, viewed through a <a href="https://www.sweetscape.com/010editor/">010 Editor</a> <a href="https://github.com/Nenkai/GT-File-Specifications-Documentation/blob/master/Formats/PS2/GT3/GTM1_ModelSet1.bt">template</a>.</em></p>
 </figure>
 <p>There are four components that typically make up a model set:</p>
@@ -6547,7 +6547,7 @@
 <h3 id="shapes">Shapes<a class="headerlink" href="#shapes" title="Permanent link">¶</a></h3>
 <p>Shapes are just <strong>meshes</strong> which points to materials and texture to use. Their formats usually map as close to hardware's as possible. In the case of PS2 model sets for instance, vertex buffers are stored in PS2 <a href="https://psi-rockin.github.io/ps2tek/#vifcommands">VIF commands</a>. <a href="https://psi-rockin.github.io/ps2tek/#vif">VIF</a> allows uploading data to VU1 which in short, processes data and uploads graphics to <a href="https://www.psdevwiki.com/ps2/Graphics_Synthesizer">GS</a>. Having commands stored in data allows flexibility as for how to control VIF.</p>
 <figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../lifting-bonnet-on-gt-models/Shapes.png" data-desc-position="bottom"><img alt="Image title" src="../../../../lifting-bonnet-on-gt-models/Shapes.png" width="520"></a>
+<p>
   </p>
 <figcaption>A shape.</figcaption>
 </figure>
@@ -6558,7 +6558,7 @@
 <p>Models are simply a group of shapes. But models also control <em>how</em> to render these shapes. But how? Shouldn't this be part of each Shape? Material? Texture? Or even hardcoded?</p>
 <p>Introducing model rendering commands!</p>
 <figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../lifting-bonnet-on-gt-models/Models.png" data-desc-position="bottom"><img alt="Image title" src="../../../../lifting-bonnet-on-gt-models/Models.png" width="520"></a>
+<p>
   </p>
 <figcaption>Look familiar?</figcaption>
 </figure>
@@ -6571,7 +6571,7 @@
 <p>Every model runs under different contexts for instance, car models, track models and more. A specific command exists to handle cases where the model needs to be rendered differently depending on context: the callback command.</p>
 <p>Consider this example (snippet from GT3's Honda S2000):</p>
 <figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../lifting-bonnet-on-gt-models/Callback.png" data-desc-position="bottom"><img alt="Image title" src="../../../../lifting-bonnet-on-gt-models/Callback.png" width="800"></a></p>
+<p></p>
 </figure>
 <p>A callback is made with parameter <code>0</code> - the parameter determines what kind of data to request for. The callback returns a value - generally a boolean (true/false).</p>
 <p>In this case, the status of the tail lamps is requested, whether they should be on or off. </p>
@@ -6579,8 +6579,8 @@
 <li>If they are <strong>off</strong>, <code>CallShape</code> is called with shape <code>14</code>, and skips over the commands in charge of handling when they are <strong>on</strong> using <code>JumpShort</code>. </li>
 <li>If they are <strong>on</strong>, <code>CallShape</code> is called with shape <code>15</code>.</li>
 </ul>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../lifting-bonnet-on-gt-models/LightsOff.png" data-desc-position="bottom"><img alt="Image title" src="../../../../lifting-bonnet-on-gt-models/LightsOff.png" width="500"></a>
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../lifting-bonnet-on-gt-models/LightsOn.png" data-desc-position="bottom"><img alt="Image title" src="../../../../lifting-bonnet-on-gt-models/LightsOn.png" width="500"></a></p>
+<p>
+</p>
 <p>As you can see, these shapes are indeed for a specific purpose - data-driven, conditional selection of shapes to call whether lights are on or off.</p>
 <hr>
 <p>Here is another example of callbacks being used:</p>
@@ -6610,7 +6610,7 @@
 </figure>
 <p>First, let's highlight the important VM related bits within the ModelSet2 header:</p>
 <figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../lifting-bonnet-on-gt-models/VM.png" data-desc-position="bottom"><img alt="Image title" src="../../../../lifting-bonnet-on-gt-models/VM.png" width="500"></a></p>
+<p></p>
 </figure>
 <ol>
 <li><strong>Instance Flags</strong> - This is a flag that determines whether the structure/context for the VM instance is part of the model set. If not, it will be allocated aside, away from the model file. The instance is <strong>where the VM registers are stored along with host method callbacks</strong>.</li>
@@ -6622,7 +6622,7 @@
 </ol>
 <p>Each model contain VM entrypoints - when to use the VM and where within bytecode they should execute. There are 3 of them:</p>
 <figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../lifting-bonnet-on-gt-models/ModelVMOffsets.png" data-desc-position="bottom"><img alt="Image title" src="../../../../lifting-bonnet-on-gt-models/ModelVMOffsets.png" width="300"></a></p>
+<p></p>
 </figure>
 <ol>
 <li><strong>Constructor</strong> - This is called before the model is processed. Optional if there is nothing to be initialized.</li>
@@ -6631,7 +6631,7 @@
 </ol>
 <p>Here are the render commands specific to the Pace Car's strobe lights.</p>
 <figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../lifting-bonnet-on-gt-models/VM2.png" data-desc-position="bottom"><img alt="Image title" src="../../../../lifting-bonnet-on-gt-models/VM2.png" width="600"></a></p>
+<p></p>
 </figure>
 <p>First, the VM is called. For the sake of this blog post I will not go into details as for how the bytecode translates into each instruction, so here is the pseudocode for this model and optionally the original instructions, interpreted:</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"><input id="__tabbed_2_2" name="__tabbed_2" type="radio"><div class="tabbed-labels"><label for="__tabbed_2_1">Pseudocode</label><label for="__tabbed_2_2">VM Opcodes</label></div>
