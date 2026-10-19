@@ -147,7 +147,7 @@ class EvenBetterObject : BetterObject
 
 !!! note
 
-    Adhoc Version 12 and above, but only starting from GT6.
+    Adhoc Version 12 and above.
 
 Module constructors are completely new in Adhoc. They are very rarely used, but these are mostly used for initializing UI widgets with user data or with UI method events.
 They allow defining a constructor for any object that will run once the UI system sees a new object registered (i.e `appendChild` onto a composite)
